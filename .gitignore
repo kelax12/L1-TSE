@@ -1,1 +1,16 @@
 .~lock.*#
+
+# Dossiers de sources (cours, transcriptions, supports) — restent en local, jamais publiés
+/droit/
+/eco-gestion/
+/macro/
+/micro/
+/science po/
+*.url
+
+# Définition interne du skill — pas une note
+/skill.md
+
+# Copies/artefacts internes des notes — pas publiés (le .md fait foi)
+plaud/**/*.txt
+plaud/**/*.backup.md
