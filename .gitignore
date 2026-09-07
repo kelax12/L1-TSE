@@ -12,5 +12,5 @@
 /skill.md
 
 # Copies/artefacts internes des notes — pas publiés (le .md fait foi)
-plaud/**/*.txt
-plaud/**/*.backup.md
+*/*.txt
+*/*.backup.md
