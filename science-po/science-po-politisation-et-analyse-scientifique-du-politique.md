@@ -58,9 +58,17 @@
 
   Exemples contemporains : algorithmes, choix techniques présentés comme neutres, décisions administratives, surveillance et traçabilité numérique. Concept aujourd'hui central pour analyser le pouvoir dans les espaces numériques.
 
-- **Symbolisme / pouvoir symbolique** : représentation d'une valeur, incarnation d'un sens sans qu'il soit formulé explicitement (un geste, un discours, un lieu, un rituel, un habit).
+- **Symbolisme / pouvoir symbolique (Bourdieu, cours sur le pouvoir symbolique, 1982)** : capacité à imposer des catégories de pensée sans recourir à la force ni à la coercition. C'est le pouvoir qui ne se dit pas et qui impose une vision des choses acceptée comme naturelle.
 
   Le pouvoir de l'État repose davantage sur le symbolique — l'intériorisation naturelle des catégories étatiques — que sur l'usage effectif de la force. Il n'existe pas de pouvoir politique, ni de société politique, sans ordre symbolique ou politico-religieux (régularité anthropologique).
+
+  Sa force tient à ce qu'il n'a pas besoin de s'imposer par la contrainte : les catégories les plus légitimes (ce qui fait un « bon film », un « grand peintre ») s'imposent d'elles-mêmes, très naturellement.
+
+- **Oligarchie** : monopolisation réelle du pouvoir par un petit nombre d'acteurs. Objet scientifique à part entière : mesurer empiriquement le degré effectif de concentration du pouvoir est la seule alternative au complotisme, qui propose du même phénomène une lecture non scientifique.
+
+- **Mépris social** : sentiment subjectif, relativement indépendant du niveau de vie réel, d'être pris en étau entre des élites qui n'écoutent pas et se servent entre elles, et des populations d'en bas soupçonnées de profiter du système, notamment des aides sociales.
+
+  Trame commune aux populismes européens (RN en France, AFD en Allemagne, Vox en Espagne, populismes italiens) et symptôme d'une crise de l'État-providence à double niveau, par le haut et par le bas.
 
 ### Cadrage, contre-cadrage et acteurs de la politisation
 
@@ -73,6 +81,50 @@
   Exemples : le masculinisme comme contre-cadrage à un féminisme perçu comme exacerbé ; « les sociologues excusent la violence » comme contre-cadrage face à l'explication sociologique d'un phénomène. La politique est décrite comme un jeu permanent de cadrage et de contre-cadrage.
 
 - **Économie de l'émotion / cadrage émotionnel** : les cadrages mobilisateurs s'appuient souvent sur des émotions négatives (humiliation, manque de respect, souffrance non écoutée), un ressort puissant de mobilisation politique, notamment sur les réseaux numériques.
+
+### Langage, catégories et effets de classement
+
+- **Performatif (langage performatif)** : énoncé qui produit lui-même la réalité qu'il décrit — dire, c'est faire. Il suffit d'affirmer une chose pour qu'elle soit tenue pour vraie, sans preuve empirique, et l'énoncé n'en est pas moins efficace.
+
+  Exemples de catégories performatives sans fondement empirique solide mais aux effets très puissants : *wokisme*, *islamo-gauchisme*.
+
+- **Lutte de définition (ou lutte de catégories)** : cœur de la politisation contemporaine. Construire un problème public consiste moins à proposer des solutions concrètes qu'à faire triompher une représentation de la réalité contre d'autres, en imposant les catégories de langage dans lesquelles le problème sera pensé.
+
+- **Polarisation (opposée au pluralisme)** : logique dominante du langage politique numérique. Là où l'espace public démocratique classique reposait sur un pluralisme d'opinions et un échange d'arguments rationnels, les luttes politiques actuelles visent à polariser par le langage, un langage devenu largement autonome de la réalité empirique.
+
+- **Pluralisme médiatique** : question empirique centrale pour le politologue — jusqu'où va la représentation d'opinions différentes dans les médias, et qu'est-ce qui participe encore à la rationalité du débat. Le spectre des positions considérées comme légitimes s'est élargi, notamment vers l'extrême droite.
+
+- **Catégorie administrative** : catégorie produite par l'État et ses administrations (chômeur, immigré, délinquant, mineur délinquant, victime, jeune à risque). Elle rend des phénomènes visibles, permet de compter et de comparer, et contribue à construire des populations.
+
+- **Statistique publique** : la « catégorie des catégories ». Les données produites par l'État et ses agences (INSEE, INED, ministère de l'Intérieur, appareils statistiques de chaque ministère) constituent la matière première de la quasi-totalité des travaux sur la délinquance, l'immigration, le chômage ou le logement — d'où un pouvoir considérable de l'État sur la définition du réel.
+
+- **Effet de classement** : effet produit par une catégorie une fois qu'elle a construit une population. La catégorie cesse d'être un simple outil de mesure pour devenir une identité vécue et un critère de légitimité.
+
+  Exemple : *chômeur*, catégorie économiquement neutre (une personne sans emploi), finit par devenir négative et stigmatisante, associée à la non-participation à la vie sociale — au même titre qu'*immigré*.
+
+- **Distinction (Bourdieu)** : matrice de la vie sociale, qui consiste à classer, déclasser et reclasser en permanence les individus selon des catégories de proximité ou d'opposition (style vestimentaire, pratiques culturelles, positions politiques).
+
+- **Catégorie vide / fiction statistique** : catégorie mobilisée comme si elle expliquait un comportement alors qu'elle n'explique rien (les jeunes, les jeunes à risque, les femmes célibataires, les sans-emploi). Elle réduit les individus à une identité construite statistiquement et fabrique des fictions puissantes mais dépourvues de valeur explicative.
+
+  Formule de Bourdieu : « la jeunesse n'est qu'un mot » — il n'y a pas une jeunesse mais des jeunesses, avec des façons de se construire très différentes d'un espace social à l'autre.
+
+- **Parasocial (discours parasocial / parapolitique)** : registre de discours affectif et de proximité (souffrance, ego, apparence, « je te comprends ») porté par des influenceurs sur les plateformes de formats courts. Il n'a plus rien à voir avec la compétence politique traditionnelle mais produit des effets politiques réels, notamment sur des publics non socialisés à la politique classique.
+
+### Des problèmes publics aux politiques publiques
+
+- **Problématisation** : moment où une situation sociale ordinaire (le racisme, les pesticides, le logement) devient l'objet d'une controverse et cesse d'être perçue comme allant de soi.
+
+- **Publicisation** : mise en discussion publique du problème une fois problématisé. Étape qui peut rester sans suite : un problème peut être discuté pendant des années sans jamais être traité.
+
+- **Traduction** : opération par laquelle un problème reconnu est reformulé dans le langage institutionnel et dans celui des politiques publiques. Passage obligé entre le problème public et l'action publique.
+
+- **Politique publique / action publique** : ce que les institutions font concrètement — ou ne font pas — face à un problème reconnu. Ce n'est pas la simple solution d'un problème préexistant mais une nouvelle construction, un nouvel objet politique à analyser pour lui-même.
+
+- **Instruments d'action publique** : moyens concrets par lesquels une politique est mise en œuvre — budgets, incitations fiscales ou budgétaires, discrimination positive, personnels affectés, dispositifs d'évaluation. Une politique inscrite dans la loi mais dépourvue d'instruments et de moyens reste purement symbolique.
+
+- **Effet pervers** : conséquence non anticipée et pénalisante d'une politique effectivement mise en œuvre.
+
+  Exemple : la limitation à 80 km/h sur les routes départementales, conçue pour réduire les accidents, dont les effets pénalisants pour certaines populations n'avaient pas été anticipés.
 
 ### Méthode et épistémologie de la science politique empirique
 
@@ -200,6 +252,93 @@ L'exemple de la construction sociale de l'illégalité de certaines drogues dans
 
 Lorsque le cadrage est suffisamment efficace et légitimé, il peut aboutir à la **mise sur agenda** : l'inscription du problème dans le programme officiel des institutions, avec reprise par les responsables politiques — l'étape la plus rare de tout le processus.
 
+### G. Les luttes de définition : langage performatif et polarisation
+
+La politisation porte certes sur des problèmes concrets, empiriques et matériels, mais elle est avant tout un **rapport de pouvoir qui passe par le langage**. Construire un problème public, c'est mener une **lutte de définition** : imposer les catégories dans lesquelles la réalité sera pensée.
+
+L'outil central de ces luttes est le **performatif** : dire, c'est faire. Il suffit d'affirmer une chose pour qu'elle soit tenue pour vraie, sans aucune preuve — et l'affirmation n'en est pas moins efficace.
+
+Le terme *wokisme* en est l'exemple le plus fréquent sur les réseaux numériques : empiriquement infondé au regard de la réalité des départements de sociologie et d'anthropologie, il produit pourtant des effets très puissants. Ces effets sont parfaitement concrets : dans certaines régions allemandes, où les Länder définissent les budgets et les contenus des programmes universitaires, l'AFD demande aux universitaires de signer une charte de patriotisme et d'écarter les questions de colonialisme, de genre et de sexualités alternatives.
+
+Le mécanisme inverse existe aussi : une catégorie mesurée empiriquement peut être refusée dans l'espace public. L'**islamophobie** est mesurée statistiquement mais reste socialement contestée (« ça n'existe pas, c'est une construction de sociologues »), pendant que des catégories sans fondement empirique s'imposent avec succès.
+
+Ce déplacement se traduit par un changement de nature du débat politique :
+
+```
+Avant : pluralisme  →  échange d'arguments rationnels sur des choix de politiques publiques
+Aujourd'hui : polarisation  →  luttes de représentation de la réalité par le langage
+```
+
+Le langage politique est ainsi devenu largement **autonome** de la réalité empirique : il fait apparaître des objets sans consistance factuelle mais extrêmement efficaces sur le plan de la représentation.
+
+### H. Les ressources nécessaires pour imposer une définition
+
+Toutes les définitions ne se valent pas dans la compétition : encore faut-il disposer des **ressources** permettant d'imposer sa vision du problème. Le cours en distingue cinq.
+
+1. **L'accès aux médias.** Question empirique centrale, indissociable de celle du **pluralisme médiatique** : quelles opinions sont représentées, jusqu'où, et qu'est-ce qui participe encore à la rationalité du débat. Le spectre des positions traitées comme légitimes s'est élargi, en particulier vers l'extrême droite, alors que ces objets étaient auparavant exclus du champ scientifique.
+2. **Les ressources économiques.** L'analyse empirique de l'espace médiatique (traditionnel comme numérique) montre une concentration des médias entre les mains de quelques grandes fortunes, ce qui pèse directement sur la capacité à imposer une définition.
+3. **L'expertise.** Les formes d'expertise légitimes ont changé de nature. À la distance et à la stature des grandes figures politiques historiques s'est substituée une expertise d'**influence, de charisme et de relation affective** : proximité, prise en charge de la souffrance psychique, de l'ego, de l'apparence. Ce registre était jusqu'ici inconnu dans la construction des problèmes politiques.
+4. **La position institutionnelle**, qui reste évidemment déterminante dans la capacité à politiser un sujet.
+5. **La capacité de mobilisation**, c'est-à-dire l'aptitude à transformer une définition en action collective.
+
+### I. Le pouvoir symbolique : imposer des catégories de pensée
+
+La science politique classique a longtemps travaillé sur la capacité **physique** de l'État à contrôler les individus : Weber et Elias, coercition, monopole de la violence légitime. La plupart des manuels commencent encore ainsi.
+
+Or la capacité déterminante des institutions n'est pas la force physique mais le **contrôle symbolique** — la capacité à imposer des catégories de pensée sans user de contrainte. C'est la thèse développée par Bourdieu dans son cours de 1982 sur le pouvoir symbolique : ce qui gouverne réellement les individus, ce sont les représentations.
+
+```
+Pouvoir coercitif (force physique) → marginal, quelques zones seulement
+Pouvoir symbolique (catégories de pensée) → mécanisme central de la politisation
+```
+
+Ce pouvoir est d'autant plus puissant qu'il n'a pas besoin de s'imposer : les catégories les plus légitimes s'imposent naturellement. On n'a aucune difficulté à admettre qu'un film d'art et d'essai est légitime, ni à reconnaître la valeur d'un tableau de maître — ces jugements ne sont pratiquement jamais contestés.
+
+Les catégories dont il est question sont les **catégories de pensée** au sens philosophique (Kant) : ce qui arrive immédiatement à l'esprit pour appréhender une situation. Observer la vie sociale ordinaire — ce qui se vend dans les librairies de gare, les unes des magazines les plus diffusés, la manière dont les gens parlent des jeunes ou des immigrés — permet d'en repérer les formes les plus efficaces.
+
+C'est pourquoi la question fondamentale, préalable à toute science politique, n'est pas « qu'est-ce que l'État, la Constitution, les partis ? » mais : **qui a le pouvoir de nommer, de définir la réalité sociale ?**
+
+### J. Catégories administratives, statistiques et effets de classement
+
+La « catégorie des catégories » est produite par l'État : c'est la **catégorie administrative** et, avec elle, la **statistique publique**. Pour parler de délinquance, d'immigration, de chômage ou du prix du logement, ce sont les données de l'État et de ses agences (INSEE, INED, ministère de l'Intérieur, appareil statistique de chaque ministère) qui sont utilisées — le chercheur ne construit pas lui-même cette réalité. C'est un pouvoir considérable, ce qui explique que le contrôle des appareils de mesure publics soit devenu un enjeu politique de premier plan aux États-Unis.
+
+Les catégories administratives et statistiques remplissent trois fonctions :
+
+- elles **rendent les phénomènes visibles** ;
+- elles permettent de **compter et de comparer** ;
+- elles **construisent des populations**, qui deviennent des populations symboliques très performatives.
+
+La statistique ne fabrique pas la réalité, mais elle la construit : un même phénomène peut être interprété de manière opposée selon la catégorie retenue. Affirmer que « la société est plus violente » est vrai si l'on retient les vols et agressions physiques, faux si l'on retient les homicides, en effondrement. Chaque objet dépend donc de sa mesure, et chaque mesure d'une catégorie.
+
+Ce décalage explique deux dérives symétriques :
+- des phénomènes statistiquement massifs restent invisibles socialement — les **violences intrafamiliales**, documentées depuis les années 1990, longtemps délaissées par les juristes ;
+- des phénomènes statistiquement faibles font l'objet d'une **ultra-politisation** — les violences urbaines, marginales au regard d'autres contentieux.
+
+#### Les effets de classement
+
+Une fois qu'une catégorie a construit une population, elle produit des **effets de classement** rarement interrogés : la catégorie devient une identité vécue et un critère de légitimité.
+
+```
+Catégorie neutre (chômeur = personne sans emploi)
+   → construction d'une population
+   → association implicite (ne participe pas à la vie sociale, ne vote pas)
+   → catégorie négative et stigmatisante
+```
+
+Le mécanisme vaut aussi pour *immigré*, ou pour l'**abstention**, devenue une catégorie négative alors qu'elle peut relever d'une critique délibérée de l'offre politique.
+
+Classer, déclasser et reclasser est la matrice même de la vie sociale — ce que Bourdieu nomme la **distinction**.
+
+#### Les catégories vides
+
+Beaucoup de catégories mobilisées pour expliquer un comportement (les jeunes, les jeunes à risque, les femmes célibataires, les sans-emploi) sont en réalité des **catégories vides** : elles n'expliquent rien et fabriquent des **fictions statistiques**.
+
+Bourdieu résumait ce point d'une formule : « la jeunesse n'est qu'un mot » — il n'y a pas une jeunesse, mais des jeunesses, avec des façons de se construire très différentes selon l'espace social. Une jeunesse issue d'écoles de commerce peut être nettement plus conservatrice qu'une jeunesse précaire, à rebours des associations attendues entre précarité et tolérance.
+
+D'où une exigence méthodologique : avant d'utiliser une catégorie, savoir comment elle a été construite. Que veut dire un « jeune à risque » ? un « chômeur » ? un « immigré » ? une « victime » ? un « délinquant » ? Ces catégories sont particulièrement puissantes en droit pénal, où elles réduisent l'individu à une identité construite statistiquement : le *mineur délinquant* détermine qui est pris en charge, par qui, et selon quelles modalités. Elles ont donc des effets bien réels.
+
+La statistique reste indispensable, mais elle n'est pas en elle-même une variable explicative. Comprendre suppose de descendre au niveau **micro** — les univers locaux, les configurations concrètes — pour identifier les véritables variables explicatives.
+
 ## II. Les conditions scientifiques de l'analyse empirique du politique
 
 Une fois qu'un objet potentiellement politique a été saisi, se pose la question de savoir comment l'analyser scientifiquement de façon robuste. Cette deuxième partie identifie quatre conditions ou difficultés majeures.
@@ -240,7 +379,71 @@ Une dernière difficulté méthodologique concerne l'**agentivité**, décrite c
 
 Lorsqu'on observe un phénomène social, il faut être capable de distinguer les **causes intentionnelles** des **causes non-intentionnelles**. À défaut, l'analyse risque d'être déformée par une lecture excessivement volontariste ou complotiste des faits sociaux, alors que de nombreux phénomènes résultent de dynamiques non intentionnelles (effets de structure, défaillances administratives, absence de coordination) plutôt que d'une volonté délibérée d'un acteur identifiable.
 
-## III. Cas empiriques actualisés de la science politique empirique
+## III. De la politisation à l'action publique
+
+
+Politiser un problème ne suffit pas. Une fois qu'un sujet est devenu politique, deux questions supplémentaires se posent : qu'est-ce qui est réellement mis en œuvre en politique publique, et quels effets cette mise en œuvre produit-elle ?
+
+### A. Le cycle complet, de la situation sociale aux effets
+
+```
+Situation sociale → Problématisation → Publicisation → Mise sur agenda
+   → Définition institutionnelle → Choix des instruments → Mise en œuvre → Effets
+   → (nouveau cycle)
+```
+
+Chaque étape est un point d'arrêt possible. Une situation sociale (le racisme, les pesticides, le logement) peut être problématisée puis publicisée sans jamais aller plus loin : on peut discuter d'un problème pendant des années sans qu'il soit traité. Le passage à la mise sur agenda dépend directement des ressources mobilisables décrites plus haut, et très peu de problèmes y parviennent.
+
+### B. La traduction en langage institutionnel
+
+Une fois qu'un problème est reconnu par les institutions comme devant être traité, il doit être **traduit** dans le langage institutionnel et dans celui des politiques publiques. C'est un objet d'analyse à part entière : le passage du problème public à la politique publique.
+
+Le trajet est le plus souvent chaotique. Le masculinisme, la haine en ligne ou la polarisation constituent aujourd'hui un registre de langage en cours d'institutionnalisation, encore très controversé.
+
+Cette traduction impose de renoncer aux questions morales et théoriques (« qu'est-ce qu'il faudrait faire ? ») pour mesurer ce qui se fait, ou ne se fait pas, dans un domaine donné.
+
+### C. Instruments, mise en œuvre et effets
+
+L'analyse doit descendre au niveau le plus concret, ce qui suppose une sociologie des administrations, des élites, et des rapports entre pouvoir économique et mise en œuvre.
+
+- **Définition institutionnelle** : comment l'institution requalifie le problème.
+- **Choix des instruments** : budgets, incitations fiscales ou budgétaires, discrimination positive, personnels affectés, dispositifs d'évaluation. Suivre les débats parlementaires et les budgets attribués est ici décisif.
+- **Mise en œuvre** : une politique inscrite dans la loi peut n'être jamais appliquée, faute de moyens, de fonctionnaires ou de budget. L'analyse des politiques publiques est le plus souvent un « cimetière de décisions ».
+- **Effets**, y compris les **effets pervers** : la limitation à 80 km/h sur les routes départementales visait à réduire les accidents, sans que ses effets pénalisants pour certaines populations aient été anticipés.
+
+Une université peut ainsi décréter qu'il faut lutter contre les violences sexistes ; si aucune chargée de mission n'est nommée, si les contentieux ne sont pas traités et si aucun dispositif d'accompagnement n'existe, la politique reste purement symbolique. On observe fréquemment ce décalage entre une reconnaissance médiatique mûre d'un problème et l'absence totale de moyens institutionnels — pas de magistrat spécialisé, pas de temps, pas de budget.
+
+Un même problème politisé peut par ailleurs donner naissance à des politiques très différentes : la reconnaissance d'un problème ne détermine pas une réponse unique. C'est ce qui fait de la politique publique un **nouvel objet politique** et non une simple solution à un problème préexistant.
+
+Autres terrains classiques : la pauvreté (dont la définition varie selon les seuils retenus) et les politiques de redistribution, la question du patrimoine et de l'héritage, l'exclusion et les politiques d'insertion, l'insécurité (qui suppose de connaître le fonctionnement réel de l'organisation policière : formation, rapport à la violence), ou le changement climatique et les politiques de réduction des émissions.
+
+L'évaluation elle-même est politiquement inégale : des dispositifs d'aide sociale sont ultra-évalués au nom de la fraude, alors que les aides aux entreprises, qui représentent plusieurs milliards, le sont beaucoup moins.
+
+### D. Les cinq points à retenir sur la politisation
+
+1. **La construction du problème public** et ses phases, jusqu'à la publicisation.
+2. **Les acteurs qui portent les définitions, et le langage** qu'ils emploient — compétence essentielle, aujourd'hui largement déplacée vers les réseaux numériques et le registre parasocial.
+3. **Les rapports de pouvoir entre ces acteurs**, c'est-à-dire les ressources inégales dont ils disposent.
+4. **La mise sur agenda** : comment le problème entre (ou non) dans l'espace institutionnel.
+5. **Les instruments, les catégories et les effets** des politiques publiques et de l'action publique.
+
+Les trois premiers points constituent le cœur de l'analyse de la politisation ; les deux derniers relèvent des politiques publiques. Chacun peut donner lieu à des micro-analyses très concrètes : examiner les catégories du ministère de l'Intérieur en matière d'insécurité, reconstituer la construction du problème des violences faites aux femmes, ou identifier les acteurs qui portent aujourd'hui la catégorie de « fascisme masculin ».
+
+Sur les acteurs, le cours insiste sur deux points empiriques :
+- les porteurs de définitions ne sont plus seulement les élites politiques, mais aussi les influenceurs, les chefs d'entreprise et les figures de la tech, porteuses d'une vision du monde propre (réduction de l'État à une agence de moyens, privatisation) ;
+- il ne suffit pas de compter les abonnés : l'**influence réelle** doit être mesurée, car on peut avoir un très faible public et être extrêmement influent, ou l'inverse.
+
+L'exemple le plus abouti de politisation récente est le **grand remplacement** : une catégorie née dans des groupes extrêmement marginaux et confidentiels, devenue un objet de débat public légitime.
+
+### E. La finalité du travail scientifique
+
+L'objet de l'analyse n'est pas de discuter des opinions politiques, de débattre de l'actualité ni de dire ce qu'il faudrait faire (« faut-il interdire les réseaux sociaux aux adolescents ? »). Ce n'est pas le travail scientifique.
+
+Le travail consiste à étudier la construction des problèmes publics et à comprendre, de la manière la plus neutre possible, **pourquoi certaines situations deviennent des priorités politiques** — au sens d'objets de controverse et de choix politiques — **tandis que d'autres restent invisibles ou dépolitisées**.
+
+C'est en cela que la discipline est utile à l'espace public : elle fonctionne comme une forme de lancement d'alerte, en rendant visibles des objets qui ne le sont pas. Toute l'histoire des sciences sociales relève de ce geste — la question raciale à la fin du XIXe siècle, *Le Suicide* de Durkheim, la reproduction scolaire chez Bourdieu — non par goût de la théorie, mais parce que ces questions sont socialement explosives lorsqu'elles ne sont pas traitées.
+
+## IV. Cas empiriques actualisés de la science politique empirique
 
 Cette troisième partie met en test les outils précédents (politisation, sociologie des problèmes publics, conditions scientifiques de l'analyse) sur des questions concrètes et actuelles.
 
@@ -277,6 +480,30 @@ Cette difficulté à mesurer l'**influence réelle** conduit à privilégier une
 
 Sur les **fake news** spécifiquement, le cours souligne le passage d'une première génération de réseaux sociaux centrée sur l'écrit (Facebook, Twitter) à une génération dominée par l'image et les formats courts, avec une bascule vers de nouveaux vecteurs de politisation : jeux vidéo et gaming, mèmes, influenceurs, et ce que le cours nomme le **parasocial** — les formes d'identification et d'attachement affectif construites à distance par des figures publiques via ces nouveaux formats.
 
+#### Le jeu vidéo comme objet politique : le cas GTA
+
+L'exemple de *GTA*, objet culturel le plus vendu au monde (une centaine de millions de joueurs), illustre le fonctionnement des **catégories immédiates**. Dès que le sujet est abordé publiquement, une catégorie s'impose sans délai — « jeu vidéo = violence » — et sert de matrice à la politisation : danger pour les jeunes, jeunes influençables, explication des tueries de masse sur les campus américains.
+
+Or, empiriquement, l'influence des jeux vidéo sur les comportements violents est très discutée et l'unicité d'une telle variable explicative est contestée. Le jeu est par ailleurs un objet politique bien plus complexe que sa catégorie immédiate ne le laisse croire : histoire propre, controverses, procès, imaginaire culturel, et un public réel qui contredit les stéréotypes (environ la moitié des joueurs sont des joueuses).
+
+### D. Populismes, mépris social et question de l'oligarchie
+
+Les enquêtes quantitatives sur les populismes européens (RN en France, AFD en Allemagne, Vox en Espagne, populismes italiens) font apparaître une trame commune : un fort sentiment subjectif de **mépris social**, relativement indépendant du niveau de vie réel.
+
+Ce sentiment se structure autour de l'idée de ne pas compter, pris en étau entre deux pôles :
+
+```
+Ceux d'en haut : élites jugées incompétentes, qui n'écoutent pas et se servent entre elles
+        ↕  (sentiment de ne pas compter, absence de reconnaissance sociale)
+Ceux d'en bas : populations dites immigrées soupçonnées de profiter des aides sociales
+```
+
+Il traduit une **crise de l'État-providence à double niveau** : par le haut, une crise de légitimité des élites ; par le bas, une compétition perçue pour le logement, l'école, la mixité sociale et les revenus sociaux, particulièrement vive chez les classes moyennes pauvres qui se sentent exclues du jeu.
+
+La question de l'**oligarchie** s'insère à cet endroit. Elle est à l'origine des populismes contemporains et constitue, avec la politisation, l'un des deux grands chantiers de la science politique empirique actuelle, essentiellement américaine.
+
+Son enjeu méthodologique est décisif : faute d'analyse scientifique de la monopolisation réelle du pouvoir, l'analyse bascule dans le **complotisme**. La frontière entre les deux s'est révélée particulièrement ténue lors de la crise du Covid et des débats sur le vaccin. Toute la difficulté est de savoir dans quelle mesure on est empiriquement capable d'évaluer le niveau de concentration du pouvoir.
+
 <!-- SOURCES INTÉGRÉES
 - Science po 1-transcript.txt
 - Science po 2-transcript.txt
@@ -286,4 +513,6 @@ Sur les **fake news** spécifiquement, le cours souligne le passage d'une premi�
 - ArchitectureMouvement du cours (1).pptx
 - l1_s1_sc_po_ferret-goncz-demonsant(2).docx
 - ELEAA1 - PG Science politique empirique.pdf
+- science po 4-transcript.txt
+- CM3.odt
 -->
