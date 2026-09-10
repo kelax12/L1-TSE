@@ -29,11 +29,17 @@
 
 - **Suicide altruiste (Durkheim)** : catégorie du suicide définie par Durkheim, correspondant au fait de se donner la mort pour une cause. Mobilisée pour analyser certaines formes de violence politique (djihadisme), sans que cette catégorie n'ait réellement été utilisée dans le débat public.
 
-- **Entrepreneur de morale / entrepreneur de cause** : acteur (ou groupe) disposant de suffisamment d'influence et de compétences, notamment médiatiques, pour imposer une lecture morale d'un problème et faire pression sur l'État afin qu'il agisse.
+- **Entrepreneur de morale / entrepreneur de cause / entrepreneur de problème (Howard Becker,** ***Outsiders* ; John Dewey, 1927 ; Joseph Gusfield, 1981)** : acteur (ou groupe — association, mouvement social, média, expert, administration, organisation internationale) disposant de suffisamment d'influence et de compétences, notamment médiatiques, pour transformer une situation en cause collective et imposer une lecture morale d'un problème, en mobilisant données statistiques, témoignages de victimes, campagnes médiatiques, mobilisations ou scandales déclencheurs, afin de faire pression sur l'État pour qu'il agisse.
 
   Un entrepreneur de morale catégorisé comme « complotiste » peut en réalité être un lanceur d'alerte : la politisation ne se juge pas au caractère bon ou mauvais d'une cause, mais aux effets qu'elle produit sur les publics.
 
-- **Mise sur agenda** : étape (rare) où un problème, une fois défini, catégorisé, rendu visible et cadré efficacement, s'inscrit dans le programme officiel des institutions et est repris par les responsables politiques.
+- **Problème public (John Dewey, 1927)** : apparaît lorsqu'une situation affecte indirectement un ensemble de personnes et devient l'objet d'une enquête collective — la première formulation classique de la notion, à l'origine de toute la sociologie des problèmes publics (Gusfield, Cobb & Elder, Kingdon, Hilgartner & Bosk, Cefaï).
+
+- **Mise sur agenda (ou mise à l'agenda)** : processus par lequel un problème, une fois défini, catégorisé, rendu visible et cadré efficacement, acquiert suffisamment de légitimité pour s'inscrire dans le programme officiel des institutions et être repris par les responsables politiques. L'agenda reste sélectif : certains problèmes sont fortement médiatisés, d'autres restent invisibles ou marginalisés, et certains cadrages deviennent dominants tandis que d'autres sont disqualifiés (Cobb & Elder, 1972 ; Kingdon, 1984 ; Hilgartner & Bosk, 1988).
+
+- **Rationalisation du social (Michel Lallement,** ***Tensions majeures*, développant Weber)** : thèse selon laquelle le politique est un projet visant à faire prévaloir sa logique sur les autres grands projets de rationalisation concurrents du social (religieux, économique) — un pouvoir politique cherche à « avoir raison », à pacifier, à produire une forme de paix sociale et de consensus.
+
+  Ce projet reste structurellement ouvert et conflictuel : le pouvoir qui parvient à pacifier un conflit de valeurs a tendance, dans le même mouvement, à déconsidérer ou à illégaliser ceux qui s'y opposent encore (« ce n'est pas de la politique »).
 
 ### Pouvoir et domination
 
@@ -65,6 +71,10 @@
   Sa force tient à ce qu'il n'a pas besoin de s'imposer par la contrainte : les catégories les plus légitimes (ce qui fait un « bon film », un « grand peintre ») s'imposent d'elles-mêmes, très naturellement.
 
 - **Oligarchie** : monopolisation réelle du pouvoir par un petit nombre d'acteurs. Objet scientifique à part entière : mesurer empiriquement le degré effectif de concentration du pouvoir est la seule alternative au complotisme, qui propose du même phénomène une lecture non scientifique.
+
+- **Thèse pluraliste / thèse moniste (Robert Dahl,** ***Qui gouverne ?*)** : deux réponses concurrentes à la question de la répartition du pouvoir. La thèse pluraliste (retenue par le cours) défend un pouvoir partagé entre une multitude d'individus et de configurations, non réductible à sa seule accession. La thèse moniste défend au contraire une proximité structurelle entre les enjeux militaires et économiques, plus proche d'une lecture unifiée du pouvoir proche du fantasme du complot.
+
+- **Légitimité charismatique (Max Weber)** : attribution aux gouvernants d'une compétence politique perçue comme naturelle, liée à des qualités personnelles et humaines exceptionnelles. Bourdieu (*La Distinction*, 1979) montre que cette attribution prête aux hommes politiques des qualités quasi « animales » ou hors du commun, ce qui contribue à euphémiser le caractère construit et conflictuel du politique.
 
 - **Mépris social** : sentiment subjectif, relativement indépendant du niveau de vie réel, d'être pris en étau entre des élites qui n'écoutent pas et se servent entre elles, et des populations d'en bas soupçonnées de profiter du système, notamment des aides sociales.
 
@@ -106,7 +116,15 @@
 
 - **Catégorie vide / fiction statistique** : catégorie mobilisée comme si elle expliquait un comportement alors qu'elle n'explique rien (les jeunes, les jeunes à risque, les femmes célibataires, les sans-emploi). Elle réduit les individus à une identité construite statistiquement et fabrique des fictions puissantes mais dépourvues de valeur explicative.
 
-  Formule de Bourdieu : « la jeunesse n'est qu'un mot » — il n'y a pas une jeunesse mais des jeunesses, avec des façons de se construire très différentes d'un espace social à l'autre.
+  Formule de Bourdieu (« La jeunesse n'est qu'un mot », entretien de 1978 avec Anne-Marie Métailié, repris dans *Questions de sociologie*, 1984) : il n'y a pas une jeunesse mais des jeunesses, avec des façons de se construire très différentes d'un espace social à l'autre — la classe sociale prime sur l'âge.
+
+  Les frontières d'âge (jeunesse, âge mûr, vieillesse) ne sont pas des faits naturels mais des enjeux de lutte sociale : de même qu'on ne peut fixer objectivement le seuil entre pauvreté et richesse (**paradoxe de Pareto**), on ne sait pas dire à quel âge commence la vieillesse. Chaque génération cherche à imposer sa propre définition de qui est « jeune » ou « vieux », et donc à définir l'accès au pouvoir, à l'héritage et à la reconnaissance sociale. Dans le sens commun, la jeunesse se définit seulement en creux — ce qu'elle n'est déjà plus (l'enfance) et ce qu'elle n'est pas encore (l'âge adulte) — sans identité propre : un « entre-deux ».
+
+  L'illusion d'une jeunesse homogène perdure notamment parce que certains jeunes dominés ont intérêt à être rattachés à « la jeunesse » en général : cela leur donne une visibilité qu'ils n'auraient pas seuls.
+
+- **Compétence politique (Pierre Bourdieu,** ***La Distinction*, chapitre « Culture et politique »)** : comme la compétence culturelle, la compétence politique légitime (maîtrise des sigles, de l'axe gauche-droite, capacité à formuler un avis structuré) est une forme de capital culturel inégalement distribué socialement — les classes populaires ont statistiquement moins de prise sur les grandes questions politiques abstraites.
+
+  Bourdieu conteste trois postulats implicites de tout sondage d'opinion : que tout le monde a une opinion, que toutes les opinions se valent (alors qu'elles n'ont ni la même solidité ni le même rapport réel au champ politique), et qu'il existe un consensus sur les questions posées (les sondages reprennent des problématiques déjà formulées par les professionnels et les médias, plutôt que les préoccupations réelles des enquêtés). Conclusion : la classe dominante impose, à travers la légitimité de son goût — culturel comme politique — la légitimité de sa propre domination.
 
 - **Parasocial (discours parasocial / parapolitique)** : registre de discours affectif et de proximité (souffrance, ego, apparence, « je te comprends ») porté par des influenceurs sur les plateformes de formats courts. Il n'a plus rien à voir avec la compétence politique traditionnelle mais produit des effets politiques réels, notamment sur des publics non socialisés à la politique classique.
 
@@ -128,19 +146,45 @@
 
 ### Méthode et épistémologie de la science politique empirique
 
-- **Neutralité axiologique (Max Weber)** : posture scientifique consistant à suspendre le jugement de valeur personnel dans l'analyse d'un fait social, pour se concentrer sur ce qui est vraisemblable plutôt que sur une opinion ou une intuition.
+- **Neutralité axiologique (Max Weber,** ***Essais sur la théorie de la science*, 1917)** : posture scientifique consistant à suspendre le jugement de valeur personnel dans l'analyse d'un fait social, pour se concentrer sur ce qui est vraisemblable plutôt que sur une opinion ou une intuition. Être neutre n'est pas être sans valeurs — c'est distinguer deux moments :
+  - **Rapport aux valeurs (*Wertbeziehung*)** : le chercheur choisit son objet d'étude en fonction de sa signification culturelle, donc en fonction de valeurs. Ce choix initial, subjectif, est inévitable et légitime : il précède l'analyse.
+  - **Distance aux valeurs (*Werturteilsfreiheit*)** : une fois l'objet choisi, le sociologue s'interdit tout jugement de valeur sur les faits étudiés — il sépare l'analyse du réel (« ce qui est ») du jugement normatif (« ce qui doit être »).
+  - **Représentation collective agissante** : le sociologue restitue fidèlement les systèmes de valeurs qui font réellement agir les acteurs sociaux, en comprenant le sens qu'ils donnent eux-mêmes à leur action, sans y substituer ses propres valeurs.
+
+  Les valeurs interviennent en réalité à quatre étapes de la recherche : le choix de l'objet (étudier le populisme ou l'abstention traduit déjà une hiérarchie de ce qui « mérite » d'être connu), les concepts eux-mêmes (« démocratie », « développement », « radicalisation » portent une charge normative), les indicateurs retenus (mesurer la « qualité démocratique » suppose de fixer en amont ce qui compte comme désirable), et l'interprétation des résultats (un même taux d'abstention peut être lu comme crise ou comme régulation).
+
+  Trois postures répondent à ce problème : la **neutralité axiologique** de Weber (ci-dessus) ; l'**engagement assumé** des approches critiques (École de Francfort, épistémologies féministes et postcoloniales), pour qui la neutralité est un leurre et qu'il vaut mieux expliciter le point de vue et la finalité émancipatrice de la recherche ; et la **réflexivité** de Bourdieu, qui consiste à objectiver la position sociale et scolastique du chercheur lui-même, pour maîtriser — sans l'annuler — l'effet des valeurs sur la construction de l'objet.
+
+  Cas concrets classiques illustrant ce problème : Edward Said (*Orientalism*, 1978) montre que les *area studies* occidentales ont façonné un savoir sur « l'Orient » calqué sur les besoins impériaux tout en se présentant comme neutre ; W. W. Rostow (*Les étapes de la croissance*, 1960) érige la trajectoire industrielle occidentale en norme universelle du « développement » ; Linda Tuhiwai Smith (*Decolonizing Methodologies*, 1999) montre que les protocoles de terrain eux-mêmes (qui consent, qui restitue, qui publie) portent des présupposés occidentaux. Côté *gender studies* : Carole Pateman (*The Sexual Contract*, 1988) montre que le partage entre sphère publique et sphère privée a naturalisé l'exclusion politique des femmes ; les enquêtes électorales de Columbia et du Michigan (1950-1970s) ont longtemps supposé que le vote des femmes suivait celui du mari, masquant des écarts de préférences jamais mesurés ; être pour ou contre les quotas de genre (Drude Dahlerup, Mona Lena Krook) dépend d'une conception de l'égalité (d'opportunité ou de résultat) que la recherche ne peut trancher de façon purement descriptive.
 
 - **Jugement de valeur légitime (Léo Strauss)** : critique de la neutralité axiologique absolue. Pour Strauss, la suspension totale du jugement de valeur devient insupportable dans certains cas limites (exemple des camps de concentration), posant la question du relativisme scientifique.
 
 - **Traiter les faits sociaux comme des choses (Durkheim)** : principe méthodologique consistant à analyser les faits sociaux avec la même rigueur et la même extériorité qu'un objet matériel, en rompant avec le sens commun et la familiarité que l'on peut avoir avec l'objet étudié.
 
-- **Construction sociologique de l'objet politique** : l'objet social (ce qui existe empiriquement) n'est pas l'objet sociologique (ce que le chercheur construit analytiquement).
+- **Construction sociologique de l'objet politique** : l'objet social (ce qui existe empiriquement, tel qu'on le perçoit spontanément) n'est pas l'objet sociologique (ce que le chercheur construit analytiquement) — un problème social n'est pas nécessairement un problème sociologique. La science politique repose intégralement sur l'épistémologie de la sociologie : elle n'a pas développé de méthode propre, et il faudrait à ce titre parler de *sociologie politique* plutôt que de science politique.
+
+  Deux principes fondamentaux, préalables à toute construction d'un objet politique : 1) un objet social n'est pas un objet sociologique — il faut aller le chercher, le construire, plutôt que le recevoir tel quel du sens commun ; 2) un acteur individuel n'est jamais totalement conscient de ce qu'il fait, mais jamais non plus totalement inconscient — un individu est toujours inséré dans un système relationnel (famille, couple, collectif, nation), ce qui interdit d'expliquer un comportement (électoral, numérique) sans reconstituer ce système relationnel.
 
   Exemple méthodologique : Goffman, dans *Asiles*, construit l'objet « institution totale » par une montée en généralité et une analogie entre prisons, couvents et autres institutions d'enfermement.
 
-- **Méthode socio-historique (ou idéal-typique, Max Weber)** : établir des causalités robustes en inscrivant un fait social dans une histoire et dans des configurations socio-historiques précises, en s'intéressant en particulier au niveau micro-social. Demande un important travail de terrain, d'archives et d'histoire.
+- **Institution totale (Erving Goffman,** ***Asiles*, 1961)** : lieu fermé, coupé du monde extérieur, où la vie quotidienne est entièrement organisée selon des règles strictes et une hiérarchie forte (agendas, emplois du temps, contenus imposés). Concept construit à partir d'un terrain d'un an dans un hôpital psychiatrique (Sainte-Élisabeth, Washington), où Goffman s'est fait embaucher comme aide-soignant sans révéler sa qualité de sociologue — méthode qualitative et ethnographique, observation immersive de longue durée, non négociable pour distinguer un savoir de sciences sociales du simple sens commun.
 
-- **Méthode expérimentale / causalité statistique** : méthode fondée en France par Durkheim (*Le Suicide*), reposant sur l'analyse statistique de grands ensembles de données pour établir des corrélations et des causalités. Renforcée aujourd'hui par les outils d'intelligence artificielle.
+  Le concept s'applique à de nombreuses institutions autres que l'hôpital psychiatrique : prison, caserne, école, monde du travail, communautés fermées sur Internet, couple toxique. Il déplace le regard de la science politique institutionnelle (élections, discours officiels) vers ces lieux oubliés où s'exerce, selon Goffman, le pouvoir réel : contrôler des individus dans des espaces fermés.
+
+  Trois mécanismes structurent l'institution totale :
+  - **Carrière morale** : rupture avec l'identité antérieure, redéfinition de l'identité, apprentissage du rôle attendu, adaptation progressive à l'institution — un processus observable aussi bien chez un patient hospitalisé que chez un jeune salarié en alternance ou un élève en difficulté.
+  - **Rites d'admission** : fouille, confiscation des biens personnels, uniformisation, perte d'activité autonome — première étape de dépossession de l'identité antérieure.
+  - **Mortification du moi** : appels répétés à l'autonomie mais surveillance constante, évaluation permanente des performances (sanctions et récompenses), production de docilité vis-à-vis de l'institution — mécanisme central du management contemporain, de l'économie de l'attention sur les réseaux numériques, et des classements de performance de type PISA.
+
+  Face à la mortification du moi, les individus développent des **ajustements secondaires** : détournements discrets du règlement (fumer avec les surveillants moyennant un arrangement informel), préservation d'un « moi clandestin » et d'une forme d'intimité — stratégies d'adaptation plutôt que de rupture ouverte.
+
+- **Méthode socio-historique (ou idéal-typique, Max Weber)** : établir des causalités robustes en inscrivant un fait social dans une histoire et dans des configurations socio-historiques précises, en s'intéressant en particulier au niveau micro-social. Demande un important travail de terrain, d'archives et d'histoire. Weber l'associe à la **compréhension** : plutôt que d'établir des causalités nomologiques, on recherche le sens et les significations que les individus attribuent eux-mêmes à leur action, en la resituant dans son contexte historique.
+
+- **Méthode expérimentale / causalité statistique (explication, tradition durkheimienne)** : méthode fondée en France par Durkheim (*Le Suicide*), reposant sur l'analyse statistique de grands ensembles de données pour établir des corrélations et des causalités entre phénomènes sociaux, censées déboucher sur des lois et des régularités. Renforcée aujourd'hui par les outils d'intelligence artificielle.
+
+  La distinction entre **explication** (causalité, Durkheim) et **compréhension** (sens, Weber) reste largement artificielle en pratique : les deux démarches sont intimement liées et se confondent le plus souvent dans un même travail de recherche.
+
+- **Sens commun** : ensemble de préjugés et de stéréotypes qui activent une vision immédiate et spontanée du réel, et qui circulent dans la société sans être interrogés. Le travail sociologique consiste précisément à rompre avec ce sens commun plutôt qu'à le reprendre tel quel comme objet scientifique.
 
 - **Agentivité / biais d'intentionnalité** : biais cognitif naturel (non pathologique) consistant à attribuer une cause intentionnelle à des phénomènes sociaux qui peuvent en réalité relever de causes non intentionnelles.
 
@@ -194,13 +238,19 @@ Sur le plan empirique, l'histoire des sociétés européennes — notamment des 
 
 Cela ne signifie pas que la définition de Weber est sans valeur, mais qu'elle doit être questionnée empiriquement plutôt que reprise telle quelle comme une évidence.
 
+**Le prolongement de Michel Lallement** (*Tensions majeures*) donne à la définition wébérienne une portée plus dynamique : le politique y est décrit comme un **projet de rationalisation du social**. Le pouvoir politique cherche à « avoir raison » des autres grands projets de rationalisation concurrents (religieux, économique) et à produire, par ce biais, une forme de paix sociale et de pacification des conflits de valeurs.
+
+Ce projet demeure cependant structurellement ouvert et conflictuel — la politique est un processus qui se fabrique au quotidien, jamais un état stable. Un pouvoir qui parvient à pacifier un conflit de valeurs a, dans le même mouvement, tendance à déconsidérer ou à illégaliser ceux qui continuent de s'y opposer, au nom de la norme qu'il a lui-même imposée (« ce n'est pas de la politique »).
+
 ### D. Les trois acceptions de la politique au-delà de l'État
 
 Pour dépasser les limites de la définition wébérienne, le cours propose trois acceptions complémentaires de la politique.
 
-**1. La politique dépasse largement l'État.** Le pouvoir y est partagé entre une multitude d'individus et de configurations — y compris intimes, familiales, interpersonnelles — et pas seulement dans les configurations officielles. C'est ce que la science politique américaine appelle la **thèse du pluralisme**.
+**1. La politique dépasse largement l'État.** Le pouvoir y est partagé entre une multitude d'individus et de configurations — y compris intimes, familiales, interpersonnelles — et pas seulement dans les configurations officielles. C'est ce que la science politique américaine appelle la **thèse du pluralisme** (Robert Dahl, *Qui gouverne ?*), qu'elle oppose à une **thèse moniste** défendant au contraire une proximité structurelle entre les enjeux militaires et économiques — une lecture unifiée et concentrée du pouvoir, plus proche du fantasme complotiste selon lequel la politique se réduirait au pouvoir et à son accession.
 
 Exemple : le choix de la carte scolaire ou de l'établissement pour ses enfants constitue un choix hautement politique, bien qu'il ne relève d'aucune institution officiellement politique.
+
+Reconnaître que le pouvoir est pluriel ne suffit pas en soi : il faut ensuite analyser, dans chaque configuration concrète, quel type de pouvoir est en jeu — le distinguer selon qu'il se dit ou ne se dit pas, selon qu'il relève de la coercition ou de l'influence.
 
 **2. La politique n'est pas réductible aux formes de pouvoir officiel.** Certaines formes de pouvoir sont silencieuses et ne se disent pas comme telles : l'**emprise** et le **charisme**, en particulier dans l'espace intime et familial.
 
@@ -212,7 +262,9 @@ Il ne s'incarne pas dans une institution officielle mais dans des micro-espaces 
 
 ### E. La construction sociologique des problèmes publics
 
-Un problème public ou politique n'est jamais une situation objective qui « arrive comme ça » et appellerait naturellement une intervention de l'État. Il résulte d'un processus de construction sociale en plusieurs étapes.
+Un problème public ou politique n'est jamais une situation objective qui « arrive comme ça » et appellerait naturellement une intervention de l'État. Il résulte d'un processus de construction sociale en plusieurs étapes — une thèse fondatrice chez John Dewey (1927), pour qui un problème public apparaît lorsqu'une situation affecte indirectement un ensemble de personnes et devient l'objet d'une enquête collective, puis approfondie par Joseph Gusfield (1981) : les problèmes publics sont des constructions symboliques et politiques, résultat d'une lutte pour définir ce qui constitue le problème, qui en est responsable, qui doit agir, et quelles solutions sont acceptables.
+
+Exemple classique chez Gusfield : l'alcool au volant peut être défini comme un problème de santé individuelle, comme un problème de sécurité routière, ou comme un problème de responsabilité individuelle et de respect de la loi — chaque cadrage conduisant à des instruments et à des acteurs différents. Définir un problème, c'est donc déjà orienter la manière dont il pourra être gouverné.
 
 1. **Définition** du problème.
 2. **Catégorisation** : une situation récurrente (accidents, incendies, alcool au volant, pesticides) peut être définie et catégorisée statistiquement sans pour autant devenir un enjeu politique — c'est le cas du suicide, comptabilisé précisément par la RATP ou la SNCF sans que cela ne débouche sur une politisation.
@@ -229,6 +281,10 @@ Deux exemples structurants illustrent ce processus.
 L'hypothèse retenue met en avant des causalités liées aux failles des politiques publiques (bureaucraties mal équipées, notamment sur la maîtrise de la langue arabe, entraînant une incompréhension de phénomènes sociaux dans certains territoires), plutôt qu'une causalité unique de type religieux — la variable religieuse n'étant pas apparue comme univoquement explicative. La variable la plus explicative identifiée est l'exposition à la violence (violence intrafamiliale, harcèlement scolaire), qui fonctionne comme un terrain commun à différentes formes de radicalisation, y compris l'extrémisme identitaire.
 
 ### F. Cadrage, contre-cadrage et entrepreneurs de morale
+
+**Qui participe à la politisation ? Gouvernants et gouvernés.** Par tradition, la compétence politique est attribuée aux **gouvernants**, à qui l'on prête une compétence naturelle liée à des qualités personnelles exceptionnelles — ce que Weber nomme la **légitimité charismatique**. Bourdieu (*La Distinction*, 1979) montre que cette attribution prête aux hommes politiques des qualités quasi animales ou hors du commun. Ce mécanisme a pour effet d'**euphémiser** le politique et le conflit : les gouvernants n'ont en général pas intérêt à politiser un conflit, mais à le dépolitiser, à disqualifier une contestation sociale comme n'étant « pas de la politique ».
+
+Du côté des **gouvernés**, toute personne n'a pas la même capacité à politiser un enjeu. C'est ici qu'interviennent les entrepreneurs de morale (Becker, *Outsiders*) : des associations ou groupes qui engagent une lutte pour imposer leurs valeurs. Exemple historique : aux États-Unis, les ligues de tempérance ont fait interdire la marijuana — une drogue n'a rien d'un fait naturel, c'est une substance dont l'illégalité résulte d'une victoire politique d'acteurs déterminés, non d'une propriété intrinsèque de la substance.
 
 Même mise en visibilité, un problème ne se politise efficacement que s'il est **cadré**. Le **cadrage** (*framing*, Erving Goffman) consiste à expliquer une situation par une causalité simple et unique, assignant une origine, une cause, un responsable et une solution.
 
@@ -298,6 +354,17 @@ Les catégories dont il est question sont les **catégories de pensée** au sens
 
 C'est pourquoi la question fondamentale, préalable à toute science politique, n'est pas « qu'est-ce que l'État, la Constitution, les partis ? » mais : **qui a le pouvoir de nommer, de définir la réalité sociale ?**
 
+**La compétence politique comme capital culturel (Bourdieu,** ***La Distinction*, chapitre « Culture et politique »).** Ce mécanisme de pouvoir symbolique se retrouve jusque dans l'exercice le plus quotidien de la vie politique : le jugement politique obéit aux mêmes logiques de classe que le jugement de goût. Comme la compétence culturelle, la compétence politique légitime (maîtrise des sigles, de l'axe gauche-droite, capacité à formuler un avis structuré) est une forme de capital culturel inégalement distribué — les classes populaires ont statistiquement moins de prise sur les grandes questions politiques abstraites.
+
+```
+Goût esthétique légitime (musique classique, peinture, littérature)
+   → instrument de hiérarchisation sociale, perçu comme naturel et universel
+Compétence politique légitime (sigles, axe gauche-droite, avis structuré)
+   → capital culturel inégalement distribué, fait passer la vision dominante pour le bon sens
+```
+
+Bourdieu conteste ainsi trois postulats implicites de tout sondage d'opinion : que tout le monde a une opinion ; que toutes les opinions se valent, alors qu'elles n'ont ni la même solidité ni le même rapport réel au champ politique ; et qu'il existe un consensus sur les questions posées, alors que les sondages reprennent des problématiques déjà formulées par les professionnels et les médias plutôt que les préoccupations réelles des enquêtés. Conclusion : la classe dominante impose, à travers la légitimité de son goût — culturel comme politique — la légitimité de sa propre domination.
+
 ### J. Catégories administratives, statistiques et effets de classement
 
 La « catégorie des catégories » est produite par l'État : c'est la **catégorie administrative** et, avec elle, la **statistique publique**. Pour parler de délinquance, d'immigration, de chômage ou du prix du logement, ce sont les données de l'État et de ses agences (INSEE, INED, ministère de l'Intérieur, appareil statistique de chaque ministère) qui sont utilisées — le chercheur ne construit pas lui-même cette réalité. C'est un pouvoir considérable, ce qui explique que le contrôle des appareils de mesure publics soit devenu un enjeu politique de premier plan aux États-Unis.
@@ -333,11 +400,58 @@ Classer, déclasser et reclasser est la matrice même de la vie sociale — ce q
 
 Beaucoup de catégories mobilisées pour expliquer un comportement (les jeunes, les jeunes à risque, les femmes célibataires, les sans-emploi) sont en réalité des **catégories vides** : elles n'expliquent rien et fabriquent des **fictions statistiques**.
 
-Bourdieu résumait ce point d'une formule : « la jeunesse n'est qu'un mot » — il n'y a pas une jeunesse, mais des jeunesses, avec des façons de se construire très différentes selon l'espace social. Une jeunesse issue d'écoles de commerce peut être nettement plus conservatrice qu'une jeunesse précaire, à rebours des associations attendues entre précarité et tolérance.
+Bourdieu résumait ce point d'une formule, dans un entretien de 1978 avec Anne-Marie Métailié (repris dans *Questions de sociologie*, 1984) : « la jeunesse n'est qu'un mot » — il n'y a pas une jeunesse, mais des jeunesses, avec des façons de se construire très différentes selon l'espace social. Une jeunesse issue d'écoles de commerce peut être nettement plus conservatrice qu'une jeunesse précaire, à rebours des associations attendues entre précarité et tolérance : la classe sociale prime sur l'âge.
+
+Les frontières d'âge (jeunesse, âge mûr, vieillesse) ne sont pas des faits naturels mais des enjeux de lutte sociale — de même qu'on ne peut fixer objectivement le seuil entre pauvreté et richesse (**paradoxe de Pareto**), on ne sait pas dire à quel âge commence la vieillesse. Chaque génération cherche à imposer sa propre définition de qui est « jeune » ou « vieux », et donc à définir l'accès au pouvoir, à l'héritage et à la reconnaissance sociale. Dans le sens commun, la jeunesse se définit en creux — ce qu'elle n'est déjà plus (l'enfance), ce qu'elle n'est pas encore (l'âge adulte) — sans identité propre : un pur « entre-deux ».
+
+L'illusion d'une jeunesse homogène perdure notamment parce que certains jeunes dominés ont intérêt à être rattachés à « la jeunesse » en général : cela leur donne une visibilité qu'ils n'auraient pas en tant qu'individus isolés.
 
 D'où une exigence méthodologique : avant d'utiliser une catégorie, savoir comment elle a été construite. Que veut dire un « jeune à risque » ? un « chômeur » ? un « immigré » ? une « victime » ? un « délinquant » ? Ces catégories sont particulièrement puissantes en droit pénal, où elles réduisent l'individu à une identité construite statistiquement : le *mineur délinquant* détermine qui est pris en charge, par qui, et selon quelles modalités. Elles ont donc des effets bien réels.
 
 La statistique reste indispensable, mais elle n'est pas en elle-même une variable explicative. Comprendre suppose de descendre au niveau **micro** — les univers locaux, les configurations concrètes — pour identifier les véritables variables explicatives.
+
+### K. Étude de cas : la construction des statistiques de la délinquance
+
+Ce cas illustre concrètement tout ce qui précède sur les catégories et les effets de classement. Entre le fait vécu et le chiffre publié par un ministère, il existe une longue chaîne de filtres sociaux et administratifs — au moins quatre étapes et sept filtres au total.
+
+```
+100 % Fait vécu (agression, vol, dégradation perçus comme une atteinte par la personne)
+   ↓  [1er filtre : la victime se déplace ou non]
+≈ 20 % Déplacement au commissariat / à la gendarmerie
+   (Insee, enquête Cadre de vie et sécurité, 2015-2019)
+   ↓  [2e filtre : dépôt de plainte formalisé ou simple main courante]
+4 % à 96 % Plainte formalisée, selon le type de fait
+   (≈ 4 % pour des injures, plus de 90 % pour un vol de véhicule abouti — SSMSI, enquête VRS 2023)
+   ↓  [3e filtre : qualification pénale retenue par l'agent]
+   ↓  [4e filtre : transmission ou non par le service]
+Chiffre publié (SSMSI)
+   Seuls les faits enregistrés et qualifiés pénalement entrent dans les bases statistiques,
+   héritières de l'« état 4001 »
+```
+
+**Quatre étapes / acteurs successifs construisent ce chiffre :**
+1. La **victime** : se déplacer ou non, déposer une plainte ou une simple main courante — seuls 20 % des victimes, tous actes confondus, se déplacent effectivement auprès des forces de sécurité.
+2. L'**agent** qui reçoit les faits et choisit, selon son humeur, ses consignes et les directives internes de l'institution, de qualifier pénalement ou non ce qui lui est rapporté.
+3. Le **service** qui transmet (ou non) les données à la hiérarchie (DCPJ, SSMSI) — avec des trous importants, en particulier sur la violence politique.
+4. Le **ministère**, qui communique et met en récit les résultats chaque mois.
+
+**Chronologie des outils de comptage :**
+```
+1972 : création de l'« état 4001 » (DCPJ) — 107 catégories d'infractions dites « index »
+2002-2012 : « politique du chiffre » — objectifs chiffrés de baisse de la délinquance et de hausse de l'élucidation
+2014 : création du SSMSI (Service statistique ministériel de la sécurité intérieure), rattaché à la police et à la gendarmerie, coordonné par l'Insee
+2022 : nouvelle enquête de victimation « Vécu et ressenti en matière de sécurité » (VRS)
+```
+
+**Ce qui déforme la mesure :** des objectifs chiffrés qui incitent au report d'enregistrement ou à la requalification vers des faits moins graves ; des infractions « révélées » par l'action des services elle-même (stupéfiants, séjour irrégulier — un contentieux devenu très simple à établir via les commandes sur messagerie), qui gonflent le taux d'élucidation sans variation réelle de la délinquance ; des changements d'outils et de nomenclature qui cassent la comparabilité des séries dans le temps.
+
+**Deux lectures sociologiques du même chiffre coexistent :**
+- La **lecture par la mesure**, portée par le service statistique public (SSMSI, Insee) : les statistiques administratives et les enquêtes de victimation (VRS) se complètent, l'une captant l'activité des services, l'autre les faits jamais signalés. Croiser les sources permet de corriger une partie des biais et d'approcher les tendances réelles.
+- La **lecture constructiviste** (développée notamment par Philippe Robert, Bruno Aubusson de Cavarlay et Laurent Mucchielli) : le chiffre dit d'abord ce que fait l'institution (police, justice, pouvoir politique) — pas nécessairement ce que fait la société. Il dépend des priorités d'action, des consignes de qualification et des choix de communication du moment.
+
+Ce qu'on mesure, en définitive, n'est donc pas le niveau objectif de violence dans la société — largement inaccessible — mais l'**activité des institutions**, elle-même politisée. Ceci explique le paradoxe déjà noté : des contentieux devenus simples à établir sont sur-mesurés (stupéfiants), tandis que d'autres, plus complexes à faire remonter, restent largement invisibles (violences intrafamiliales — à peine 4 % des cas mesurés). Un enjeu politique majeur : les statistiques mensuelles de la délinquance sont annoncées et comparées d'une année sur l'autre, alors même que leur construction reste fragile, changeante et sensible aux priorités du moment.
+
+Deux cas empiriques récents illustrent, au-delà de la seule délinquance, ce même risque de sur-interprétation à partir de chiffres mal questionnés — voir la partie IV.
 
 ## II. Les conditions scientifiques de l'analyse empirique du politique
 
@@ -345,19 +459,48 @@ Une fois qu'un objet potentiellement politique a été saisi, se pose la questio
 
 ### A. La construction sociologique de l'objet politique
 
-La science politique empirique repose sur l'épistémologie de la sociologie : elle s'appuie sur des faits empiriques et un discours positif, plutôt que sur une démarche philosophique ou normative.
+La science politique empirique repose intégralement sur l'épistémologie de la sociologie : elle s'appuie sur des faits empiriques et un discours positif, plutôt que sur une démarche philosophique ou normative. Le cours va jusqu'à soutenir que la science politique n'a rien inventé sur le plan méthodologique — tout ce qu'elle mobilise (y compris en économie et en géopolitique) vient de la sociologie ; à ce titre, il faudrait parler de *sociologie politique* plutôt que de science politique. Ce constat a une réalité institutionnelle concrète : les départements de sociologie et de science politique ne recrutent pas les mêmes publics ni les mêmes origines sociales.
 
-Un principe méthodologique central, hérité de Durkheim, est de **traiter les faits sociaux comme des choses** : analyser un fait social avec la même rigueur et la même mise à distance qu'un objet matériel, en rompant avec le sens commun et la familiarité que l'on a spontanément avec l'objet étudié.
+Un principe méthodologique central, hérité de Durkheim, est de **traiter les faits sociaux comme des choses** : analyser un fait social avec la même rigueur et la même mise à distance qu'un objet matériel, en rompant avec le **sens commun** — l'ensemble des préjugés et stéréotypes qui circulent spontanément dans la société — et la familiarité que l'on a spontanément avec l'objet étudié.
 
-Ce travail suppose de distinguer l'**objet social** (ce qui existe empiriquement, tel qu'on le perçoit spontanément) de l'**objet sociologique**, qui est construit activement par le chercheur.
+Ce travail suppose de distinguer l'**objet social** (ce qui existe empiriquement, tel qu'on le perçoit spontanément) de l'**objet sociologique**, qui est construit activement par le chercheur — un problème social n'est pas nécessairement un problème sociologique.
 
-Exemple : Goffman, dans *Asiles*, construit l'objet sociologique « institution totale » par une montée en généralité et une analogie entre des réalités a priori très différentes (prisons, couvents, autres institutions d'enfermement).
+Deux principes fondamentaux, considérés comme aussi incontournables que des axiomes, encadrent toute construction d'un objet politique :
+1. **Un objet social n'est pas un objet sociologique.** Il ne suffit pas qu'un sujet fasse débat socialement pour qu'il constitue un objet scientifique : il faut le construire par une méthode, pas le recevoir tel quel.
+2. **Un acteur individuel n'est jamais totalement conscient de ce qu'il fait, mais jamais non plus totalement inconscient.** Ce principe écarte à la fois les explications par l'acteur parfaitement rationnel et celles par l'acteur purement manipulé. Il implique un corollaire décisif : un individu est toujours **inséré dans un système relationnel** (famille, couple, collectif, nation). Expliquer un comportement (électoral, numérique) sans reconstituer ce système relationnel — sans savoir qui fréquente la personne, par qui elle est influencée, quelle est sa vie réelle — revient à formuler une fausse explication. C'est ce qui invalide la plupart des discours du type « les jeux vidéo causent la violence » ou « les fake news manipulent les individus » : ils ignorent la vie réelle et la socialisation des acteurs concernés.
+
+#### Étude de cas : Goffman et la construction d'un objet politique inédit
+
+L'exemple le plus abouti de construction d'un objet est le travail d'**Erving Goffman** dans *Asiles* (1961). Sociologue de l'école de Chicago, dans les années 1950-1960, Goffman s'intéresse au pouvoir en partant d'un terrain totalement délaissé par la science politique institutionnelle, qui n'étudiait alors que les élections et les institutions officielles.
+
+Sa méthode : une observation ethnographique immersive d'un an dans un hôpital psychiatrique (Sainte-Élisabeth, Washington), où il se fait embaucher comme aide-soignant sans révéler sa qualité de sociologue — accès direct aux pratiques réelles, observation du personnel, étude des rapports de pouvoir internes. Cette immersion de longue durée est présentée comme non négociable pour dépasser le sens commun et produire un savoir réellement scientifique — une poignée d'entretiens ne suffit jamais à faire de la science sociale.
+
+De ce terrain inédit naît le concept d'**institution totale** : un lieu fermé, coupé du monde extérieur, où la vie quotidienne est entièrement organisée par des règles strictes et une hiérarchie forte. Goffman en tire une thèse politique forte : le pouvoir réellement efficace dans les sociétés démocratiques ne se trouve pas dans les urnes, mais dans ces institutions oubliées de la science politique classique — hôpitaux psychiatriques, prisons, casernes, écoles, monde du travail — qui gouvernent les individus en les contrôlant dans des espaces fermés. Paradoxe central : la démocratie, censée être un espace de pluralisme et de tolérance, produit dans le même mouvement des institutions qui enferment et uniformisent.
+
+Trois mécanismes structurent l'institution totale :
+- La **carrière morale** : rupture avec l'identité antérieure, redéfinition de l'identité, apprentissage du rôle attendu, adaptation progressive — observable aussi bien chez un patient hospitalisé que chez un jeune salarié en alternance découvrant les rapports de domination du monde du travail.
+- Les **rites d'admission** : fouille, confiscation des biens, uniformisation, perte d'activité autonome.
+- La **mortification du moi** : appels répétés à l'autonomie mais surveillance constante, évaluation permanente des performances, sanctions et récompenses, production de docilité — un mécanisme directement transposable au management contemporain, à l'économie de l'attention sur les réseaux numériques, ou aux classements de performance scolaire de type PISA (« on est 15e mondial, il faut faire mieux »).
+
+Face à cette mortification, les individus développent des **ajustements secondaires** — détournements discrets du règlement, préservation d'un « moi clandestin » — plutôt qu'une rupture ouverte : fumer avec les surveillants moyennant un arrangement informel, par exemple.
+
+Le concept d'institution totale, construit à partir d'un objet jugé insignifiant par les sociologues de l'époque, est devenu l'une des catégories les plus utilisées en science politique et en sociologie de la déviance, appliquée aujourd'hui aux communautés fermées sur Internet, au monde du travail ou même à un couple toxique.
 
 ### B. Le problème des valeurs
 
-Toute analyse d'un objet politique ou social pose la question du **jugement de valeur**. Max Weber prône la **neutralité axiologique** : suspendre son jugement de valeur personnel pour se concentrer sur ce qui est vraisemblable — une opinion, un sentiment ou une intuition ne constituant en aucun cas une preuve scientifique.
+Toute analyse d'un objet politique ou social pose la question du **jugement de valeur**. Max Weber prône la **neutralité axiologique** (*Essais sur la théorie de la science*, 1917) : suspendre son jugement de valeur personnel pour se concentrer sur ce qui est vraisemblable — une opinion, un sentiment ou une intuition ne constituant en aucun cas une preuve scientifique.
+
+Weber distingue en réalité deux moments bien différents. Le **rapport aux valeurs** (*Wertbeziehung*) intervient en amont : le chercheur choisit son objet d'étude en fonction de sa signification culturelle, donc en fonction de valeurs — ce choix initial, subjectif, est inévitable et légitime. La **distance aux valeurs** (*Werturteilsfreiheit*) intervient ensuite : une fois l'objet choisi, le sociologue s'interdit tout jugement de valeur sur les faits étudiés, séparant l'analyse du réel (« ce qui est ») du jugement normatif (« ce qui doit être »). Le sociologue doit enfin restituer fidèlement la **représentation collective agissante** : les systèmes de valeurs qui font réellement agir les acteurs sociaux, en comprenant le sens qu'ils donnent eux-mêmes à leur action, sans y substituer les siennes.
+
+En pratique, les valeurs s'invitent à quatre étapes de la recherche : le **choix de l'objet** (étudier le populisme ou l'abstention traduit déjà une hiérarchie de ce qui « mérite » d'être connu), les **concepts eux-mêmes** (« démocratie », « développement », « radicalisation » portent une charge normative que le vocabulaire ne peut effacer), les **indicateurs retenus** (mesurer la « qualité démocratique » suppose de fixer en amont ce qui compte comme un résultat désirable), et l'**interprétation des résultats** (un même taux d'abstention ou de corruption peut être lu comme une crise ou comme une régulation selon le cadre théorique adopté).
+
+Trois postures répondent à ce problème. La **neutralité axiologique** wébérienne (ci-dessus) reste l'idéal régulateur classique. Les **approches critiques** (École de Francfort, épistémologies féministes et postcoloniales) assument au contraire un **engagement** : pour elles, la neutralité complète est un leurre, et il vaut mieux expliciter le point de vue et la finalité émancipatrice de la recherche. Bourdieu propose une troisième voie, la **réflexivité** : objectiver la position sociale et scolastique du chercheur lui-même, pour maîtriser — sans l'annuler complètement — l'effet des valeurs sur la construction de l'objet. En pratique, la neutralité complète reste un idéal régulateur : l'enjeu est moins de l'atteindre que d'expliciter, à chaque étape, les choix qui l'engagent.
+
+Des cas concrets illustrent ce que révèlent les études postcoloniales et les *gender studies* lorsqu'elles interrogent la neutralité affichée de la science politique classique. Edward Said (*Orientalism*, 1978) montre que les *area studies* occidentales ont façonné un savoir sur « l'Orient » calqué sur les besoins impériaux, tout en se présentant comme une description neutre et savante. W. W. Rostow (*Les étapes de la croissance*, 1960) érige la trajectoire industrielle occidentale en norme universelle : le « développement » devient un jugement de valeur déguisé en indicateur. Linda Tuhiwai Smith (*Decolonizing Methodologies*, 1999) montre que les protocoles d'enquête eux-mêmes — qui consent, qui restitue, qui publie — portent des présupposés occidentaux que la démarche scientifique doit expliciter plutôt qu'ignorer. Côté *gender studies* : Carole Pateman (*The Sexual Contract*, 1988) montre que le partage classique entre sphère publique et sphère privée a naturalisé l'exclusion des femmes de la sphère « politique » ; les enquêtes électorales de Columbia et du Michigan (1950-1970s) ont longtemps supposé que le vote des femmes suivait celui de leur mari, masquant des écarts de préférences jamais mesurés ; être pour ou contre les quotas de genre (Drude Dahlerup, Mona Lena Krook) dépend d'une conception de l'égalité — d'opportunité ou de résultat — que la recherche ne peut trancher de façon purement descriptive.
 
 Cette exigence est elle-même questionnée : selon **Léo Strauss**, la suspension totale du jugement de valeur devient insupportable dans certains cas limites (l'exemple typique étant celui des camps de concentration), posant frontalement la question du relativisme scientifique. Certains jugements de valeur seraient donc légitimes, voire nécessaires.
+
+Un point de méthode connexe, illustré par Ulrich Beck (*La Société du risque*) : des chercheurs et des acteurs sociaux peuvent employer un même vocabulaire (« le risque ») sans jamais le définir précisément — d'où l'exigence de toujours faire l'histoire du concept mobilisé avant de l'utiliser, plutôt que de le tenir pour évident.
 
 Cette question des valeurs est décrite comme consubstantielle à l'analyse de tout objet social et politique : les résultats scientifiques eux-mêmes, à un moment donné, sont toujours en partie portés par des valeurs. Cela explique que la science politique et la sociologie pratiquées ne soient pas les mêmes d'une université à l'autre.
 
@@ -372,6 +515,10 @@ La **méthode socio-historique (ou idéal-typique)**, héritée de Max Weber, co
 Elle est illustrée par des travaux sur la violence politique, notamment en Espagne — un objet limite de la science politique empirique où le poids de l'histoire longue (60 ans de conflit basque, franquisme) reste omniprésent dans le débat public espagnol contemporain.
 
 La **méthode expérimentale (causalité statistique)**, fondée en France par Durkheim avec *Le Suicide*, s'appuie sur l'analyse de grands ensembles de données. Elle connaît aujourd'hui un essor important, renforcé par les outils d'intelligence artificielle capables de repérer des corrélations à grande échelle, mais reste concurrencée en légitimité par la méthode socio-historique, en particulier pour les objets où le contexte historique et les configurations locales jouent un rôle déterminant.
+
+Ces deux méthodes correspondent à deux postures : l'**explication**, tradition durkheimienne fondée sur la causalité entre phénomènes sociaux et censée déboucher sur des lois et des régularités ; et la **compréhension**, chez Weber, qui ne vise pas une analyse nomologique mais la recherche du sens et des significations que les individus attribuent eux-mêmes à leur action, en la resituant dans son contexte historique. Cette distinction reste cependant largement artificielle : dans la pratique de la recherche, explication et compréhension sont intimement liées et se confondent le plus souvent.
+
+Le mot d'ordre du cours pour cette partie est de savoir **prouver** : à l'ère de la prolifération d'opinions et de la polarisation algorithmique, la plupart des discours explicatifs spontanés (« c'est parce que… ») ne sont pas étayés. Exemple classique : l'analyse des mouvements sociaux et de la violence militante s'appuie sur la théorie des mobilisations (sociologie américaine des mouvements sociaux ; voir aussi Éric Neveu, *Sociologie des mouvements sociaux*), plutôt que sur une explication intuitive et non vérifiée.
 
 ### D. Le problème de l'agentivité
 
@@ -504,15 +651,56 @@ La question de l'**oligarchie** s'insère à cet endroit. Elle est à l'origine 
 
 Son enjeu méthodologique est décisif : faute d'analyse scientifique de la monopolisation réelle du pouvoir, l'analyse bascule dans le **complotisme**. La frontière entre les deux s'est révélée particulièrement ténue lors de la crise du Covid et des débats sur le vaccin. Toute la difficulté est de savoir dans quelle mesure on est empiriquement capable d'évaluer le niveau de concentration du pouvoir.
 
+### E. Le classement PISA : performance affichée, inégalités mesurées
+
+Le classement PISA (Programme international pour le suivi des acquis des élèves) est un cas d'école de **performativité politique**. C'est une enquête internationale, financée par les États, qui interroge chaque année des élèves de troisième sur des épreuves de mathématiques et de lecture, et qui classe les pays entre eux (la France se situant autour de la 27e place parmi les pays de l'OCDE).
+
+Le traitement médiatique de ce classement (« les élèves français sont nuls », titres du *Monde*, de *Libération*, de *France Info*) présente PISA comme la mesure d'un niveau scolaire objectif et intrinsèque, comparable d'un pays à l'autre indépendamment de leurs configurations socio-historiques respectives.
+
+Or, empiriquement, ce que PISA mesure d'abord, ce sont les **inégalités scolaires** et non un niveau global d'intelligence : les élèves les plus en difficulté sont systématiquement ceux issus des quartiers les plus pauvres, ce que confirment les statistiques du ministère de l'Éducation nationale (l'échec scolaire y est concentré sur les catégories les plus pauvres). Ce déplacement de lecture — de l'inégalité sociale vers un discours sur l'intelligence — a des effets politiques directs et concrets : discours de l'« excellence » et séparation des « bons » et des « mauvais » élèves (présent par exemple au programme de l'AfD en Allemagne), justification d'un séparatisme scolaire et d'un évitement de la mixité sociale par les familles les mieux informées.
+
+```
+Enquête PISA (mesure objectivée) → titres médiatiques (« on est nuls »)
+   → discours politique de l'excellence → séparatisme scolaire, évitement de la mixité
+```
+
+Ce cas illustre directement la thèse de Bourdieu (*Les Héritiers*, 1964, largement absente du traitement médiatique du classement) : un instrument statistique présenté comme neutre peut produire, une fois politisé, un effet quasiment inverse de ce qu'il mesure réellement.
+
+### F. L'élection de l'AfD dans un Land allemand : sur-interprétation et exigence de preuve
+
+L'analyse médiatique de l'élection de l'AfD dans un petit Land allemand (environ 2 millions d'habitants sur les 80 millions que compte l'Allemagne) illustre le risque de sur-interprétation propre à la politisation à outrance.
+
+Sur un plateau de télévision, un éditorialiste réputé (rattaché à un magazine de géopolitique influent, lui-même pur produit de la méritocratie scolaire française) avance une explication assurée et sophistiquée du vote AfD : il l'attribue aux réseaux numériques et aux personnes âgées, et invente au passage une catégorie ad hoc, le « populisme boomer ».
+
+Une historienne présente sur le même plateau oppose alors des données électorales réelles (sondages sortis des urnes par tranche d'âge) : contrairement à l'explication avancée, ce sont en réalité les 35-60 ans qui votent proportionnellement le plus pour l'AfD, pas les personnes âgées.
+
+```
+Explication intuitive, brillante, médiatiquement légitime (réseaux + personnes âgées)
+   ≠
+Donnée empirique vérifiée (sondages sortis des urnes par âge) → 35-60 ans, pas les personnes âgées
+```
+
+La leçon méthodologique est double : la légitimité médiatique et rhétorique d'un discours (aisance oratoire, position institutionnelle prestigieuse) n'est en rien une garantie de validité empirique ; et l'**agentivité** — la tendance à vouloir absolument une explication immédiate et cohérente — conduit à des catégories inventées sur le moment plutôt qu'à des catégories construites et vérifiées. C'est très exactement contre ce risque que la science politique empirique doit lutter en permanence.
+
 <!-- SOURCES INTÉGRÉES
-- Science po 1-transcript.txt
-- Science po 2-transcript.txt
-- Science po 3-transcript.txt
-- CM2-sciencePO.odt
-- science-po.odt
-- ArchitectureMouvement du cours (1).pptx
-- l1_s1_sc_po_ferret-goncz-demonsant(2).docx
-- ELEAA1 - PG Science politique empirique.pdf
-- science po 4-transcript.txt
-- CM3.odt
+- Science po 1-transcript ✅.txt
+- Science po 2-transcript ✅.txt
+- Science po 3-transcript ✅.txt
+- CM2-sciencePO ✅.odt
+- science-po ✅.odt
+- ArchitectureMouvement du cours (1) ✅.pptx
+- l1_s1_sc_po_ferret-goncz-demonsant(2) ✅.docx
+- ELEAA1 - PG Science politique empirique ✅.pdf
+- science po 4-transcript partie 2 ✅.txt
+- CM3 ✅.odt
+- Science po 4 pt1-transcript ✅.txt
+- science po 5-transcript ✅.txt
+- CM5et6.odt (renommage en attente : fichier verrouillé par LibreOffice au moment du traitement)
+- SlidesPolitisationProblèmes ✅.docx
+- SynthèseI.docx (renommage en attente : fichier verrouillé par LibreOffice au moment du traitement)
+- Bourdieu_Culture_et_politique ✅.pptx
+- Bourdieu_Jeunesse_mot ✅.pptx
+- delinquance_stats ✅.pptx
+- valeurs_science_politique(1) ✅.pptx
+- weber_neutralite_axiologique ✅.pptx
 -->
