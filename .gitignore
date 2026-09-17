@@ -9,8 +9,9 @@
 /science po/
 *.url
 
-# Définition interne du skill — pas une note
+# Définition interne des skills — pas une note (transcriptor.md contient un champ de clé API)
 /skill.md
+/transcriptor.md
 
 # Copies/artefacts internes des notes — pas publiés (le .md fait foi)
 */*.txt
