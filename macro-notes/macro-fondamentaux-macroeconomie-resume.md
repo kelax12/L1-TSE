@@ -22,6 +22,10 @@
 - **IDH** : PIB/tête (PPA) + espérance de vie + instruction, entre 0 et 1.
 - **Rapport interdécile P90/P10** et **coefficient de Gini** (0 à 1) : mesures d'inégalité des revenus.
 
+### Analyse graphique de la croissance
+- **Graphique semi-logarithmique** : échelle arithmétique en abscisse (temps), échelle logarithmique en ordonnée (variable) ; la pente correspond au taux de croissance.
+- **Rupture de tendance** : changement de pente = changement du taux de croissance.
+
 ### Emploi, chômage, inflation
 - **Population active** = actifs occupés + chômeurs. **Taux de chômage** = chômeurs / population active.
 - **Chômage frictionnel** (incompressible, ~3-4 %), **classique** (rigidités du marché du travail), **conjoncturel/keynésien** (demande insuffisante).
@@ -63,7 +67,13 @@ Long terme : capital fixe/tête, technologie, capital humain, ressources naturel
 
 ### 2.12 Taux de croissance
 
-$\tau = \dfrac{V_{t+1}-V_t}{V_t}\times100$. Les taux de croissance ne s'additionnent pas directement ; pour un produit $z=xy$, $\%z \approx \%x + \%y$ (ex : PIB/tête = PIB - population en taux de variation). Graphique semi-logarithmique : une croissance constante s'y représente par une droite.
+$\tau = \dfrac{V_{t+1}-V_t}{V_t}\times100$. Les taux de croissance ne s'additionnent pas directement ; pour un produit $z=xy$, $\%z \approx \%x + \%y$ (ex : PIB/tête = PIB - population en taux de variation). Taux de croissance moyen : $\tau_{moyen} = (V_N/V_0)^{1/N} - 1$.
+
+### 2.13-2.14 Fonction de tendance et graphique semi-logarithmique
+
+Pour savoir si le taux de croissance d'une variable est croissant, décroissant ou constant dans le temps : exprimer le taux de croissance à partir de la fonction de tendance, puis étudier son comportement quand $t$ augmente. Une tendance **affine** ($PIB_t=At+B$) donne un taux de croissance **décroissant** dans le temps ($\tau_t = A/(At+B)$) ; une tendance **exponentielle** ($PIB_t=Ce^{kt}$) donne un taux **constant** ($\tau_t=e^k-1$).
+
+Le graphique semi-logarithmique (abscisse arithmétique, ordonnée logarithmique) a trois utilités : représenter des variables aux valeurs très écartées ; montrer le taux de croissance via la pente (une croissance constante = un segment de droite) ; montrer les ruptures de tendance via un changement de pente. Exemple : le PIB français 1870-aujourd'hui — guerres mondiales et ralentissement post-1973 (fin des Trente Glorieuses) bien visibles.
 
 ## 3. Emploi et chômage
 

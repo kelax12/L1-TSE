@@ -448,3 +448,24 @@ Que les participants contribuent malgré tout, mais de moins en moins au fil des
 
 
 Le comportement observé des autres joueurs (effet d'imitation), davantage que le seul altruisme individuel.
+
+
+
+### 6. Tableau de synthèse des jeux étudiés
+
+58. Parmi les jeux du chapitre, lequel est le seul dont l'équilibre en stratégie dominante est à la fois efficace et réalisé en pratique ?
+
+
+La main invisible (marché concurrentiel).
+
+
+59. Le dilemme du prisonnier et la main invisible ont tous deux un équilibre en stratégie dominante : qu'est-ce qui les distingue ?
+
+
+L'efficacité de cet équilibre — efficace pour la main invisible, inefficace pour le dilemme du prisonnier.
+
+
+60. Pourquoi la guerre des sexes n'a-t-elle pas d'équilibre en stratégie dominante alors que les autres jeux du chapitre en ont un ?
+
+
+Parce que la meilleure réponse de chaque joueur dépend du choix de l'autre : il n'existe donc pas de stratégie optimale quelle que soit la stratégie adverse, d'où plusieurs équilibres de Nash au lieu d'un équilibre en stratégie dominante.

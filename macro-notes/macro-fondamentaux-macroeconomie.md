@@ -53,6 +53,11 @@ Le cours de macroéconomie se découpe en trois grandes parties qui s'enchaînen
 - **Chômage classique** : chômage dû aux rigidités du marché du travail (salaire minimum, difficultés de licenciement) qui découragent l'embauche.
 - **Chômage conjoncturel (ou keynésien)** : chômage dû à une insuffisance de la demande de biens et services, qui pousse les entreprises à produire peu et à ne pas embaucher ; il varie avec le cycle d'affaires.
 
+### Analyse graphique de la croissance
+
+- **Graphique semi-logarithmique** : graphique combinant une échelle arithmétique en abscisse (le temps) et une échelle logarithmique — généralement en base 10 — en ordonnée (la variable représentée). Il permet de mieux représenter des variables dont les valeurs présentent un écart important, et la pente de la courbe y correspond directement au taux de croissance de la variable représentée.
+- **Rupture de tendance** : changement de la pente d'une variable représentée graphiquement, qui traduit un changement (accélération ou ralentissement) de son taux de croissance.
+
 ### Niveau général des prix et inflation
 
 - **Inflation** : hausse générale et durable du niveau des prix.
@@ -306,8 +311,52 @@ Quelques règles de calcul à connaître :
 
 - **On ne peut pas additionner ou soustraire des taux de croissance successifs.** Une variable qui augmente de 30 % puis de 40 % n'augmente pas de 70 % au total (le calcul correct part de $V_0=100$ : $V_1 = 130$, puis $V_2 = 130\times1{,}4 = 182$, soit $+82\%$, et non $+70\%$). De même, une variable qui augmente de 41 % puis diminue de 29 % ne varie pas de $+12\%$ au total : $V_1 = 141$, $V_2 = 141\times0{,}71 \approx 100{,}1$, elle retrouve quasiment son niveau initial.
 - **Pour un produit de deux variables, les taux de variation s'additionnent (approximativement).** Si $z = xy$, et que $x$ varie de $\Delta\%x$ et $y$ de $\Delta\%y$, alors $z$ varie approximativement de $\Delta\%x + \Delta\%y$. Application : le PIB par tête $y = Y/N$ (avec $Y$ le PIB et $N$ la population), donc $Y = Ny$ et $\%Y \approx \%N + \%y$, soit $\%y \approx \%Y - \%N$ : le PIB/tête d'un pays augmente lorsque la croissance du PIB est plus forte que celle de la population.
-- **Le taux de croissance annuel moyen** sur plusieurs années se calcule en résolvant l'équation reliant le niveau initial, le niveau final et le nombre d'années, et non en faisant une simple moyenne arithmétique des taux annuels successifs.
-- **Graphique semi-logarithmique** : graphique où l'échelle des abscisses est arithmétique et celle des ordonnées est logarithmique (la distance entre 1 et 10 est la même qu'entre 10 et 100, ou qu'entre 100 et 1000). Dans un tel graphique, une variable dont le taux de croissance est constant apparaît comme une droite, dont la pente correspond au taux de croissance de la variable représentée. Ce type de graphique est utile pour comparer visuellement l'évolution d'une variable sur longue période (par exemple le PIB français de 1870 à 1997).
+- **Le taux de croissance annuel moyen** sur plusieurs années se calcule en résolvant l'équation reliant le niveau initial, le niveau final et le nombre d'années, et non en faisant une simple moyenne arithmétique des taux annuels successifs :
+
+$$\tau_{moyen} = \left(\frac{V_N}{V_0}\right)^{1/N} - 1$$
+
+où $V_0$ est le niveau initial (année 0), $V_N$ le niveau final au bout de $N$ années, et $N$ le nombre d'années écoulées. Exemple : le taux de croissance moyen du PIB par tête mondial entre l'an 1000 (PIB/tête ≈ 420) et 1820 se calcule ainsi : $\tau_{moyen} = (680/420)^{1/(1820-1000)} - 1 \approx 0{,}06\%$ par an — un taux extrêmement faible, cohérent avec le piège malthusien évoqué dans le préambule du cours.
+
+- **Graphique semi-logarithmique** : voir section 2.14 pour ses propriétés et un exemple détaillé.
+
+### 2.13 Déterminer l'évolution du taux de croissance à partir de la fonction de tendance
+
+Le PIB est une **variable chronologique** : son évolution dans le temps peut être représentée, à des fins d'analyse, par une fonction mathématique de tendance. Pour déterminer si le taux de croissance associé à cette tendance est croissant, décroissant ou constant au fil du temps, la méthode est systématiquement la même : exprimer le taux de croissance entre $t$ et $t+1$ à partir de la fonction de tendance, puis étudier le comportement de cette expression lorsque $t$ augmente.
+
+**Cas d'une tendance affine.** Si la tendance du PIB est modélisée par une fonction affine $PIB_t = At + B$ (avec $A, B > 0$ — $A$ correspond à la pente, $B$ à l'ordonnée à l'origine), le taux de croissance entre $t$ et $t+1$ vaut :
+
+$$\tau_t = \frac{A(t+1)+B - (At+B)}{At+B} = \frac{A}{At+B}$$
+
+Cette expression reste toujours positive (le PIB continue de croître), mais son dénominateur $At+B$ augmente avec $t$ : le taux de croissance est donc **décroissant** dans le temps — de plus en plus faible à mesure que $t$ augmente, alors même que le PIB, lui, continue d'augmenter en valeur absolue.
+
+**Cas d'une tendance exponentielle.** Si la tendance du PIB est modélisée par une fonction exponentielle du type $PIB_t = C \cdot e^{kt}$ (avec $C, k > 0$), le taux de croissance entre $t$ et $t+1$ vaut :
+
+$$\tau_t = \frac{C e^{k(t+1)} - C e^{kt}}{C e^{kt}} = e^{k} - 1$$
+
+Cette expression ne dépend plus de $t$ : le taux de croissance est donc **constant** dans le temps, contrairement au cas d'une tendance affine.
+
+**Conclusion méthodologique.** Une tendance du PIB n'est pas nécessairement modélisée par une fonction affine — de nombreuses fonctions mathématiques sont possibles selon le phénomène étudié. Le raisonnement à appliquer reste cependant toujours identique : calculer l'expression du taux de croissance à partir de la fonction de tendance retenue, puis étudier son signe et son comportement en fonction de $t$ pour conclure quant à la croissance, la décroissance ou la constance du taux de croissance.
+
+### 2.14 Le graphique semi-logarithmique : propriétés et exemple
+
+Un graphique semi-logarithmique combine deux échelles différentes : une échelle **arithmétique** en abscisse (le temps) et une échelle **logarithmique** en ordonnée (les valeurs de la variable représentée), généralement en base 10 — la distance entre 1 et 10 y est égale à la distance entre 10 et 100, ou entre 100 et 1000.
+
+Ce type de graphique présente trois propriétés utiles pour l'économiste :
+
+1. **Il permet de mieux représenter des variables dont les valeurs présentent un écart important** (par exemple un PIB qui passe de quelques milliers à plusieurs dizaines de milliers d'unités sur la période étudiée) — un graphique à échelle arithmétique classique devient vite illisible dans ce cas, alors que l'échelle logarithmique compresse ces écarts.
+2. **La pente de la courbe correspond au taux de croissance de la variable représentée.** Plus la pente est forte, plus le taux de croissance est élevé. Une variable dont le taux de croissance est **constant** est donc représentée par un **segment de droite** (et non une courbe), contrairement à un graphique à échelle arithmétique classique.
+3. **Un changement de pente traduit une rupture de tendance**, c'est-à-dire un changement du taux de croissance de la variable représentée : un segment plus pentu qu'un autre indique une accélération de la croissance, un segment moins pentu indique un ralentissement.
+
+**Illustration : le PIB français sur longue période (1870 à aujourd'hui).** Représenté sur une échelle arithmétique classique, le PIB français sur toute la période est difficile à lire (les ruptures liées aux deux guerres mondiales y sont à peine perceptibles). Représenté sur une échelle semi-logarithmique, deux éléments ressortent nettement :
+
+- les ruptures de tendance dues aux deux guerres mondiales apparaissent clairement comme des cassures de pente (fortes décroissances du PIB), quasi invisibles sur le graphique classique ;
+- la période des **Trente Glorieuses** (1945 – milieu des années 1970) se lit comme un segment de droite à forte pente, traduisant une croissance forte et régulière ; elle est suivie d'un segment nettement moins pentu après le choc pétrolier du milieu des années 1970 — la rupture de tendance à la jonction des deux segments correspond au ralentissement durable de la croissance après 1973 (voir section 2.10-2.11).
+
+**Exemple chiffré : une variable qui double chaque année.** On part d'une valeur initiale $V_0 = 2000$, qui double chaque année ($V_1=4000$, $V_2=8000$, $V_3=16000$…) — soit un taux de croissance annuel constant de 100 %.
+
+Sur un graphique à échelle arithmétique classique, ces valeurs deviennent vite difficiles à représenter sur un même axe, l'écart entre les premières et les dernières années étant trop important. Sur un graphique semi-logarithmique, en représentant le logarithme décimal de chaque valeur ($\log_{10}(2000)\approx3{,}3$ ; $\log_{10}(4000)\approx3{,}6$ ; $\log_{10}(8000)\approx3{,}9$…), la variable est représentée par un segment de droite, dont la pente traduit le taux de croissance constant de 100 %.
+
+Si, à partir d'une certaine année, le taux de croissance de cette variable passait de 100 % à 120 %, la pente du segment deviendrait plus forte à partir de cette année (accélération, rupture de tendance visible) ; s'il passait au contraire de 100 % à 70 %, la pente deviendrait plus faible (ralentissement).
 
 ## 3. Emploi et chômage
 
@@ -449,4 +498,5 @@ Depuis les années 1980, les modèles macroéconomiques intègrent de plus en pl
 - MACRO 4-transcript ✅.txt
 - macro5-transcript-DRAFT ✅.txt
 - CM3 ✅.odt
+- macro 6-transcript ✅.txt
 -->

@@ -408,116 +408,170 @@ Lorsque la croissance du PIB ($\%Y$) est plus forte que la croissance de la popu
 
 Une variable dont le taux de croissance est constant ; la pente de la droite correspond à ce taux de croissance.
 
+
+
+69. Quelle est la formule explicite du taux de croissance annuel moyen entre l'année 0 (niveau $V_0$) et l'année N (niveau $V_N$) ?
+
+$\tau_{moyen} = (V_N/V_0)^{1/N} - 1$.
+
+
+
+70. Quelle est la méthode générale pour déterminer si le taux de croissance d'une variable, dont on connaît la fonction de tendance, est croissant, décroissant ou constant dans le temps ?
+
+Exprimer le taux de croissance entre $t$ et $t+1$ à partir de la fonction de tendance, puis étudier le signe et le comportement de cette expression quand $t$ augmente.
+
+
+
+71. Si la tendance du PIB est modélisée par une fonction affine $PIB_t = At+B$ (avec $A,B>0$), comment évolue son taux de croissance dans le temps ?
+
+Il est décroissant : $\tau_t = A/(At+B)$, dont le dénominateur augmente avec $t$, bien que le PIB continue lui-même d'augmenter.
+
+
+
+72. Si la tendance du PIB est modélisée par une fonction exponentielle $PIB_t = C\cdot e^{kt}$ (avec $C,k>0$), comment évolue son taux de croissance dans le temps ?
+
+Il est constant : $\tau_t = e^{k} - 1$, une expression qui ne dépend plus de $t$.
+
+
+
+73. Quels sont les deux axes d'un graphique semi-logarithmique et quelle échelle porte chacun ?
+
+L'abscisse (le temps) porte une échelle arithmétique ; l'ordonnée (la variable représentée) porte une échelle logarithmique, généralement en base 10.
+
+
+
+74. Citez les trois propriétés utiles du graphique semi-logarithmique pour l'économiste.
+
+(1) Il représente mieux des variables aux valeurs très écartées ; (2) la pente de la courbe correspond au taux de croissance de la variable (un taux constant donne un segment de droite) ; (3) un changement de pente traduit une rupture de tendance.
+
+
+
+75. Qu'est-ce qu'une rupture de tendance sur un graphique semi-logarithmique ?
+
+Un changement de la pente de la courbe, qui traduit un changement (accélération ou ralentissement) du taux de croissance de la variable représentée.
+
+
+
+76. Sur le graphique semi-logarithmique du PIB français depuis 1870, qu'observe-t-on à la jonction du segment correspondant aux Trente Glorieuses et du segment suivant ?
+
+Une rupture de tendance au milieu des années 1970 : la pente devient nettement plus faible, traduisant le ralentissement durable de la croissance après le choc pétrolier (fin des Trente Glorieuses).
+
+
+
+77. Une variable double chaque année en partant de $V_0=2000$. Quel est son taux de croissance annuel, et comment se représente-t-elle sur un graphique semi-logarithmique ?
+
+Un taux de croissance constant de 100 % ; elle se représente par un segment de droite.
+
 ## 3. Emploi et chômage
 
-69. Quelle est la formule du taux de chômage ?
+78. Quelle est la formule du taux de chômage ?
 
 $\tau_{chômage} = \dfrac{\text{nombre de chômeurs}}{\text{population active}} \times 100$.
 
 
 
-70. Qui sont les inactifs, par opposition à la population active ?
+79. Qui sont les inactifs, par opposition à la population active ?
 
 Un ensemble disparate de personnes : enfants, étudiants, personnes âgées, personnes au foyer.
 
 
 
-71. Quel est l'ordre de grandeur du chômage frictionnel dans la plupart des économies développées ?
+80. Quel est l'ordre de grandeur du chômage frictionnel dans la plupart des économies développées ?
 
 Environ 3 % à 4 %.
 
 
 
-72. Le chômage classique reflète quel type de problème sur le marché du travail ?
+81. Le chômage classique reflète quel type de problème sur le marché du travail ?
 
 Des rigidités (salaire minimum, difficultés de licenciement) qui découragent l'embauche par les entreprises.
 
 
 
-73. À quoi le chômage conjoncturel (keynésien) est-il dû ?
+82. À quoi le chômage conjoncturel (keynésien) est-il dû ?
 
 À une demande de biens et services insuffisante, qui pousse les entreprises à produire peu et à ne pas embaucher.
 
 ## 4. Niveau général des prix et inflation
 
-74. Pourquoi une inflation non anticipée redistribue-t-elle des revenus des prêteurs vers les emprunteurs ?
+83. Pourquoi une inflation non anticipée redistribue-t-elle des revenus des prêteurs vers les emprunteurs ?
 
 Parce que les euros remboursés ont, à cause de l'inflation, un pouvoir d'achat moindre que celui prévu au moment du prêt.
 
 
 
-75. Quelle est la formule reliant taux d'intérêt nominal, réel et inflation anticipée ?
+84. Quelle est la formule reliant taux d'intérêt nominal, réel et inflation anticipée ?
 
 $i = r + \pi^e$ (taux nominal = taux réel + taux d'inflation espéré).
 
 
 
-76. Un prêteur anticipe 10 % d'inflation et veut un rendement réel de 4 %. Quel taux d'intérêt nominal va-t-il proposer ?
+85. Un prêteur anticipe 10 % d'inflation et veut un rendement réel de 4 %. Quel taux d'intérêt nominal va-t-il proposer ?
 
 14 % (10 % + 4 %).
 
 
 
-77. Quelle est la formule du taux d'inflation entre les dates t et t+1 ?
+86. Quelle est la formule du taux d'inflation entre les dates t et t+1 ?
 
 $\pi_{t,t+1} = \dfrac{p_{t+1} - p_t}{p_t} \times 100$, où $p_t$ est le niveau général des prix.
 
 
 
-78. Quelle est la formule du déflateur du PIB à la date t ?
+87. Quelle est la formule du déflateur du PIB à la date t ?
 
 $p_t = \dfrac{PIB_{nominal,t}}{PIB_{réel,t}} \times 100$.
 
 
 
-79. Sur quelle base de pondération repose l'indice des prix à la consommation (IPC) ?
+88. Sur quelle base de pondération repose l'indice des prix à la consommation (IPC) ?
 
 Les quantités consommées par un ménage représentatif à l'année de base (panier fixe).
 
 
 
-80. Quelle est la principale différence de champ couvert entre le déflateur du PIB et l'IPC ?
+89. Quelle est la principale différence de champ couvert entre le déflateur du PIB et l'IPC ?
 
 Le déflateur couvre tous les B&S finals produits sur le territoire national ; l'IPC couvre seulement les B&S achetés par les ménages, quelle que soit leur origine.
 
 
 
-81. Pourquoi la perception de l'inflation par les ménages peut-elle différer de l'IPC mesuré ?
+90. Pourquoi la perception de l'inflation par les ménages peut-elle différer de l'IPC mesuré ?
 
 Parce que les ménages retiennent surtout la hausse des prix des achats courants et « oublient » les baisses de prix dont ils ont profité sur d'autres postes.
 
 ## 5. Méthodes d'analyse de la macroéconomie
 
-82. Quelles sont les quatre étapes de la démarche scientifique en macroéconomie ?
+91. Quelles sont les quatre étapes de la démarche scientifique en macroéconomie ?
 
 Observer et décrire les données ; expliquer via des théories/modèles ; confronter les prédictions aux données ; éventuellement prévoir l'évolution future.
 
 
 
-83. « Augmenter le taux d'intérêt encourage les ménages à épargner » est-elle une affirmation positive ou normative ?
+92. « Augmenter le taux d'intérêt encourage les ménages à épargner » est-elle une affirmation positive ou normative ?
 
 Positive (c'est un constat factuel, pas un jugement de valeur).
 
 
 
-84. « Le taux d'imposition des ménages pauvres devrait être plus faible que celui des ménages riches » est-elle une affirmation positive ou normative ?
+93. « Le taux d'imposition des ménages pauvres devrait être plus faible que celui des ménages riches » est-elle une affirmation positive ou normative ?
 
 Normative (c'est un jugement de valeur sur ce qui devrait être).
 
 
 
-85. Quelle est la différence entre le modèle néoclassique à prix flexibles et le modèle néo-keynésien à prix rigides ?
+94. Quelle est la différence entre le modèle néoclassique à prix flexibles et le modèle néo-keynésien à prix rigides ?
 
 Le premier suppose que les prix s'ajustent pour équilibrer l'offre et la demande ; le second suppose des prix fixes, pour étudier l'impact de rigidités réalistes à court terme.
 
 
 
-86. Le modèle à prix rigides est-il plutôt utile pour étudier le court terme ou le long terme ?
+95. Le modèle à prix rigides est-il plutôt utile pour étudier le court terme ou le long terme ?
 
 Le court terme (l'impact immédiat d'un changement exogène, avant ajustement complet des prix).
 
 
 
-87. Depuis les années 1980, comment les modèles macroéconomiques ont-ils évolué ?
+96. Depuis les années 1980, comment les modèles macroéconomiques ont-ils évolué ?
 
 Ils intègrent de plus en plus de bases microéconomiques, avec des agents représentatifs (consommateurs, entreprises, État) qui maximisent leur utilité.

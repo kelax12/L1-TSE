@@ -752,101 +752,137 @@ Un biais cognitif naturel consistant à attribuer une cause intentionnelle à de
 
 Pour éviter une lecture excessivement volontariste ou complotiste des faits sociaux, alors que certains résultent de dynamiques structurelles non voulues par un acteur identifiable.
 
+
+
+126. Quelle expérience de psychologie sociale de 1944 est à l'origine de la mise en évidence du biais d'agentivité ?
+
+Une animation montrant des formes géométriques (triangles, ronds, rectangle) se déplaçant de manière totalement aléatoire dans un cadre : une large majorité des spectateurs attribue spontanément à ces mouvements une intention et une logique causale, alors qu'il s'agit de pur hasard.
+
+
+
+127. Qu'est-ce que la « magie sociale » ?
+
+Une forme de biais d'agentivité consistant à accorder aux hommes et femmes politiques des qualités quasi surnaturelles (charisme) expliquant à elles seules un changement politique, plutôt que d'analyser les causes non intentionnelles réelles.
+
+
+
+128. Qu'est-ce que la théorie des champs de Pierre Bourdieu, appliquée à l'explication du changement politique ?
+
+Un cadre selon lequel un changement radical (politique, artistique, musical) suppose un alignement exceptionnel de plusieurs causes non intentionnelles (individus porteurs du changement, basculement d'institutions comme l'armée ou la police, conditions économiques et sociales) — un alignement rare, de l'ordre d'une à trois fois par siècle.
+
+
+
+129. Pourquoi les structures profondes d'un champ (politique, artistique) ont-elles structurellement intérêt à ne pas changer, selon la théorie des champs ?
+
+Parce que ceux qui détiennent le pouvoir dans ce champ en tirent une rétribution matérielle et symbolique, ce qui les incite rationnellement à préserver le statu quo malgré les discours de changement.
+
+
+
+130. Citez deux exemples de bascules politiques majeures présentées en cours comme le produit de causes non intentionnelles contingentes plutôt que d'une logique historique écrite à l'avance.
+
+La tentative de coup d'État espagnole de 1981 (échec dû au refus du roi d'Espagne de soutenir les généraux putschistes) et la révolution iranienne de 1979 (Khomeini) — deux bascules qui se sont jouées en quelques jours.
+
+
+
+131. Qu'illustre la formule « il faut que tout change pour que rien ne change », tirée du film *Le Guépard* de Visconti (1961) ?
+
+L'illusion d'un changement radical porté par un individu providentiel, qui masque en réalité la permanence des structures profondes du pouvoir.
+
 ## III. De la politisation à l'action publique
 
 ### A. Le cycle complet, de la situation sociale aux effets
 
-126. Quelles sont les étapes du cycle allant de la situation sociale aux effets des politiques publiques ?
+132. Quelles sont les étapes du cycle allant de la situation sociale aux effets des politiques publiques ?
 
 Situation sociale → problématisation → publicisation → mise sur agenda → définition institutionnelle → choix des instruments → mise en œuvre → effets.
 
 
 
-127. Qu'est-ce que la problématisation ?
+133. Qu'est-ce que la problématisation ?
 
 Le moment où une situation sociale ordinaire devient l'objet d'une controverse et cesse d'être perçue comme allant de soi.
 
 
 
-128. Qu'est-ce que la publicisation ?
+134. Qu'est-ce que la publicisation ?
 
 La mise en discussion publique d'un problème une fois problématisé — étape qui peut rester sans suite pendant des années.
 
 ### B. La traduction en langage institutionnel
 
-129. Qu'appelle-t-on la « traduction » d'un problème public ?
+135. Qu'appelle-t-on la « traduction » d'un problème public ?
 
 La reformulation d'un problème reconnu dans le langage institutionnel et dans celui des politiques publiques.
 
 
 
-130. Quelles questions le chercheur doit-il écarter au moment d'analyser une politique publique ?
+136. Quelles questions le chercheur doit-il écarter au moment d'analyser une politique publique ?
 
 Les questions morales et théoriques (« qu'est-ce qu'il faudrait faire ? »), au profit de la mesure de ce qui se fait ou ne se fait pas.
 
 ### C. Instruments, mise en œuvre et effets
 
-131. Que sont les instruments d'action publique ?
+137. Que sont les instruments d'action publique ?
 
 Les moyens concrets d'une politique : budgets, incitations fiscales ou budgétaires, discrimination positive, personnels affectés, dispositifs d'évaluation.
 
 
 
-132. Pourquoi l'analyse des politiques publiques est-elle décrite comme un « cimetière de décisions » ?
+138. Pourquoi l'analyse des politiques publiques est-elle décrite comme un « cimetière de décisions » ?
 
 Parce qu'une politique inscrite dans la loi n'est le plus souvent jamais mise en œuvre, faute de moyens, de fonctionnaires ou de budget.
 
 
 
-133. Qu'est-ce qu'un effet pervers, avec un exemple ?
+139. Qu'est-ce qu'un effet pervers, avec un exemple ?
 
 Une conséquence non anticipée et pénalisante d'une politique appliquée — ex. la limitation à 80 km/h sur les départementales, pénalisante pour certaines populations.
 
 
 
-134. Pourquoi une politique publique n'est-elle pas une simple solution à un problème préexistant ?
+140. Pourquoi une politique publique n'est-elle pas une simple solution à un problème préexistant ?
 
 Parce qu'elle constitue une nouvelle construction et un nouvel objet politique : un même problème politisé peut donner naissance à des politiques très différentes.
 
 
 
-135. Quel exemple illustre une politique purement symbolique ?
+141. Quel exemple illustre une politique purement symbolique ?
 
 Une université qui décrète lutter contre les violences sexistes sans chargée de mission, sans traitement des contentieux ni dispositif d'accompagnement.
 
 ### D. Les cinq points à retenir sur la politisation
 
-136. Quels sont les cinq points à retenir sur la politisation ?
+142. Quels sont les cinq points à retenir sur la politisation ?
 
 1) La construction du problème public ; 2) les acteurs porteurs des définitions et le langage ; 3) les rapports de pouvoir entre acteurs ; 4) la mise sur agenda ; 5) les instruments, catégories et effets des politiques publiques.
 
 
 
-137. Qui porte aujourd'hui les définitions des problèmes publics, au-delà des élites politiques ?
+143. Qui porte aujourd'hui les définitions des problèmes publics, au-delà des élites politiques ?
 
 Les influenceurs, les chefs d'entreprise et les figures de la tech, porteuses d'une vision du monde propre (réduction de l'État, privatisation).
 
 
 
-138. Pourquoi le nombre d'abonnés ne suffit-il pas à mesurer le poids d'un acteur ?
+144. Pourquoi le nombre d'abonnés ne suffit-il pas à mesurer le poids d'un acteur ?
 
 Parce que c'est l'influence réelle qui compte : on peut avoir très peu de public et être extrêmement influent, ou l'inverse.
 
 
 
-139. Quel est l'exemple le plus abouti de politisation récente cité par le cours ?
+145. Quel est l'exemple le plus abouti de politisation récente cité par le cours ?
 
 Le grand remplacement : une catégorie née dans des groupes très marginaux et devenue un objet de débat public légitime.
 
 ### E. La finalité du travail scientifique
 
-140. Quel est l'objet du travail scientifique en science politique empirique ?
+146. Quel est l'objet du travail scientifique en science politique empirique ?
 
 Étudier la construction des problèmes publics et comprendre, de manière neutre, pourquoi certaines situations deviennent des priorités politiques tandis que d'autres restent invisibles ou dépolitisées.
 
 
 
-141. En quoi les sciences sociales fonctionnent-elles comme une forme de lancement d'alerte ?
+147. En quoi les sciences sociales fonctionnent-elles comme une forme de lancement d'alerte ?
 
 Elles rendent visibles des objets invisibles mais socialement explosifs (question raciale, suicide chez Durkheim, reproduction scolaire chez Bourdieu).
 
@@ -854,102 +890,148 @@ Elles rendent visibles des objets invisibles mais socialement explosifs (questio
 
 ### A. Le retour du religieux et la mesure de la religiosité
 
-142. Pourquoi le cours privilégie-t-il la notion de « religiosité » plutôt que de « religion » pour analyser le retour du religieux ?
+148. Pourquoi le cours privilégie-t-il la notion de « religiosité » plutôt que de « religion » pour analyser le retour du religieux ?
 
 Parce que la religiosité (ou sentiment religieux) permet une mesure empirique plus fine, notamment chez les jeunes générations, plutôt qu'une approche catégorielle figée de l'appartenance religieuse.
 
 
 
-143. Quel institut est cité comme source d'enquêtes de référence sur la religiosité en France ?
+149. Quel institut est cité comme source d'enquêtes de référence sur la religiosité en France ?
 
 L'INED (Institut national des études démographiques).
 
+
+
+150. Quelles sont les deux enquêtes de l'INED citées en exemple de données robustes disponibles sur la religiosité en France, et sur quel échantillon portent-elles ?
+
+TO1 et TO2, portant sur un échantillon d'environ 26 000 personnes interrogées.
+
 ### B. Le comportement politique : le vote Rassemblement National
 
-144. Pourquoi le vote Rassemblement National est-il présenté comme un cas d'étude synthétique de la science politique empirique ?
+151. Pourquoi le vote Rassemblement National est-il présenté comme un cas d'étude synthétique de la science politique empirique ?
 
 Parce qu'il combine les enjeux de politisation, de construction des problèmes publics et de neutralité axiologique développés dans les parties I et II du cours.
 
 
 
-145. Quelle question empirique centrale se pose sur la nature du vote RN selon le cours ?
+152. Quelle question empirique centrale se pose sur la nature du vote RN selon le cours ?
 
 S'agit-il d'un vote fondamentalement économique, d'un vote anti-immigration, ou d'une combinaison de facteurs — sans tomber dans un jugement de valeur implicite.
 
 ### C. Réseaux sociaux numériques, masculinisme et influence des fake news
 
-146. Pourquoi est-il scientifiquement difficile de mesurer l'influence réelle des réseaux sociaux sur le comportement politique ?
+153. Pourquoi est-il scientifiquement difficile de mesurer l'influence réelle des réseaux sociaux sur le comportement politique ?
 
 Parce qu'il n'existe pas de protocole permettant d'observer concrètement comment les messages sont reçus et mis en œuvre dans la vie réelle des individus (problème de la réception).
 
 
 
-147. Quelle leçon ancienne de la sociologie des médias américaine (années 1950) le cours rappelle-t-il à propos de l'influence des médias ?
+154. Quelle leçon ancienne de la sociologie des médias américaine (années 1950) le cours rappelle-t-il à propos de l'influence des médias ?
 
 Les médias n'ont pas d'effet direct et automatique sur les comportements ; un niveau intermédiaire (un passeur, un entrepreneur charismatique) est nécessaire pour qu'un message produise un effet réel.
 
 
 
-148. Quelle question sur les réseaux numériques est présentée comme plus mesurable que l'influence directe sur les comportements ?
+155. Quelle question sur les réseaux numériques est présentée comme plus mesurable que l'influence directe sur les comportements ?
 
 La légitimation de thèses minoritaires dans l'espace médiatique, c'est-à-dire la migration d'idées de niches en ligne vers le débat public.
 
 
 
-149. Qu'est-ce que le « parasocial » évoqué à propos des nouveaux vecteurs de politisation ?
+156. Qu'est-ce que le modèle des effets limités / *two-step flow of communication* (Lazarsfeld ; Berelson & Gaudet, *The People's Choice*, 1944) ?
+
+Un modèle selon lequel un message médiatique n'a jamais d'effet direct : sa réception passe par un second niveau, la traduction — la discussion et la réappropriation du message dans les interactions sociales réelles de l'individu (famille, amis).
+
+
+
+157. En quoi ce modèle s'applique-t-il encore aujourd'hui à l'analyse des réseaux numériques ?
+
+Le monde « virtuel » n'est jamais une sphère autonome coupée du réel (y compris pour la cybercriminalité) ; on ne peut comprendre l'usage des réseaux par un individu sans reconstituer sa socialisation réelle, qui reste ce qui commande en dernier ressort.
+
+
+
+158. Quel est le premier problème que pose la causalité implicite entre réseaux numériques et phénomènes sociaux ?
+
+La réalité statistique du phénomène : l'ampleur apparente (nombre de followers, de vues, de partages) est un faux ami qui ne dit rien de l'influence réelle — les médias traditionnels conservent souvent une audience supérieure aux comptes numériques les plus suivis.
+
+
+
+159. Quel exemple historique illustre que la masse d'adhérents ne suffit pas à expliquer l'influence d'un mouvement ?
+
+La CNT (Confédération Nationale du Travail) en Catalogne au début des années 1930 : un million d'adhérents pour un seul permanent salarié.
+
+
+
+160. Comment le cours explique-t-il la révolution égyptienne de 2011, à rebours de l'explication par les réseaux sociaux ?
+
+Par des causes structurelles non intentionnelles : un nombre croissant de diplômés confrontés à un pouvoir vieillissant, puis une bascule de l'armée en faveur des révolutionnaires — les réseaux numériques ont facilité la coordination logistique mais n'expliquent pas les causes profondes.
+
+
+
+161. Qu'est-ce que le « parasocial » évoqué à propos des nouveaux vecteurs de politisation ?
 
 Les formes d'identification et d'attachement affectif construites à distance avec des figures publiques (influenceurs, gaming) qui deviennent de nouveaux vecteurs de politisation.
 
 
 
-150. Que montre le cas de *GTA* sur le fonctionnement des catégories immédiates ?
+162. Que montre le cas de *GTA* sur le fonctionnement des catégories immédiates ?
 
 La catégorie « jeu vidéo = violence » s'impose instantanément et sert de matrice à la politisation, alors qu'empiriquement l'influence des jeux vidéo sur les comportements est très discutée.
 
+163. Que révèle un travail de recherche de huit ans sur la haine en ligne (*hate speech*) à propos du traitement scientifique de *GTA* ?
+
+Qu'environ 80 % des travaux scientifiques disponibles sur *GTA* se concentrent sur le seul rapport jeu vidéo/violence (effet de cadrage par l'intentionnalité), alors que le jeu comporte d'autres dimensions tout aussi réelles : affective, communautaire, ludique, esthétique.
+
+
+
+164. Qu'est-ce que le *modding* évoqué à propos de l'ultra-violence numérique liée à *GTA* ?
+
+La récupération des scripts d'un jeu vidéo pour créer, à partir de scènes violentes, des contenus dérivés (voire des jeux clandestins diffusés sur des réseaux comme Telegram) — un phénomène réel mais marginal, distinct du grand public du jeu.
+
 ### D. Populismes, mépris social et question de l'oligarchie
 
-151. Qu'est-ce que le mépris social dans l'analyse des populismes européens ?
+165. Qu'est-ce que le mépris social dans l'analyse des populismes européens ?
 
 Un sentiment subjectif, indépendant du niveau de vie réel, d'être pris entre des élites qui n'écoutent pas et des populations d'en bas soupçonnées de profiter du système.
 
 
 
-152. En quoi le mépris social traduit-il une crise de l'État-providence à double niveau ?
+166. En quoi le mépris social traduit-il une crise de l'État-providence à double niveau ?
 
 Par le haut, une crise de légitimité des élites ; par le bas, une compétition perçue pour le logement, l'école et les revenus sociaux, vive chez les classes moyennes pauvres.
 
 
 
-153. Pourquoi l'oligarchie doit-elle être analysée scientifiquement ?
+167. Pourquoi l'oligarchie doit-elle être analysée scientifiquement ?
 
 Parce que sans mesure empirique de la concentration réelle du pouvoir, l'analyse bascule dans le complotisme — une frontière ténue lors du Covid et des débats sur le vaccin.
 
 
 
-154. Quels sont les deux grands paradoxes structurels des démocraties contemporaines identifiés par le cours ?
+168. Quels sont les deux grands paradoxes structurels des démocraties contemporaines identifiés par le cours ?
 
 1) Pourquoi ce sont statistiquement toujours les mêmes profils sociaux qui monopolisent le pouvoir dans des démocraties fondées sur la compétition électorale (oligarchie) ; 2) pourquoi un niveau de violence politique structurel a persisté dans des démocraties européennes pourtant censées être pacifiées par le processus de civilisation (Elias) depuis les années 1960.
 
 ### E. Le classement PISA : performance affichée, inégalités mesurées
 
-155. Que mesure réellement le classement PISA, au-delà de la performance scolaire affichée par les médias ?
+169. Que mesure réellement le classement PISA, au-delà de la performance scolaire affichée par les médias ?
 
 Les inégalités scolaires : les élèves les plus en difficulté sont systématiquement ceux issus des quartiers les plus pauvres, ce que confirment les statistiques du ministère de l'Éducation nationale — ce n'est pas un niveau global d'intelligence qui est mesuré.
 
 
 
-156. Quels effets politiques concrets une lecture politisée du classement PISA a-t-elle produits ?
+170. Quels effets politiques concrets une lecture politisée du classement PISA a-t-elle produits ?
 
 Un discours de l'« excellence » et de séparation des « bons » et des « mauvais » élèves, et une justification du séparatisme scolaire par l'évitement de la mixité sociale chez les familles les mieux informées.
 
 ### F. L'élection de l'AfD dans un Land allemand : sur-interprétation et exigence de preuve
 
-157. Que révèle l'exemple de l'élection de l'AfD sur le rapport entre légitimité médiatique et preuve empirique ?
+171. Que révèle l'exemple de l'élection de l'AfD sur le rapport entre légitimité médiatique et preuve empirique ?
 
 Un éditorialiste réputé attribue le vote AfD aux réseaux numériques et aux personnes âgées ; une historienne montre, données à l'appui, que ce sont en réalité les 35-60 ans qui votent le plus AfD — la légitimité rhétorique et institutionnelle d'un discours ne garantit en rien sa validité empirique.
 
 
 
-158. Qu'est-ce que le « populisme boomer » cité en exemple, et pourquoi cette catégorie illustre-t-elle le problème de l'agentivité ?
+172. Qu'est-ce que le « populisme boomer » cité en exemple, et pourquoi cette catégorie illustre-t-elle le problème de l'agentivité ?
 
 Une catégorie inventée sur le moment par un éditorialiste pour expliquer le vote AfD par les personnes âgées, contredite par les données réelles — elle illustre la tendance (agentivité) à vouloir une explication immédiate plutôt qu'une catégorie construite et vérifiée.

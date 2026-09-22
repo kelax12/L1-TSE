@@ -325,6 +325,20 @@ La réalité est donc plus complexe que ne le prédit la seule stratégie domina
 - la baisse des contributions dans le temps s'explique par un effet d'imitation : « si les autres participent, je participe » — les contributions sont donc davantage influencées par le comportement observé des autres joueurs que par le seul altruisme individuel ;
 - ce constat éclaire par exemple la question de l'acceptabilité sociale de l'impôt, qui dépend elle aussi des normes sociales en vigueur.
 
+## 6. Tableau de synthèse des jeux étudiés
+
+Chaque jeu du chapitre peut se caractériser par trois critères : le type d'interaction (simultané/séquentiel), l'existence d'un équilibre en stratégie dominante, et le fait que cet équilibre soit efficace et effectivement observé en pratique.
+
+| Jeu | Type | Équilibre en stratégie dominante | Efficace ? | Réalisé en pratique ? |
+|---|---|---|---|---|
+| Dilemme du prisonnier | Simultané | Oui | Non | Oui |
+| Guerre des sexes | Simultané | Non (plusieurs équilibres de Nash) | — | — |
+| Main invisible (marché concurrentiel) | Simultané | Oui | Oui | Oui |
+| Ultimatum | Séquentiel | Oui (induction à rebours) | — | Non (altruisme, aversion aux inégalités) |
+| Biens publics | Simultané | Oui (contribution = 0) | Non | Non (altruisme) |
+
+Le cas de la **main invisible** sert de point de comparaison : c'est le seul jeu du chapitre où l'équilibre en stratégie dominante est à la fois efficace et conforme à ce qui est observé — à l'opposé du dilemme du prisonnier, structurellement inefficace bien que lui aussi spontané et stable.
+
 <!-- SOURCES INTÉGRÉES
 - Micro 1-transcript ✅.txt
 - Chapitre 1 - MICRO-Théorie des jeux ✅.pdf
@@ -333,5 +347,5 @@ La réalité est donc plus complexe que ne le prédit la seule stratégie domina
 - micro-2-partie1 ✅.txt
 - Micro 4-transcript-DRAFT ✅.txt
 - Micro 5-transcript-DRAFT ✅.txt
+- micro-diff-jeux-recap ✅.odt
 -->
-<!-- micro-diff-jeux-recap.odt : pas encore traité, fichier verrouillé par LibreOffice au moment du traitement -->

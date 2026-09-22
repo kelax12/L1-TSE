@@ -80,9 +80,12 @@
 - **Méthode expérimentale/statistique (Durkheim)** : causalité par analyse de données à grande échelle — associée à l'**explication** (la causalité). Origine du quantitativisme US : enquêtes de l'armée américaine (WWII, Vietnam, Milgram). Limite majeure : corrélation ≠ causalité, et une causalité établie ne dit rien du sens de la relation (followers/influence, force des liens faibles). Distinction explication/compréhension largement artificielle en pratique.
 - **Cas ETA (violence politique basque)** : 60 ans, ~900 morts. Causalité historique datée (1959-62) : formation de l'élite basque à la violence au contact du FLN pendant la guerre d'Algérie, pendant que l'État franquiste formait ses cadres via l'OAS — reproduction ensuite via la langue/les familles.
 - **Jean-Paul Azam** : objectif scientifique = vraisemblable, pas vrai — « faire petit » plutôt que des généralités invérifiables ; méthode *evidence-based* (ex. la prison, école du crime ?).
-- **Agentivité** : biais cognitif attribuant une cause intentionnelle à des phénomènes parfois non-intentionnels.
+- **Agentivité** : biais cognitif attribuant une cause intentionnelle à des phénomènes parfois non-intentionnels. Origine en psychologie (expérience de 1944 : formes géométriques bougeant aléatoirement, auxquelles le public attribue une intention).
+- **Magie sociale** : forme de biais d'agentivité attribuant aux responsables politiques des qualités quasi surnaturelles expliquant à elles seules un changement politique.
+- **Théorie des champs (Bourdieu)** : un changement radical (politique, artistique...) suppose un alignement exceptionnel de causes non intentionnelles — rare, de l'ordre d'1 à 3 fois par siècle.
 - **Norbert Elias — civilisation des mœurs** : deux matrices de la modernité — maîtrise des pulsions individuelles + montée d'un État sanctionnateur institutionnalisé.
 - **Décivilisation** : thèse d'un retour de la violence, souvent mal utilisée politiquement (renvoie historiquement au nazisme chez Elias, pas aux violences urbaines).
+- **Modèle des effets limités / *two-step flow of communication* (Lazarsfeld ; Berelson & Gaudet,** ***The People's Choice*, 1944)** : un message médiatique n'a jamais d'effet direct — sa réception passe par un second niveau, la traduction (discussion, réappropriation dans les interactions réelles). Le monde virtuel n'est jamais coupé du réel, qui reste ce qui commande.
 
 ## I. Qu'est-ce que la politique ? Le concept de politisation
 
@@ -146,7 +149,7 @@ Côté expérimental : la **méthode inversée** de Durkheim part du phénomène
 Distinction explication/compréhension largement artificielle en pratique. Exigence centrale : prouver plutôt qu'affirmer intuitivement (ex. théorie des mobilisations, Neveu). Principe transversal (Jean-Paul Azam) : viser le vraisemblable, pas le vrai — « faire petit » plutôt que des généralités invérifiables (méthode *evidence-based*, ex. la prison, école du crime ?).
 
 ### D. Le problème de l'agentivité
-Biais cognitif consistant à attribuer une cause intentionnelle à des phénomènes parfois non-intentionnels — à éviter pour ne pas tomber dans une lecture complotiste.
+Biais cognitif consistant à attribuer une cause intentionnelle à des phénomènes parfois non-intentionnels — à éviter pour ne pas tomber dans une lecture complotiste. Origine en psychologie (expérience de 1944 sur des formes géométriques). Cause intentionnelle privilégiée via la **magie sociale** (charisme des responsables politiques). Les causes non intentionnelles, plus explicatives, suivent la **théorie des champs** (Bourdieu) : un alignement exceptionnel et rare de variables (mai 68, coup d'État espagnol de 1981, révolution iranienne de 1979, émeutes déclenchées par un micro-événement).
 
 ## III. De la politisation à l'action publique
 
@@ -169,14 +172,19 @@ Ni discuter des opinions, ni dire ce qu'il faudrait faire : comprendre de maniè
 ## IV. Cas empiriques actualisés de la science politique empirique
 
 ### A. Le retour du religieux
-Passage de « religion » à « religiosité »/« sentiment religieux », mesuré notamment via l'INED. Relié au conservatisme social et au néo-catholicisme.
+Passage de « religion » à « religiosité »/« sentiment religieux », mesuré notamment via l'INED (enquêtes **TO1/TO2**, ~26 000 personnes). Relié au conservatisme social et au néo-catholicisme. Paradoxe : les données publiques abondantes (INSEE, INED, ministères) restent largement sous-utilisées dans le débat public.
 
 ### B. Le vote Rassemblement National
 Cas d'étude synthétique : vote économique, anti-immigration, ou combinaison des deux, sans jugement de valeur implicite.
 
 ### C. Réseaux numériques et fake news
 Émergence de la société digitale (compétences technologiques, linguistiques, historiques nécessaires). L'influence réelle des réseaux est difficile à mesurer (pas de protocole de réception) ; plus mesurable : la légitimation de thèses minoritaires dans l'espace médiatique. Nouveaux vecteurs de politisation : gaming, mèmes, influenceurs, parasocial.
-**Cas GTA** : la catégorie immédiate « jeu vidéo = violence » s'impose sans fondement empirique solide, alors que le jeu est un objet politique bien plus complexe (public réel, controverses, imaginaire culturel).
+
+Cadre théorique : le **modèle des effets limités** de Lazarsfeld (*two-step flow of communication*, 1944) — pas d'effet direct des médias, la réception passe par la traduction dans les interactions réelles. Le virtuel n'est jamais coupé du réel.
+
+Causalité implicite très répandue (fake news, GTA, ingérence russe...) mais rarement démontrée. **Premier problème : la réalité statistique.** Le nombre de followers est un faux ami — les médias traditionnels gardent une audience supérieure à la plupart des comptes numériques. Exemple : la **CNT** en Catalogne (1930s), 1 million d'adhérents pour un seul permanent salarié — la masse n'explique pas à elle seule l'influence. La **révolution égyptienne de 2011** s'explique par des causes structurelles (diplômés + pouvoir vieillissant + bascule de l'armée), pas par Facebook.
+
+**Cas GTA** : la catégorie immédiate « jeu vidéo = violence » s'impose sans fondement empirique solide (80 % des travaux scientifiques centrés sur ce seul angle), alors que le jeu est un objet politique bien plus complexe (dimensions affective, communautaire, ludique, esthétique ; public réel ; *modding* marginal et distinct du grand public).
 
 ### D. Populismes, mépris social et oligarchie
 Trame commune des populismes européens : le **mépris social**, sentiment d'être pris entre des élites qui n'écoutent pas et des populations d'en bas soupçonnées de profiter du système — crise de l'État-providence par le haut et par le bas. La question de l'**oligarchie**, à l'origine de ces populismes, est l'un des deux grands chantiers de la discipline : sans mesure empirique de la concentration du pouvoir, l'analyse bascule dans le complotisme (cas du Covid et des vaccins).

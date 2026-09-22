@@ -129,3 +129,15 @@ Ne pas contribuer est la stratégie dominante individuelle (passager clandestin)
 ### 5.4 Rôle des normes sociales
 
 Les contributions dépendent des normes sociales du groupe et sont surtout influencées par le comportement observé des autres (imitation), plus que par le pur altruisme.
+
+## 6. Tableau de synthèse des jeux étudiés
+
+| Jeu | Type | Stratégie dominante | Efficace ? | Réalisé en pratique ? |
+|---|---|---|---|---|
+| Dilemme du prisonnier | Simultané | Oui | Non | Oui |
+| Guerre des sexes | Simultané | Non | — | — |
+| Main invisible | Simultané | Oui | Oui | Oui |
+| Ultimatum | Séquentiel | Oui | — | Non (altruisme) |
+| Biens publics | Simultané | Oui (contribution = 0) | Non | Non (altruisme) |
+
+Seule la main invisible combine équilibre en stratégie dominante, efficacité et réalisation en pratique — à l'opposé du dilemme du prisonnier.
