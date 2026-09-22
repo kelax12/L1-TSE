@@ -51,15 +51,15 @@ $PIB_{réel,t} = \sum_i p_i^{t_0} q_i^t$ (prix d'une année de base $t_0$ fixés
 
 ### 2.7 PIB/tête et PPA
 
-PIB/tête permet de comparer des pays de taille différente ; le PIB en PPA corrige en plus les écarts de niveau de prix entre pays (ex : Inde 2 484 $ nominal vs 10 175 $ en PPA en 2023).
+PIB/tête permet de comparer des pays de taille différente ; le PIB en PPA corrige en plus les écarts de niveau de prix entre pays (ex : Inde 2 484 $ nominal vs 10 175 $ en PPA en 2023). Repères 2025 : classement PIB nominal USA > Chine > Allemagne > Japon > Inde > UK > France (~3 000 Md€, PIB/tête ~40 000 €) ; classement PIB/tête très différent (Luxembourg, Irlande, Suisse, Norvège, Singapour en tête ; USA 7ᵉ ; Inde ~148ᵉ malgré son PIB nominal élevé).
 
 ### 2.8-2.9 Limites du PIB comme mesure du bien-être, indices complémentaires
 
-Le PIB ignore la vie non matérielle, inclut des biens sans bien-être (armes), ignore les externalités négatives (pollution) et la distribution des revenus. Indices complémentaires : IDH, rapport interdécile P90/P10, coefficient de Gini (via la courbe de Lorenz).
+Le PIB ignore la vie non matérielle, inclut des biens sans bien-être (armes, et depuis ~2018 une estimation des transactions de stupéfiants), ignore les externalités négatives (pollution, déforestation amazonienne pour l'huile de palme, paradoxe des embouteillages qui gonflent le PIB) et la distribution des revenus. Indices complémentaires : IDH, rapport interdécile P90/P10, coefficient de Gini (via la courbe de Lorenz). France 2021 : interdécile ~3,3-3,5, Gini ~0,30. Effet réel de la redistribution en France : Gini ~0,44 avant → ~0,23 après.
 
 ### 2.10-2.11 Facteurs de croissance de long terme et fluctuations de court terme
 
-Long terme : capital fixe/tête, technologie, capital humain, ressources naturelles, efficacité des marchés et de l'État, heures travaillées. Court terme : chocs de production, monétaires, budgétaires/fiscaux (exemple : réunification allemande 1990 → crise européenne du début des années 90).
+Long terme : capital fixe/tête, technologie, capital humain, ressources naturelles, efficacité des marchés et de l'État, heures travaillées. Court terme : chocs de production, monétaires, budgétaires/fiscaux (exemple : réunification allemande 1990 → crise européenne du début des années 90 ; sortie Covid → pénurie de semi-conducteurs → forte inflation ; canicule/sécheresse 2025-26 → choc agricole ; hausse des taux BCE septembre 2026).
 
 ### 2.12 Taux de croissance
 

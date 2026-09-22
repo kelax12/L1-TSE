@@ -11,6 +11,10 @@
 - **Capitaux propres** : capital, réserves, résultat — analysés comme une dette de l'entreprise envers ses propriétaires.
 - **Charge** : consommation d'un bien ou service (ou obligation légale/exceptionnelle sans contrepartie) qui appauvrit le résultat.
 - **Amortissement / dépréciation** : perte de valeur d'un actif (définitive et sur immobilisation pour l'amortissement).
+- **Compte de résultat** : détaille charges et produits de l'exercice — zoom sur le poste résultat du bilan.
+- **Produit** : symétrique de la charge, traduit un enrichissement.
+- **DADP / RADP** : dotations aux amortissements et dépréciations (charge) / reprises (produit annulant une dotation antérieure).
+- **Variation de stock** : ajustement entre achats/production et ventes/consommation réelles de la période, à partir de SI et SF.
 
 ## Le bilan : structure générale
 
@@ -39,3 +43,13 @@ Résultat final : **2 500 €**, distribué en dividendes (1 000 €) et réserv
 **Charge** = consommation d'un bien/service (ou obligation légale/exceptionnelle) → diminue le résultat. Simple échange d'actifs de même valeur → pas de charge, pas d'impact sur le résultat.
 
 **Trois colonnes de l'actif** : brute (valeur d'origine), amortissement/dépréciation (perte de valeur), nette (= brute − A&D, valeur retenue dans le total du bilan).
+
+## Le compte de résultat
+
+Détaille charges (appauvrissement) et produits (enrichissement) de l'exercice — zoom sur le seul poste résultat du bilan. Trois catégories symétriques : d'exploitation, financières, exceptionnelles. Le bénéfice (produits > charges) s'inscrit côté charges pour équilibrer ; la perte, côté produits.
+
+**Société Martin, vue compte de résultat** : seules les opérations a, d, e, g, h, j génèrent charges/produits (b, c, f, i sont de simples échanges d'actifs, absents du compte de résultat). Total charges 13 500 €, total produits 16 000 €, **bénéfice 2 500 €** — identique au résultat obtenu via le bilan.
+
+**Variation de stock** : coût d'achat des marchandises vendues (ou MP consommées) = achats de la période ± variation de stock.
+- Marchandises/MP (évalués au coût d'achat) : $SF = SI + achats - ventes$ ; variation $= SI - SF$ (négative = stockage, positive = déstockage).
+- Produits finis (évalués au coût de production) : $SF = SI + production - ventes$ ; variation $= SF - SI$ — **formule inversée** (positive = stockage, négative = déstockage).

@@ -75,6 +75,6 @@ Cette exigence repose sur un cadre normatif commun : la comptabilité est régie
 - l'**annexe**.
 
 <!-- SOURCES INTÉGRÉES
-- CM 1 ecogestion.odt
-- CM-2-ecogestion.odt
+- CM 1 ecogestion ✅.odt
+- CM-2-ecogestion ✅.odt
 -->

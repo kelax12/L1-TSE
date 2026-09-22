@@ -376,9 +376,16 @@ $\dfrac13$ pour chacune des trois stratégies (Papier, Ciseaux, Caillou).
 
 
 
+49. Les tireurs de penalty professionnels jouent-ils réellement l'équilibre de Nash en stratégies mixtes prédit par la théorie ?
+
+
+Oui — des études empiriques sur des données réelles (plusieurs dizaines d'années, y compris les corners) montrent que les joueurs s'en approchent de façon quasi parfaite.
+
+
+
 ### 4.5 Méthode générale de résolution d'un jeu
 
-49. Que fait-on si aucune case de la matrice n'est un équilibre de Nash en stratégies pures ?
+50. Que fait-on si aucune case de la matrice n'est un équilibre de Nash en stratégies pures ?
 
 
 On cherche les probabilités qui rendent chaque joueur indifférent entre ses stratégies pures, pour trouver un équilibre de Nash en stratégies mixtes.
@@ -389,7 +396,7 @@ On cherche les probabilités qui rendent chaque joueur indifférent entre ses st
 
 ### 5.1 Altruisme et équité
 
-50. Pourquoi les joueurs réels s'écartent-ils parfois de l'équilibre de Nash théorique ?
+51. Pourquoi les joueurs réels s'écartent-ils parfois de l'équilibre de Nash théorique ?
 
 
 Parce qu'ils sont sensibles aux inégalités de gains (aversion aux inégalités) ou se préoccupent du bien-être des autres joueurs (altruisme).
@@ -398,21 +405,21 @@ Parce qu'ils sont sensibles aux inégalités de gains (aversion aux inégalités
 
 ### 5.2 Le jeu de l'ultimatum
 
-51. Dans le jeu de l'ultimatum, que se passe-t-il si le répondant refuse l'offre ?
+52. Dans le jeu de l'ultimatum, que se passe-t-il si le répondant refuse l'offre ?
 
 
 Les deux joueurs ne reçoivent rien.
 
 
 
-52. Par quelle méthode résout-on le jeu de l'ultimatum ?
+53. Par quelle méthode résout-on le jeu de l'ultimatum ?
 
 
 Par induction à rebours : on détermine d'abord la stratégie optimale du répondant pour chaque offre possible, puis la meilleure stratégie de l'offreur compte tenu de cette réponse.
 
 
 
-53. Que montrent les expériences réelles sur le jeu de l'ultimatum ?
+54. Que montrent les expériences réelles sur le jeu de l'ultimatum ?
 
 
 Que les répondants refusent souvent les offres jugées trop inégalitaires, ce qui traduit une aversion aux inégalités.
@@ -421,14 +428,14 @@ Que les répondants refusent souvent les offres jugées trop inégalitaires, ce 
 
 ### 5.3 La fourniture d'un bien public
 
-54. Pourquoi ne pas contribuer est-il une stratégie dominante dans le jeu du bien public sans coordination ?
+55. Pourquoi ne pas contribuer est-il une stratégie dominante dans le jeu du bien public sans coordination ?
 
 
 Parce que le gain individuel est toujours plus élevé en ne contribuant pas qu'en contribuant, quelle que soit la contribution des autres joueurs.
 
 
 
-55. Que montrent les expériences en laboratoire sur la contribution à un bien public ?
+56. Que montrent les expériences en laboratoire sur la contribution à un bien public ?
 
 
 Que les participants contribuent malgré tout, mais de moins en moins au fil des répétitions du jeu.
@@ -437,7 +444,7 @@ Que les participants contribuent malgré tout, mais de moins en moins au fil des
 
 ### 5.4 Rôle des normes sociales
 
-56. Qu'est-ce qui influence le plus les contributions à un bien public selon les expériences : l'altruisme pur ou le comportement observé des autres ?
+57. Qu'est-ce qui influence le plus les contributions à un bien public selon les expériences : l'altruisme pur ou le comportement observé des autres ?
 
 
 Le comportement observé des autres joueurs (effet d'imitation), davantage que le seul altruisme individuel.

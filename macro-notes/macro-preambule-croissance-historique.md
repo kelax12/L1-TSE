@@ -102,7 +102,7 @@ Ces observations amènent deux questions fondamentales que se pose l'économiste
 - Pourquoi les croissances diffèrent-elles entre pays ou groupes de pays — y aura-t-il convergence entre eux ?
 
 <!-- SOURCES INTÉGRÉES
-- Préambule-MACRO.pdf
-- CM1-macro.odt
-- 09-07 Cours _ Macroéconomie, PIB nominal et PIB réel-transcript.txt (partie introductive uniquement, mise en lien avec le préambule)
+- Préambule-MACRO ✅.pdf
+- CM1-macro ✅.odt
+- MACRO-2 ✅.txt (partie introductive uniquement, mise en lien avec le préambule)
 -->

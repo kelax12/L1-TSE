@@ -280,6 +280,8 @@ $$0{,}2(1-p_G) + 0{,}9\,p_G = 0{,}8(1-p_G) + 0{,}5\,p_G \;\Longrightarrow\; p_G 
 
 À l'équilibre, le buteur tire à gauche avec une probabilité de 0,7 et le gardien plonge à gauche avec une probabilité de 0,6. La probabilité de marquer un but à cet équilibre est de 62 %.
 
+**Validation empirique.** Des chercheurs en économie ont testé cette prédiction sur des données réelles de tirs au but professionnels (plusieurs dizaines d'années de données, y compris sur les corners) : les joueurs réels jouent l'équilibre de Nash en stratégies mixtes de façon quasi parfaite, un résultat frappant pour une prédiction théorique aussi abstraite.
+
 ### 4.5 Méthode générale de résolution d'un jeu
 
 Face à un nouveau jeu, la démarche est toujours la même :
@@ -324,7 +326,12 @@ La réalité est donc plus complexe que ne le prédit la seule stratégie domina
 - ce constat éclaire par exemple la question de l'acceptabilité sociale de l'impôt, qui dépend elle aussi des normes sociales en vigueur.
 
 <!-- SOURCES INTÉGRÉES
-- Micro 1-transcript.txt
-- Chapitre 1 - MICRO-Théorie des jeux.pdf
-- CM-micro1.odt
+- Micro 1-transcript ✅.txt
+- Chapitre 1 - MICRO-Théorie des jeux ✅.pdf
+- CM-micro1 ✅.odt
+- MICRO-3 ✅.txt
+- micro-2-partie1 ✅.txt
+- Micro 4-transcript-DRAFT ✅.txt
+- Micro 5-transcript-DRAFT ✅.txt
 -->
+<!-- micro-diff-jeux-recap.odt : pas encore traité, fichier verrouillé par LibreOffice au moment du traitement -->

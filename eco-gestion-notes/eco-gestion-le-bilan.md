@@ -37,6 +37,17 @@
 - **Dépréciation** : constatation d'une perte de valeur d'un actif (par exemple une créance client), de même nature qu'un amortissement.
 - **Valeur brute** : valeur initiale d'un actif au moment de son entrée dans le patrimoine.
 - **Valeur nette** : valeur brute diminuée des amortissements et dépréciations constatés ; c'est cette valeur qui est utilisée pour établir le total du bilan.
+- **Compte de résultat** : document de synthèse qui détaille, sur l'exercice, l'ensemble des charges (appauvrissement) et des produits (enrichissement) de l'entreprise — un « zoom » sur le poste résultat du bilan, qui lui n'indique qu'un montant cumulé sans dire comment il s'est formé.
+- **Produit** : somme ou valeur reçue ou à recevoir en contrepartie de biens ou services fournis par l'entreprise, ou sans contrepartie (produit exceptionnel) ; symétrique de la charge, il traduit un enrichissement.
+- **Chiffre d'affaires** : montant des ventes de marchandises et de la production vendue (biens ou services) sur l'exercice ; poste principal des produits d'exploitation.
+- **Charges/produits d'exploitation** : nés de l'activité courante de l'entreprise (achats, ventes, personnel, impôts, dotations aux amortissements et dépréciations, valeur comptable des immobilisations cédées côté charges ; ventes, production stockée/immobilisée, subventions, reprises, produits de cessions côté produits).
+- **Charges/produits financiers** : liés au financement de l'entreprise (charges d'intérêts, dotations financières côté charges ; reprises financières côté produits).
+- **Charges/produits exceptionnels** : sans lien avec l'activité courante ni le financement (par exemple des dommages et intérêts).
+- **Dotations aux amortissements et dépréciations (DADP)** : charge correspondant à la perte de valeur constatée sur un actif au cours de l'exercice (contrepartie, au compte de résultat, de ce qui diminue la valeur nette d'un actif au bilan).
+- **Reprises sur amortissements, dépréciations et provisions (RADP)** : produit correspondant à l'annulation, totale ou partielle, d'une dotation antérieure (l'actif reprend de la valeur, ou le risque provisionné ne se réalise pas).
+- **Valeur comptable des immobilisations cédées / produit de cession d'immobilisations** : lors de la vente d'un actif immobilisé, sa valeur nette comptable sort en charge, et le prix de vente encaissé entre en produit — la différence entre les deux constitue le résultat de l'opération.
+- **Bénéfice / Perte** : solde du compte de résultat ; bénéfice si le total des produits excède le total des charges, perte dans le cas contraire. C'est ce même montant qui alimente le poste résultat du bilan.
+- **Variation de stock** : ajustement, dans le compte de résultat, entre les achats (ou la production) de la période et ce qui a réellement été vendu ou consommé, calculé à partir du stock initial (SI) et du stock final (SF) de la période.
 
 ## Le bilan : structure générale
 
@@ -261,7 +272,93 @@ En fin d'exercice, les actionnaires ou associés décident, en assemblée géné
 
 Patrimonialement, le poste résultat est ramené à zéro (il a été intégralement affecté), les réserves augmentent de 1 500 €, et les disponibilités diminuent de 1 000 € (le montant du dividende versé).
 
+## Le compte de résultat
+
+### A. Objectif et lien avec le bilan
+
+Le poste résultat du bilan est un montant **cumulé** sur l'ensemble des opérations génératrices de résultat de l'exercice : il n'indique donc pas *comment* ce résultat s'est formé. Le compte de résultat répond à cette question en détaillant toutes les opérations de **charges** (appauvrissement) et de **produits** (enrichissement) qui composent ce résultat — c'est un « zoom » sur le seul poste résultat du bilan.
+
+Le principe est symétrique à celui vu pour le bilan : une opération qui **diminue** le résultat au bilan (appauvrissement) se traduit, au compte de résultat, par une **charge** ; une opération qui **augmente** le résultat (enrichissement) se traduit par un **produit**.
+
+### B. Structure du compte de résultat
+
+Comme le bilan, le compte de résultat se présente en deux colonnes, mais il ne recense que les flux de l'exercice (pas un patrimoine à un instant donné) :
+
+| CHARGES | PRODUITS |
+|---|---|
+| **Charges d'exploitation** : achats de marchandises, variation de stock de marchandises, achats de matières premières et autres approvisionnements, variation de stock MP/AA, autres achats et charges externes, impôts et taxes, charges de personnel, dotations aux amortissements et dépréciations (DADP), valeur comptable des immobilisations cédées, autres charges | **Produits d'exploitation** : ventes de marchandises, production vendue, production stockée, production immobilisée, subventions, reprises sur amortissements et dépréciations (RADP), produits de cession d'immobilisations, autres produits |
+| **Charges financières** : dotations financières, charges d'intérêts | **Produits financiers** : reprises financières |
+| **Charges exceptionnelles** | **Produits exceptionnels** |
+| **Bénéfice** (si Produits > Charges) | **Perte** (si Charges > Produits) |
+| **Total général** | **Total général** |
+
+Le bénéfice ou la perte s'inscrit du côté le plus faible pour équilibrer les deux colonnes au même total général — exactement comme le résultat équilibre l'actif et le passif au bilan.
+
+### C. Application : le compte de résultat de la société Martin
+
+En reprenant les mêmes opérations que dans l'application précédente (voir tableau ci-dessus), seules celles qui avaient un impact sur le résultat génèrent une ligne de charge ou de produit ; les simples échanges d'actifs (b, c, f, i) n'apparaissent pas au compte de résultat :
+
+| Opération | Ligne au compte de résultat | Montant |
+|---|---|---|
+| a) Vente de marchandises | Produits d'exploitation — Vente de marchandises : 10 000 € ; Charges d'exploitation — Coût d'achat des marchandises vendues : 5 000 € | Effet net : +5 000 € |
+| d) Vente des actifs financiers immobilisés | Produits — Produit de cession d'immobilisations : 6 000 € ; Charges — Valeur comptable des immobilisations cédées : 5 000 € | Effet net : +1 000 € |
+| e) Salaires payés | Charges de personnel : 1 000 € | Effet net : −1 000 € |
+| g) Amortissement des immobilisations corporelles | Charges — Dotations aux amortissements et dépréciations : 1 000 € | Effet net : −1 000 € |
+| h) Dépréciation de la créance client | Charges — Dotations aux amortissements et dépréciations : 1 000 € | Effet net : −1 000 € |
+| j) Intérêts sur la dette financière remboursée | Charges financières — Charges d'intérêts : 500 € | Effet net : −500 € |
+
+Total des charges : $5\,000 + 5\,000 + 1\,000 + 1\,000 + 1\,000 + 500 = 13\,500\,€$. Total des produits : $10\,000 + 6\,000 = 16\,000\,€$.
+
+**Bénéfice = Produits − Charges = $16\,000 - 13\,500 = 2\,500\,€$** — on retrouve exactement le résultat de l'exercice calculé précédemment via le bilan : les deux documents décrivent la même réalité, sous deux angles différents (l'un cumulé et patrimonial, l'autre détaillé et par flux).
+
+### D. La variation de stock
+
+Le compte de résultat retient, non pas les achats de la période tels quels, mais le **coût d'achat des marchandises vendues** (ou le **coût d'achat des matières premières et autres approvisionnements consommés**). Ce coût s'obtient en ajustant les achats de la période par la **variation de stock** :
+
+$$\text{Coût d'achat des marchandises vendues} = \text{Achats de la période} \pm \text{Variation de stock}$$
+
+**Pour les marchandises, matières premières et autres approvisionnements**, le stock final (SF) se déduit du stock initial (SI), des achats et des sorties (ventes ou consommation) de la période, tous évalués au **coût d'achat** :
+
+$$SF = SI + \text{achats de la période} - \text{ventes (ou consommation) de la période}$$
+$$\text{Variation de stock} = SI - SF$$
+
+- une variation de stock **négative** ($SF > SI$) signifie qu'il y a eu **stockage** ;
+- une variation de stock **positive** ($SI > SF$) signifie qu'il y a eu **déstockage**.
+
+**Pour les produits finis**, la logique du stock est identique, mais le stock est évalué au **coût de production** (et non au coût d'achat), et surtout la formule de la variation de stock est **inversée** par rapport aux marchandises/MP — un point de vigilance important :
+
+$$SF = SI + \text{production de la période} - \text{production vendue de la période}$$
+$$\text{Variation de stock} = SF - SI$$
+
+- une variation de stock **positive** ($SF > SI$) signifie qu'il y a eu **stockage** ;
+- une variation de stock **négative** ($SI > SF$) signifie qu'il y a eu **déstockage**.
+
+#### Exemples chiffrés
+
+**Marchandises (déstockage).** Une entreprise achète 20 000 unités de marchandises à 1 €/unité ; le stock initial était de 5 000 unités à 1 €/unité ; elle vend 23 000 unités sur la période.
+$SF = 5\,000 + 20\,000 - 23\,000 = 2\,000$ unités, valorisées à 1 €/unité $= 2\,000\,€$.
+Variation de stock $= SI - SF = 5\,000 - 2\,000 = +3\,000\,€$ (déstockage, car $SI > SF$).
+
+**Marchandises (stockage).** Une entreprise achète 30 000 unités à 2 €/unité ; le stock initial était de 5 000 unités à 2 €/unité ($=10\,000\,€$) ; elle vend 23 000 unités.
+$SF = 5\,000 + 30\,000 - 23\,000 = 12\,000$ unités, valorisées à 2 €/unité $= 24\,000\,€$.
+Variation de stock $= SI - SF = 10\,000 - 24\,000 = -14\,000\,€$ (stockage, car $SF > SI$).
+
+**Matières premières (déstockage).** Une entreprise achète 20 000 unités de matières premières à 3 €/unité ($=60\,000\,€$) ; le stock initial était de 5 000 unités à 3 €/unité ($=15\,000\,€$) ; elle consomme 23 000 unités.
+$SF = 5\,000 + 20\,000 - 23\,000 = 2\,000$ unités, valorisées à 3 €/unité $= 6\,000\,€$.
+Variation de stock $= SI - SF = 15\,000 - 6\,000 = +9\,000\,€$ (déstockage, car $SI > SF$).
+
+**Produits finis (stockage, formule inversée).** Une entreprise fabrique 3 125 unités de produits finis à partir de 5 000 unités de matières premières (1 €/unité, soit 5 000 €) et de 20 000 € de charges externes (coût de production total : 25 000 €, soit 8 €/unité) ; le stock initial était nul ; elle vend 2 000 unités à 10 €/unité.
+$SF = 0 + 3\,125 - 2\,000 = 1\,125$ unités, valorisées au coût de production de 8 €/unité $= 9\,000\,€$.
+Variation de stock $= SF - SI = 9\,000 - 0 = +9\,000\,€$ (stockage, car $SF > SI$).
+
+Extrait du compte de résultat correspondant : charges (coût d'achat des MP consommées 5 000 € + autres achats et charges externes 20 000 € = 25 000 € de charges) ; produits (production vendue 20 000 € + production stockée 9 000 € = 29 000 € de produits) ; bénéfice $= 29\,000 - 25\,000 = 4\,000\,€$.
+
 <!-- SOURCES INTÉGRÉES
-- eco gestion maison 1-transcript.txt
-- L1_S1_Introduction à la gestion_HAMEAU_2026-2027.pdf
+- eco gestion maison 1-transcript ✅.txt
+- L1_S1_Introduction à la gestion_HAMEAU_2026-2027 ✅.pdf
+- Chapitre 1 - II. le compte de résultat ✅.pdf
+- eco-gestion-dm2-transcript ✅.txt
+- eco gestion 2-transcript ✅.txt
+- eco gestion CM 1-transcript ✅.txt
+- cour-eco-gestion-maison1 ✅.pptx
 -->

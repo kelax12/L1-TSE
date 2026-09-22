@@ -311,3 +311,93 @@ Le résultat diminue de 500 € (les intérêts rémunèrent un service consomm�
 52. Quel est l'impact de la distribution du résultat sur le poste résultat lui-même ?
 
 Le poste résultat est ramené à zéro : il a été intégralement affecté entre dividendes et réserves.
+
+## Le compte de résultat
+
+53. Qu'est-ce que le compte de résultat, et quel est son lien avec le bilan ?
+
+Un document de synthèse qui détaille toutes les charges et tous les produits de l'exercice ; c'est un « zoom » sur le seul poste résultat du bilan, qui lui ne donne qu'un montant cumulé sans expliquer comment il s'est formé.
+
+
+
+54. Une opération qui diminue le résultat au bilan se traduit par quoi au compte de résultat ? Et une opération qui l'augmente ?
+
+Une diminution du résultat se traduit par une charge ; une augmentation se traduit par un produit.
+
+
+
+55. Citez les trois grandes catégories de charges (et de produits) au compte de résultat.
+
+D'exploitation, financières, exceptionnelles (symétriquement : produits d'exploitation, financiers, exceptionnels).
+
+
+
+56. Comment le bénéfice ou la perte s'inscrit-il au compte de résultat pour équilibrer les deux colonnes ?
+
+Le bénéfice (si produits > charges) s'inscrit du côté charges ; la perte (si charges > produits) s'inscrit du côté produits — comme le résultat équilibre l'actif et le passif au bilan.
+
+
+
+57. Dans l'exemple de la société Martin, quelles opérations parmi a-j n'apparaissent PAS au compte de résultat, et pourquoi ?
+
+b, c, f et i : ce sont de simples échanges d'actifs (ou de dettes) de valeur équivalente, sans appauvrissement ni enrichissement, donc sans charge ni produit.
+
+
+
+58. Dans l'exemple de la société Martin, quels sont le total des charges, le total des produits et le bénéfice au compte de résultat ?
+
+Total charges : 13 500 € ; total produits : 16 000 € ; bénéfice : 2 500 € — identique au résultat calculé via le bilan.
+
+
+
+59. Quelle est la formule générale du coût d'achat des marchandises vendues (ou des MP consommées) ?
+
+Achats de la période ± variation de stock.
+
+
+
+60. Pour les marchandises et matières premières, quelle est la formule du stock final (SF), et comment se calcule la variation de stock ?
+
+$SF = SI + \text{achats de la période} - \text{ventes (ou consommation) de la période}$ ; variation de stock $= SI - SF$.
+
+
+
+61. Pour les marchandises/MP, que signifie une variation de stock négative ? Une variation positive ?
+
+Négative ($SF>SI$) : stockage. Positive ($SI>SF$) : déstockage.
+
+
+
+62. Pour les produits finis, quelle est la formule du stock final, et comment se calcule la variation de stock ? En quoi diffère-t-elle du cas marchandises/MP ?
+
+$SF = SI + \text{production de la période} - \text{production vendue}$ ; variation de stock $= SF - SI$ — la formule est inversée par rapport aux marchandises/MP (ici c'est $SF-SI$, pas $SI-SF$).
+
+
+
+63. Pour les produits finis, que signifie une variation de stock positive ? Une variation négative ?
+
+Positive ($SF>SI$) : stockage. Négative ($SI>SF$) : déstockage.
+
+
+
+64. Au coût de quoi évalue-t-on le stock de marchandises/MP ? Et le stock de produits finis ?
+
+Marchandises/MP : au coût d'achat. Produits finis : au coût de production.
+
+
+
+65. Une entreprise achète 20 000 unités de marchandises à 1 €, avec un stock initial de 5 000 unités à 1 €, et en vend 23 000. Quelle est la variation de stock ?
+
+$SF = 5\,000+20\,000-23\,000=2\,000$ unités à 1 € $=2\,000\,€$ ; variation $=SI-SF=5\,000-2\,000=+3\,000\,€$ (déstockage, car $SI>SF$).
+
+
+
+66. Qu'est-ce que les dotations aux amortissements et dépréciations (DADP) au compte de résultat, et qu'est-ce que les reprises (RADP) ?
+
+Les DADP sont la charge correspondant à une perte de valeur constatée sur un actif ; les RADP sont le produit correspondant à l'annulation (totale ou partielle) d'une dotation antérieure.
+
+
+
+67. Lors de la cession d'un actif immobilisé, quelles sont les deux lignes qui apparaissent au compte de résultat ?
+
+La valeur comptable de l'immobilisation cédée (en charge) et le produit de cession, c'est-à-dire le prix de vente encaissé (en produit).

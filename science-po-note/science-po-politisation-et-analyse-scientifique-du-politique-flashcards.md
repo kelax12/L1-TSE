@@ -482,125 +482,273 @@ Des appels répétés à l'autonomie mais une surveillance constante, une évalu
 
 80. Qu'est-ce qu'un ajustement secondaire chez Goffman ?
 
-Une stratégie d'adaptation discrète plutôt qu'une rupture ouverte face à la mortification du moi : détournement discret du règlement, préservation d'un « moi clandestin » (ex. fumer avec les surveillants moyennant un arrangement informel).
+Une stratégie d'adaptation discrète plutôt qu'une rupture ouverte face à la mortification du moi : détournement discret du règlement, solidarités entre patients, préservation d'un « moi clandestin » (ex. fumer avec les surveillants moyennant un arrangement informel).
+
+
+
+81. À quelle date précise et dans quel établissement Goffman a-t-il mené le terrain d'*Asiles*, et pour quelle raison personnelle ?
+
+1954-1955, au Saint Elizabeths Hospital de Washington D.C. ; son épouse souffrait elle-même de troubles psychiatriques.
+
+
+
+82. Pourquoi le jeu vidéo *GTA* est-il un bon exemple de construction d'un objet sociologique aujourd'hui ?
+
+Parce que face à un objet massif (une centaine de millions de joueurs), la tentation est de rester à des généralités du sens commun sans valeur scientifique (« GTA, violence ») ; il faut le décomposer en micro-questions observables (ex. le discours anticapitaliste d'un personnage est-il un habillage de façade ou une revendication assumée par les joueurs ?) pour en faire un objet réellement analysable.
 
 ### B. Le problème des valeurs
 
-81. Qu'est-ce que la neutralité axiologique selon Max Weber ?
+83. Qu'est-ce que la neutralité axiologique selon Max Weber ?
 
 La suspension du jugement de valeur personnel dans l'analyse scientifique d'un fait social, au profit de ce qui est vraisemblable et démontrable.
 
 
 
-82. Que distingue Weber entre rapport aux valeurs (*Wertbeziehung*) et distance aux valeurs (*Werturteilsfreiheit*) ?
+84. Que distingue Weber entre rapport aux valeurs (*Wertbeziehung*) et distance aux valeurs (*Werturteilsfreiheit*) ?
 
 Le rapport aux valeurs intervient en amont : le chercheur choisit son objet selon sa signification culturelle, donc selon des valeurs. La distance aux valeurs intervient ensuite : une fois l'objet choisi, il s'interdit tout jugement de valeur sur les faits étudiés.
 
 
 
-83. Qu'est-ce que la représentation collective agissante chez Weber ?
+85. Comment définit-on précisément une « valeur » au sens technique retenu par le cours ?
 
-La restitution fidèle, par le sociologue, des systèmes de valeurs qui font réellement agir les acteurs sociaux, en comprenant le sens qu'ils donnent eux-mêmes à leur action, sans y substituer ses propres valeurs.
+Une représentation (image, discours, œuvre) qui est collective (partagée par une communauté) et surtout agissante — c'est le critère d'agissance qui est décisif pour qu'elle devienne un objet politique.
 
 
 
-84. À quelles quatre étapes de la recherche les valeurs interviennent-elles concrètement ?
+86. Pourquoi l'exemple des platistes illustre-t-il le critère d'« agissance » d'une valeur ?
+
+Parce que penser que la Terre est plate est une représentation collective très active en ligne, mais elle ne devient un objet pour la science politique que si elle se traduit en projet politique ou en passage à l'acte — sinon elle reste un objet de sociologie des croyances.
+
+
+
+87. Une fois qu'une valeur est identifiée comme représentation collective agissante, que doit faire le sociologue selon Weber ?
+
+Restituer fidèlement les systèmes de valeurs qui font réellement agir les acteurs sociaux, en comprenant le sens qu'ils donnent eux-mêmes à leur action, sans y substituer ses propres valeurs.
+
+
+
+88. À quelles quatre étapes de la recherche les valeurs interviennent-elles concrètement ?
 
 Le choix de l'objet, les concepts eux-mêmes (charge normative du vocabulaire), les indicateurs retenus, et l'interprétation des résultats.
 
 
 
-85. Quelles sont les trois postures possibles face au problème des valeurs en sciences sociales ?
+89. Quelles sont les trois postures possibles face au problème des valeurs en sciences sociales ?
 
 La neutralité axiologique de Weber, l'engagement assumé des approches critiques (École de Francfort, épistémologies féministes et postcoloniales), et la réflexivité de Bourdieu.
 
 
 
-86. Qu'est-ce que la réflexivité selon Bourdieu ?
+90. Qu'est-ce que la réflexivité selon Bourdieu ?
 
 Objectiver la position sociale et scolastique du chercheur lui-même, pour maîtriser — sans l'annuler complètement — l'effet des valeurs sur la construction de l'objet.
 
 
 
-87. Que montre Edward Said dans *Orientalism* (1978) à propos de la neutralité scientifique ?
+91. Dans quel contexte historique précis Max Weber a-t-il formulé la neutralité axiologique en 1919 ?
+
+Dans un discours (*Le savant et la politique*) prononcé alors que l'Allemagne voit monter un nationalisme agressif jusque dans le monde académique (des collègues de Weber, dont Carl Schmitt, adhèrent à une vision autoritaire du droit) ; en France à la même période, le fils de Durkheim meurt au front pendant la Première Guerre mondiale dans un climat de nationalisme anti-allemand.
+
+
+
+92. Quel cas contemporain illustre la tension entre neutralité scientifique et légitimité du chercheur cité en cours ?
+
+Un jeune professeur de science politique afro-américain nommé à Oxford, attaqué en meute sur les réseaux par un universitaire d'extrême droite qui a réduit sa nomination à une politique de diversité — révélateur des débats actuels sur la légitimité épistémique d'un chercheur non issu du milieu qu'il étudie.
+
+
+
+93. Quel impensé normatif fréquent traverse les théories de la participation et de la mobilisation en science politique ?
+
+Elles traitent implicitement celui qui ne vote pas ou ne milite pas comme politiquement inactif ou illégitime (alors que l'abstention peut être une politisation à part entière), et lisent les émeutes et mobilisations populaires à travers un prisme quasi exclusivement sécuritaire (transgression, déviance) plutôt que comme un objet politique légitime en soi.
+
+94. Que montre Edward Said dans *Orientalism* (1978) à propos de la neutralité scientifique ?
 
 Que les *area studies* occidentales ont façonné un savoir sur « l'Orient » calqué sur les besoins impériaux, tout en se présentant comme une description neutre et savante.
 
 
 
-88. Que montrent les enquêtes électorales de Columbia et du Michigan (1950-1970s) sur un biais de genre implicite ?
+95. Quelles autrices, aux côtés d'Edward Said, sont citées en cours comme références majeures des études postcoloniales et de genre ?
+
+Angela Davis (articulation race/genre/système carcéral) et Judith Butler (construction sociale du genre).
+
+
+
+96. Que montrent Fukuyama (*La Fin de l'histoire*, 1992) et Huntington (*Le Choc des civilisations*, 1996) sur le poids des valeurs dans les théories réputées scientifiques ?
+
+Ce sont deux grands récits concurrents et non neutres de la politique internationale (victoire universelle de la démocratie de marché vs. lecture civilisationnelle des conflits) — la thèse de Huntington a ensuite été reprise par l'extrême droite européenne, et celle de Fukuyama largement invalidée par les événements (11 septembre 2001).
+
+
+
+97. Que montrent les enquêtes électorales de Columbia et du Michigan (1950-1970s) sur un biais de genre implicite ?
 
 Elles ont longtemps supposé que le vote des femmes suivait celui de leur mari, masquant des écarts de préférences jamais mesurés.
 
 
 
-89. Quelle critique Léo Strauss adresse-t-il à la neutralité axiologique absolue ?
+98. Quelle critique Léo Strauss adresse-t-il à la neutralité axiologique absolue ?
 
 Il estime que la suspension totale du jugement de valeur devient insupportable dans certains cas limites (ex. les camps de concentration), posant la question du relativisme scientifique.
 
 
 
-90. Pourquoi dit-on que les résultats scientifiques en sciences sociales sont « portés par des valeurs » ?
+99. Pourquoi dit-on que les résultats scientifiques en sciences sociales sont « portés par des valeurs » ?
 
 Parce que la sociologie ou la science politique pratiquées varient selon les sensibilités des chercheurs et des institutions, ce qui influence les objets étudiés et les interprétations produites.
 
 
 
-91. Que faut-il faire avant d'utiliser un concept comme celui de « risque » (exemple d'Ulrich Beck, *La Société du risque*) ?
+100. Que faut-il faire avant d'utiliser un concept comme celui de « risque » (exemple d'Ulrich Beck, *La Société du risque*) ?
 
 Faire l'histoire du concept et le définir précisément, plutôt que le tenir pour évident — des chercheurs et des acteurs sociaux peuvent employer un même mot sans jamais le définir de la même façon.
 
 
 
-92. Donnez un exemple de cadre normatif structurant qui rend un acteur « impensable » politiquement.
+101. Donnez un exemple de cadre normatif structurant qui rend un acteur « impensable » politiquement.
 
 Aucune idéologie politique majeure ne confère de légitimité normative au sans-emploi : le travail y est présenté comme l'accomplissement de la nature humaine, ce qui exclut le sans-emploi du jeu politique pensable.
 
+
+
+102. Quels trois postulats implicites des sondages d'opinion Bourdieu conteste-t-il dans « L'opinion publique n'existe pas » (1972-1973) ?
+
+Que tout le monde a une opinion constituée ; que toutes les opinions exprimées se valent ; et qu'il existe un consensus sur les questions posées, alors que ce sont les professionnels et les médias qui les formulent, pas les enquêtés.
+
+
+
+103. Pourquoi les gens répondent-ils à un sondage même sans opinion réellement constituée sur le sujet ?
+
+Parce que ne pas savoir répondre est vécu comme une violence symbolique (peur de « paraître con ») — ce qui fabrique artificiellement un consensus agrégé à partir de positions hétérogènes et largement contraintes.
+
 ### C. Expliquer, comprendre mais prouver : deux méthodes de causalité
 
-93. Quelles sont les deux grandes méthodes pour établir une causalité robuste en science politique empirique ?
+104. Quelles sont les deux grandes méthodes pour établir une causalité robuste en science politique empirique ?
 
 La méthode socio-historique (idéal-typique, héritée de Weber) et la méthode expérimentale (causalité statistique, fondée par Durkheim).
 
 
 
-94. En quoi consiste la méthode socio-historique (idéal-typique) ?
+105. En quoi consiste la méthode socio-historique (idéal-typique) ?
 
-Établir une causalité en inscrivant un fait social dans une histoire précise et des configurations socio-historiques, en s'appuyant sur un travail de terrain, d'archives et d'histoire.
+Établir une causalité en inscrivant un fait social dans une histoire précise et des configurations socio-historiques, en s'appuyant sur un travail de terrain, d'archives et d'histoire — via la construction d'idéaux types recontextualisés historiquement.
 
 
 
-95. Quel ouvrage fonde la méthode expérimentale/statistique en sociologie française ?
+106. Qu'est-ce qu'un idéal type chez Weber, et que signifie « idéal » dans ce contexte ?
+
+Une construction intellectuelle qui rassemble et accentue certains traits saillants d'un phénomène réel (l'État, la bureaucratie) pour permettre la comparaison ; « idéal » ne veut pas dire parfait ou souhaitable, mais construit intellectuellement.
+
+
+
+107. Quels sont les quatre traits de l'idéal type wébérien de la bureaucratie ?
+
+Règles formelles, hiérarchie, division des tâches, fonctions définies (+ administration fondée sur les compétences).
+
+
+
+108. Pourquoi ne peut-on pas comprendre la montée des régimes totalitaires du XXe siècle sans l'idéal type de la bureaucratie ?
+
+Parce que ces régimes se sont fondés sur des bureaucraties appliquant des règles formelles auxquelles les agents ont progressivement adhéré, de façon relativement silencieuse (travaux de Johann Chapoutot sur le régime nazi) — un changement de régime suppose toujours un appareil administratif et répressif capable de l'appliquer, pas seulement des conditions sociales (pauvreté, colère).
+
+
+
+109. Pourquoi faut-il toujours recontextualiser historiquement un idéal type avant de l'utiliser ?
+
+Parce qu'un même idéal type change de sens selon le contexte : l'État en Chine au XVe siècle n'est pas l'État en France au XIXe, et la radicalité politique au Pays basque des années 1980 n'a pas le même sens que la violence des Black Blocs en 2010, même si c'est le même idéal type de violence urbaine récurrente.
+
+
+
+110. Qu'est-ce qu'une affinité élective chez Weber (*L'Éthique protestante et l'esprit du capitalisme*) ?
+
+Une rencontre non déterministe entre une idéologie religieuse et une pratique sociale qui « matchent » sans que l'une cause mécaniquement l'autre — ce n'est pas le protestantisme qui a causé le capitalisme, mais une traduction calviniste radicale valorisant le travail méthodique « ici et maintenant » qui a trouvé une affinité élective avec des populations en quête d'organiser leur quotidien.
+
+
+
+111. Quel ouvrage fonde la méthode expérimentale/statistique en sociologie française ?
 
 *Le Suicide* de Durkheim.
 
 
 
-96. Pourquoi la violence politique en Espagne est-elle citée comme un « objet limite » de la méthode socio-historique ?
+112. Qu'est-ce que la « méthode inversée » chez Durkheim ?
+
+Ne jamais partir de l'individu et de ses motivations subjectives pour expliquer un comportement social, mais partir du phénomène collectif observable (ex. le taux de suicide) pour en chercher ensuite les conditions sociales de variation.
+
+
+
+113. Quelles sont les trois exigences de la méthode inversée durkheimienne ?
+
+Un fait social défini et mesurable ; des données permettant d'en observer la variation ; et son observabilité dans la durée (structurel/chronique, pas seulement conjoncturel).
+
+
+
+114. Par quels deux jeux de variables Durkheim mesure-t-il l'intégration sociale dans *Le Suicide* ?
+
+Le degré d'intégration religieuse (type et fréquence de pratique) et le degré d'intégration familiale (mesuré à l'époque par le mariage).
+
+
+
+115. D'où vient historiquement l'essor du quantitativisme en sciences sociales aux États-Unis dans les années 1940-1950 ?
+
+D'enquêtes commandées par l'armée américaine pour mesurer le moral des troupes (Seconde Guerre mondiale puis Vietnam) — filiation avec les expériences de psychologie sociale type Milgram sur la soumission à l'autorité.
+
+
+
+116. Pourquoi « corrélation n'est pas causalité », et quel exemple sur les réseaux numériques l'illustre ?
+
+Un lien statistique entre deux phénomènes ne dit rien de son sens : avoir beaucoup de *followers* ne dit rien de la nature réelle de l'influence exercée — un compte à dix abonnés très engagés peut être plus influent qu'un compte à plusieurs millions de followers passifs (force des liens faibles).
+
+
+
+117. Pourquoi la violence politique en Espagne est-elle citée comme un « objet limite » de la méthode socio-historique ?
 
 Parce qu'elle illustre le poids d'une histoire longue (conflit basque, franquisme) restée omniprésente dans le débat public espagnol contemporain, nécessitant une analyse historique fine plutôt que purement statistique.
 
 
 
-97. Quelle est la différence entre explication et compréhension en sciences sociales ?
+118. Quelle énigme précise le cas de la violence politique basque (ETA) permet-il d'expliquer par la méthode idéal-typique ?
+
+Comment un groupe porteur d'un projet d'émancipation identitaire en vient à apprendre et pratiquer la violence politique de façon organisée et durable (près de 900 morts sur 60 ans).
+
+
+
+119. Quelle causalité historique précise explique la naissance de la violence politique basque selon cette recherche ?
+
+À la fin des années 1950, une partie de l'élite basque nationaliste s'est formée à la violence au contact du FLN pendant la guerre d'Algérie, tandis que l'État franquiste utilisait l'OAS pour former ses cadres de renseignement — les deux camps s'apprenant mutuellement les techniques de l'action clandestine (1959-1962).
+
+
+
+120. Pourquoi la comparaison, dans le cas basque, s'est-elle faite entre configurations intra-espagnoles plutôt qu'avec la France ?
+
+Parce qu'une comparaison historique doit être « faisable » — comparer des phénomènes réellement comparables ; le sens de la violence urbaine en France et en Espagne est jugé trop hétérogène pour une comparaison directe.
+
+
+
+121. Selon la collaboration du cours avec l'économiste Jean-Paul Azam, quel doit être l'objectif d'un raisonnement scientifique en sciences sociales ?
+
+Être vraisemblable, pas nécessairement vrai — d'où l'exigence de « faire petit » : choisir des objets circonscrits et mesurables plutôt que des généralités globales invérifiables.
+
+
+
+122. Quelle est la différence entre explication et compréhension en sciences sociales ?
 
 L'explication (tradition durkheimienne) établit une causalité entre phénomènes sociaux censée déboucher sur des lois ; la compréhension (Weber) recherche le sens que les individus attribuent eux-mêmes à leur action, resituée dans son contexte historique.
 
 
 
-98. Pourquoi la distinction entre explication et compréhension est-elle qualifiée de largement artificielle ?
+123. Pourquoi la distinction entre explication et compréhension est-elle qualifiée de largement artificielle ?
 
 Parce que dans la pratique concrète de la recherche, les deux démarches sont intimement liées et se confondent le plus souvent.
 
 ### D. Le problème de l'agentivité
 
-99. Qu'est-ce que l'agentivité (biais d'intentionnalité) en science politique empirique ?
+124. Qu'est-ce que l'agentivité (biais d'intentionnalité) en science politique empirique ?
 
 Un biais cognitif naturel consistant à attribuer une cause intentionnelle à des phénomènes sociaux, alors que certains résultent de causes non-intentionnelles.
 
 
 
-100. Pourquoi faut-il distinguer causes intentionnelles et causes non-intentionnelles dans l'analyse d'un phénomène social ?
+125. Pourquoi faut-il distinguer causes intentionnelles et causes non-intentionnelles dans l'analyse d'un phénomène social ?
 
 Pour éviter une lecture excessivement volontariste ou complotiste des faits sociaux, alors que certains résultent de dynamiques structurelles non voulues par un acteur identifiable.
 
@@ -608,97 +756,97 @@ Pour éviter une lecture excessivement volontariste ou complotiste des faits soc
 
 ### A. Le cycle complet, de la situation sociale aux effets
 
-101. Quelles sont les étapes du cycle allant de la situation sociale aux effets des politiques publiques ?
+126. Quelles sont les étapes du cycle allant de la situation sociale aux effets des politiques publiques ?
 
 Situation sociale → problématisation → publicisation → mise sur agenda → définition institutionnelle → choix des instruments → mise en œuvre → effets.
 
 
 
-102. Qu'est-ce que la problématisation ?
+127. Qu'est-ce que la problématisation ?
 
 Le moment où une situation sociale ordinaire devient l'objet d'une controverse et cesse d'être perçue comme allant de soi.
 
 
 
-103. Qu'est-ce que la publicisation ?
+128. Qu'est-ce que la publicisation ?
 
 La mise en discussion publique d'un problème une fois problématisé — étape qui peut rester sans suite pendant des années.
 
 ### B. La traduction en langage institutionnel
 
-104. Qu'appelle-t-on la « traduction » d'un problème public ?
+129. Qu'appelle-t-on la « traduction » d'un problème public ?
 
 La reformulation d'un problème reconnu dans le langage institutionnel et dans celui des politiques publiques.
 
 
 
-105. Quelles questions le chercheur doit-il écarter au moment d'analyser une politique publique ?
+130. Quelles questions le chercheur doit-il écarter au moment d'analyser une politique publique ?
 
 Les questions morales et théoriques (« qu'est-ce qu'il faudrait faire ? »), au profit de la mesure de ce qui se fait ou ne se fait pas.
 
 ### C. Instruments, mise en œuvre et effets
 
-106. Que sont les instruments d'action publique ?
+131. Que sont les instruments d'action publique ?
 
 Les moyens concrets d'une politique : budgets, incitations fiscales ou budgétaires, discrimination positive, personnels affectés, dispositifs d'évaluation.
 
 
 
-107. Pourquoi l'analyse des politiques publiques est-elle décrite comme un « cimetière de décisions » ?
+132. Pourquoi l'analyse des politiques publiques est-elle décrite comme un « cimetière de décisions » ?
 
 Parce qu'une politique inscrite dans la loi n'est le plus souvent jamais mise en œuvre, faute de moyens, de fonctionnaires ou de budget.
 
 
 
-108. Qu'est-ce qu'un effet pervers, avec un exemple ?
+133. Qu'est-ce qu'un effet pervers, avec un exemple ?
 
 Une conséquence non anticipée et pénalisante d'une politique appliquée — ex. la limitation à 80 km/h sur les départementales, pénalisante pour certaines populations.
 
 
 
-109. Pourquoi une politique publique n'est-elle pas une simple solution à un problème préexistant ?
+134. Pourquoi une politique publique n'est-elle pas une simple solution à un problème préexistant ?
 
 Parce qu'elle constitue une nouvelle construction et un nouvel objet politique : un même problème politisé peut donner naissance à des politiques très différentes.
 
 
 
-110. Quel exemple illustre une politique purement symbolique ?
+135. Quel exemple illustre une politique purement symbolique ?
 
 Une université qui décrète lutter contre les violences sexistes sans chargée de mission, sans traitement des contentieux ni dispositif d'accompagnement.
 
 ### D. Les cinq points à retenir sur la politisation
 
-111. Quels sont les cinq points à retenir sur la politisation ?
+136. Quels sont les cinq points à retenir sur la politisation ?
 
 1) La construction du problème public ; 2) les acteurs porteurs des définitions et le langage ; 3) les rapports de pouvoir entre acteurs ; 4) la mise sur agenda ; 5) les instruments, catégories et effets des politiques publiques.
 
 
 
-112. Qui porte aujourd'hui les définitions des problèmes publics, au-delà des élites politiques ?
+137. Qui porte aujourd'hui les définitions des problèmes publics, au-delà des élites politiques ?
 
 Les influenceurs, les chefs d'entreprise et les figures de la tech, porteuses d'une vision du monde propre (réduction de l'État, privatisation).
 
 
 
-113. Pourquoi le nombre d'abonnés ne suffit-il pas à mesurer le poids d'un acteur ?
+138. Pourquoi le nombre d'abonnés ne suffit-il pas à mesurer le poids d'un acteur ?
 
 Parce que c'est l'influence réelle qui compte : on peut avoir très peu de public et être extrêmement influent, ou l'inverse.
 
 
 
-114. Quel est l'exemple le plus abouti de politisation récente cité par le cours ?
+139. Quel est l'exemple le plus abouti de politisation récente cité par le cours ?
 
 Le grand remplacement : une catégorie née dans des groupes très marginaux et devenue un objet de débat public légitime.
 
 ### E. La finalité du travail scientifique
 
-115. Quel est l'objet du travail scientifique en science politique empirique ?
+140. Quel est l'objet du travail scientifique en science politique empirique ?
 
 Étudier la construction des problèmes publics et comprendre, de manière neutre, pourquoi certaines situations deviennent des priorités politiques tandis que d'autres restent invisibles ou dépolitisées.
 
 
 
-116. En quoi les sciences sociales fonctionnent-elles comme une forme de lancement d'alerte ?
+141. En quoi les sciences sociales fonctionnent-elles comme une forme de lancement d'alerte ?
 
 Elles rendent visibles des objets invisibles mais socialement explosifs (question raciale, suicide chez Durkheim, reproduction scolaire chez Bourdieu).
 
@@ -706,96 +854,102 @@ Elles rendent visibles des objets invisibles mais socialement explosifs (questio
 
 ### A. Le retour du religieux et la mesure de la religiosité
 
-117. Pourquoi le cours privilégie-t-il la notion de « religiosité » plutôt que de « religion » pour analyser le retour du religieux ?
+142. Pourquoi le cours privilégie-t-il la notion de « religiosité » plutôt que de « religion » pour analyser le retour du religieux ?
 
 Parce que la religiosité (ou sentiment religieux) permet une mesure empirique plus fine, notamment chez les jeunes générations, plutôt qu'une approche catégorielle figée de l'appartenance religieuse.
 
 
 
-118. Quel institut est cité comme source d'enquêtes de référence sur la religiosité en France ?
+143. Quel institut est cité comme source d'enquêtes de référence sur la religiosité en France ?
 
 L'INED (Institut national des études démographiques).
 
 ### B. Le comportement politique : le vote Rassemblement National
 
-119. Pourquoi le vote Rassemblement National est-il présenté comme un cas d'étude synthétique de la science politique empirique ?
+144. Pourquoi le vote Rassemblement National est-il présenté comme un cas d'étude synthétique de la science politique empirique ?
 
 Parce qu'il combine les enjeux de politisation, de construction des problèmes publics et de neutralité axiologique développés dans les parties I et II du cours.
 
 
 
-120. Quelle question empirique centrale se pose sur la nature du vote RN selon le cours ?
+145. Quelle question empirique centrale se pose sur la nature du vote RN selon le cours ?
 
 S'agit-il d'un vote fondamentalement économique, d'un vote anti-immigration, ou d'une combinaison de facteurs — sans tomber dans un jugement de valeur implicite.
 
 ### C. Réseaux sociaux numériques, masculinisme et influence des fake news
 
-121. Pourquoi est-il scientifiquement difficile de mesurer l'influence réelle des réseaux sociaux sur le comportement politique ?
+146. Pourquoi est-il scientifiquement difficile de mesurer l'influence réelle des réseaux sociaux sur le comportement politique ?
 
 Parce qu'il n'existe pas de protocole permettant d'observer concrètement comment les messages sont reçus et mis en œuvre dans la vie réelle des individus (problème de la réception).
 
 
 
-122. Quelle leçon ancienne de la sociologie des médias américaine (années 1950) le cours rappelle-t-il à propos de l'influence des médias ?
+147. Quelle leçon ancienne de la sociologie des médias américaine (années 1950) le cours rappelle-t-il à propos de l'influence des médias ?
 
 Les médias n'ont pas d'effet direct et automatique sur les comportements ; un niveau intermédiaire (un passeur, un entrepreneur charismatique) est nécessaire pour qu'un message produise un effet réel.
 
 
 
-123. Quelle question sur les réseaux numériques est présentée comme plus mesurable que l'influence directe sur les comportements ?
+148. Quelle question sur les réseaux numériques est présentée comme plus mesurable que l'influence directe sur les comportements ?
 
 La légitimation de thèses minoritaires dans l'espace médiatique, c'est-à-dire la migration d'idées de niches en ligne vers le débat public.
 
 
 
-124. Qu'est-ce que le « parasocial » évoqué à propos des nouveaux vecteurs de politisation ?
+149. Qu'est-ce que le « parasocial » évoqué à propos des nouveaux vecteurs de politisation ?
 
 Les formes d'identification et d'attachement affectif construites à distance avec des figures publiques (influenceurs, gaming) qui deviennent de nouveaux vecteurs de politisation.
 
 
 
-125. Que montre le cas de *GTA* sur le fonctionnement des catégories immédiates ?
+150. Que montre le cas de *GTA* sur le fonctionnement des catégories immédiates ?
 
 La catégorie « jeu vidéo = violence » s'impose instantanément et sert de matrice à la politisation, alors qu'empiriquement l'influence des jeux vidéo sur les comportements est très discutée.
 
 ### D. Populismes, mépris social et question de l'oligarchie
 
-126. Qu'est-ce que le mépris social dans l'analyse des populismes européens ?
+151. Qu'est-ce que le mépris social dans l'analyse des populismes européens ?
 
 Un sentiment subjectif, indépendant du niveau de vie réel, d'être pris entre des élites qui n'écoutent pas et des populations d'en bas soupçonnées de profiter du système.
 
 
 
-127. En quoi le mépris social traduit-il une crise de l'État-providence à double niveau ?
+152. En quoi le mépris social traduit-il une crise de l'État-providence à double niveau ?
 
 Par le haut, une crise de légitimité des élites ; par le bas, une compétition perçue pour le logement, l'école et les revenus sociaux, vive chez les classes moyennes pauvres.
 
 
 
-128. Pourquoi l'oligarchie doit-elle être analysée scientifiquement ?
+153. Pourquoi l'oligarchie doit-elle être analysée scientifiquement ?
 
 Parce que sans mesure empirique de la concentration réelle du pouvoir, l'analyse bascule dans le complotisme — une frontière ténue lors du Covid et des débats sur le vaccin.
 
+
+
+154. Quels sont les deux grands paradoxes structurels des démocraties contemporaines identifiés par le cours ?
+
+1) Pourquoi ce sont statistiquement toujours les mêmes profils sociaux qui monopolisent le pouvoir dans des démocraties fondées sur la compétition électorale (oligarchie) ; 2) pourquoi un niveau de violence politique structurel a persisté dans des démocraties européennes pourtant censées être pacifiées par le processus de civilisation (Elias) depuis les années 1960.
+
 ### E. Le classement PISA : performance affichée, inégalités mesurées
 
-129. Que mesure réellement le classement PISA, au-delà de la performance scolaire affichée par les médias ?
+155. Que mesure réellement le classement PISA, au-delà de la performance scolaire affichée par les médias ?
 
 Les inégalités scolaires : les élèves les plus en difficulté sont systématiquement ceux issus des quartiers les plus pauvres, ce que confirment les statistiques du ministère de l'Éducation nationale — ce n'est pas un niveau global d'intelligence qui est mesuré.
 
 
 
-130. Quels effets politiques concrets une lecture politisée du classement PISA a-t-elle produits ?
+156. Quels effets politiques concrets une lecture politisée du classement PISA a-t-elle produits ?
 
 Un discours de l'« excellence » et de séparation des « bons » et des « mauvais » élèves, et une justification du séparatisme scolaire par l'évitement de la mixité sociale chez les familles les mieux informées.
 
 ### F. L'élection de l'AfD dans un Land allemand : sur-interprétation et exigence de preuve
 
-131. Que révèle l'exemple de l'élection de l'AfD sur le rapport entre légitimité médiatique et preuve empirique ?
+157. Que révèle l'exemple de l'élection de l'AfD sur le rapport entre légitimité médiatique et preuve empirique ?
 
 Un éditorialiste réputé attribue le vote AfD aux réseaux numériques et aux personnes âgées ; une historienne montre, données à l'appui, que ce sont en réalité les 35-60 ans qui votent le plus AfD — la légitimité rhétorique et institutionnelle d'un discours ne garantit en rien sa validité empirique.
 
 
 
-132. Qu'est-ce que le « populisme boomer » cité en exemple, et pourquoi cette catégorie illustre-t-elle le problème de l'agentivité ?
+158. Qu'est-ce que le « populisme boomer » cité en exemple, et pourquoi cette catégorie illustre-t-elle le problème de l'agentivité ?
 
 Une catégorie inventée sur le moment par un éditorialiste pour expliquer le vote AfD par les personnes âgées, contredite par les données réelles — elle illustre la tendance (agentivité) à vouloir une explication immédiate plutôt qu'une catégorie construite et vérifiée.

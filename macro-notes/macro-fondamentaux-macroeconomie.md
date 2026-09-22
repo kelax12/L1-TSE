@@ -193,7 +193,9 @@ Exemple (2023) : le PIB par habitant de l'Inde converti en dollars était de 2 4
 | Inde | 2 484 | 10 175 |
 | Congo (RD) | 649 | 1 670 |
 
-En règle générale, plus le PIB par tête d'un pays est faible, plus le PIB en PPA lui est supérieur (les prix intérieurs y sont plus bas). C'est l'inverse pour un pays au coût de la vie élevé (la Suisse, par exemple, a un PIB en PPA inférieur à son PIB standard).
+En règle générale, plus le PIB par tête d'un pays est faible, plus le PIB en PPA lui est supérieur (les prix intérieurs y sont plus bas) — ceci traduit une corrélation positive entre niveau de développement d'un pays et niveau des prix qui y sont pratiqués. C'est l'inverse pour un pays au coût de la vie élevé (la Suisse, par exemple, a un PIB en PPA inférieur à son PIB standard).
+
+**Repères récents (2025).** Le PIB nominal mondial est classé, par ordre décroissant, entre les États-Unis, la Chine, l'Allemagne, le Japon, l'Inde, le Royaume-Uni puis la France ; le PIB nominal français s'élève à environ 3 000 milliards d'euros, et le PIB par habitant français à environ 40 000 €. Ce classement change fortement une fois rapporté à la population : en tête du classement par PIB/tête figurent le Luxembourg, l'Irlande, la Suisse, la Norvège et Singapour — les États-Unis n'arrivent qu'en 7ᵉ position, et l'Inde (5ᵉ puissance mondiale en PIB nominal) tombe autour de la 148ᵉ place en PIB/tête, ce qui illustre bien l'écart entre puissance économique globale et niveau de vie individuel.
 
 ### 2.8 Le PIB comme indicateur du bien-être : intérêt et limites
 
@@ -202,8 +204,8 @@ Un PIB élevé facilite en général la vie matérielle des habitants d'un pays 
 Le PIB reste cependant un indicateur imparfait du bien-être d'une société :
 
 - c'est un indicateur purement matériel et quantitatif, qui ne prend pas en compte la vie culturelle, politique ou spirituelle (une dictature peut avoir un PIB élevé) ;
-- il inclut des biens n'apportant pas de bien-être, comme les armes ;
-- il ne prend pas en compte les externalités négatives de la production, comme la pollution ; certains pays peuvent être tentés d'obtenir une croissance du PIB élevée au prix d'un sacrifice environnemental ;
+- il inclut des biens n'apportant pas de bien-être, comme les armes, le tabac ou l'alcool — et, depuis environ 2018, les pays européens sont même tenus d'inclure dans leur PIB une estimation des transactions liées aux produits stupéfiants (y compris dans les pays où ce commerce reste illégal), afin de rendre comparables les contributions de chaque pays au budget communautaire, la vente légale de ces produits dans certains pays (Pays-Bas) gonflant sinon artificiellement leur PIB par rapport aux autres ;
+- il ne prend pas en compte les **externalités négatives** de la production ou de la consommation — les conséquences indirectes de l'acte d'un agent sur le bien-être des autres. Exemples : la déforestation de l'Amazonie pour cultiver de l'huile de palme (exportée ou transformée en biocarburant) augmente le PIB du Brésil tout en dégradant les conditions de vie des populations locales ; de façon plus paradoxale, rester bloqué dans un embouteillage pousse à consommer davantage de carburant (donc à faire augmenter le PIB par la dépense), tout en dégradant la qualité de l'air pour tous les habitants du lieu traversé — certains pays sont ainsi tentés d'obtenir une croissance du PIB élevée au prix d'un sacrifice environnemental ;
 - il ne donne aucune indication sur la distribution du revenu total : un pays peut être riche mais très inégalitaire.
 
 Pour compléter le PIB, on peut utiliser le **PIB vert** (PIB classique diminué de la baisse du stock de ressources naturelles et du coût des pollutions engendrées), même si ces coûts restent difficiles à estimer.
@@ -245,7 +247,11 @@ Le **rapport interdécile P90/P10** compare le revenu plancher des 10 % les plus
 
 Les pays nordiques présentent de moindres inégalités grâce à l'importance de leur redistribution par les revenus de transfert ; les pays anglo-saxons sont plus inégalitaires ; la France se situe dans une position intermédiaire.
 
-Le **coefficient de Gini**, calculé à partir de la courbe de Lorenz, est un autre indicateur synthétique d'inégalité : $G = A/(A+B) = 2A$, où $A$ et $B$ sont des aires définies par la courbe de Lorenz. Il vaut 0 en cas d'égalité parfaite et 1 dans la situation la plus inégalitaire (un seul individu détient tout le revenu). Une baisse du coefficient de Gini entre deux dates indique une diminution des inégalités ; une hausse indique leur augmentation.
+Le **coefficient de Gini**, calculé à partir de la courbe de Lorenz, est un autre indicateur synthétique d'inégalité : $G = A/(A+B) = 2A$, où $A$ et $B$ sont des aires définies par la courbe de Lorenz ($A$ l'aire entre la courbe réelle et la bissectrice d'égalité parfaite, $B$ l'aire sous la courbe réelle). Il vaut 0 en cas d'égalité parfaite ($A=0$, la courbe réelle se superpose à la bissectrice) et 1 dans la situation la plus inégalitaire ($B=0$, un seul individu détient tout le revenu, tous les autres ayant un revenu nul). Une baisse du coefficient de Gini entre deux dates indique une diminution des inégalités ; une hausse indique leur augmentation.
+
+Repère récent : en France en 2021, le rapport interdécile s'élevait à environ 3,3-3,5 et l'indice de Gini à environ 0,30 (à comparer aux 0,22-0,23 des pays scandinaves) — une position intermédiaire, cohérente avec le tableau ci-dessus.
+
+**L'effet des politiques redistributives** se mesure concrètement en comparant l'indice de Gini avant et après redistribution (impôts et prestations sociales). Statistiquement, une politique macroéconomique redistributive peut réduire l'indice de Gini jusqu'à environ 25 %. Exemple frappant pour la France : l'indice de Gini avant redistribution s'élève à environ 0,44, contre environ 0,23 après redistribution — une division quasiment par deux, qui illustre l'efficacité réelle de la redistribution (impôts progressifs, prestations sociales) sur les inégalités de revenu disponible. À l'inverse, certains pays comme la Hongrie, qui affichent les plus faibles inégalités *avant* redistribution, reculent dans le classement une fois la redistribution prise en compte — un rappel que le classement dépend fortement du stade de revenu observé (avant ou après intervention de l'État).
 
 ### 2.10 Facteurs explicatifs du niveau et de la croissance du PIB/tête à long terme
 
@@ -277,6 +283,10 @@ On distingue la **tendance de long terme (LT)** du PIB et les **fluctuations de 
 - des **chocs budgétaires et fiscaux** : variation des dépenses publiques ou des impôts.
 
 Exemple illustratif : la réunification allemande de 1990 entraîne une forte hausse de la demande de biens et services en Allemagne (1990-1991). Craignant une surchauffe inflationniste, la Bundesbank mène une politique monétaire restrictive (hausse de son taux directeur), répercutée par les banques commerciales sur le coût du crédit. Les autres banques centrales européennes suivent ce mouvement pour défendre la parité de leur monnaie, ce qui freine la demande de biens et services dans le reste de l'Europe. S'y ajoutent la baisse des exportations européennes (ralentissement américain) et les politiques budgétaires restrictives imposées par les critères de Maastricht (1992). Cet enchaînement provoque une grave crise économique en Europe au début des années 1990 : récession en 1993 (croissance du PIB négative) et chômage atteignant 11 %. La croissance tendancielle n'est retrouvée qu'après 1996-1997.
+
+**Exemple récent (choc de demande + choc d'offre combinés) : sortie de la pandémie de Covid-19.** À la levée des confinements, les ménages, ayant accumulé de l'épargne forcée, et les entreprises, cherchant à rattraper la période perdue, ont voulu consommer et investir massivement en même temps — un choc de demande positif très brutal. Or l'offre n'a pas pu suivre : la demande mondiale de semi-conducteurs (composants indispensables, entre autres, à l'industrie automobile) a explosé alors que leur production, très concentrée géographiquement, restait limitée. Cette pénurie de puces électroniques a fait grimper leur prix, répercuté sur le prix final de nombreux biens (voitures notamment), contribuant à une poussée d'inflation très forte (proche de 10 % en France, jusqu'à environ 30 % dans certains pays baltes) — sans toutefois déboucher sur une hyperinflation. Pour la maîtriser, les banques centrales (dont la BCE) ont dû relever leurs taux directeurs à des niveaux qu'elles n'avaient jamais eu à gérer dans leur histoire récente, freinant à leur tour consommation et investissement.
+
+**Chocs de production plus récents (2025-2026).** Une canicule et une sécheresse marquées ont endommagé les récoltes de céréales et de légumes, avec un impact estimé à environ 1 point de PIB pour le seul secteur agricole français en 2026 — un exemple de choc climatique de production. Sur le plan monétaire, la BCE a également procédé à une nouvelle hausse de ses taux directeurs à la mi-septembre 2026 pour contenir un niveau d'inflation jugé encore trop élevé dans plusieurs pays de la zone euro — rappel que les chocs monétaires restent un outil d'ajustement mobilisé en continu, pas seulement lors des grandes crises historiques.
 
 ### 2.12 Taux de croissance : définition et règles de calcul
 
@@ -432,7 +442,11 @@ Lorsque plusieurs modèles sont en concurrence pour expliquer un même phénomè
 Depuis les années 1980, les modèles macroéconomiques intègrent de plus en plus de bases microéconomiques, en dotant les modèles d'agents économiques représentatifs (consommateurs, entreprises, État) qui maximisent leur utilité, dans un objectif de rigueur formelle accrue.
 
 <!-- SOURCES INTÉGRÉES
-- SUPPORT COURS ACTUALISE 2024 Chapitre 1.pdf
-- 09-07 Cours _ Macroéconomie, PIB nominal et PIB réel-transcript.txt
-- CM2-macro.odt
+- SUPPORT COURS ACTUALISE 2024 Chapitre 1 ✅.pdf
+- MACRO-2 ✅.txt
+- CM2-macro ✅.odt
+- macro 3-transcript ✅.txt
+- MACRO 4-transcript ✅.txt
+- macro5-transcript-DRAFT ✅.txt
+- CM3 ✅.odt
 -->
