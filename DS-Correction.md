@@ -19,11 +19,13 @@ Contraposée : $x \leq 1 \Rightarrow x < 1$ (également fausse, une implication 
 
 Contraposée : $x^2 \neq 3x \Rightarrow x \neq 3$.
 
-**(c) $\forall (a,b) \in \mathbb{R}^2,\ a+b \geq 0 \Rightarrow \begin{cases} a \geq 0 \\ b \geq 0 \end{cases}$**
+**(c)** $\forall (a,b) \in \mathbb{R}^2,\ a+b \geq 0 \Rightarrow$
+
+$$\begin{cases} a \geq 0 \\ b \geq 0 \end{cases}$$
 
 **Fausse.** Contre-exemple : $a=-1,\ b=2$. On a $a+b=1\geq 0$ mais $a<0$.
 
-Contraposée : $(a<0 \text{ ou } b<0) \Rightarrow a+b<0$ (fausse aussi, cohérent avec (c)). On obtient la contraposée en niant "$a\geq0$ et $b\geq0$", ce qui donne "$a<0$ ou $b<0$" (loi de De Morgan), et en niant $a+b\geq0$.
+Contraposée : $(a<0 \text{ ou } b<0) \Rightarrow a+b<0$ (fausse aussi, cohérent avec (c)). On obtient la contraposée en niant l'expression $a\geq0$ et $b\geq0$, ce qui donne $a<0$ ou $b<0$ (loi de De Morgan), et en niant $a+b\geq0$.
 
 **(d) $\forall (a,b)\in\mathbb{R}^2,\ ab \leq 0 \Rightarrow (a\leq 0 \text{ ou } b \leq 0)$**
 
@@ -35,27 +37,27 @@ Contraposée : $(a>0 \text{ et } b>0) \Rightarrow ab>0$.
 
 ### 2. Assertions : vraies ou fausses ? Négations.
 
-**(a) $\forall x \in \mathbb{R}_+^*,\ \exists n \in \mathbb{Z}^*,\ x^n \geq 1$**
+**(a) $\forall x \in \mathbb{R}_+^\ast,\ \exists n \in \mathbb{Z}^\ast,\ x^n \geq 1$**
 
 **Vraie.** Pour $x\geq 1$, on prend $n=1$. Pour $0<x<1$, on prend $n=-1$ : alors $x^{-1}=\frac{1}{x}\geq 1$.
 
-Négation : $\exists x \in \mathbb{R}_+^*,\ \forall n \in \mathbb{Z}^*,\ x^n < 1$.
+Négation : $\exists x \in \mathbb{R}_+^\ast,\ \forall n \in \mathbb{Z}^\ast,\ x^n < 1$.
 
-**(b) $\exists n \in \mathbb{Z}^*,\ \forall x \in \mathbb{R}_+^*,\ x^n \geq 1$**
+**(b) $\exists n \in \mathbb{Z}^\ast,\ \forall x \in \mathbb{R}_+^\ast,\ x^n \geq 1$**
 
 **Fausse.** Pour tout $n>0$ fixé, en faisant tendre $x\to 0^+$, on a $x^n \to 0 <1$. Pour tout $n<0$ fixé, en faisant tendre $x\to +\infty$, on a $x^n \to 0 < 1$. Aucun $n$ ne convient pour tous les $x$.
 
-Négation : $\forall n \in \mathbb{Z}^*,\ \exists x \in \mathbb{R}_+^*,\ x^n < 1$.
+Négation : $\forall n \in \mathbb{Z}^\ast,\ \exists x \in \mathbb{R}_+^\ast,\ x^n < 1$.
 
 ---
 
 ### 3. Inclusion d'ensembles
 
-On veut montrer $\displaystyle\bigcup_{t\in\mathbb{R}^*} \{(t;\tfrac{1}{t})\} \subset \{(x;y)\in\mathbb{R}^2 \mid xy=1\}$.
+On veut montrer $\displaystyle\bigcup_{t\in\mathbb{R}^\ast} \{(t;\tfrac{1}{t})\} \subset \{(x;y)\in\mathbb{R}^2 \mid xy=1\}$.
 
-Soit $(x,y)$ un élément du membre de gauche. Il existe $t\in\mathbb{R}^*$ tel que $(x,y)=(t,\tfrac1t)$. Alors $xy = t \times \tfrac{1}{t} = 1$, donc $(x,y)$ appartient à l'ensemble de droite. **L'inclusion est donc vraie.**
+Soit $(x,y)$ un élément du membre de gauche. Il existe $t\in\mathbb{R}^\ast$ tel que $(x,y)=(t,\tfrac1t)$. Alors $xy = t \times \tfrac{1}{t} = 1$, donc $(x,y)$ appartient à l'ensemble de droite. **L'inclusion est donc vraie.**
 
-**Réciproque :** soit $(x,y)$ tel que $xy=1$. Comme $xy=1\neq 0$, on a nécessairement $x\neq 0$, donc $x\in\mathbb{R}^*$, et $y=\dfrac1x$. Ainsi $(x,y)=(x,\tfrac1x)$ est bien de la forme $(t,\tfrac1t)$ avec $t=x\in\mathbb{R}^*$.
+**Réciproque :** soit $(x,y)$ tel que $xy=1$. Comme $xy=1\neq 0$, on a nécessairement $x\neq 0$, donc $x\in\mathbb{R}^\ast$, et $y=\dfrac1x$. Ainsi $(x,y)=(x,\tfrac1x)$ est bien de la forme $(t,\tfrac1t)$ avec $t=x\in\mathbb{R}^\ast$.
 
 **La réciproque est donc également vraie : il y a en fait égalité des deux ensembles.**
 
@@ -166,7 +168,9 @@ $$x = \frac{-1\pm(2m-1)}{2(m-1)}$$
 - Si $m=\dfrac12$ : $\Delta=0$, racine double $x=1$ (on vérifie $x_2=\frac{0.5}{0.5}=1$).
 - Si $m\neq 1$ et $m\neq \dfrac12$ : deux solutions distinctes $x=1$ et $x=\dfrac{m}{1-m}$.
 
-### (b) $\begin{cases} mx+y=1 \\ 3x-2y=6 \end{cases}$
+### (b)
+
+$$\begin{cases} mx+y=1 \\ 3x-2y=6 \end{cases}$$
 
 De la première équation : $y=1-mx$. On substitue dans la seconde :
 $$3x-2(1-mx)=6 \iff 3x-2+2mx=6 \iff x(3+2m)=8$$
@@ -186,7 +190,7 @@ $$y = 1-mx = \frac{(3+2m)-8m}{3+2m} = \frac{3-6m}{3+2m}$$
 
 ## Exercice 4 — Inégalités
 
-### 1. Montrer que $\forall (a,b)\in(\mathbb{R}_+^*)^2,\ \dfrac{3a-b}{4}\leq \dfrac{a^2}{a+b}$
+### 1. Montrer que $\forall (a,b)\in(\mathbb{R}_+^\ast)^2,\ \dfrac{3a-b}{4}\leq \dfrac{a^2}{a+b}$
 
 On étudie le signe de la différence, en réduisant au même dénominateur $4(a+b)>0$ :
 $$\frac{a^2}{a+b}-\frac{3a-b}{4} = \frac{4a^2-(3a-b)(a+b)}{4(a+b)}$$
@@ -214,7 +218,7 @@ $$\frac{a+b+c}{2} \leq \frac{a^2}{a+b}+\frac{b^2}{b+c}+\frac{c^2}{c+a}$$
 
 **CQFD.**
 
-### 3. Montrer que $\forall(a,b,c)\in(\mathbb{R}_+^*)^3,\ \dfrac{a^2}{a+b}+\dfrac{b^2}{b+c}+\dfrac{c^2}{c+a} < a+b+c$
+### 3. Montrer que $\forall(a,b,c)\in(\mathbb{R}_+^\ast)^3,\ \dfrac{a^2}{a+b}+\dfrac{b^2}{b+c}+\dfrac{c^2}{c+a} < a+b+c$
 
 On remarque que pour tout terme, on peut écrire :
 $$\frac{a^2}{a+b} = \frac{a(a+b)-ab}{a+b} = a - \frac{ab}{a+b}$$
@@ -234,9 +238,9 @@ $$\frac{a^2}{a+b}+\frac{b^2}{b+c}+\frac{c^2}{c+a} < a+b+c$$
 
 ## Exercice 5 — Équation fonctionnelle
 
-On cherche les fonctions $f$ telles que : $\forall x\in\mathbb{R}^*,\ f(x)+2xf\left(\dfrac1x\right)=1$. *(E)*
+On cherche les fonctions $f$ telles que : $\forall x\in\mathbb{R}^\ast,\ f(x)+2xf\left(\dfrac1x\right)=1$. *(E)*
 
-### 1. Montrer que si $f$ vérifie (E), alors $\forall x \in \mathbb{R}^*,\ 2f(x)+xf\left(\dfrac1x\right)=x$
+### 1. Montrer que si $f$ vérifie (E), alors $\forall x \in \mathbb{R}^\ast,\ 2f(x)+xf\left(\dfrac1x\right)=x$
 
 L'équation (E) est valable pour **tout** réel non nul, donc en particulier pour $\dfrac1x$ (qui est bien non nul si $x\neq0$). On remplace $x$ par $\dfrac1x$ dans (E) :
 $$f\left(\frac1x\right) + 2\cdot\frac1x\cdot f(x) = 1$$
@@ -255,7 +259,7 @@ De (E'), on tire $xB = x-2A$. On reporte dans (E) : $A+2(x-2A)=1$, c'est-à-dire
 $$A+2x-4A=1 \iff -3A = 1-2x \iff A = \frac{2x-1}{3}$$
 
 Donc **si une fonction $f$ vérifie (E), elle est nécessairement donnée par** :
-$$f(x) = \frac{2x-1}{3}, \qquad x\in\mathbb{R}^*$$
+$$f(x) = \frac{2x-1}{3}, \qquad x\in\mathbb{R}^\ast$$
 
 **Réciproque (vérification) :** calculons $f\left(\dfrac1x\right) = \dfrac{\frac2x-1}{3} = \dfrac{2-x}{3x}$, puis :
 $$f(x)+2xf\left(\frac1x\right) = \frac{2x-1}{3} + 2x\cdot\frac{2-x}{3x} = \frac{2x-1}{3}+\frac{2(2-x)}{3} = \frac{(2x-1)+(4-2x)}{3} = \frac{3}{3} = 1 \checkmark$$
