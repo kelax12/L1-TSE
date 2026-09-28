@@ -77,6 +77,30 @@ Ne résume pas. Le but n'est pas de raccourcir mais de **structurer et clarifier
 
 **Supprime toute information hors cours.** Anecdotes personnelles du professeur sans valeur pédagogique, blagues, banter avec la classe, digressions sur sa vie ou sa carrière, remarques sur l'organisation logistique du cours (évaluation, Moodle, horaires, dates), avis non académiques glissés au passage — rien de tout ça n'a sa place dans la note. Seul ce qui construit un savoir mobilisable pour réviser (définitions, mécanismes, exemples illustrant une notion, données, auteurs et références théoriques) est retenu. En cas de doute sur un exemple oral (est-ce une illustration d'une notion, ou juste une anecdote de couloir ?), ne le garde que s'il éclaire concrètement une notion du cours — sinon, coupe.
 
+### Extraction des répliques hors-prof
+
+En parcourant une transcription pour en tirer la note, repère aussi, en plus de la matière académique, chaque **réplique attribuable à quelqu'un d'autre que le professeur qui donne le CM** : une question ou une remarque d'un étudiant, l'intervention d'un intervenant extérieur, toute réplique qu'un outil de transcription a distinguée par un marqueur de locuteur (`Speaker 1`, `Étudiant :`, `Question d'un étudiant :`, etc.) ou que le texte narre explicitement (« un étudiant demande… », « quelqu'un dans la salle répond… »). Une transcription de CM classique (un seul professeur qui parle en continu, sans diarisation) n'en contient généralement aucune — dans ce cas ne force rien, il n'y a simplement rien à extraire pour ce fichier.
+
+Ces répliques n'ont pas leur place dans la note (elles sont hors cours au même titre que les anecdotes, cf. ci-dessus) mais valent la peine d'être conservées à part plutôt que simplement jetées. Elles vont dans un fichier unique **à la racine de l'espace de travail**, `repliques-hors-cours.md`, commun à toutes les matières (pas un fichier par chapitre ni par matière). Structure :
+
+```markdown
+# Répliques hors-prof
+
+## [Matière]
+
+### [Nom du CM/source, ex: CM3 ✅.txt]
+
+- « Réplique verbatim ici. » — [locuteur si identifiable, ex: Speaker 2, sinon "non identifié"]
+- « Autre réplique du même CM. » — non identifié
+```
+
+Fonctionnement, aligné sur le reste du skill :
+- Verbatim exact (pas de reformulation) — c'est un relevé, pas un résumé.
+- Une nouvelle sous-section `### [nom de la source]` par fichier source traité qui en contient, sous la section `## [Matière]` correspondante (crée la section matière si elle n'existe pas encore).
+- Comme ce fichier est mis à jour à chaque fois qu'un nouveau CM est intégré à une note (même logique que le bloc `SOURCES INTÉGRÉES`, voir plus haut), ne retraite jamais un fichier source déjà listé dans `SOURCES INTÉGRÉES` d'une note — il a déjà été passé au crible la première fois.
+- Si un CM ne contient aucune réplique hors-prof, ne crée pas de sous-section vide pour lui.
+- Si le fichier `repliques-hors-cours.md` n'existe pas encore, crée-le au moment où la première réplique hors-prof est trouvée (pas avant, pas un fichier vide "au cas où").
+
 **Aère le texte.** Des paragraphes courts (3-5 phrases maximum), une idée par paragraphe, des sauts de ligne francs entre les idées. Préfère une liste à puces à un paragraphe qui énumère plusieurs éléments à la suite. Le but est qu'une page se parcoure visuellement d'un coup d'œil, pas qu'elle se lise comme un bloc dense.
 
 **N'indique jamais qui parle.** La transcription mentionne peut-être des locuteurs (ex: "Professeur :", "Étudiant :", "Speaker 1 :", des questions d'élèves attribuées) — la note est un cours, pas une transcription : reformule tout au contenu lui-même, sans jamais nommer ou distinguer qui a dit quoi.
@@ -258,7 +282,7 @@ Les trois fichiers sont mis à jour ensemble à chaque exécution : toute nouvel
 
 **Garde-fou avant toute mise à jour d'un chapitre existant :** fais d'abord une copie de sauvegarde de chacun des trois fichiers tel qu'il est avant modification, dans le même sous-dossier `chapitreX-<nom-du-chapitre>/`, nommée `Chp X-cours.backup.md`, `Chp X-resume.backup.md` et `Chp X-question-reponse.backup.md` (écrase la sauvegarde précédente à chaque mise à jour, une seule suffit par fichier — ce n'est pas un historique, juste un filet de sécurité contre la dernière fusion). Si après édition un des fichiers a manifestement perdu du contenu par rapport à sa sauvegarde (une section, une définition ou des flashcards qui existaient avant et ont disparu sans raison), restaure depuis la sauvegarde et recommence la fusion plus prudemment plutôt que de laisser une perte de contenu passer inaperçue.
 
-Une fois les trois fichiers écrits, indique brièvement à l'utilisateur : quelles nouvelles sources ont été intégrées, et un résumé en une phrase de ce qui a été ajouté/modifié (nouvelle section, définitions ajoutées, X nouvelles flashcards) — pas besoin de reproduire tout le contenu dans le chat.
+Une fois les trois fichiers écrits, indique brièvement à l'utilisateur : quelles nouvelles sources ont été intégrées, et un résumé en une phrase de ce qui a été ajouté/modifié (nouvelle section, définitions ajoutées, X nouvelles flashcards) — pas besoin de reproduire tout le contenu dans le chat. Mentionne aussi, le cas échéant, si de nouvelles répliques hors-prof ont été ajoutées à `repliques-hors-cours.md` (voir Étape 2).
 
 ## Note sur le format des flashcards
 
