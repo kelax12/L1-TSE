@@ -15,4 +15,4 @@
 
 # Copies/artefacts internes des notes — pas publiés (le .md fait foi)
 */*.txt
-*/*.backup.md
+**/*.backup.md
