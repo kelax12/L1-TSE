@@ -14,6 +14,9 @@ Le cours de macroéconomie se découpe en trois grandes parties qui s'enchaînen
 - **Analyse positive** : analyse de ce qui est, fondée sur des faits (ex : augmenter le taux d'intérêt encourage les ménages à épargner).
 - **Analyse normative** : analyse de ce qui devrait être, fondée sur un jugement de valeur (ex : le taux d'imposition des ménages pauvres devrait être plus faible).
 - **Choc économique** : changement brusque des conditions économiques (choc de production, choc monétaire, choc budgétaire/fiscal).
+- **Taux directeur** : taux d'intérêt fixé par la banque centrale, auquel les banques commerciales se refinancent auprès d'elle ; en le relevant ou en l'abaissant, la banque centrale décourage ou encourage la création monétaire et le crédit à l'économie.
+- **Politique monétaire** : ensemble des décisions de la banque centrale (BCE pour les 21 pays de la zone euro) visant notamment à maintenir l'inflation autour d'une cible (proche de 2 % par an, sans la dépasser).
+- **Politique budgétaire** : ensemble des décisions du gouvernement sur les dépenses publiques et les recettes publiques (impôts).
 - **Cycle d'affaires** : fluctuations de court terme du PIB autour de sa tendance de long terme.
 
 ### Le PIB et ses composantes
@@ -49,6 +52,9 @@ Le cours de macroéconomie se découpe en trois grandes parties qui s'enchaînen
 - **Inactifs** : personnes ne faisant pas partie de la population active (enfants, étudiants, personnes âgées, personnes au foyer).
 - **Chômeur** (définition INSEE, Eurostat, OIT) : personne en âge de travailler (16 ans ou plus) qui est sans emploi, à la recherche active d'un emploi, et disponible dans les quinze jours.
 - **Taux de chômage** : nombre de chômeurs rapporté à la population active, en pourcentage.
+- **Frictions du marché du travail** : flux incessants d'entrées et de sorties sur le marché du travail (des emplois sont détruits et créés en permanence, des individus perdent ou trouvent un emploi chaque jour).
+- **Plein emploi** : situation d'une économie dont le taux de chômage est égal au seul chômage frictionnel (et non pas nul, le chômage nul n'existant jamais dans une économie réelle).
+- **Rigidité (du marché du travail)** : tout obstacle qui empêche le fonctionnement équilibré du marché du travail, c'est-à-dire la rencontre de l'offre et de la demande de travail (exemples : salaire minimum supérieur au salaire d'équilibre, cadre réglementaire très protecteur du salarié).
 - **Chômage frictionnel** : chômage lié au temps normalement nécessaire pour passer d'un emploi à un autre ou pour trouver un premier emploi, dans une économie où les postes se créent et disparaissent en permanence. Il existe même en période de plein emploi et est quasi incompressible (environ 3-4 % dans la plupart des économies développées).
 - **Chômage classique** : chômage dû aux rigidités du marché du travail (salaire minimum, difficultés de licenciement) qui découragent l'embauche.
 - **Chômage conjoncturel (ou keynésien)** : chômage dû à une insuffisance de la demande de biens et services, qui pousse les entreprises à produire peu et à ne pas embaucher ; il varie avec le cycle d'affaires.
@@ -66,6 +72,8 @@ Le cours de macroéconomie se découpe en trois grandes parties qui s'enchaînen
 - **Désinflation** : situation dans laquelle le taux d'inflation diminue (sans devenir nécessairement négatif).
 - **Hyperinflation** : inflation très forte.
 - **Taux d'intérêt nominal** : taux d'intérêt affiché, qui intègre l'inflation anticipée.
+- **Relation de Fisher** : relation $i = r + \pi^e$ entre taux d'intérêt nominal, taux d'intérêt réel et inflation anticipée.
+- **Indexation** : mécanisme qui fait évoluer un revenu (pension de retraite, par exemple) avec l'inflation ; elle intervient avec un certain décalage, si bien que le pouvoir d'achat est malgré tout affecté.
 - **Taux d'intérêt réel** : rendement réel d'un placement une fois l'inflation retirée. On distingue le taux d'intérêt réel *ex ante* (calculé avec l'inflation anticipée, avant qu'elle ne soit connue) du taux d'intérêt réel *ex post* (calculé avec l'inflation effectivement réalisée).
 - **Déflateur du PIB** : mesure du niveau général des prix de l'ensemble des B&S finals produits sur le territoire national, calculée en valorisant les quantités de l'année courante à la fois aux prix courants et aux prix de l'année de base. C'est un indice de type Paasche.
 - **Indice des prix à la consommation (IPC)** : mesure du niveau général des prix des B&S achetés par les seuls ménages (quelle que soit leur origine), calculée à partir d'un panier représentatif figé à l'année de base. C'est un indice de type Laspeyres.
@@ -287,6 +295,24 @@ On distingue la **tendance de long terme (LT)** du PIB et les **fluctuations de 
 - des **chocs monétaires** : changement brutal de politique monétaire via les taux d'intérêt directeurs (un resserrement du crédit peut déprimer la demande de biens et services, donc la production) ;
 - des **chocs budgétaires et fiscaux** : variation des dépenses publiques ou des impôts.
 
+**Mécanisme d'un choc monétaire.** La banque centrale (BCE pour les 21 pays de la zone euro) module ses taux directeurs, auxquels les banques commerciales se refinancent :
+
+```
+Hausse des taux directeurs → Crédits plus chers (répercutés par les banques commerciales) → Baisse de la consommation et de l'investissement → Baisse de la demande → Baisse de la production et de la croissance → Baisse de l'inflation
+```
+
+C'est pourquoi la BCE relève ses taux lorsqu'elle juge l'inflation trop élevée par rapport à sa cible (proche de 2 % par an). À l'inverse, pour soutenir la croissance, elle baisse ses taux directeurs : crédit encouragé, consommation et investissement stimulés, donc demande, production et croissance.
+
+**Mécanisme d'un choc budgétaire ou fiscal.** Le gouvernement module ses dépenses publiques ou ses recettes. Exemple : pour réduire son déficit, il diminue la dépense publique, ce qui passe par moins d'investissement public (routes, infrastructures, donc moins d'emplois et de revenus) ou par moins de dépenses sociales (indemnités de chômage, pensions, RSA), donc moins de revenu disponible et moins de consommation :
+
+```
+Baisse de la dépense publique → Baisse du revenu disponible (moins d'emplois ou de transferts) → Baisse de la consommation → Baisse de la demande → Baisse de la production
+```
+
+Une hausse des impôts a la même conséquence (baisse du revenu disponible, donc de la consommation) ; à l'inverse, une hausse des dépenses publiques a l'effet inverse. Un choc monétaire ou fiscal peut ainsi être favorable ou défavorable selon son sens.
+
+Ces chocs s'ajoutent aux chocs de production (par exemple, un blocage des approvisionnements qui fait exploser les coûts des matières premières, ou une canicule qui détruit les récoltes) et affectent aussi les pays partenaires via les échanges internationaux : les crises se propagent d'un pays à l'autre, ce qui explique que les courbes de croissance mondiale, chinoise, américaine, française et de la zone euro aient des formes similaires.
+
 Exemple illustratif : la réunification allemande de 1990 entraîne une forte hausse de la demande de biens et services en Allemagne (1990-1991). Craignant une surchauffe inflationniste, la Bundesbank mène une politique monétaire restrictive (hausse de son taux directeur), répercutée par les banques commerciales sur le coût du crédit. Les autres banques centrales européennes suivent ce mouvement pour défendre la parité de leur monnaie, ce qui freine la demande de biens et services dans le reste de l'Europe. S'y ajoutent la baisse des exportations européennes (ralentissement américain) et les politiques budgétaires restrictives imposées par les critères de Maastricht (1992). Cet enchaînement provoque une grave crise économique en Europe au début des années 1990 : récession en 1993 (croissance du PIB négative) et chômage atteignant 11 %. La croissance tendancielle n'est retrouvée qu'après 1996-1997.
 
 **Exemple récent (choc de demande + choc d'offre combinés) : sortie de la pandémie de Covid-19.** À la levée des confinements, les ménages, ayant accumulé de l'épargne forcée, et les entreprises, cherchant à rattraper la période perdue, ont voulu consommer et investir massivement en même temps — un choc de demande positif très brutal. Or l'offre n'a pas pu suivre : la demande mondiale de semi-conducteurs (composants indispensables, entre autres, à l'industrie automobile) a explosé alors que leur production, très concentrée géographiquement, restait limitée. Cette pénurie de puces électroniques a fait grimper leur prix, répercuté sur le prix final de nombreux biens (voitures notamment), contribuant à une poussée d'inflation très forte (proche de 10 % en France, jusqu'à environ 30 % dans certains pays baltes) — sans toutefois déboucher sur une hyperinflation. Pour la maîtriser, les banques centrales (dont la BCE) ont dû relever leurs taux directeurs à des niveaux qu'elles n'avaient jamais eu à gérer dans leur histoire récente, freinant à leur tour consommation et investissement.
@@ -375,16 +401,62 @@ Pour l'INSEE, Eurostat et l'OIT, est considérée comme **chômeur** une personn
 
 ### 3.2 Les trois grandes familles d'explications du chômage
 
-Ces trois explications peuvent parfaitement coexister au sein d'une même économie :
+Ces trois explications peuvent parfaitement coexister au sein d'une même économie. Ordre de grandeur en France : le taux de chômage est d'environ 7,7 % à l'automne 2026, ce qui est plutôt bon au regard de l'historique long mais moins bon qu'à la sortie du Covid.
 
-- **Chômage frictionnel** : lié au temps normalement nécessaire pour trouver un emploi ou changer d'emploi dans une économie où les postes se créent et disparaissent en permanence. Il existe même en période de plein emploi et est quasi incompressible (environ 3-4 % dans la plupart des économies développées).
-- **Chômage classique** : dû aux rigidités du marché du travail (salaire minimum, difficultés de licenciement) qui découragent l'embauche. Estimé à environ 4 % en France, proche de zéro au Royaume-Uni et aux États-Unis. Il traduit un arbitrage entre protection des travailleurs et niveau d'emploi.
-- **Chômage conjoncturel (ou keynésien)** : dû à une demande de biens et services insuffisante, qui pousse les entreprises à produire peu et à ne pas embaucher. Il varie de façon concomitante avec le cycle d'affaires (très faible en France en 2006-2007, mais aurait atteint 4 % en 1992).
+#### Le chômage frictionnel
 
-Exemples de décomposition du chômage total (chômage frictionnel + classique + conjoncturel) en France :
+Le marché du travail se caractérise par des **frictions** : des flux incessants d'entrées et de sorties (départs à la retraite, licenciements, fins de contrats précaires, créations et destructions d'emplois). Un individu qui perd son emploi ce soir n'en retrouve pas un demain : il faut préparer sa candidature, envoyer un CV et une lettre de motivation, attendre une réponse, passer des entretiens.
+
+- Le **chômage frictionnel** correspond à ce laps de temps nécessaire pour trouver un emploi ou passer d'un emploi à un autre.
+- Il est **incompressible et irréductible** : présent à tout moment et dans toutes les économies, y compris en situation de prospérité.
+- Environ **3 à 4 %** dans les pays développés.
+
+**Conséquence : le plein emploi.** Comme le chômage nul n'existe pas, une économie est en **plein emploi** lorsque son taux de chômage est égal au chômage frictionnel. Une économie en plein emploi n'a donc pas un taux de chômage nul.
+
+#### Le chômage classique
+
+Le marché du travail est perturbé par des **rigidités** : tout obstacle qui empêche l'offre et la demande de travail de se rencontrer (fonctionnement équilibré du marché). La demande de travail émane des entreprises (le travail est un facteur de production) ; l'offre de travail émane des individus.
+
+Deux exemples de rigidités :
+
+- **Un salaire minimum supérieur au salaire d'équilibre**, imposé par le gouvernement ;
+- **Un cadre réglementaire très protecteur du salarié** (code du travail français) : craignant de ne pas pouvoir licencier en cas de retournement de conjoncture, les entreprises hésitent à embaucher.
+
+*Illustration graphique du salaire minimum.* Sur un graphique avec le salaire (prix du travail) en ordonnée et la quantité de travail (emploi) en abscisse, la demande de travail (entreprises) est décroissante et l'offre de travail (individus) est croissante ; leur intersection donne l'emploi d'équilibre $L^*$ au salaire d'équilibre $w^*$. Si le gouvernement impose un salaire minimum $w_{min} > w^*$ :
+
+```
+Salaire imposé plus élevé → les entreprises demandent moins de travail (L demandé < L*) → davantage d'individus veulent travailler à ce salaire (L offert > L*) → excès d'offre de travail = chômage classique
+```
+
+Le chômage classique correspond à l'écart, au salaire minimum, entre la quantité de travail offerte et la quantité de travail demandée ; seule la quantité demandée est effectivement employée. Il illustre un **arbitrage** entre protection des salariés et taux de chômage.
+
+- Forte protection (France) → chômage classique plus élevé, d'où un taux de chômage total plus élevé.
+- Faible protection (États-Unis, quasi nulle : au moment du Covid, des salariés licenciés sur le champ partaient avec leurs affaires) → chômage classique plus faible. Il est estimé à environ 4 % pour la France et proche de 0 % pour les États-Unis, soit entre 0 et 4 % pour les pays développés.
+
+Il n'est réductible qu'au prix de réformes à moyen et long terme (assouplir la protection des salariés, modifier le coût du travail, supprimer ou moduler le salaire minimum) ; c'est l'idée de la flexisécurité.
+
+#### Le chômage conjoncturel (ou keynésien)
+
+Il est en lien avec l'état de la conjoncture, et c'est Keynes qui a établi ce lien direct entre la situation macroéconomique d'un pays et cette forme de chômage. Contrairement aux deux premiers, c'est un chômage de **court terme, beaucoup plus volatil**, qui reflète la situation de la conjoncture.
+
+Explication keynésienne : une **insuffisance de la demande globale** de biens et services. (Attention : l'insuffisance de la demande de travail n'en est que la conséquence ; la cause est l'insuffisance de la demande globale de biens et services.)
+
+```
+Mauvaise conjoncture / crise → Faible consommation et faible investissement → Demande globale insuffisante → Les entreprises n'embauchent pas, voire licencient → Chômage conjoncturel
+```
+
+Il évolue de façon **concomitante mais en sens inverse du cycle d'affaires** : conjoncture bonne → chômage conjoncturel faible ; conjoncture mauvaise → chômage conjoncturel élevé.
+
+#### Synthèse : décomposition du chômage total
+
+Le taux de chômage total est la somme du chômage frictionnel (ligne constante, irréductible), du chômage classique (quasi incompressible à court terme, réductible par des réformes structurelles à moyen et long terme) et du chômage conjoncturel (qui fluctue avec le cycle d'affaires).
+
+Exemples de décomposition en France :
 
 - 1995 : chômage total 12 % = 4 % (frictionnel) + 4 % (classique) + 4 % (conjoncturel) ;
-- 2006 : chômage total 9 % = 4 % (frictionnel) + 4 % (classique) + 1 % (conjoncturel).
+- 2006 : chômage total 9 % = 4 % (frictionnel) + 4 % (classique) + 1 % (conjoncturel) : la conjoncture était plus favorable en 2006 qu'en 1995, d'où un chômage conjoncturel plus faible.
+
+**Illustration : les États-Unis face au Covid.** Avant le Covid, le taux de chômage américain était d'environ 3-4 % : plein emploi, seul le chômage frictionnel étant présent. En quelques semaines (mars-avril 2020), il passe de 3 et quelques pour cent à plus de 15 %. Le chômage classique étant quasi nul (protection des salariés quasi nulle), cette explosion est un chômage conjoncturel, dû à la dégradation brutale de la conjoncture. En France, la hausse a été bien moindre, grâce à un dispositif de protection très important (chômage partiel, aides aux entreprises).
 
 ## 4. Niveau général des prix et inflation
 
@@ -397,6 +469,10 @@ L'inflation ne poserait pas de problème majeur si tous les prix et tous les rev
 - certains revenus ne sont pas toujours bien indexés sur le niveau des prix (salaire minimum, pensions de retraite, intérêts) ;
 - en matière de prêts, une inflation non anticipée transfère des revenus des prêteurs vers les emprunteurs, car les euros remboursés ont un pouvoir d'achat moindre que prévu.
 
+L'inflation érode le pouvoir d'achat des ménages : la plupart des revenus ne sont pas indexés, et même quand ils le sont (les pensions de retraite, contrairement aux salaires, sont indexées sur l'inflation), l'indexation intervient avec un décalage, si bien que le pouvoir d'achat est malgré tout affecté. C'est l'enjeu du débat actuel sur la désindexation des pensions de retraite pour réduire le déficit public.
+
+Une banque qui accorde un prêt sur plusieurs années doit inscrire dans le contrat un taux d'intérêt : elle doit donc anticiper l'inflation sur la durée du prêt, sans jamais pouvoir la connaître avec certitude.
+
 ### 4.2 Taux d'intérêt nominal et taux d'intérêt réel
 
 $$i = r + \pi^e$$
@@ -404,6 +480,18 @@ $$i = r + \pi^e$$
 où $i$ est le taux d'intérêt nominal, $r$ le taux d'intérêt réel, et $\pi^e$ le taux d'inflation anticipé (espéré).
 
 Exemple : un prêteur souhaitant un retour sur investissement réel de 4 %, anticipant une inflation de 10 %, proposera un taux d'intérêt nominal de $10\% + 4\% = 14\%$. Si l'inflation réalisée en fin d'année est finalement de 12 %, le retour sur investissement réellement obtenu n'est que de 2 % : l'inflation non anticipée a redistribué des revenus du prêteur vers l'emprunteur. On distingue ainsi le **taux d'intérêt réel ex ante** (calculé avec l'inflation anticipée, avant réalisation — ici 4 %) du **taux d'intérêt réel ex post** (calculé avec l'inflation effectivement réalisée, après coup — ici 2 %).
+
+**Interprétation.** $i$ est le taux d'intérêt nominal (celui qui figure dans le contrat de prêt et que paie l'emprunteur ; on le suppose fixe pour simplifier) ; $r$ est le taux d'intérêt réel, c'est-à-dire le retour réel sur investissement du prêteur ; $\pi$ est le taux d'inflation, c'est-à-dire l'évolution du niveau général des prix. La banque connaît $i$ au début de la période, mais pas l'inflation qui prévaudra à l'échéance : l'erreur d'anticipation se répercute donc entièrement sur $r$, le retour sur investissement de la banque.
+
+- En début de période (**ex ante**) : $r = i - \pi^e$, le retour que la banque souhaite obtenir.
+- En fin de période (**ex post**) : $r = i - \pi$, le retour réellement obtenu avec l'inflation réalisée.
+
+**Exemple chiffré.** Prêt de 1 000 € à $i = 5\ \%$ (taux fixe) avec une inflation anticipée de 1 % : la banque espère un retour réel de 4 %, et reçoit 50 € d'intérêts (l'équivalent, par exemple, d'une paire de baskets).
+
+- **Inflation réalisée plus faible que prévue** (par exemple 0,25 %) : le retour réel de la banque est de 4,75 %, supérieur à celui attendu ; les 50 € d'intérêts achètent plus qu'elle ne l'espérait. Le pouvoir d'achat de la banque est renforcé et celui de l'emprunteur est réduit : transfert de revenu de l'emprunteur vers le prêteur.
+- **Inflation réalisée plus forte que prévue** (par exemple 3 % au lieu de 1 %) : le retour réel de la banque est inférieur à ce qu'elle escomptait (ici 2 %) ; les 50 € d'intérêts achètent moins. Transfert de revenu du prêteur vers l'emprunteur.
+
+Cette logique vaut tant que le taux d'intérêt nominal est fixe (le cas le plus courant) ; avec un taux variable, le partage est différent.
 
 Une inflation élevée et mal anticipée rend également les décisions d'investissement des agents économiques plus difficiles.
 
@@ -498,5 +586,6 @@ Depuis les années 1980, les modèles macroéconomiques intègrent de plus en pl
 - MACRO 4-transcript ✅.txt
 - macro5-transcript-DRAFT ✅.txt
 - CM3 ✅.odt
-- macro 6-transcript ✅.txt
+- macro 5-transcript-groq ✅.txt (nouvelle version de la transcription du CM 5, remplaçant le brouillon)
+- macro 7-transcript-groq ✅.txt
 -->

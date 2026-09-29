@@ -368,210 +368,336 @@ Les chocs côté production (climat, grèves, prix du pétrole), les chocs moné
 
 
 
-62. Pourquoi la sortie de la pandémie de Covid-19 a-t-elle provoqué une forte inflation ?
+62. Qu'est-ce qu'un taux directeur ?
+
+Le taux d'intérêt fixé par la banque centrale, auquel les banques commerciales se refinancent auprès d'elle ; il permet de décourager ou d'encourager la création monétaire et le crédit.
+
+
+
+63. Décrivez les conséquences d'une hausse des taux directeurs de la banque centrale.
+
+Crédit plus cher répercuté par les banques commerciales, baisse de la consommation et de l'investissement, baisse de la demande, de la production, de la croissance et de l'inflation.
+
+
+
+64. Quelle est la cible d'inflation de la BCE ?
+
+Un taux d'inflation inférieur mais proche de 2 % par an.
+
+
+
+65. Comment une baisse des dépenses publiques ou une hausse des impôts affecte-t-elle l'économie ?
+
+Elle réduit le revenu disponible (moins d'emplois ou de transferts), donc la consommation, la demande et la production.
+
+
+
+66. Pourquoi la sortie de la pandémie de Covid-19 a-t-elle provoqué une forte inflation ?
 
 Un choc de demande positif très brutal (rattrapage de la consommation et de l'investissement après les confinements) a rencontré un choc d'offre négatif (pénurie mondiale de semi-conducteurs), faisant grimper les prix de nombreux biens (dont les voitures) — inflation proche de 10 % en France, jusqu'à ~30 % dans certains pays baltes.
 
 
 
-63. Donnez un exemple récent (2025-2026) de choc de production climatique évoqué en cours.
+67. Donnez un exemple récent (2025-2026) de choc de production climatique évoqué en cours.
 
 Une canicule et une sécheresse ayant endommagé les récoltes de céréales et de légumes, avec un impact estimé à environ 1 point de PIB pour le secteur agricole français en 2026.
 
 
 
-64. Quelle est la formule du taux de croissance d'une variable entre les dates t et t+1 ?
+68. Quelle est la formule du taux de croissance d'une variable entre les dates t et t+1 ?
 
 $\tau = \dfrac{V_{t+1} - V_t}{V_t} \times 100$.
 
 
 
-65. Une variable augmente de 30 % puis de 40 %. L'augmentation totale est-elle de 70 % ?
+69. Une variable augmente de 30 % puis de 40 %. L'augmentation totale est-elle de 70 % ?
 
 Non : les taux de croissance successifs ne s'additionnent pas ; l'augmentation totale réelle est d'environ 82 % (100 → 130 → 182).
 
 
 
-66. Si $z = xy$, comment varie approximativement $z$ en fonction des variations de $x$ et $y$ ?
+70. Si $z = xy$, comment varie approximativement $z$ en fonction des variations de $x$ et $y$ ?
 
 $z$ varie approximativement de $\Delta\%x + \Delta\%y$.
 
 
 
-67. En appliquant cette règle au PIB par tête $y = Y/N$, à quelle condition le PIB par tête d'un pays augmente-t-il ?
+71. En appliquant cette règle au PIB par tête $y = Y/N$, à quelle condition le PIB par tête d'un pays augmente-t-il ?
 
 Lorsque la croissance du PIB ($\%Y$) est plus forte que la croissance de la population ($\%N$).
 
 
 
-68. Que représente une droite dans un graphique semi-logarithmique représentant une variable au cours du temps ?
+72. Que représente une droite dans un graphique semi-logarithmique représentant une variable au cours du temps ?
 
 Une variable dont le taux de croissance est constant ; la pente de la droite correspond à ce taux de croissance.
 
 
 
-69. Quelle est la formule explicite du taux de croissance annuel moyen entre l'année 0 (niveau $V_0$) et l'année N (niveau $V_N$) ?
+73. Quelle est la formule explicite du taux de croissance annuel moyen entre l'année 0 (niveau $V_0$) et l'année N (niveau $V_N$) ?
 
 $\tau_{moyen} = (V_N/V_0)^{1/N} - 1$.
 
 
 
-70. Quelle est la méthode générale pour déterminer si le taux de croissance d'une variable, dont on connaît la fonction de tendance, est croissant, décroissant ou constant dans le temps ?
+74. Quelle est la méthode générale pour déterminer si le taux de croissance d'une variable, dont on connaît la fonction de tendance, est croissant, décroissant ou constant dans le temps ?
 
 Exprimer le taux de croissance entre $t$ et $t+1$ à partir de la fonction de tendance, puis étudier le signe et le comportement de cette expression quand $t$ augmente.
 
 
 
-71. Si la tendance du PIB est modélisée par une fonction affine $PIB_t = At+B$ (avec $A,B>0$), comment évolue son taux de croissance dans le temps ?
+75. Si la tendance du PIB est modélisée par une fonction affine $PIB_t = At+B$ (avec $A,B>0$), comment évolue son taux de croissance dans le temps ?
 
 Il est décroissant : $\tau_t = A/(At+B)$, dont le dénominateur augmente avec $t$, bien que le PIB continue lui-même d'augmenter.
 
 
 
-72. Si la tendance du PIB est modélisée par une fonction exponentielle $PIB_t = C\cdot e^{kt}$ (avec $C,k>0$), comment évolue son taux de croissance dans le temps ?
+76. Si la tendance du PIB est modélisée par une fonction exponentielle $PIB_t = C\cdot e^{kt}$ (avec $C,k>0$), comment évolue son taux de croissance dans le temps ?
 
 Il est constant : $\tau_t = e^{k} - 1$, une expression qui ne dépend plus de $t$.
 
 
 
-73. Quels sont les deux axes d'un graphique semi-logarithmique et quelle échelle porte chacun ?
+77. Quels sont les deux axes d'un graphique semi-logarithmique et quelle échelle porte chacun ?
 
 L'abscisse (le temps) porte une échelle arithmétique ; l'ordonnée (la variable représentée) porte une échelle logarithmique, généralement en base 10.
 
 
 
-74. Citez les trois propriétés utiles du graphique semi-logarithmique pour l'économiste.
+78. Citez les trois propriétés utiles du graphique semi-logarithmique pour l'économiste.
 
 (1) Il représente mieux des variables aux valeurs très écartées ; (2) la pente de la courbe correspond au taux de croissance de la variable (un taux constant donne un segment de droite) ; (3) un changement de pente traduit une rupture de tendance.
 
 
 
-75. Qu'est-ce qu'une rupture de tendance sur un graphique semi-logarithmique ?
+79. Qu'est-ce qu'une rupture de tendance sur un graphique semi-logarithmique ?
 
 Un changement de la pente de la courbe, qui traduit un changement (accélération ou ralentissement) du taux de croissance de la variable représentée.
 
 
 
-76. Sur le graphique semi-logarithmique du PIB français depuis 1870, qu'observe-t-on à la jonction du segment correspondant aux Trente Glorieuses et du segment suivant ?
+80. Sur le graphique semi-logarithmique du PIB français depuis 1870, qu'observe-t-on à la jonction du segment correspondant aux Trente Glorieuses et du segment suivant ?
 
 Une rupture de tendance au milieu des années 1970 : la pente devient nettement plus faible, traduisant le ralentissement durable de la croissance après le choc pétrolier (fin des Trente Glorieuses).
 
 
 
-77. Une variable double chaque année en partant de $V_0=2000$. Quel est son taux de croissance annuel, et comment se représente-t-elle sur un graphique semi-logarithmique ?
+81. Une variable double chaque année en partant de $V_0=2000$. Quel est son taux de croissance annuel, et comment se représente-t-elle sur un graphique semi-logarithmique ?
 
 Un taux de croissance constant de 100 % ; elle se représente par un segment de droite.
 
 ## 3. Emploi et chômage
 
-78. Quelle est la formule du taux de chômage ?
+82. Quelle est la formule du taux de chômage ?
 
 $\tau_{chômage} = \dfrac{\text{nombre de chômeurs}}{\text{population active}} \times 100$.
 
 
 
-79. Qui sont les inactifs, par opposition à la population active ?
+83. Qui sont les inactifs, par opposition à la population active ?
 
 Un ensemble disparate de personnes : enfants, étudiants, personnes âgées, personnes au foyer.
 
 
 
-80. Quel est l'ordre de grandeur du chômage frictionnel dans la plupart des économies développées ?
+84. Quel est l'ordre de grandeur du chômage frictionnel dans la plupart des économies développées ?
 
 Environ 3 % à 4 %.
 
 
 
-81. Le chômage classique reflète quel type de problème sur le marché du travail ?
+85. Le chômage classique reflète quel type de problème sur le marché du travail ?
 
 Des rigidités (salaire minimum, difficultés de licenciement) qui découragent l'embauche par les entreprises.
 
 
 
-82. À quoi le chômage conjoncturel (keynésien) est-il dû ?
+86. À quoi le chômage conjoncturel (keynésien) est-il dû ?
 
 À une demande de biens et services insuffisante, qui pousse les entreprises à produire peu et à ne pas embaucher.
 
+
+
+87. Pourquoi le chômage frictionnel est-il incompressible ?
+
+Parce que des emplois sont créés et détruits en permanence et qu'il faut un laps de temps (candidature, envoi, entretiens) pour retrouver un emploi ; il est présent dans toutes les économies, même prospères.
+
+
+
+88. Qu'appelle-t-on plein emploi ?
+
+Une situation où le taux de chômage est égal au chômage frictionnel ; ce taux n'est donc pas nul.
+
+
+
+89. Qu'est-ce qu'une rigidité sur le marché du travail ? Donnez deux exemples.
+
+Tout obstacle empêchant le fonctionnement équilibré du marché du travail (rencontre de l'offre et de la demande de travail) ; exemples : un salaire minimum supérieur au salaire d'équilibre, un cadre réglementaire très protecteur du salarié.
+
+
+
+90. Pourquoi un salaire minimum supérieur au salaire d'équilibre crée-t-il du chômage classique ?
+
+Les entreprises demandent moins de travail à ce salaire plus élevé tandis que davantage d'individus veulent travailler : l'offre de travail excède la demande, l'écart étant le chômage classique.
+
+
+
+91. Pourquoi le chômage classique est-il plus faible aux États-Unis qu'en France ?
+
+Parce que la protection des salariés y est très faible (licenciement sur le champ possible), donc les entreprises hésitent moins à embaucher.
+
+
+
+92. Quelle est la fourchette du chômage classique dans les pays développés ?
+
+Entre 0 % et 4 % (environ 4 % en France, proche de 0 % aux États-Unis).
+
+
+
+93. Quelle est la cause profonde du chômage conjoncturel ?
+
+L'insuffisance de la demande globale de biens et services (l'insuffisance de la demande de travail n'en est que la conséquence).
+
+
+
+94. Comment le chômage conjoncturel évolue-t-il par rapport au cycle d'affaires ?
+
+En même temps mais en sens inverse : il baisse quand la conjoncture est bonne, il augmente quand elle est mauvaise.
+
+
+
+95. Quel chômage est réductible à moyen et long terme par des réformes, et lequel varie avec le cycle d'affaires ?
+
+Le chômage classique est réductible par des réformes (protection des salariés, coût du travail, salaire minimum) ; le chômage conjoncturel suit le cycle d'affaires.
+
+
+
+96. Dans l'exemple français de 2006, comment se décompose le chômage total de 9 % ?
+
+4 % de chômage frictionnel, 4 % de chômage classique et 1 % de chômage conjoncturel.
+
+
+
+97. Pourquoi le chômage américain a-t-il explosé (de 3 % à plus de 15 %) lors du Covid, mais pas en France ?
+
+Aux États-Unis, la quasi-absence de protection des salariés a permis des licenciements immédiats, et l'explosion est du chômage conjoncturel ; en France, la protection des salariés (chômage partiel, aides aux entreprises) a limité la hausse.
+
 ## 4. Niveau général des prix et inflation
 
-83. Pourquoi une inflation non anticipée redistribue-t-elle des revenus des prêteurs vers les emprunteurs ?
+98. Pourquoi une inflation non anticipée redistribue-t-elle des revenus des prêteurs vers les emprunteurs ?
 
 Parce que les euros remboursés ont, à cause de l'inflation, un pouvoir d'achat moindre que celui prévu au moment du prêt.
 
 
 
-84. Quelle est la formule reliant taux d'intérêt nominal, réel et inflation anticipée ?
+99. Quelle est la formule reliant taux d'intérêt nominal, réel et inflation anticipée ?
 
 $i = r + \pi^e$ (taux nominal = taux réel + taux d'inflation espéré).
 
 
 
-85. Un prêteur anticipe 10 % d'inflation et veut un rendement réel de 4 %. Quel taux d'intérêt nominal va-t-il proposer ?
+100. Un prêteur anticipe 10 % d'inflation et veut un rendement réel de 4 %. Quel taux d'intérêt nominal va-t-il proposer ?
 
 14 % (10 % + 4 %).
 
 
 
-86. Quelle est la formule du taux d'inflation entre les dates t et t+1 ?
+101. Quelle est la formule du taux d'inflation entre les dates t et t+1 ?
 
 $\pi_{t,t+1} = \dfrac{p_{t+1} - p_t}{p_t} \times 100$, où $p_t$ est le niveau général des prix.
 
 
 
-87. Quelle est la formule du déflateur du PIB à la date t ?
+102. Quelle est la formule du déflateur du PIB à la date t ?
 
 $p_t = \dfrac{PIB_{nominal,t}}{PIB_{réel,t}} \times 100$.
 
 
 
-88. Sur quelle base de pondération repose l'indice des prix à la consommation (IPC) ?
+103. Sur quelle base de pondération repose l'indice des prix à la consommation (IPC) ?
 
 Les quantités consommées par un ménage représentatif à l'année de base (panier fixe).
 
 
 
-89. Quelle est la principale différence de champ couvert entre le déflateur du PIB et l'IPC ?
+104. Quelle est la principale différence de champ couvert entre le déflateur du PIB et l'IPC ?
 
 Le déflateur couvre tous les B&S finals produits sur le territoire national ; l'IPC couvre seulement les B&S achetés par les ménages, quelle que soit leur origine.
 
 
 
-90. Pourquoi la perception de l'inflation par les ménages peut-elle différer de l'IPC mesuré ?
+105. Pourquoi la perception de l'inflation par les ménages peut-elle différer de l'IPC mesuré ?
 
 Parce que les ménages retiennent surtout la hausse des prix des achats courants et « oublient » les baisses de prix dont ils ont profité sur d'autres postes.
 
+
+
+106. Pourquoi l'indexation des retraites sur l'inflation ne protège-t-elle pas totalement le pouvoir d'achat ?
+
+Parce qu'elle intervient avec un certain décalage : l'inflation opère avant que la pension ne soit ajustée.
+
+
+
+107. Pourquoi une banque doit-elle anticiper l'inflation pour fixer le taux d'un prêt ?
+
+Parce que son retour réel sur investissement dépend de l'inflation future, qu'elle ne connaît pas avec certitude au moment de fixer le taux nominal.
+
+
+
+108. Quelles sont les formules du taux d'intérêt réel ex ante et ex post ?
+
+Ex ante : $r = i - \pi^e$ ; ex post : $r = i - \pi$.
+
+
+
+109. Sur quelle variable se répercute une erreur d'anticipation de l'inflation quand le taux nominal est fixe ?
+
+Sur le taux d'intérêt réel, c'est-à-dire le retour réel sur investissement du prêteur.
+
+
+
+110. Si l'inflation réalisée est plus faible que l'inflation anticipée, qui gagne, du prêteur ou de l'emprunteur ?
+
+Le prêteur : son retour réel est supérieur à celui attendu (transfert de l'emprunteur vers le prêteur).
+
+
+
+111. Si l'inflation réalisée est plus forte que l'inflation anticipée, qui gagne ?
+
+L'emprunteur : le retour réel du prêteur est inférieur à celui attendu (transfert du prêteur vers l'emprunteur).
+
 ## 5. Méthodes d'analyse de la macroéconomie
 
-91. Quelles sont les quatre étapes de la démarche scientifique en macroéconomie ?
+112. Quelles sont les quatre étapes de la démarche scientifique en macroéconomie ?
 
 Observer et décrire les données ; expliquer via des théories/modèles ; confronter les prédictions aux données ; éventuellement prévoir l'évolution future.
 
 
 
-92. « Augmenter le taux d'intérêt encourage les ménages à épargner » est-elle une affirmation positive ou normative ?
+113. « Augmenter le taux d'intérêt encourage les ménages à épargner » est-elle une affirmation positive ou normative ?
 
 Positive (c'est un constat factuel, pas un jugement de valeur).
 
 
 
-93. « Le taux d'imposition des ménages pauvres devrait être plus faible que celui des ménages riches » est-elle une affirmation positive ou normative ?
+114. « Le taux d'imposition des ménages pauvres devrait être plus faible que celui des ménages riches » est-elle une affirmation positive ou normative ?
 
 Normative (c'est un jugement de valeur sur ce qui devrait être).
 
 
 
-94. Quelle est la différence entre le modèle néoclassique à prix flexibles et le modèle néo-keynésien à prix rigides ?
+115. Quelle est la différence entre le modèle néoclassique à prix flexibles et le modèle néo-keynésien à prix rigides ?
 
 Le premier suppose que les prix s'ajustent pour équilibrer l'offre et la demande ; le second suppose des prix fixes, pour étudier l'impact de rigidités réalistes à court terme.
 
 
 
-95. Le modèle à prix rigides est-il plutôt utile pour étudier le court terme ou le long terme ?
+116. Le modèle à prix rigides est-il plutôt utile pour étudier le court terme ou le long terme ?
 
 Le court terme (l'impact immédiat d'un changement exogène, avant ajustement complet des prix).
 
 
 
-96. Depuis les années 1980, comment les modèles macroéconomiques ont-ils évolué ?
+117. Depuis les années 1980, comment les modèles macroéconomiques ont-ils évolué ?
 
 Ils intègrent de plus en plus de bases microéconomiques, avec des agents représentatifs (consommateurs, entreprises, État) qui maximisent leur utilité.

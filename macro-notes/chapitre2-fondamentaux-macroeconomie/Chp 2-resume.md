@@ -63,7 +63,7 @@ Le PIB ignore la vie non matérielle, inclut des biens sans bien-être (armes, e
 
 ### 2.10-2.11 Facteurs de croissance de long terme et fluctuations de court terme
 
-Long terme : capital fixe/tête, technologie, capital humain, ressources naturelles, efficacité des marchés et de l'État, heures travaillées. Court terme : chocs de production, monétaires, budgétaires/fiscaux (exemple : réunification allemande 1990 → crise européenne du début des années 90 ; sortie Covid → pénurie de semi-conducteurs → forte inflation ; canicule/sécheresse 2025-26 → choc agricole ; hausse des taux BCE septembre 2026).
+Long terme : capital fixe/tête, technologie, capital humain, ressources naturelles, efficacité des marchés et de l'État, heures travaillées. Court terme : chocs de production, monétaires, budgétaires/fiscaux (exemple : réunification allemande 1990 → crise européenne du début des années 90 ; sortie Covid → pénurie de semi-conducteurs → forte inflation ; canicule/sécheresse 2025-26 → choc agricole ; hausse des taux BCE septembre 2026). Mécanismes : hausse des taux directeurs → crédit plus cher → baisse de la consommation et de l'investissement → baisse de la demande, de la production et de l'inflation ; baisse des dépenses publiques ou hausse des impôts → baisse du revenu disponible → baisse de la consommation → baisse de la production. Les chocs se propagent entre pays via les échanges internationaux.
 
 ### 2.12 Taux de croissance
 
@@ -77,11 +77,15 @@ Le graphique semi-logarithmique (abscisse arithmétique, ordonnée logarithmique
 
 ## 3. Emploi et chômage
 
-$\tau_{chômage} = \dfrac{\text{chômeurs}}{\text{population active}}\times100$. Trois types de chômage : frictionnel (incompressible), classique (rigidités), conjoncturel (demande insuffisante, suit le cycle d'affaires).
+$\tau_{chômage} = \dfrac{\text{chômeurs}}{\text{population active}}\times100$. Trois types de chômage :
+
+- **Frictionnel** : temps nécessaire pour trouver un emploi, incompressible (3-4 %). Le **plein emploi** correspond à un taux de chômage égal au seul chômage frictionnel (jamais nul).
+- **Classique** : rigidités (salaire minimum supérieur au salaire d'équilibre : les entreprises demandent moins de travail, les individus en offrent plus ; protection des salariés). ~4 % en France, ~0 % aux États-Unis ; réductible par des réformes à moyen et long terme.
+- **Conjoncturel (keynésien)** : insuffisance de la demande globale de biens et services ; évolue en sens inverse du cycle d'affaires. Exemple : chômage américain de 3 % à plus de 15 % lors du Covid.
 
 ## 4. Niveau général des prix et inflation
 
-L'inflation redistribue les revenus (mal indexés, transferts prêteurs → emprunteurs si non anticipée). $i = r + \pi^e$. Le niveau général des prix se mesure par une moyenne pondérée : déflateur du PIB (Paasche, tous les B&S produits) ou IPC (Laspeyres, B&S consommés par les ménages, panier fixé à l'année de base). L'inflation perçue par les ménages diffère souvent de l'inflation réelle mesurée par l'IPC.
+L'inflation redistribue les revenus (mal indexés, transferts prêteurs → emprunteurs si non anticipée). $i = r + \pi^e$ (relation de Fisher). L'erreur d'anticipation de l'inflation se répercute sur le taux réel : inflation réalisée plus faible que prévue → transfert de l'emprunteur vers le prêteur ; plus forte que prévue → transfert du prêteur vers l'emprunteur (taux nominal fixe). Le niveau général des prix se mesure par une moyenne pondérée : déflateur du PIB (Paasche, tous les B&S produits) ou IPC (Laspeyres, B&S consommés par les ménages, panier fixé à l'année de base). L'inflation perçue par les ménages diffère souvent de l'inflation réelle mesurée par l'IPC.
 
 ## 5. Méthodes d'analyse de la macroéconomie
 
