@@ -15,6 +15,7 @@
 ### Dilemme du prisonnier et applications
 
 - **Dilemme du prisonnier** : chacun a intérêt individuel à dévier, alors que coopérer serait meilleur collectivement.
+- **Dilemme du prisonnier (définition générale)** : actions individuelles, indépendantes et intéressées, aboutissant à un résultat moins bon que celui d'une action commune.
 - **Passager clandestin** : profite de l'effort des autres sans en faire.
 - **Cartel** : accord pour restreindre l'offre, structurellement fragile.
 - **Tragédie des biens communs** : une ressource libre d'accès est surexploitée.
@@ -24,11 +25,13 @@
 
 - **Équilibre de Nash** : chaque joueur joue sa meilleure réponse compte tenu des autres ; équivalent à un équilibre stable.
 - **Stratégie pure** : jouée avec certitude. **Stratégie mixte** : randomisée entre plusieurs stratégies pures.
+- **Matching pennies** : pile ou face ; J2 gagne si les pièces sont identiques, J1 sinon. Pas d'équilibre en stratégies pures.
 - **Équilibre de Nash en stratégies mixtes** : chaque randomisation est meilleure réponse à celle de l'autre ; existe quand il n'y a pas d'équilibre en stratégies pures.
 
 ### Interactions sociales
 
 - **Jeu séquentiel** : les joueurs jouent l'un après l'autre. **Induction à rebours** : résoudre en partant de la fin.
+- **Arbre de jeu** : représentation d'un jeu séquentiel (nœuds = décisions, branches = actions).
 - **Jeu de l'ultimatum** : un offreur propose un partage, le répondant accepte ou refuse (tout est perdu en cas de refus).
 - **Bien public** : profite à tous, financé par des contributions volontaires individuelles.
 - **Altruisme / aversion aux inégalités** : préoccupation pour le bien-être des autres ou pour l'équité de la répartition.
@@ -60,6 +63,8 @@ Changer les incitations (ex. sanction de la mafia contre celui qui avoue) peut f
 
 Même structure de jeu (coopérer vs dévier) retrouvée dans : la course à l'armement (USA/URSS), la fragilité des cartels (OPEP), le changement climatique (passager clandestin), la tragédie des biens communs (pêche, disparition d'espèces), le dumping fiscal (paradis fiscaux), et de nombreux autres cas (médias, cyclisme, dopage, travail de groupe, vie de couple, publicité non informative, CV).
 
+Application chiffrée : pétrole Koweït/Bahreïn (30 ou 40 millions de barils ; gains 1,25/1,25, 0,9/1,5, 1,5/0,9, 1/1) : produire 40 est dominant, équilibre (40 ; 40) inefficace.
+
 ### 2.6 Sortir du dilemme
 
 Trois mécanismes : répéter le jeu, effets de réputation, punir la déviation (modifier la matrice des gains).
@@ -67,6 +72,12 @@ Trois mécanismes : répéter le jeu, effets de réputation, punir la déviation
 ### 2.7 Portée générale
 
 Le laisser-faire ne mène pas toujours au meilleur équilibre collectif : la main invisible échoue parfois, d'où la nécessité de régulation.
+
+### 2.8 Reconnaître un dilemme du prisonnier
+
+Sont des dilemmes : embouteillages, disparition de la biodiversité, Parcoursup, paradis fiscaux. Ne l'est **pas** : le marché de droits à polluer, qui permet un équilibre collectif d'émission.
+
+CV et activités extra-scolaires : (CV+ ; CV+) est l'équilibre en stratégie dominante ; si tous le font, ces activités n'augmentent plus les chances d'embauche, mais il faut quand même s'y plier.
 
 ## 3. Équilibre de Nash
 
@@ -78,11 +89,15 @@ Brutus (préfère la boxe) et Thérèse (préfère le théâtre) veulent sortir 
 
 Équilibre de Nash : chaque joueur joue sa meilleure réponse compte tenu des autres (= équilibre stable). Méthode : tester chaque case de la matrice. Dans la guerre des sexes, il y a **deux équilibres de Nash** : (boxe, boxe) et (théâtre, théâtre) — indétermination sur celui qui se réalisera.
 
-### 3.3 Équilibre en stratégie dominante vs équilibre de Nash
+### 3.3 Variante du jeu du pétrole
+
+Si le pays qui maintient sa production quand l'autre la réduit ne gagne que 1,2 (au lieu de 1,5) : plus de stratégie dominante, deux équilibres de Nash, (30 ; 30) et (40 ; 40).
+
+### 3.4 Équilibre en stratégie dominante vs équilibre de Nash
 
 Tout équilibre en stratégie dominante est un équilibre de Nash, mais l'inverse est faux. Méthode générale : chercher les MR ⇒ si identiques, stratégie dominante ; sinon, tester les cases pour trouver les équilibres de Nash.
 
-### 3.4 John Nash
+### 3.5 John Nash
 
 Mathématicien (1928-2015), thèse à Princeton en 2 ans, prix Nobel 1994. Sa contribution a montré que l'équilibre issu des interactions individuelles n'est pas toujours efficace, contrairement à ce que prédisait la « main invisible ».
 
@@ -108,7 +123,11 @@ L'équilibre en stratégies mixtes est **$p_B = p_T = \dfrac45$** (chaque joueur
 
 Buteur plus fort à gauche, gardien le sait. Équilibre : le buteur tire à gauche avec probabilité 0,7, le gardien plonge à gauche avec probabilité 0,6, probabilité de but = 62 %. Validation empirique sur données réelles : les joueurs professionnels s'en approchent quasi parfaitement.
 
-### 4.5 Méthode générale
+### 4.5 Matching pennies
+
+Pas d'équilibre en stratégies pures (à chaque case un joueur veut dévier). Équilibre en stratégies mixtes : chaque joueur joue pile avec probabilité $\tfrac12$ ; gain espéré nul.
+
+### 4.6 Méthode générale
 
 MR identiques → stratégie dominante. MR différentes → tester les cases (Nash en stratégies pures) ; si aucune case stable → chercher les probabilités d'indifférence (Nash en stratégies mixtes).
 
@@ -120,15 +139,15 @@ Les joueurs réels s'écartent parfois de l'équilibre de Nash par aversion aux 
 
 ### 5.2 Le jeu de l'ultimatum
 
-Jeu séquentiel : l'offreur propose un partage, le répondant accepte (partage appliqué) ou refuse (0 pour les deux). Résolution par induction à rebours ; en pratique, les offres trop inégalitaires sont souvent refusées.
+Jeu séquentiel : l'offreur propose un partage, le répondant accepte (partage appliqué) ou refuse (0 pour les deux). Résolution par induction à rebours (arbre) : l'offreur propose le minimum. En pratique, les offres très inégalitaires sont refusées (aversion aux inégalités, à l'opposé de l'altruisme), et la générosité des offreurs peut simplement venir d'un calcul d'espérance de gain (montant gardé × probabilité d'acceptation, ex. $0{,}96\times60 > 0{,}52\times70$).
 
 ### 5.3 Fourniture d'un bien public
 
-Ne pas contribuer est la stratégie dominante individuelle (passager clandestin), donc en théorie le bien public n'est pas financé. En expérience, les joueurs contribuent quand même, mais de moins en moins au fil des répétitions.
+Ne pas contribuer est la stratégie dominante individuelle (passager clandestin), donc en théorie le bien public n'est pas financé. Dans l'expérience à 4 joueurs (20 € chacun, 1 € versé rapporte 0,4 € à chacun), verser coûte 1 et rapporte 0,4 : verser 0 est dominant. En expérience, les joueurs contribuent quand même, de façon variable selon les villes, mais de moins en moins au fil des répétitions.
 
 ### 5.4 Rôle des normes sociales
 
-Les contributions dépendent des normes sociales du groupe et sont surtout influencées par le comportement observé des autres (imitation), plus que par le pur altruisme.
+Les contributions dépendent des normes sociales du groupe et sont surtout influencées par le comportement observé des autres (imitation), plus que par le pur altruisme (qui ne dépendrait pas du comportement des autres). Les citoyens acceptent l'impôt s'ils sont sûrs que tout le monde paie, d'où le caractère obligatoire du prélèvement.
 
 ## 6. Tableau de synthèse des jeux étudiés
 
@@ -139,5 +158,8 @@ Les contributions dépendent des normes sociales du groupe et sont surtout influ
 | Main invisible | Simultané | Oui | Oui | Oui |
 | Ultimatum | Séquentiel | Oui | — | Non (altruisme) |
 | Biens publics | Simultané | Oui (contribution = 0) | Non | Non (altruisme) |
+| Pétrole Koweït/Bahreïn | Simultané | Oui (produire 40) | Non | — |
+| Pétrole (variante) | Simultané | Non (2 équilibres de Nash) | — | — |
+| Matching pennies | Simultané | Non (mixte 1/2 – 1/2) | — | — |
 
 Seule la main invisible combine équilibre en stratégie dominante, efficacité et réalisation en pratique — à l'opposé du dilemme du prisonnier.
