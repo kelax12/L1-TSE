@@ -680,70 +680,208 @@ Baisser sa production : l'unité supplémentaire coûte plus qu'elle ne rapporte
 
 $Rm(Q^*) = Cm(Q^*)$.
 
+
+
+108. À quoi est égal le profit marginal ?
+
+À la dérivée du profit : $\Pi'(Q) = Rm(Q) - Cm(Q)$.
+
+
+
+109. Quelle est la condition de premier ordre de maximisation du profit ?
+
+$\Pi'(Q^*) = 0$, soit $Rm = Cm$.
+
+
+
+110. Pourquoi la condition de premier ordre ne suffit-elle pas ?
+
+Une dérivée nulle peut aussi correspondre à un minimum du profit.
+
+
+
+111. Quelle est la condition de second ordre pour un maximum de profit ?
+
+$\Pi''(Q^*) < 0$ : le profit est concave au point trouvé.
+
+
+
+112. Que signifie une dérivée seconde négative ?
+
+La dérivée première est décroissante : la fonction est concave (forme ∩).
+
+
+
+113. Que signifie une dérivée seconde positive ?
+
+La dérivée première est croissante : la fonction est convexe (forme ∪).
+
 ### 5.2 Production et prix optimaux
 
-108. Comment trouve-t-on graphiquement la quantité optimale du monopole ?
+114. Comment trouve-t-on graphiquement la quantité optimale du monopole ?
 
 À l'intersection de la courbe de recette marginale et de la courbe de coût marginal.
 
 
 
-109. Où lit-on le prix optimal du monopole ?
+115. Où lit-on le prix optimal du monopole ?
 
 Sur la courbe de demande, en remontant verticalement depuis $Q^*$ (pas sur la courbe de recette marginale).
 
 
 
-110. Le prix du monopole est-il supérieur ou inférieur au coût marginal à l'optimum ?
+116. Le prix du monopole est-il supérieur ou inférieur au coût marginal à l'optimum ?
 
 Supérieur, car $Rm < P$ et $Rm = Cm$.
 
 
 
-111. Dans l'exemple de la demande $P(Q) = 8,000 - 80Q$, quel est le prix optimal indiqué ?
+117. Dans l'exemple de la demande $P(Q) = 8,000 - 80Q$, quel est le prix optimal indiqué ?
 
 $P^* = 5,440$ € (pour $Q^* = 32$ voitures).
 
+
+
+118. Pourquoi le monopole ne fixe-t-il pas un prix supérieur à $P^*$ ?
+
+Il vendrait moins que $Q^*$, la quantité qui maximise son profit.
+
+
+
+119. Pourquoi le monopole ne vend-il pas une unité de plus que $Q^*$, alors qu'elle dégagerait encore une marge ?
+
+Sans discrimination, il devrait baisser le prix sur toutes les unités vendues, ce qui lui fait perdre plus qu'il ne gagne.
+
+
+
+120. Quel est le surplus du dernier acheteur à l'optimum du monopole ?
+
+Nul : sa propension à payer est égale à $P^*$, il est indifférent entre acheter ou non.
+
 ### 5.3 Surplus et optimum social
 
-112. Comment se partage le surplus au prix $P^*$ ?
+121. Comment se partage le surplus au prix $P^*$ ?
 
 Entre le surplus des consommateurs (aire sous la demande au-dessus de $P^*$) et le surplus du monopoleur (son profit).
 
 
 
-113. Comment le prix optimal du monopole se compare-t-il à l'optimum social ?
+122. Comment le prix optimal du monopole se compare-t-il à l'optimum social ?
 
 $P^* > P^{**}$ : le monopole produit moins et vend plus cher que l'optimum social.
+
+
+
+123. Le surplus des consommateurs est-il l'aire sous la recette marginale ou sous la demande inverse ?
+
+Sous la demande inverse (au-dessus du prix), car elle rassemble toutes les propensions à payer.
+
+
+
+124. Quelle est la différence entre profit et surplus du producteur ?
+
+Le surplus du producteur ($RT - (CT - CF)$) ne tient pas compte des coûts fixes, contrairement au profit ($RT - CT$).
+
+
+
+125. Pourquoi l'aire sous le coût marginal n'est-elle pas le coût total ?
+
+Intégrer $Cm$ donne le coût total à une constante près : cette constante est le coût fixe, donc l'aire vaut $CT - CF$.
+
+
+
+126. Avec $CT = 12Q + 100$, que vaut le coût marginal et où voit-on le coût fixe ?
+
+$Cm = 12$ quelle que soit $Q$ ; le coût fixe (100) ne se voit que sur le graphique du coût total.
+
+
+
+127. Du point de vue de qui raisonne-t-on pour l'optimum social ?
+
+De toute la société (par exemple un gouvernement qui tient compte à la fois des consommateurs et du profit de l'entreprise).
+
+
+
+128. Où se situe graphiquement l'optimum social ?
+
+À l'intersection de la demande inverse et du coût marginal, le prix se lisant sur la demande.
+
+
+
+129. Pourquoi aucun échange n'a lieu à droite de l'intersection demande / coût marginal ?
+
+La propension à payer y est inférieure au coût marginal : l'entreprise devrait vendre sous son coût.
+
+
+
+130. Qu'est-ce que la perte sèche du monopole ?
+
+Le triangle entre la demande et le coût marginal, de $Q^*$ à $Q^{**}$ : des échanges mutuellement avantageux non réalisés.
+
+
+
+131. Pourquoi le monopole ne réalise-t-il pas ces échanges avantageux ?
+
+Les écouler l'obligerait à baisser son prix, ce qui réduirait son profit.
+
+### 5.4 Optimum de Pareto, efficacité et équité
+
+132. Qu'est-ce qu'un optimum de Pareto ?
+
+Une situation où l'on ne peut pas améliorer le bien-être d'un individu sans diminuer celui d'un autre (pas de gâchis).
+
+
+
+133. La situation du monopole est-elle un optimum de Pareto ?
+
+Non : la perte sèche correspond à des gains mutuels non réalisés.
+
+
+
+134. Si 1 000 € sont entièrement donnés à une seule personne, est-ce un optimum de Pareto ?
+
+Oui : donner à quelqu'un d'autre imposerait de prendre à cette personne.
+
+
+
+135. Dans l'exemple du partage d'une somme, quelle est la seule situation non Pareto-optimale ?
+
+Quand une partie de l'argent reste non distribuée (« par terre ») : quelqu'un peut la ramasser sans léser personne.
+
+
+
+136. Sur quoi l'optimum de Pareto renseigne-t-il ?
+
+Uniquement sur l'efficacité (absence de gâchis), pas sur l'équité ni l'égalité.
 
 ## 6. Élasticité-prix et pouvoir de marché
 
 ### 6.1 L'élasticité-prix de la demande
 
-114. Quelle est l'élasticité-prix du Coca-Cola, de l'alcool et de l'essence à court terme ?
+137. Quelle est l'élasticité-prix du Coca-Cola, de l'alcool et de l'essence à court terme ?
 
 Coca-Cola : −3,8 ; alcool (États-Unis) : −1,5 ; essence à court terme : −0,1.
 
 
 
-115. Quels biens ont une demande très peu sensible au prix ?
+138. Quels biens ont une demande très peu sensible au prix ?
 
 Par exemple l'essence à court terme (−0,1), le bus (−0,2), l'acier et l'essence à long terme (−0,3).
 
 ### 6.2 Élasticité, pente de la demande et pouvoir de marché
 
-116. Que se passe-t-il entre $Rm$ et la demande quand la demande est très sensible au prix ?
+139. Que se passe-t-il entre $Rm$ et la demande quand la demande est très sensible au prix ?
 
 Elles se confondent presque ; le prix optimal est proche du coût marginal et le pouvoir de marché est faible.
 
 
 
-117. Que se passe-t-il quand la demande est peu sensible au prix ?
+140. Que se passe-t-il quand la demande est peu sensible au prix ?
 
 La recette marginale est bien sous la demande, le prix est nettement au-dessus du coût marginal : l'entreprise a un fort pouvoir de marché.
 
 
 
-118. Quand un monopole peut-il augmenter son prix sans perdre beaucoup de clients ?
+141. Quand un monopole peut-il augmenter son prix sans perdre beaucoup de clients ?
 
 Quand la demande est peu sensible au prix (faible élasticité).

@@ -16,3 +16,6 @@
 # Copies/artefacts internes des notes — pas publiés (le .md fait foi)
 */*.txt
 **/*.backup.md
+
+# Boîte de dépôt des enregistrements en vrac
+/a-traiter/

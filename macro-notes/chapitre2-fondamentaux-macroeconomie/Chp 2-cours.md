@@ -70,7 +70,10 @@ Le cours de macroéconomie se découpe en trois grandes parties qui s'enchaînen
 - **Taux d'inflation** : variation relative du niveau général des prix entre deux dates.
 - **Déflation** : taux d'inflation négatif (le niveau général des prix diminue).
 - **Désinflation** : situation dans laquelle le taux d'inflation diminue (sans devenir nécessairement négatif).
-- **Hyperinflation** : inflation très forte.
+- **Hyperinflation** : inflation très forte ; on parle généralement d'hyperinflation au-delà d'environ 20 % par an, seuil qui reste discuté.
+- **IPCH (indice des prix à la consommation harmonisé)** : indice de prix utilisé par la BCE pour mesurer l'inflation de l'ensemble de la zone euro.
+- **Coefficient budgétaire** : part de la dépense consacrée au bien $i$ dans le budget du ménage à l'année de base, $\frac{p_i^{t_0} q_i^{t_0}}{\sum_j p_j^{t_0} q_j^{t_0}}$.
+- **Indice de prix élémentaire** : indice du prix d'un seul bien $i$ entre l'année de base et l'année $t$, $\frac{p_i^t}{p_i^{t_0}} \times 100$.
 - **Taux d'intérêt nominal** : taux d'intérêt affiché, qui intègre l'inflation anticipée.
 - **Relation de Fisher** : relation $i = r + \pi^e$ entre taux d'intérêt nominal, taux d'intérêt réel et inflation anticipée.
 - **Indexation** : mécanisme qui fait évoluer un revenu (pension de retraite, par exemple) avec l'inflation ; elle intervient avec un certain décalage, si bien que le pouvoir d'achat est malgré tout affecté.
@@ -505,6 +508,22 @@ où $p_t$ est le niveau général des prix à la date $t$.
 - **Désinflation** : le taux d'inflation diminue (sans nécessairement devenir négatif).
 - **Hyperinflation** : inflation très forte.
 
+Ici $p$ n'est pas le prix d'un bien particulier (le poisson, la salade) mais l'**indice du niveau général des prix**.
+
+**Ne pas confondre déflation et désinflation** : passer de 7 % à 5 % d'inflation (ou de 10 % à 5 %), c'est de la **désinflation** — l'inflation reste positive mais ralentit. Tomber à −1 % ou −3 %, c'est de la **déflation** — le niveau général des prix baisse.
+
+**Hyperinflation** : la définition est peu rigoureuse ; on considère généralement qu'on y entre au-delà d'environ 20 % par an, seuil contestable. Exemple extrême : la Hongrie en 1946, où les prix augmentaient de l'ordre de 200 % **par jour** (ils changeaient au cours d'une même journée). D'autres pays ont connu, plus récemment, des taux de l'ordre du million de pour cent. L'inflation peut faire des ravages dans une économie, d'où l'importance de la suivre et de la contenir.
+
+#### L'épisode d'inflation post-Covid en Europe
+
+Après la crise sanitaire, la demande a explosé alors que l'offre restait insuffisante : les prix ont fortement augmenté pour compenser ce décalage (situation comparable à celle de la réunification allemande). L'inflation a dépassé 10 % dans l'Union européenne, et 20 à 30 % dans certains pays.
+
+```
+Demande très forte + offre insuffisante → explosion des prix → la BCE relève ses taux directeurs → l'inflation est ramenée rapidement
+```
+
+La politique monétaire restrictive de la BCE a été plutôt efficace. La France a été un peu moins touchée que ses partenaires de la zone euro ; son inflation est aujourd'hui inférieure à 2 %. D'importants écarts subsistent toutefois entre pays de la zone euro (de quasiment 0 % à plus de 8 %). Pour piloter sa politique monétaire, la BCE doit donc mesurer l'inflation : elle utilise l'**IPCH** (indice des prix à la consommation harmonisé), qui couvre l'ensemble de la zone euro.
+
 ### 4.4 Calculer le niveau général des prix
 
 Si tous les biens et services étaient consommés dans les mêmes quantités, le niveau général des prix serait simplement leur moyenne. Ce n'est pas le cas : il faut calculer une moyenne pondérée par l'importance relative de chaque bien ou service.
@@ -525,6 +544,28 @@ $$IPC_t = \frac{\displaystyle\sum_i p_i^t q_i^{t_0}}{\displaystyle\sum_i p_i^{t_
 
 C'est un indice de Laspeyres : il mesure l'évolution du prix du panier de biens et services consommés lors de l'année de base.
 
+Pour le calcul de l'IPC, l'INSEE relève les prix d'environ **170 000 produits**. À l'année de base, l'IPC (comme le déflateur) vaut toujours 100 : on y divise la valeur du panier par elle-même.
+
+#### Calculer l'IPC à partir de la structure du budget
+
+Quand on ne connaît pas la composition du panier (les quantités $q_i^{t_0}$) mais seulement la **structure du budget** du ménage représentatif, on réécrit la formule. On note $V_{t_0} = \sum_j p_j^{t_0} q_j^{t_0}$ le budget nécessaire pour acheter le panier en $t_0$, puis on multiplie et divise chaque terme par $p_i^{t_0}$ (ce qui revient à multiplier par 1) :
+
+$$IPC_t = \sum_i \underbrace{\frac{p_i^{t_0} q_i^{t_0}}{V_{t_0}}}_{\text{part de la dépense } i \text{ dans le budget}} \times \underbrace{\frac{p_i^t}{p_i^{t_0}} \times 100}_{\text{indice de prix du bien } i}$$
+
+L'IPC est donc la **moyenne des indices de prix de chaque bien, pondérée par la part de chaque dépense dans le budget** du ménage à l'année de base. Si l'énoncé donne la variation en % du prix d'un bien (son taux de variation $\frac{p_i^t - p_i^{t_0}}{p_i^{t_0}} \times 100$), on en déduit l'indice de prix : une hausse de 2 % donne un indice de 102, une hausse de 10 % un indice de 110.
+
+**Exemple.** Un ménage représentatif consacre à l'année de base 35 % de son budget au logement, 40 % à la nourriture, 10 % à un troisième poste et 15 % aux voyages et loisirs. Les loyers augmentent de 2 %, la nourriture de 10 %, le troisième poste de 5 % et les voyages de 30 % :
+
+| Poste | Part du budget | Variation du prix | Indice de prix | Produit |
+|---|---|---|---|---|
+| Logement | 0,35 | +2 % | 102 | 35,7 |
+| Nourriture | 0,40 | +10 % | 110 | 44 |
+| Troisième poste | 0,10 | +5 % | 105 | 10,5 |
+| Voyages et loisirs | 0,15 | +30 % | 130 | 19,5 |
+| **IPC** | | | | **109,7** |
+
+Soit une inflation de 9,7 % entre les deux années. Si l'énoncé donnait des montants (par exemple 350 € de loyer sur un budget de 1 000 €), il faudrait d'abord calculer soi-même les parts.
+
 ### 4.5 Déflateur du PIB vs IPC
 
 | | Déflateur du PIB | IPC |
@@ -534,6 +575,8 @@ C'est un indice de Laspeyres : il mesure l'évolution du prix du panier de biens
 
 L'IPC est donc la moyenne des indices de prix des biens consommés, pondérés par leur part dans le budget de consommation du ménage représentatif à l'année de base.
 
+**Point commun** : les deux sont des indices du niveau général des prix qui permettent de calculer l'inflation. **Mots-clés des différences** : le déflateur porte sur ce qui est **produit** sur le territoire ; l'IPC sur ce qui est **consommé** sur le territoire, quelle que soit sa provenance (produit en France ou importé).
+
 ### 4.6 Limites de l'IPC : inflation réelle vs inflation perçue
 
 L'IPC représente une moyenne et ne peut pas rendre compte de la diversité des modes de vie, ce qui explique qu'il soit souvent contesté.
@@ -541,6 +584,22 @@ L'IPC représente une moyenne et ne peut pas rendre compte de la diversité des 
 Exemple : le poids du poste télécommunications a augmenté dans le panier de référence, alors même que de nombreuses personnes âgées n'achètent pas ce type de bien (dont les prix ont pourtant souvent baissé). La hausse du coût de la vie pour elles est donc en réalité plus forte que ne le laisse apparaître l'IPC.
 
 De façon plus générale, le consommateur retient surtout la hausse des prix sur ses achats courants (alimentation) et « oublie » les baisses de prix dont il a profité sur d'autres produits : sa perception de l'inflation (**inflation perçue**) diffère souvent de la mesure qu'en donne l'IPC (**inflation réelle**).
+
+Comme toute moyenne, l'IPC en a les défauts : il couvre environ 170 000 produits, alors qu'un ménage n'en consomme qu'une petite partie. Il observe l'évolution des prix de ce qu'il achète habituellement (café, pain…) et remarque moins les baisses de prix des biens qu'il n'achète pas ou rarement. La perception de l'inflation est donc fortement influencée par les **habitudes de consommation**.
+
+**Exercice d'illustration.** Une économie simplifiée compte deux biens. Le ménage représentatif consomme 110 unités de bien alimentaire par an et un bien électronique tous les trois ans (soit $\frac13$ par an). Entre 2004 (année de base) et 2005 :
+
+| Bien | Quantité (panier) | Prix 2004 | Prix 2005 | Variation du prix |
+|---|---|---|---|---|
+| Alimentaire | 110 | 1 | 2 | +100 % |
+| Électronique | $\frac13$ | 1 200 | 900 | −25 % |
+
+- Valeur du panier en 2004 : $110 \times 1 + \frac13 \times 1\,200 = 510$.
+- Valeur du panier en 2005 : $110 \times 2 + \frac13 \times 900 = 520$.
+- $IPC_{2005} = \frac{520}{510} \times 100 \approx 101,96$ ; $IPC_{2004} = 100$ (année de base).
+- Taux d'inflation 2004-2005 : $\frac{101,96 - 100}{100} \times 100 \approx 1,96\ \%$.
+
+Les variations de prix individuelles (+100 %, −25 %) **ne sont pas** l'inflation : l'inflation porte sur le niveau général des prix. Un ménage qui consomme surtout des produits alimentaires, dont le prix a doublé, contestera ce chiffre de 1,96 %. Le chiffre est pourtant **correct** : il intègre la forte baisse du prix du bien électronique, que ce ménage perçoit peu puisqu'il n'en achète presque jamais.
 
 ## 5. Méthodes d'analyse de la macroéconomie
 
@@ -552,6 +611,17 @@ La macroéconomie, en tant que branche de la science économique, s'appuie sur u
 4. éventuellement, chercher à prévoir l'évolution future des variables économiques.
 
 Contrairement à la physique, l'économie ne permet pas de faire d'expériences contrôlées. Ce sont souvent des crises mal expliquées par une théorie dominante qui remettent celle-ci en cause : la crise des années 1930 a ainsi remis en question la théorie néoclassique dominante jusqu'alors, et la crise des années 1970 a remis en question la théorie keynésienne dominante de 1945 à 1970.
+
+```
+Jusqu'aux années 1930 : théorie néoclassique (comportement de l'économie à long terme)
+   → [Grande Dépression de 1929]
+1945-1970 : théorie keynésienne (comportement de l'économie à court terme)
+   → [chocs pétroliers des années 1970]
+Depuis les années 1970 : théorie néo-keynésienne
+   → [crise de 2007-2008 : nouvelle remise en question de la pensée macroéconomique]
+```
+
+La prévision est l'étape la plus difficile et la plus ambitieuse : l'économie n'est pas une science exacte, une politique économique ne produit pas mécaniquement l'effet attendu. Même les modèles très puissants de grands organismes (BCE, FMI) restent soumis à des aléas de prévision.
 
 ### 5.1 Analyse positive vs analyse normative
 
@@ -565,12 +635,29 @@ Un modèle économique est une représentation simplifiée du monde réel, utili
 - les **variables exogènes**, qui viennent de l'extérieur du modèle (ce sont ses inputs) ;
 - les **variables endogènes**, qui viennent de l'intérieur du modèle et sont expliquées par lui (ce sont ses outputs).
 
+Le modèle est une sorte de **boîte noire** (un ensemble d'équations mathématiques) qui transforme les variables exogènes qu'on lui fournit en variables endogènes. On simplifie la réalité parce qu'elle est trop complexe, mais c'est aussi cette simplification qui peut éloigner les résultats de l'évolution réelle.
+
+**Exemple : un modèle du marché de la fraise.**
+
+| Variable | Statut |
+|---|---|
+| Météo | exogène |
+| Prix des fraises | endogène (déterminé sur le marché) |
+| Quantité de fraises échangée | endogène |
+| Coût du travail | exogène |
+| Goûts des consommateurs | exogène |
+| Prix des framboises | exogène |
+| Revenu des consommateurs | exogène |
+| Nombre de producteurs | ça dépend : exogène à court terme (marché qui vient de se créer) ; peut devenir endogène à long terme, les producteurs pouvant, par leurs stratégies, influencer la concurrence, les prix et les quantités (surtout s'ils sont peu nombreux) |
+
 Il existe différents modèles macroéconomiques selon ce que l'on cherche à expliquer : un modèle de croissance de long terme ne cherche pas forcément à expliquer les fluctuations de court terme, et inversement.
 
 Une hypothèse importante distingue les modèles selon la vitesse à laquelle les prix (et les salaires) s'ajustent :
 
 - le **modèle néoclassique à prix flexibles** suppose que les prix s'adaptent pour équilibrer l'offre et la demande sur les marchés ;
 - le **modèle néo-keynésien à prix rigides** suppose au contraire des prix fixes, pour étudier les conséquences de rigidités réalistes (dans les faits, les prix mettent du temps à s'ajuster aux changements de conditions).
+
+L'hypothèse de flexibilité des prix (ajustement instantané) est forte : dans la réalité, en présence de rigidités (par exemple sur le marché du travail), les prix s'ajustent avec retard, et les conclusions des deux types de modèles peuvent diverger. L'hypothèse de prix fixes à court terme est elle aussi forte, tous les prix n'étant pas fixes. On choisit donc le modèle selon le phénomène étudié ; il existe aussi des modèles de moyen terme.
 
 Le modèle à prix rigides est utile pour étudier l'impact à court terme d'un changement exogène ; le modèle à prix flexibles est utile pour étudier son impact à plus long terme, une fois les ajustements réalisés. Dans la réalité, les prix sont en perpétuel ajustement : l'économie se situe toujours entre court terme et long terme.
 
@@ -588,4 +675,8 @@ Depuis les années 1980, les modèles macroéconomiques intègrent de plus en pl
 - CM3 ✅.odt
 - macro 5-transcript-groq ✅.txt (nouvelle version de la transcription du CM 5, remplaçant le brouillon)
 - macro 7-transcript-groq ✅.txt
+- macro 6-transcript ✅.txt (présent dans le dossier mais absent de ce bloc ; son contenu — taux de croissance moyen, graphique semi-logarithmique — figure déjà en 2.12-2.14)
+- Macro 8 1-transcript-DRAFT ✅.txt
+- Macro 8 2-transcript-DRAFT ✅.txt
+- Macro 9-transcript-DRAFT ✅.txt
 -->

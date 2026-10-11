@@ -45,7 +45,14 @@
 
 - **Condition de maximisation du profit** : $Rm(Q^*) = Cm(Q^*)$ ; la quantité $Q^*$ qui la vérifie est la production optimale du monopole.
 - **Surplus du monopoleur** : son profit, représenté par l'aire comprise entre le prix, la courbe de coût marginal et la quantité vendue.
-- **Optimum social** : prix et quantité qui maximisent le surplus total (celui des consommateurs plus celui du producteur).
+- **Condition de premier ordre** : la dérivée du profit s'annule, $\Pi'(Q^*) = 0$, soit $Rm(Q^*) = Cm(Q^*)$.
+- **Condition de second ordre** : $\Pi''(Q^*) < 0$ ; le profit est concave au point trouvé, qui est donc un maximum et non un minimum.
+- **Fonction concave / convexe** : concave si sa dérivée seconde est négative (la pente diminue, forme en « ∩ ») ; convexe si sa dérivée seconde est positive (la pente augmente, forme en « ∪ »).
+- **Surplus du producteur** : aire entre le prix et la courbe de coût marginal, égale à $RT - (CT - CF)$ ; il diffère du profit car il ne tient pas compte des coûts fixes.
+- **Optimum social** : prix et quantité qui maximisent le surplus total (celui des consommateurs plus celui du producteur) ; il est atteint à l'intersection de la demande inverse et du coût marginal.
+- **Perte sèche** : surplus total perdu par rapport à l'optimum social ; pour le monopole, le triangle entre demande et coût marginal sur les quantités comprises entre $Q^*$ et $Q^{**}$.
+- **Optimum de Pareto** : situation dans laquelle on ne peut pas améliorer le bien-être d'un individu sans diminuer celui d'un autre ; ici, il coïncide avec l'optimum social.
+- **Efficacité** : absence de gâchis (situation Pareto-optimale) ; notion indépendante de l'équité et de l'égalité.
 - **Élasticité-prix de la demande** : variation en pourcentage de la quantité demandée quand le prix augmente de 1 %.
 - **Pouvoir de marché** : capacité d'une entreprise à augmenter son prix sans perdre beaucoup de clients.
 
@@ -431,6 +438,22 @@ Le profit est maximal quand le bénéfice marginal s'annule :
 
 $Rm(Q^*) = Cm(Q^*)$
 
+Formellement, le **profit marginal** est la dérivée du profit : $\Pi'(Q) = RT'(Q) - CT'(Q) = Rm(Q) - Cm(Q)$. Graphiquement, c'est la pente de la tangente à la courbe de profit : positive tant que le profit monte, nulle au sommet, négative quand il redescend.
+
+**Condition de premier ordre** : $\Pi'(Q^*) = 0$, c'est-à-dire $Rm = Cm$. Elle ne suffit pas : une dérivée nulle peut aussi correspondre à un minimum.
+
+**Condition de second ordre** : $\Pi''(Q^*) < 0$. La dérivée seconde dit comment évolue la dérivée première :
+
+- au maximum, la pente du profit est d'abord fortement positive, diminue, s'annule au sommet puis devient de plus en plus négative → $\Pi'$ est **décroissante**, donc $\Pi'' < 0$ : la fonction est **concave** (∩) ;
+- au minimum, c'est l'inverse : $\Pi'$ est croissante, $\Pi'' > 0$, la fonction est **convexe** (∪).
+
+```
+Π'' < 0 → profit concave → Q* est un maximum
+Π'' > 0 → profit convexe → Q* est un minimum (mauvaise quantité)
+```
+
+Dans ce cours, on supposera que la condition de second ordre est vérifiée.
+
 ### 5.2 Production et prix optimaux
 
 La démarche se fait en deux temps sur le graphique :
@@ -442,14 +465,68 @@ Dans l'exemple de la demande $P(Q) = 8,000 - 80,Q$ (20 voitures à 6 400 €, 21
 
 Comme $Rm < P$ pour $Q > 0$ (voir 3.4) et que $Rm = Cm$ à l'optimum, le **prix du monopole est supérieur au coût marginal** : le monopole réalise un profit par unité positif. Il ne peut capter davantage du surplus des consommateurs que s'il peut discriminer par les prix (voir 2.6).
 
+Le prix ne peut être ni plus haut ni plus bas que $P^*$ :
+
+- plus haut, il vendrait moins que $Q^*$, la quantité qui maximise son profit ;
+- plus bas, il renoncerait à une partie de la recette qu'il pouvait obtenir.
+
+**Pourquoi ne pas vendre une unité de plus ?** La dernière unité vendue dégage encore une marge $P^* - Cm > 0$, et pour l'unité suivante la propension à payer reste supérieure au coût marginal : un échange mutuellement avantageux existe. Mais, sans discrimination par les prix, toutes les unités sont vendues au même prix : pour écouler $Q^* + 1$, il faudrait baisser le prix sur **toutes** les unités, ce qui fait perdre plus que ce que rapporte l'unité supplémentaire. Le monopole n'a donc pas intérêt à produire plus.
+
+**Raisonnement unité par unité** : pour chaque unité jusqu'à $Q^*$, l'écart entre la propension à payer de l'acheteur et $P^*$ va aux consommateurs, et l'écart entre $P^*$ et le coût marginal va au producteur. Le dernier acheteur (en $Q^*$) a une propension à payer égale à $P^*$ : il est indifférent entre acheter ou non et son surplus est nul, alors que l'entreprise gagne encore sur cette unité.
+
 ### 5.3 Surplus et optimum social
 
 Au prix $P^*$, le surplus se partage entre :
 
-- le **surplus des consommateurs** : l'aire entre la courbe de demande et le prix $P^*$ ;
-- le **surplus du monopoleur** : son profit.
+- le **surplus des consommateurs** : l'aire entre la courbe de **demande inverse** et le prix $P^*$ (et non l'aire sous la recette marginale : la demande inverse rassemble toutes les propensions à payer) ;
+- le **surplus du monopoleur** : l'aire entre le prix $P^*$ et la courbe de coût marginal, jusqu'à $Q^*$.
 
-L'**optimum social** est le prix et la quantité qui maximisent le surplus total (consommateurs et producteur). Il correspond à un prix $P^{**}$ plus bas que $P^*$ et à une quantité plus grande : le monopole produit moins et vend plus cher que ce qui serait socialement le meilleur.
+#### Profit et surplus du producteur
+
+L'aire sous le coût marginal est l'intégrale du coût marginal ; or intégrer $Cm$ redonne le coût total **à une constante près**, et cette constante est le coût fixe :
+
+$$\int_0^{Q} Cm(q)\,dq = CT(Q) - CF$$
+
+D'où :
+
+- **surplus du producteur** $= RT - (CT - CF)$ ;
+- **profit** $= RT - CT$.
+
+La seule différence : le surplus du producteur **ne tient pas compte des coûts fixes** (dépenses engagées une fois pour toutes, comme l'usine). Exemple : avec $CT = 12Q + 100$, le coût marginal vaut 12 quel que soit $Q$ ; le coût fixe de 100 n'apparaît pas sur le graphique du coût marginal, seulement sur celui du coût total (ordonnée à l'origine).
+
+#### L'optimum social
+
+Un optimum est une situation où **on ne peut pas faire mieux**. L'optimum du monopole est le meilleur du point de vue du seul monopoleur ; l'**optimum social** est le meilleur du point de vue de toute la société (ici : le monopole et les consommateurs). On se place par exemple à la place d'un gouvernement qui se soucie à la fois du surplus des consommateurs et du profit de l'entreprise, et qui choisit la quantité maximisant le **surplus total** (surplus des consommateurs + surplus du producteur).
+
+- **À droite** de l'intersection entre la demande inverse et le coût marginal, la propension à payer est inférieure au coût marginal : aucun échange n'est possible (l'entreprise devrait vendre en dessous de son coût marginal).
+- **À gauche**, la propension à payer dépasse le coût marginal : l'échange est possible et mutuellement avantageux.
+
+L'optimum social $(Q^{**}, P^{**})$ est donc à l'**intersection de la demande inverse et du coût marginal** ; le prix se lit sur la demande. Il correspond à un prix $P^{**}$ plus bas que $P^*$ et à une quantité plus grande : le monopole produit **volontairement moins** pour vendre plus cher.
+
+```
+Monopole       : Rm = Cm               → Q*,  P*
+Optimum social : demande inverse = Cm  → Q** > Q*,  P** < P*
+```
+
+#### La perte sèche
+
+Le surplus total à l'optimum social est plus grand que celui obtenu avec le monopole. La différence est un **petit triangle** entre la demande et le coût marginal, sur les quantités comprises entre $Q^*$ et $Q^{**}$ : des échanges mutuellement avantageux (propension à payer > coût marginal) que le monopole ne réalise pas, parce que les écouler l'obligerait à baisser son prix et réduirait son profit. C'est du surplus « laissé par terre ».
+
+### 5.4 Optimum de Pareto, efficacité et équité
+
+**Optimum de Pareto** : situation où l'on ne peut pas améliorer le bien-être d'un individu sans diminuer celui d'au moins un autre. Autrement dit : il n'y a **pas de gâchis**. Ici, optimum social et optimum de Pareto désignent la même chose.
+
+- La situation du monopole ($Q^*$) **n'est pas** un optimum de Pareto : la perte sèche représente des gains mutuels possibles et non réalisés.
+- L'optimum social ($Q^{**}$) **est** un optimum de Pareto.
+
+**Exemple du partage d'une somme** (1 000 € à répartir dans un groupe) :
+
+- une seule personne a tout et les autres rien : optimum de Pareto (pour donner à quelqu'un, il faut prendre à celle qui a tout) ;
+- tout le monde a 10 € : optimum de Pareto aussi (passer quelqu'un de 10 à 11 € fait passer quelqu'un d'autre de 10 à 9 €) ;
+- toute répartition où la totalité de la somme est distribuée est un optimum de Pareto ;
+- la seule situation non Pareto-optimale : s'il reste de l'argent « par terre » (non distribué), que quelqu'un peut ramasser sans rien prendre à personne.
+
+**À retenir : ne jamais confondre efficacité et équité.** L'optimum de Pareto renseigne **uniquement sur l'efficacité** (gâchis ou pas). Il ne dit rien de l'équité ni de l'égalité, qui sont des notions complètement indépendantes. À l'optimum social, le monopole peut faire un gros profit pendant que les consommateurs ont un petit surplus : c'est efficace, mais pas forcément équitable.
 
 ## 6. Élasticité-prix et pouvoir de marché
 
@@ -482,5 +559,6 @@ L'élasticité décide de l'écart entre la courbe de demande et la courbe de re
 - Micro 7-transcript-DRAFT ✅.txt
 - Micro 8-transcript-DRAFT ✅.txt
 - Micro 9-transcript-DRAFT ✅.txt
+- Micro 10-transcript-DRAFT ✅.txt
 - Chapitre 2 - Lentreprise et ses clients ✅.pdf
 -->

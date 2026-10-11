@@ -87,6 +87,14 @@ $\tau_{chômage} = \dfrac{\text{chômeurs}}{\text{population active}}\times100$.
 
 L'inflation redistribue les revenus (mal indexés, transferts prêteurs → emprunteurs si non anticipée). $i = r + \pi^e$ (relation de Fisher). L'erreur d'anticipation de l'inflation se répercute sur le taux réel : inflation réalisée plus faible que prévue → transfert de l'emprunteur vers le prêteur ; plus forte que prévue → transfert du prêteur vers l'emprunteur (taux nominal fixe). Le niveau général des prix se mesure par une moyenne pondérée : déflateur du PIB (Paasche, tous les B&S produits) ou IPC (Laspeyres, B&S consommés par les ménages, panier fixé à l'année de base). L'inflation perçue par les ménages diffère souvent de l'inflation réelle mesurée par l'IPC.
 
+- Désinflation (7 % → 5 %) ≠ déflation (inflation négative). Hyperinflation : au-delà d'environ 20 %/an (Hongrie 1946 : ~200 % par jour).
+- Post-Covid : inflation > 10 % dans l'UE → la BCE relève ses taux directeurs → inflation contenue (France < 2 % aujourd'hui). La BCE mesure l'inflation avec l'**IPCH**.
+- IPC à partir de la structure du budget : $IPC_t = \sum_i \frac{p_i^{t_0} q_i^{t_0}}{V_{t_0}} \times \frac{p_i^t}{p_i^{t_0}} \times 100$ (moyenne des indices de prix pondérée par les parts budgétaires). Une hausse de x % du prix d'un bien → indice $100 + x$.
+- Exercice : alimentaire +100 %, électronique −25 %, panier 110 / ⅓ → IPC = 520/510 × 100 ≈ 101,96 → inflation ≈ 1,96 % : chiffre correct, mais perçu comme sous-estimé par un ménage qui consomme surtout de l'alimentaire.
+
 ## 5. Méthodes d'analyse de la macroéconomie
 
 Démarche scientifique : observer/décrire → expliquer (théories/modèles) → confronter aux données → prévoir. Analyse positive (faits) vs normative (jugements de valeur). Modèles : variables exogènes/endogènes, prix flexibles (long terme) vs prix rigides (court terme). Depuis les années 1980, les modèles intègrent des bases microéconomiques (agents représentatifs maximisant leur utilité).
+
+- Néoclassiques (long terme, jusqu'en 1929) → keynésiens (court terme, 1945-1970) → néo-keynésiens (depuis les années 1970) ; la crise de 2007-2008 a de nouveau fait évoluer la pensée.
+- Le modèle est une boîte noire : exogènes (inputs) → endogènes (outputs). Marché de la fraise : prix et quantités endogènes ; météo, revenu, goûts, prix des framboises exogènes ; nombre de producteurs exogène à court terme, potentiellement endogène à long terme.

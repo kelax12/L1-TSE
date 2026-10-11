@@ -56,6 +56,16 @@ Au début de chaque exécution :
 
 Si la note n'existe pas encore, c'est une première exécution : traite toutes les sources disponibles, ajoute `✅` à chacune une fois intégrée, et crée le bloc de suivi à la fin avec les noms ainsi mis à jour.
 
+## Étape 0 — Ranger le dossier `a-traiter/` (enregistrements en vrac)
+
+À la racine de l'espace de travail, le dossier `a-traiter/` sert de boîte de dépôt : l'utilisateur y met en vrac ses enregistrements audio (`.m4a`, `.mp3`…) sans les ranger. **C'est à toi de les ranger**, avant toute autre étape, à chaque exécution où ce dossier n'est pas vide.
+
+- **Convention de nommage** : `<Matière> <numéro>` (ex: `Micro 11.m4a`, `Macro 10.m4a`, `Droit 12.m4a`, `Science po 10.m4a`, `Eco gestion maison 5.m4a`). La matière donne le dossier de sources de destination (`micro/`, `macro/`, `droit/`, `science po/`, `eco-gestion/`) ; le numéro est celui du CM. Un suffixe en plus (`Macro 8 1`, `Macro 8 2`) = plusieurs morceaux d'un même CM, à transcrire séparément puis à traiter ensemble. « maison » = cours enregistré/travaillé hors amphi, il garde sa propre numérotation.
+- **Doublons** : avant de déplacer, vérifie qu'un enregistrement du même nom/numéro n'est pas déjà rangé et transcrit dans la matière (même taille ou durée ≈ identique = même enregistrement). Si oui, ne le retranscris pas : signale-le à l'utilisateur et laisse-le dans `a-traiter/` pour qu'il décide.
+- **Chapitre** : le chapitre d'un CM ne se devine pas au nom du fichier. Transcris d'abord (skill `transcriptor`), lis le début de la transcription, puis range l'audio **et** sa transcription dans le dossier de chapitre côté sources correspondant (`<matière>/chapitreX-<nom>/`) — ou crée un nouveau dossier de chapitre si le CM ouvre un nouveau chapitre (en t'appuyant sur le plan officiel/support de la matière s'il existe).
+- **Ordre de traitement** : matière par matière — on transcrit et intègre tous les CM d'une matière (dans l'ordre des numéros) avant de passer à la suivante.
+- Une fois un fichier rangé, il disparaît de `a-traiter/` (c'est le seul cas où un fichier audio est déplacé). Le dossier `a-traiter/` reste en local, jamais publié.
+
 ## Étape 1 — Repérer le dossier du chapitre et ses sources
 
 Le déclencheur habituel est un dossier dédié à un chapitre (ex: `Cours/Biologie-Cellulaire/`). À l'intérieur, distingue les fichiers par bon sens : une transcription de CM est longue et orale, un support est souvent un PDF/pptx structuré en slides, des notes perso sont plus courtes et personnelles (`.odt`). Il peut y avoir plusieurs fichiers de chaque type, tous à la racine du dossier — aucun tri physique n'est fait, c'est le bloc `SOURCES INTÉGRÉES` de la note (voir plus haut) qui indique lesquels sont déjà traités.

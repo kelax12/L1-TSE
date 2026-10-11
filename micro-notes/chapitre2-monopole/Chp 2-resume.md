@@ -129,15 +129,29 @@ Prix unique de marché ; marge forte sur les premières unités, plus faible ens
 
 $Rm > Cm$ → produire plus ; $Rm < Cm$ → produire moins ; optimum : $Rm(Q^*) = Cm(Q^*)$.
 
+- Condition de premier ordre : $\Pi'(Q^*) = 0$ ; condition de second ordre : $\Pi''(Q^*) < 0$ (profit concave → maximum).
+
 ### 5.2 Production et prix optimaux
 
 - $Q^*$ à l'intersection de $Rm$ et $Cm$ ; le prix $P^*$ se lit sur la **courbe de demande**.
 - Exemple : $P^* = 5,440$ € ($Q^* = 32$).
 - Comme $Rm < P$, le prix est supérieur au coût marginal.
+- La dernière unité dégage encore une marge, mais en vendre une de plus obligerait à baisser le prix sur toutes les unités (sans discrimination) : pas intéressant.
+- Le dernier acheteur a un surplus nul (PAP $= P^*$).
 
 ### 5.3 Surplus et optimum social
 
-Surplus des consommateurs + surplus du monopoleur (profit). L'optimum social ($P^{**} < P^*$, quantité plus grande) maximise le surplus total : le monopole produit moins et vend plus cher.
+- Surplus des consommateurs : aire entre **demande inverse** et prix. Surplus du producteur : aire entre prix et $Cm$.
+- Surplus du producteur $= RT - (CT - CF)$ ; profit $= RT - CT$ : la différence, ce sont les coûts fixes.
+- Optimum social : **demande inverse = Cm** ; il maximise le surplus total. $Q^{**} > Q^*$, $P^{**} < P^*$ : le monopole produit volontairement moins pour vendre plus cher.
+- **Perte sèche** : triangle entre demande et $Cm$ de $Q^*$ à $Q^{**}$ = échanges mutuellement avantageux non réalisés.
+
+### 5.4 Optimum de Pareto, efficacité et équité
+
+- Optimum de Pareto : impossible d'améliorer le sort de quelqu'un sans détériorer celui d'un autre (= pas de gâchis) ; ici = optimum social.
+- Le monopole n'est pas Pareto-optimal (perte sèche).
+- Partage de 1 000 € : toute répartition complète est Pareto-optimale ; seul l'argent « par terre » ne l'est pas.
+- **Efficacité ≠ équité** : Pareto ne parle que d'efficacité.
 
 ## 6. Élasticité-prix et pouvoir de marché
 

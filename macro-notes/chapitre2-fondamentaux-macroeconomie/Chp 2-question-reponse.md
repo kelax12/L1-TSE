@@ -666,38 +666,170 @@ Le prêteur : son retour réel est supérieur à celui attendu (transfert de l'e
 
 L'emprunteur : le retour réel du prêteur est inférieur à celui attendu (transfert du prêteur vers l'emprunteur).
 
+
+
+112. Quelle est la différence entre désinflation et déflation ?
+
+Désinflation : l'inflation reste positive mais ralentit (ex. 7 % → 5 %). Déflation : l'inflation est négative, le niveau général des prix baisse.
+
+
+
+113. À partir de quel seuil parle-t-on généralement d'hyperinflation ?
+
+Au-delà d'environ 20 % par an (seuil discuté).
+
+
+
+114. Quel exemple extrême d'hyperinflation le cours cite-t-il ?
+
+La Hongrie en 1946, avec des prix qui augmentaient de l'ordre de 200 % par jour.
+
+
+
+115. Pourquoi l'inflation a-t-elle explosé en Europe après le Covid ?
+
+La demande a explosé alors que l'offre restait insuffisante : les prix ont augmenté pour compenser ce décalage.
+
+
+
+116. Comment la BCE a-t-elle réagi à l'inflation post-Covid, et avec quel résultat ?
+
+Elle a relevé ses taux directeurs (politique monétaire restrictive), ce qui a contenu l'inflation assez rapidement.
+
+
+
+117. Quel indice la BCE utilise-t-elle pour mesurer l'inflation de la zone euro ?
+
+L'IPCH, indice des prix à la consommation harmonisé.
+
+
+
+118. Combien de produits l'INSEE suit-il pour calculer l'IPC ?
+
+Environ 170 000.
+
+
+
+119. Que vaut un indice de prix (déflateur ou IPC) à l'année de base ?
+
+100, par construction.
+
+
+
+120. Comment calculer l'IPC quand on connaît la structure du budget mais pas la composition du panier ?
+
+$IPC_t = \sum_i \frac{p_i^{t_0} q_i^{t_0}}{V_{t_0}} \times \frac{p_i^t}{p_i^{t_0}} \times 100$ : la moyenne des indices de prix de chaque bien, pondérée par la part de chaque dépense dans le budget à l'année de base.
+
+
+
+121. Le prix d'un bien augmente de 10 %. Quel est son indice de prix ?
+
+110.
+
+
+
+122. Budget : 35 % logement (+2 %), 40 % nourriture (+10 %), 10 % autre poste (+5 %), 15 % voyages (+30 %). Que vaut l'IPC ?
+
+$0,35 \times 102 + 0,40 \times 110 + 0,10 \times 105 + 0,15 \times 130 = 109,7$, soit 9,7 % d'inflation.
+
+
+
+123. Panier : 110 biens alimentaires (prix 1 → 2) et ⅓ de bien électronique (prix 1 200 → 900). Que vaut l'IPC de l'année 2 ?
+
+$\frac{520}{510} \times 100 \approx 101,96$, soit une inflation d'environ 1,96 %.
+
+
+
+124. Dans cet exercice, peut-on dire que l'inflation est de +100 % ou de −25 % ?
+
+Non : ce sont des variations de prix individuelles ; l'inflation porte sur le niveau général des prix.
+
+
+
+125. Pourquoi un ménage peut-il trouver l'inflation officielle sous-estimée alors qu'elle est correctement calculée ?
+
+Il observe surtout les prix des biens qu'il consomme habituellement et perçoit peu les baisses de prix des biens qu'il achète rarement.
+
 ## 5. Méthodes d'analyse de la macroéconomie
 
-112. Quelles sont les quatre étapes de la démarche scientifique en macroéconomie ?
+126. Quelles sont les quatre étapes de la démarche scientifique en macroéconomie ?
 
 Observer et décrire les données ; expliquer via des théories/modèles ; confronter les prédictions aux données ; éventuellement prévoir l'évolution future.
 
 
 
-113. « Augmenter le taux d'intérêt encourage les ménages à épargner » est-elle une affirmation positive ou normative ?
+127. « Augmenter le taux d'intérêt encourage les ménages à épargner » est-elle une affirmation positive ou normative ?
 
 Positive (c'est un constat factuel, pas un jugement de valeur).
 
 
 
-114. « Le taux d'imposition des ménages pauvres devrait être plus faible que celui des ménages riches » est-elle une affirmation positive ou normative ?
+128. « Le taux d'imposition des ménages pauvres devrait être plus faible que celui des ménages riches » est-elle une affirmation positive ou normative ?
 
 Normative (c'est un jugement de valeur sur ce qui devrait être).
 
 
 
-115. Quelle est la différence entre le modèle néoclassique à prix flexibles et le modèle néo-keynésien à prix rigides ?
+129. Quelle est la différence entre le modèle néoclassique à prix flexibles et le modèle néo-keynésien à prix rigides ?
 
 Le premier suppose que les prix s'ajustent pour équilibrer l'offre et la demande ; le second suppose des prix fixes, pour étudier l'impact de rigidités réalistes à court terme.
 
 
 
-116. Le modèle à prix rigides est-il plutôt utile pour étudier le court terme ou le long terme ?
+130. Le modèle à prix rigides est-il plutôt utile pour étudier le court terme ou le long terme ?
 
 Le court terme (l'impact immédiat d'un changement exogène, avant ajustement complet des prix).
 
 
 
-117. Depuis les années 1980, comment les modèles macroéconomiques ont-ils évolué ?
+131. Depuis les années 1980, comment les modèles macroéconomiques ont-ils évolué ?
 
 Ils intègrent de plus en plus de bases microéconomiques, avec des agents représentatifs (consommateurs, entreprises, État) qui maximisent leur utilité.
+
+
+
+132. Quelle théorie s'est imposée après la Grande Dépression, et sur quel horizon raisonne-t-elle ?
+
+La théorie keynésienne (dominante de 1945 à 1970) ; elle modélise le court terme.
+
+
+
+133. Sur quel horizon raisonne la théorie néoclassique ?
+
+Le long terme, avec des prix flexibles.
+
+
+
+134. Quelle crise récente a fait évoluer la pensée macroéconomique ?
+
+La crise de 2007-2008.
+
+
+
+135. Pourquoi les prévisions macroéconomiques restent-elles incertaines, même avec les modèles de la BCE ou du FMI ?
+
+L'économie n'est pas une science exacte : une politique ne produit pas mécaniquement l'effet attendu, et les modèles simplifient la réalité.
+
+
+
+136. Pourquoi un modèle est-il comparé à une boîte noire ?
+
+Ensemble d'équations qui transforme les variables exogènes fournies (inputs) en variables endogènes (outputs).
+
+
+
+137. Dans un modèle du marché de la fraise, la météo et le prix des fraises sont-ils exogènes ou endogènes ?
+
+Météo : exogène. Prix des fraises : endogène (déterminé par le marché).
+
+
+
+138. Dans le modèle du marché de la fraise, le nombre de producteurs est-il exogène ou endogène ?
+
+Ça dépend : exogène à court terme, il peut devenir endogène à long terme (les producteurs influencent prix et quantités par leurs stratégies).
+
+
+
+139. Pourquoi l'hypothèse de prix flexibles est-elle forte ?
+
+Dans la réalité, les rigidités (par exemple sur le marché du travail) font que les prix s'ajustent avec retard.

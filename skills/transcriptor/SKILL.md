@@ -21,6 +21,10 @@ Colle ta clé Groq entre les guillemets (créée sur console.groq.com, gratuite)
 
 Claude n'a pas d'entrée audio native — impossible d'"écouter" un mp3 et de le retranscrire de tête. Toute transcription doit passer par un vrai moteur de reconnaissance vocale (ASR) en amont (étape 1) ; Claude n'intervient qu'ensuite, pour contrôler et mettre en forme le résultat brut (étapes 2 et 3). Ne jamais tenter de deviner ou de reconstituer un passage à partir du seul titre du fichier ou du contexte — si l'ASR n'a rien produit ou a échoué sur un passage, c'est `[inaudible]`, jamais une reconstruction plausible.
 
+## Dossier `a-traiter/` — enregistrements en vrac
+
+Si l'utilisateur dit d'utiliser le dossier `a-traiter/` (racine de l'espace de travail), il contient des enregistrements non rangés nommés `<Matière> <numéro>` (ex: `Micro 11.m4a`). Le rangement (matière → dossier de sources, puis chapitre après lecture de la transcription) est décrit dans le skill `cours-structure` (Étape 0) : transcris matière par matière, enregistre chaque transcription sous `<nom de l'audio>-transcript-DRAFT.txt` à côté de l'audio une fois rangé, et ne retranscris jamais un enregistrement déjà transcrit ailleurs (doublon).
+
 ## Étape 1 — Lancer la reconnaissance vocale (ASR)
 
 Vérifie la présence d'une clé API, dans cet ordre de préférence (le champ de config ci-dessus, sinon la variable d'environnement `$GROQ_API_KEY`) :
