@@ -8,11 +8,9 @@ La branche de l'économie qui fournit le cadre comptable pour mesurer et reconst
 
 
 
-
 2. Qu'est-ce qu'une consommation intermédiaire ?
 
 Un bien ou service utilisé dans le processus de production, où il est transformé, incorporé ou détruit.
-
 
 
 
@@ -22,11 +20,9 @@ Production moins consommations intermédiaires.
 
 
 
-
 4. Comment appelle-t-on l'investissement en comptabilité nationale ?
 
 La formation brute de capital fixe (FBCF).
-
 
 
 
@@ -36,11 +32,9 @@ FBCF + variation des stocks ($\Delta S$).
 
 
 
-
 6. Quelle est la relation entre prix de marché et prix de base ?
 
 Prix de marché = prix de base + impôts sur les produits − subventions.
-
 
 
 
@@ -50,11 +44,9 @@ Le salaire brut : salaire net + cotisations sociales, soit le coût du travail p
 
 
 
-
 8. Qu'est-ce que l'excédent brut d'exploitation (EBE) ?
 
 Une sorte de marge brute agrégée des entreprises, qui remplace la notion imprécise de profit.
-
 
 
 
@@ -72,18 +64,15 @@ L'INSEE.
 
 
 
-
 11. Quel est l'équivalent européen de l'INSEE ?
 
 Eurostat.
 
 
 
-
 12. Quels organismes fournissent des données à l'échelle mondiale ?
 
 L'OCDE (pays développés, environ 60 % de la production mondiale) et le FMI.
-
 
 
 
@@ -101,11 +90,9 @@ L'approche production, l'approche revenu et l'approche dépense (ou demande, ou 
 
 
 
-
 15. Pourquoi les trois approches doivent-elles donner le même résultat ?
 
 Elles mesurent le même PIB, la même réalité, sous trois angles différents.
-
 
 
 
@@ -121,11 +108,9 @@ Les ménages (salariés, et propriétaires des entreprises, qui sont aussi des m
 
 
 
-
 18. Blé 100 → farine 150 (100 au boulanger, 50 aux ménages) → pain 300. Quelles sont les valeurs ajoutées ?
 
 Agriculteur 100, meunier 50, boulanger 200 : PIB = 350.
-
 
 
 
@@ -135,11 +120,9 @@ Agriculteur 100, meunier 50, boulanger 200 : PIB = 350.
 
 
 
-
 20. Dans cet exemple, que vaut le PIB par l'approche revenu ?
 
 200 de salaires + 150 de profits = 350.
-
 
 
 
@@ -152,7 +135,6 @@ Elle est distribuée en revenus à ceux qui ont participé à sa production : sa
 22. Quelle est la contrepartie monétaire de l'apport des facteurs de production par les ménages ?
 
 Leur rémunération par les entreprises : salaires (travail) et profits (capital).
-
 
 
 
@@ -174,11 +156,9 @@ C'est un bien durable : sa durée de vie dépasse un an, il sert pendant plusieu
 
 
 
-
 26. Qu'est-ce qui constitue l'investissement des ménages au sens strict ?
 
 Uniquement l'achat de logements neufs.
-
 
 
 
@@ -188,11 +168,9 @@ Il a déjà été compté l'année de sa construction ; le compter à chaque ven
 
 
 
-
 28. Des voitures produites le 31 décembre 2026 et vendues en 2027 : dans quel PIB sont-elles comptées ?
 
 Dans celui de 2026, l'année de leur production (elles entrent en variation des stocks).
-
 
 
 
@@ -208,11 +186,9 @@ $PIB + M = CF + FBCF + \Delta S + X$.
 
 
 
-
 31. Quelle est la formule définitive de l'approche dépense ?
 
 $PIB = CF + FBCF + \Delta S + (X - M)$.
-
 
 
 
@@ -228,11 +204,9 @@ Au prix de marché.
 
 
 
-
 34. La production et la valeur ajoutée sont-elles exprimées au prix de base ou au prix de marché ?
 
 Au prix de base.
-
 
 
 
@@ -242,11 +216,9 @@ Le PIB est au prix de marché alors que la VA est au prix de base : il manque le
 
 
 
-
 36. Quelle est la formule définitive de l'approche production ?
 
 $PIB = \sum VA + \text{impôts sur les produits} - \text{subventions sur les produits}$.
-
 
 
 
@@ -262,11 +234,9 @@ Les impôts sur les produits et les autres impôts sur la production (AIP).
 
 
 
-
 39. Comment se calculent les impôts sur les produits ?
 
 Par unité de bien ou de service, ou proportionnellement à sa valeur ou à son prix.
-
 
 
 
@@ -276,11 +246,9 @@ Ils sont dus indépendamment de la quantité ou de la valeur de la production r�
 
 
 
-
 41. Citez quatre impôts sur les produits.
 
 TVA, TICPE (ex-TIPP), droits sur l'alcool et le tabac, droits de douane (aussi : taxe sur les sodas, timbre sur les chèques non barrés).
-
 
 
 
@@ -290,18 +258,15 @@ Taxe foncière, CET (ex-taxe professionnelle), impôts sur la masse salariale (a
 
 
 
-
 43. La taxe de 3 centimes par canette de soda est-elle un impôt sur les produits ou un AIP ?
 
 Un impôt sur les produits (calculé par unité).
 
 
 
-
 44. Pourquoi la taxe foncière est-elle un AIP ?
 
 Elle est la même que l'entreprise produise un million de stylos ou un seul.
-
 
 
 
@@ -317,18 +282,15 @@ Par la rémunération des salariés (salaire brut).
 
 
 
-
 47. Par quoi remplace-t-on le « profit » dans l'approche revenu ?
 
 Par l'excédent brut d'exploitation (EBE).
 
 
 
-
 48. Quelle est la formule définitive de l'approche revenu ?
 
 $PIB = RS + EBE + \text{impôts sur la production} - \text{subventions}$.
-
 
 
 
@@ -341,7 +303,6 @@ Parce qu'elle doit faire apparaître chaque catégorie de revenu et qui la perç
 50. Que vaut le PIB français en 2018 selon l'INSEE ?
 
 2 353 milliards d'euros, quelle que soit l'approche.
-
 
 
 
@@ -365,11 +326,9 @@ Des services produits par l'État et distribués gratuitement ou quasi gratuitem
 
 
 
-
 54. Donnez des exemples de production non marchande des APU.
 
 Éducation publique, soins dans les hôpitaux publics, police, justice, éclairage public.
-
 
 
 
@@ -385,11 +344,9 @@ On ne peut pas identifier les bénéficiaires de ces services pour leur imputer 
 
 
 
-
 57. Quelles sont les deux consommations finales ?
 
 La consommation finale (réelle) des ménages et la consommation finale (fictive) des APU.
-
 
 
 
@@ -402,7 +359,6 @@ Elle est égale à la production non marchande des APU.
 59. Quelles sont les trois composantes de la production pour emploi final propre des ménages ?
 
 Les loyers fictifs (services de logement), les services du personnel domestique et la production agricole autoconsommée.
-
 
 
 
