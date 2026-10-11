@@ -82,6 +82,24 @@
 - **Présomption irréfragable / simple** : présomption contre laquelle aucune preuve contraire n'est admise / qui peut être renversée par la preuve contraire.
 - **Contrat de gré à gré (négocié)** : contrat dont les clauses sont librement négociées ; s'oppose au **contrat d'adhésion**, dont les clauses non négociables sont fixées à l'avance par une partie.
 
+- **Principe de spécialité** : limite de la capacité d'une personne morale aux actes relevant de son objet social.
+
+### Exécution du contrat
+
+- **Force obligatoire** : le contrat légalement formé tient lieu de loi aux parties (art. 1103) ; il lie aussi le juge.
+- **Bonne foi** : exigence d'ordre public qui s'impose à la négociation, à la formation et à l'exécution du contrat (art. 1104).
+- **Dénaturation** : fait pour le juge de déformer le sens clair d'une clause.
+- **Imprévision** : changement imprévisible de circonstances qui bouleverse l'équilibre du contrat et ouvre droit à une renégociation.
+- **Irrévocabilité** : obligation d'exécuter le contrat jusqu'à son terme, sauf accord des deux parties.
+- **Exception d'inexécution** : faculté de suspendre sa propre obligation tant que l'autre partie n'exécute pas la sienne, si l'inexécution est suffisamment grave (art. 1219).
+- **Obligation exigible** : obligation dont l'exécution peut être réclamée, son échéance étant arrivée.
+- **Mise en demeure** : dernier avertissement formel adressé au débiteur pour qu'il s'exécute dans un délai ; préalable aux remèdes judiciaires, elle fait courir les intérêts de retard.
+- **Exécution forcée en nature** : obtention de la prestation exacte promise ; s'oppose à l'**exécution par équivalent** (dommages et intérêts).
+- **Réduction du prix** : acceptation d'une exécution imparfaite contre une réduction proportionnelle du prix (art. 1223).
+- **Résolution** : anéantissement du contrat pour inexécution, par clause résolutoire, notification unilatérale ou décision du juge.
+- **Clause résolutoire** : clause prévoyant que le contrat sera résolu de plein droit en cas d'inexécution.
+- **Contrat à exécution instantanée / successive** : contrat dont les prestations s'exécutent en une fois / s'étalent dans la durée.
+
 ### Sanctions
 
 - **Exécution forcée en nature** : sanction qui oblige une partie à exécuter ce qu'elle a promis.
@@ -725,9 +743,141 @@ Clauses abusives
 → Sanction : clause réputée non écrite, contrat maintenu ; jamais sur le prix ou la valeur
 ```
 
+### 2.10 Compléments sur les conditions de validité
+
+- **Capacité des personnes morales** (sociétés, associations, syndicats) : elle est limitée par le **principe de spécialité**. Le représentant d'une personne morale ne peut accomplir, sans l'accord des associés ou membres, que les actes qui relèvent de son **objet social** (son activité).
+- **L'incapacité protège** à la fois la personne vulnérable, qui n'a pas conscience de la portée de ses engagements, et les tiers avec qui elle contracterait ; ce n'est pas une sanction.
+- **Prescription pour les incapables** : le délai de 5 ans court à partir du jour où la personne a recouvré sa capacité (majeur dont l'altération était due à un accident) ; pour une incapacité permanente, il ne court pas.
+
+#### Synthèse des conditions de validité et de leurs sanctions
+
+| Condition | Ce qui est protégé | Sanction |
+|---|---|---|
+| Consentement intègre | le contractant | nullité relative (5 ans à compter de la découverte de l'erreur ou du dol, de la fin de la violence) |
+| Capacité | l'incapable (et les tiers) | nullité relative |
+| Contenu certain | le contractant | nullité relative ; **caducité** si la chose future n'existe jamais |
+| Contenu licite (objet et but) | la société | nullité absolue |
+| Équilibre | — | pas de nullité pour lésion, sauf immeubles (7/12, vendeur, 2 ans) et incapables ; nullité si contrepartie illusoire ou dérisoire ; clauses abusives réputées non écrites |
+
+## 4. La force obligatoire du contrat
+
+Une fois **valablement formé**, le contrat produit ses effets, principalement sa **force obligatoire** :
+
+- **art. 1103** : les contrats légalement formés **tiennent lieu de loi** à ceux qui les ont faits ;
+- **art. 1104** : les contrats doivent être **négociés, formés et exécutés de bonne foi** ; cette disposition est d'**ordre public**.
+
+### 4.1 À l'égard du juge
+
+Le juge est **lié par les clauses du contrat**. Son rôle n'est pas de dire si le contrat est juste, mais de l'appliquer tel que les parties l'ont voulu, comme il applique la loi sans juger de sa justice. Il ne peut pas **dénaturer** une clause (la déformer, lui faire dire autre chose que ce qu'elle dit).
+
+### 4.2 À l'égard des parties : trois conséquences
+
+1. **Elles doivent exécuter leurs obligations**, sous peine de **sanctions** (voir 4.3).
+2. **Elles ne peuvent pas modifier unilatéralement le contrat** : même déséquilibré, il s'exécute dans ses termes initiaux, sauf accord de l'autre (ce qui rejoint le refus de la lésion). Grande exception, consacrée en 2016-2018 : l'**imprévision**, quand un changement de circonstances (économique, politique, juridique, technologique…) bouleverse l'équilibre du contrat ; la partie lésée peut alors demander une renégociation (vu plus tard).
+3. **Elles doivent respecter le terme du contrat** (**irrévocabilité**) : engagées pour une durée déterminée, elles doivent aller jusqu'au bout, sauf accord mutuel (*mutuus dissensus*). Distinguer :
+   - les contrats à **durée déterminée** : on va jusqu'au terme ;
+   - les contrats sans terme mais **instantanés** (la vente : ils s'éteignent une fois le prix payé et la chose délivrée) ;
+   - les contrats à **durée indéterminée** (CDI de travail, mais aussi une franchise…), qui ont leur propre régime puisqu'il n'y a pas de terme à respecter (vu plus tard).
+
+### 4.3 Les sanctions de l'inexécution
+
+**Article 1217** : la partie envers laquelle l'engagement n'a pas été exécuté, ou l'a été imparfaitement, peut :
+
+- **refuser d'exécuter ou suspendre** l'exécution de sa propre obligation (**exception d'inexécution**) ;
+- poursuivre l'**exécution forcée en nature** de l'obligation ;
+- solliciter une **réduction du prix** ;
+- provoquer la **résolution** du contrat (et non la nullité, puisque le contrat est valable : c'est un problème d'exécution) ;
+- demander **réparation** des conséquences de l'inexécution (**responsabilité contractuelle**, vue à la séance suivante).
+
+Les sanctions compatibles peuvent se **cumuler** ; des dommages et intérêts peuvent toujours s'y ajouter (par exemple résolution + dommages et intérêts pour le préjudice matériel, corporel ou moral subi).
+
+```
+Sanctions de l'inexécution
+├── Remède non judiciaire (justice privée) : exception d'inexécution (+ résolution unilatérale)
+└── Remèdes judiciaires (après mise en demeure)
+    ├── exécution forcée (en nature, sinon par équivalent)
+    ├── réduction du prix
+    ├── résolution (clause résolutoire, unilatérale, judiciaire)
+    └── responsabilité contractuelle (dommages et intérêts)
+```
+
+#### L'exception d'inexécution (remède non judiciaire)
+
+**Article 1219** : une partie peut refuser d'exécuter son obligation, alors même que celle-ci est exigible, si l'autre n'exécute pas la sienne et si cette inexécution est **suffisamment grave**. Elle était déjà admise par la jurisprudence ; la réforme l'a consacrée.
+
+Exemple : une vente conclue le 10 avril, paiement prévu le 12, livraison le 15. Si l'acheteur n'a pas payé le 12, le vendeur peut, le 15, **suspendre** la livraison, **jusqu'à ce que** l'acheteur paie.
+
+C'est un remède de **justice privée** : on l'applique soi-même, sans juge (mais à ses risques).
+
+**Conditions** :
+
+1. **Un contrat synallagmatique** : il faut des obligations **interdépendantes**, réciproques. Dans une donation (contrat unilatéral), celui qui ne doit rien n'a rien à suspendre.
+2. **Une obligation de l'autre exigible**, en principe : je ne peux pas, le 11 avril, refuser de payer en prétendant que l'autre ne livrera pas le 15, puisque son obligation n'est pas encore exigible.
+   - **Exception d'inexécution par anticipation** (nouveauté de l'**art. 1220**) : une partie peut suspendre son obligation dès lors qu'il est **manifeste** que son cocontractant ne s'exécutera pas à l'échéance et que les conséquences de cette inexécution sont suffisamment graves pour elle. La suspension doit être **notifiée** dans les meilleurs délais. Exemple : l'acheteur ne paie pas le 12 parce qu'il sait que la chose a été volée ou n'est pas encore construite. Il doit justifier ses raisons ; si le juge les estime infondées, il peut être condamné à des dommages et intérêts.
+3. **Une inexécution suffisamment grave** : la réponse doit être **proportionnée**. Si l'on m'a livré 7 kg de tomates sur 8, je ne peux pas refuser de payer ; je peux en revanche réduire mon paiement en proportion. L'appréciation est facile pour une quantité, plus délicate pour la qualité (une toiture mal finie) : elle revient au juge.
+
+**Effet** : l'exception d'inexécution **suspend** les effets du contrat, elle n'y **met pas fin** (ce n'est pas une résolution). L'exécution reprend dès que l'autre s'exécute.
+
+#### La mise en demeure, préalable aux remèdes judiciaires
+
+Les remèdes judiciaires supposent que le créancier (celui qui attend l'exécution) ait d'abord adressé au débiteur une **mise en demeure** : un **dernier avertissement formel et officiel** de s'exécuter dans un délai (8 ou 15 jours, selon l'obligation), faute de quoi le créancier ira en justice. Un simple particulier peut la rédiger (pas besoin d'huissier ni d'avocat), mais elle doit employer le terme « mise en demeure » : ce n'est pas une simple relance.
+
+Double intérêt :
+
+- elle permet d'**agir en justice** ;
+- elle fait courir les **intérêts de retard** au taux légal, même si le contrat n'en prévoit pas, sans avoir à prouver de préjudice : le seul retard suffit.
+
+#### L'exécution forcée
+
+**Principe : l'exécution forcée en nature** (art. 1221) : après mise en demeure, le créancier peut en poursuivre l'exécution en nature — obtenir exactement ce qui était prévu (que le garagiste répare la voiture, que le peintre livre le tableau). Depuis la réforme, c'est le principe **quelle que soit l'obligation** : payer une somme, transférer la propriété (obligation de donner) ou faire quelque chose. Avant, les obligations de faire se résolvaient en dommages et intérêts.
+
+L'**article 1222** ajoute : après mise en demeure, le créancier peut aussi, dans un délai et à un coût raisonnables, **faire exécuter lui-même** l'obligation par un tiers ou, sur autorisation préalable du juge, **détruire** ce qui a été fait en violation du contrat (une construction non conforme), puis demander au débiteur le **remboursement** des sommes engagées.
+
+**Exceptions** — l'exécution se fait alors **par équivalent** (dommages et intérêts) :
+
+1. **L'exécution est impossible** :
+   - impossibilité **matérielle** : la chose à livrer a été détruite ; un spectacle devenu interdit ;
+   - obligation de faire au caractère **éminemment personnel** : on ne peut pas forcer un peintre à peindre le portrait commandé, ni un sportif à jouer un match (il jouerait mal). Le juge apprécie au cas par cas.
+2. **Nouveauté de la réforme** : il existe une **disproportion manifeste** entre le **coût** de l'exécution pour le débiteur (de bonne foi) et son **intérêt** pour le créancier.
+
+**Arrêt Cass. civ. 1re, 11 mai 2005** (avant la réforme) :
+
+- **Faits** : des particuliers font construire une maison individuelle, en paient tout le prix, mais refusent de signer le procès-verbal de réception : la maison est construite **33 cm plus bas** que le niveau prévu au contrat. Ils demandent la démolition et la reconstruction, ou à défaut une somme équivalente.
+- **Cour d'appel d'Aix-en-Provence (2003)** : rejet, car la non-conformité ne rend pas l'immeuble impropre à sa destination et ne porte pas sur des éléments essentiels du contrat.
+- **Cour de cassation** : **cassation**. Attendu de principe : la partie envers laquelle l'engagement n'a pas été exécuté peut forcer l'autre à l'exécution lorsqu'elle est possible. Ayant constaté l'insuffisance de 33 cm, la cour d'appel devait ordonner l'exécution forcée en nature (démolition-reconstruction).
+- **Aujourd'hui ?** Avec l'article 1221, la solution pourrait être différente : le constructeur pourrait invoquer la **disproportion manifeste** entre le coût d'une démolition-reconstruction et l'intérêt des propriétaires (33 cm pèsent plus sur une petite maison que sur 300 m²). L'exécution se ferait alors par équivalent.
+
+#### La réduction du prix (art. 1223)
+
+Autrefois réservée aux **ventes commerciales** (entre professionnels), elle est devenue un **remède de droit commun**. Le créancier peut, après mise en demeure, **accepter une exécution imparfaite** et solliciter une **réduction proportionnelle du prix**.
+
+- S'il **n'a pas encore payé**, il **notifie** lui-même sa décision de réduire le prix dans les meilleurs délais (100 vaches commandées, 90 livrées : il paie 90 %).
+- S'il a **déjà payé**, il demande au débiteur le remboursement de la différence ; à défaut d'accord, le juge tranche.
+- Le débiteur qui trouve la réduction excessive peut saisir le juge.
+
+Le contrat **n'est pas résolu** : le créancier **garde** le bien, moyennant une contrepartie réduite. La difficulté est de chiffrer la proportion quand le défaut porte sur la **qualité** (des tuiles mal posées, 33 cm manquants sur un chantier de 100 000 €) plutôt que sur la quantité.
+
+#### La résolution
+
+La résolution **met fin** au contrat. Grand changement de la réforme : il n'est plus nécessaire de passer par le juge. Trois modes :
+
+| Mode | Fonctionnement | Risque / limite |
+|---|---|---|
+| **Clause résolutoire** | prévue dans le contrat : en cas d'inexécution, le contrat prend fin **de plein droit** | doit être **précise** (énumérer les manquements visés), sinon le juge retrouve un pouvoir d'appréciation |
+| **Résolution unilatérale** (nouveauté) | le créancier **notifie** seul au débiteur la fin du contrat pour inexécution | il prend le **risque** que le juge, saisi par le débiteur, estime le manquement pas assez grave |
+| **Résolution judiciaire** | le juge prononce la résolution | longue et coûteuse, mais sûre |
+
+La résolution est un **remède subsidiaire** : on préfère maintenir le contrat (principe de l'exécution forcée). Elle suppose donc, pour la résolution unilatérale comme judiciaire, une **inexécution suffisamment grave** ; avec une clause résolutoire précise, le juge n'apprécie pas la gravité.
+
+**Effets** : comme la nullité, la résolution anéantit le contrat, mais sa rétroactivité dépend du type de contrat :
+
+- **contrat à exécution instantanée** (une seule prestation de chaque côté, qui ne dure pas : la vente, la coupe chez le coiffeur) : la résolution est **rétroactive** → restitutions réciproques, comme pour la nullité ;
+- **contrat à exécution successive** (effets étalés dans la durée : contrat de travail, bail, abonnement internet ou téléphonique) : la résolution ne vaut **que pour l'avenir**. Si tout s'est bien passé pendant 3 ans, on ne remet pas ces 3 ans en cause : impossible de restituer le travail fourni ou la jouissance du logement, absurde de rendre les salaires ou les loyers.
+
 <!-- SOURCES INTÉGRÉES
 - Droit 7-transcript-DRAFT ✅.txt
 - Droit 8-transcript-DRAFT ✅.txt
 - Droit 9-transcript-DRAFT ✅.txt
 - Droit 10-transcript-DRAFT ✅.txt
+- Droit 11-transcript-DRAFT ✅.txt
 -->
