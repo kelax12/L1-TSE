@@ -1,6 +1,7 @@
 # Chapitre 4 · Suites réelles
 
 > Mathématiques 1 · N. Blacher · TSE
+>
 > **Format : définitions (D) et théorèmes (T) numérotés pour pouvoir les citer, tableaux d'opérations, et organigramme final « comment trouver une limite ».** 💡 = intuition (ajout hors slides).
 
 **Sommaire** : [1. Définir une suite](#1-définir-une-suite) · [2. Suites de référence](#2-suites-de-référence) · [3. Variations et bornes](#3-sens-de-variation-et-bornes) · [4. Valeur absolue](#4-valeur-absolue-rappel) · [5. Limites](#5-limites) · [6. Opérations](#6-opérations-sur-les-limites) · [Organigramme](#-organigramme--trouver-une-limite)

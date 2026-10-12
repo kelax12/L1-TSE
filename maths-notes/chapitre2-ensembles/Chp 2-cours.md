@@ -1,6 +1,7 @@
 # Chapitre 2 · Théorie des ensembles
 
 > Mathématiques 1 · N. Blacher · TSE
+>
 > **Format : dictionnaire de notations.** Chercher une notation dans le tableau, puis les schémas et le lien avec la logique. 💡 = intuition (ajout hors slides).
 
 **Sommaire** : [Dictionnaire](#-dictionnaire-des-notations) · [Intuitions](#-intuitions) · [Schémas](#-schémas) · [Nombres et intervalles](#-ensembles-de-nombres-et-intervalles) · [Logique ↔ ensembles](#-logique--ensembles) · [Exemples](#️-exemples-corrigés)

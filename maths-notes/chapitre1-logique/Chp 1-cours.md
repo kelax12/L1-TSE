@@ -1,6 +1,7 @@
 # Chapitre 1 · Logique formelle
 
 > Mathématiques 1 · N. Blacher · TSE
+>
 > **Format : fiche à blocs.** 🟦 définition · 🟩 théorème/règle · 🟥 piège · 💡 intuition (ajout hors slides) · ✏️ exemple corrigé (à déplier)
 
 **Sommaire** : [1. Propositions](#1-propositions-et-prédicats) · [2. Quantificateurs](#2-quantificateurs) · [3. Connecteurs](#3-connecteurs-et-table-de-vérité) · [4. Règles de calcul](#4-règles-de-calcul) · [À retenir](#-à-retenir)

@@ -1,6 +1,7 @@
 # Chapitre 6 · Fonctions (partie 1)
 
 > Mathématiques 1 · N. Blacher · TSE
+>
 > **Format : méthode Cornell.** Colonne de gauche = question à se poser (cache la droite pour t'interroger), droite = réponse du cours, résumé en bas. 💡 = intuition (ajout hors slides).
 
 | ❓ Question | 📝 Réponse |

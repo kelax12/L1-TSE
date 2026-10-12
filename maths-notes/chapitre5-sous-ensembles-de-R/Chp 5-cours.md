@@ -1,6 +1,7 @@
 # Chapitre 5 · Sous-ensembles de ℝ
 
 > Mathématiques 1 · N. Blacher · TSE
+>
 > **Format : échelle de concepts.** Les notions s'emboîtent (majorant → maximum → borne sup) : on les compare côte à côte, puis caractérisations et vrai/faux. 💡 = intuition (ajout hors slides). $E$ désigne une partie de $\mathbb R$.
 
 ---

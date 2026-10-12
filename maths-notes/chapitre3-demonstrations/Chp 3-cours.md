@@ -1,6 +1,7 @@
 # Chapitre 3 · Techniques de démonstration
 
 > Mathématiques 1 · N. Blacher · TSE
+>
 > **Format : fiches méthode « Je veux montrer… ».** Pour chaque forme d'énoncé : la méthode, un exemple, et le **squelette de rédaction à recopier**. 💡 = intuition (ajout hors slides).
 
 Une démonstration est une succession d'implications qui aboutit à un nouveau résultat, en partant d'axiomes ou de résultats déjà prouvés.
