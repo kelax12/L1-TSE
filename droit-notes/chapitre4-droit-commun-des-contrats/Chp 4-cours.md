@@ -100,6 +100,26 @@
 - **Clause résolutoire** : clause prévoyant que le contrat sera résolu de plein droit en cas d'inexécution.
 - **Contrat à exécution instantanée / successive** : contrat dont les prestations s'exécutent en une fois / s'étalent dans la durée.
 
+- **Délais de grâce** : délai supplémentaire accordé par le juge au débiteur pour s'exécuter.
+
+### Responsabilité contractuelle
+
+- **Responsabilité contractuelle** : obligation de réparer le dommage causé au cocontractant par l'inexécution du contrat.
+- **Réparation intégrale** : principe selon lequel les dommages et intérêts couvrent tout le préjudice, ni plus ni moins.
+- **Clause pénale** : clause fixant forfaitairement à l'avance la somme due en cas d'inexécution ; le juge peut la modérer ou l'augmenter.
+- **Clause limitative (ou exonératoire) de responsabilité** : clause qui plafonne (ou exclut) la réparation due en cas d'inexécution ; interdite dans les contrats de consommation.
+- **Obligation de moyens** : obligation de mettre en œuvre tous les moyens pour atteindre un résultat, sans le garantir.
+- **Obligation de résultat** : obligation d'atteindre le résultat promis ; la seule absence de résultat caractérise la faute.
+- **Dommage (préjudice) matériel / moral / corporel** : atteinte aux intérêts patrimoniaux / aux intérêts extrapatrimoniaux / à l'intégrité physique.
+- **Préjudice d'affection** : peine causée par le dommage subi par un proche (ou un animal).
+- ***Pretium doloris*** : préjudice moral constitué par la douleur physique subie.
+- **Préjudice d'agrément / esthétique** : impossibilité de pratiquer ses loisirs / atteinte à l'apparence physique.
+- **Perte de chance** : disparition certaine d'une éventualité favorable réelle et sérieuse ; réparée partiellement.
+- **Préjudice par ricochet** : préjudice personnel subi par un proche de la victime directe.
+- **Équivalence des conditions / causalité adéquate** : théories retenant toutes les causes du dommage / seulement la cause prépondérante.
+- **Cause étrangère** : événement extérieur au débiteur (faute de la victime, fait d'un tiers, force majeure) qui l'exonère de sa responsabilité.
+- **Force majeure** : événement extérieur, imprévisible lors de la conclusion du contrat et irrésistible.
+
 ### Sanctions
 
 - **Exécution forcée en nature** : sanction qui oblige une partie à exécuter ce qu'elle a promis.
@@ -663,6 +683,22 @@ Nicole tient depuis 10 ans un commerce de gâteaux près de Toulouse. Elle concl
 - **Abus ?** Le juge vérifiera si la hausse du pétrole explique réellement une multiplication du prix par **8** : si les coûts n'ont, par exemple, que doublé, la justification n'est pas valable. Il tiendra compte aussi de l'exclusivité qui empêche Nicole de se fournir ailleurs.
 - **Sanction** : dommages et intérêts (rétablissement d'un prix justifié) ou résolution du contrat.
 
+### 2.10 Compléments sur les conditions de validité
+
+- **Capacité des personnes morales** (sociétés, associations, syndicats) : elle est limitée par le **principe de spécialité**. Le représentant d'une personne morale ne peut accomplir, sans l'accord des associés ou membres, que les actes qui relèvent de son **objet social** (son activité).
+- **L'incapacité protège** à la fois la personne vulnérable, qui n'a pas conscience de la portée de ses engagements, et les tiers avec qui elle contracterait ; ce n'est pas une sanction.
+- **Prescription pour les incapables** : le délai de 5 ans court à partir du jour où la personne a recouvré sa capacité (majeur dont l'altération était due à un accident) ; pour une incapacité permanente, il ne court pas.
+
+#### Synthèse des conditions de validité et de leurs sanctions
+
+| Condition | Ce qui est protégé | Sanction |
+|---|---|---|
+| Consentement intègre | le contractant | nullité relative (5 ans à compter de la découverte de l'erreur ou du dol, de la fin de la violence) |
+| Capacité | l'incapable (et les tiers) | nullité relative |
+| Contenu certain | le contractant | nullité relative ; **caducité** si la chose future n'existe jamais |
+| Contenu licite (objet et but) | la société | nullité absolue |
+| Équilibre | — | pas de nullité pour lésion, sauf immeubles (7/12, vendeur, 2 ans) et incapables ; nullité si contrepartie illusoire ou dérisoire ; clauses abusives réputées non écrites |
+
 ## 3. Les sanctions du contrat déséquilibré
 
 Une fois les quatre conditions de validité remplies, le contrat ne peut plus être anéanti par la nullité. Reste la question du contrat **déséquilibré** : qu'il soit très avantageux pour l'un et désavantageux pour l'autre.
@@ -742,22 +778,6 @@ Clauses abusives
 └── Tous contrats : clause privant de sa substance l'obligation essentielle (art. 1170, Chronopost)
 → Sanction : clause réputée non écrite, contrat maintenu ; jamais sur le prix ou la valeur
 ```
-
-### 2.10 Compléments sur les conditions de validité
-
-- **Capacité des personnes morales** (sociétés, associations, syndicats) : elle est limitée par le **principe de spécialité**. Le représentant d'une personne morale ne peut accomplir, sans l'accord des associés ou membres, que les actes qui relèvent de son **objet social** (son activité).
-- **L'incapacité protège** à la fois la personne vulnérable, qui n'a pas conscience de la portée de ses engagements, et les tiers avec qui elle contracterait ; ce n'est pas une sanction.
-- **Prescription pour les incapables** : le délai de 5 ans court à partir du jour où la personne a recouvré sa capacité (majeur dont l'altération était due à un accident) ; pour une incapacité permanente, il ne court pas.
-
-#### Synthèse des conditions de validité et de leurs sanctions
-
-| Condition | Ce qui est protégé | Sanction |
-|---|---|---|
-| Consentement intègre | le contractant | nullité relative (5 ans à compter de la découverte de l'erreur ou du dol, de la fin de la violence) |
-| Capacité | l'incapable (et les tiers) | nullité relative |
-| Contenu certain | le contractant | nullité relative ; **caducité** si la chose future n'existe jamais |
-| Contenu licite (objet et but) | la société | nullité absolue |
-| Équilibre | — | pas de nullité pour lésion, sauf immeubles (7/12, vendeur, 2 ans) et incapables ; nullité si contrepartie illusoire ou dérisoire ; clauses abusives réputées non écrites |
 
 ## 4. La force obligatoire du contrat
 
@@ -874,10 +894,117 @@ La résolution est un **remède subsidiaire** : on préfère maintenir le contra
 - **contrat à exécution instantanée** (une seule prestation de chaque côté, qui ne dure pas : la vente, la coupe chez le coiffeur) : la résolution est **rétroactive** → restitutions réciproques, comme pour la nullité ;
 - **contrat à exécution successive** (effets étalés dans la durée : contrat de travail, bail, abonnement internet ou téléphonique) : la résolution ne vaut **que pour l'avenir**. Si tout s'est bien passé pendant 3 ans, on ne remet pas ces 3 ans en cause : impossible de restituer le travail fourni ou la jouissance du logement, absurde de rendre les salaires ou les loyers.
 
+### 4.4 Précisions sur les sanctions de l'inexécution
+
+- L'exception d'inexécution ne fonctionne que si l'on **n'a pas déjà exécuté** sa propre obligation.
+- En cas de résolution unilatérale contestée, le juge peut aussi accorder au débiteur des **délais de grâce** (un temps supplémentaire pour s'exécuter).
+- La **réduction du prix** peut être appliquée par le créancier lui-même s'il n'a pas encore payé (3 kg de tomates commandés, 2 kg livrés : il paie 2 kg).
+
+## 5. La responsabilité contractuelle
+
+### 5.1 Principe et exceptions
+
+En plus des autres sanctions (art. 1217), et **cumulativement** avec elles, le créancier peut obtenir des **dommages et intérêts** (on écrit aussi *dommages-intérêts*) si l'inexécution lui a causé un **dommage** (synonyme de **préjudice**) matériel, corporel ou moral. Exemple : je fais exécuter de force la livraison des tables commandées pour mon restaurant **et** j'obtiens réparation de la perte de chiffre d'affaires due au retard.
+
+**Principe : la réparation intégrale** du dommage — ni plus, ni moins : les dommages et intérêts sont **proportionnels** au préjudice subi.
+
+**Exceptions** :
+
+- **Le créancier peut obtenir plus** grâce à une **clause pénale** : prévue dès la conclusion du contrat, elle fixe **forfaitairement** une somme (en général élevée, par exemple 100 000 € pour la non-livraison d'un ordinateur) due en cas d'inexécution. Elle a une fonction **dissuasive** (« pénale » au sens de punir, mais en matière civile). Le juge dispose cependant d'un **pouvoir modérateur** : il peut la **diminuer ou l'augmenter**, ce que la loi lui permet (ce n'est donc pas une dénaturation).
+- **Le créancier peut obtenir moins** :
+  - en cas de **clause limitative** (ou **exonératoire**) **de responsabilité** — par exemple, dans l'affaire *Chronopost*, la responsabilité du transporteur était limitée au prix du transport alors que le client, qui devait participer à une adjudication, avait subi un dommage bien plus élevé. Ces clauses sont **valables** entre professionnels ou entre particuliers, sous réserve de ne pas être abusives ni de vider l'obligation essentielle de sa substance ; elles sont **interdites dans les contrats de consommation** ;
+  - si le débiteur prouve une **cause étrangère** (voir 5.5).
+
+### 5.2 Responsabilité contractuelle et responsabilité délictuelle
+
+| | Responsabilité **contractuelle** | Responsabilité **extracontractuelle** (délictuelle) |
+|---|---|---|
+| Fait générateur | l'**inexécution d'un contrat** | un fait hors de tout contrat |
+| Exemple | les tables du restaurant livrées en retard ; le chien abîmé par le toiletteur | un passant me bouscule dans la rue et je casse mon téléphone |
+
+« Délictuelle » n'a ici rien à voir avec le droit pénal : c'est simplement l'inverse de « contractuelle ». Les conditions sont les mêmes (fait générateur, dommage, lien de causalité), mais elles ne s'apprécient pas tout à fait de la même façon.
+
+### 5.3 Conditions et prescription
+
+Trois conditions **cumulatives**, dont la **preuve incombe à la victime** (le créancier de l'obligation mal exécutée) :
+
+```
+Faute contractuelle (fait générateur) + Dommage + Lien de causalité → Responsabilité contractuelle
+```
+
+**Prescription** : **5 ans** à compter du jour où la victime a connu (ou aurait dû connaître) les faits lui permettant d'agir (la faute et le dommage) — en pratique, à peu près à compter du dommage. Pour le **préjudice corporel**, le délai est porté à **10 ans**.
+
+#### 1. La faute contractuelle
+
+Elle consiste en :
+
+- une **inexécution totale** de l'obligation ;
+- un **retard** d'exécution (les tables livrées trop tard) ;
+- une **mauvaise exécution**, dont l'appréciation dépend du type d'obligation.
+
+| | Obligation de **moyens** | Obligation de **résultat** |
+|---|---|---|
+| Le débiteur doit… | mettre en œuvre tous les moyens pour atteindre le résultat, sans le garantir | atteindre le résultat promis |
+| La victime doit prouver… | que le résultat n'est pas atteint **et** que le débiteur n'a pas mis en œuvre tous les moyens (preuve plus difficile) | seulement que le **résultat n'est pas atteint** |
+| Exemples | le **médecin** (soigner), l'**avocat** (gagner le procès) | le **vendeur** (délivrer la chose) |
+
+- Le médecin n'est tenu que d'une obligation de moyens à cause de l'**aléa thérapeutique** : chaque corps réagit différemment, et certaines maladies sont incurables en l'état de la science. Il commet une faute, par exemple, s'il ne prescrit pas le traitement reconnu pour une maladie ou ne fait faire aucun examen à un patient qui se plaint de douleurs depuis des semaines.
+- L'avocat ne s'engage pas à gagner (sinon il refuserait les causes difficiles) : l'issue dépend aussi des juges et des faits. Il commet une faute s'il n'accomplit pas les actes de procédure à temps ou omet une preuve importante.
+
+**Les critères de distinction** (non consacrés par la réforme, mais toujours appliqués) :
+
+1. **La volonté des parties** : si le contrat qualifie l'obligation, le juge, lié par la force obligatoire, s'y tient. C'est rare en pratique.
+2. **L'aléa** : si l'exécution dépend d'un événement que le débiteur ne maîtrise pas → obligation de moyens.
+3. **Le rôle actif ou passif du créancier** dans l'exécution :
+   - **télésiège** : lors de l'**embarquement et du débarquement**, le skieur a un **rôle actif** (bien se placer, relever le garde-corps à temps, ne pas croiser les skis) → l'exploitant n'est tenu que d'une **obligation de sécurité de moyens** ; **pendant le trajet**, le skieur n'a rien à faire (rester assis) → **obligation de sécurité de résultat** ;
+   - **toboggan aquatique** (Cass. civ. 1re, 28 octobre 1991) : une baigneuse est heurtée par un autre usager dans un toboggan. La cour d'appel avait retenu une obligation de moyens, remplie par l'exploitant ; la Cour de cassation casse : pendant la descente, l'usager a un **rôle passif** (il se laisse glisser), donc l'exploitant est tenu d'une **obligation de sécurité de résultat** ; la seule blessure suffit à caractériser la faute.
+
+#### 2. Le dommage (préjudice)
+
+**Les trois types de dommages réparables** (cumulables) :
+
+- **Matériel** : une atteinte aux **intérêts patrimoniaux** (une perte d'argent) — la perte de chiffre d'affaires du restaurateur, les frais causés par une prestation ratée.
+- **Moral** : une atteinte aux **intérêts extrapatrimoniaux**, catégorie « fourre-tout » : atteinte à l'image (la publication d'une photo dégradante), diffamation, atteinte à la dignité, et surtout **préjudice d'affection** (la tristesse de voir son enfant, ou même son animal, blessé ou mort).
+- **Corporel** : une atteinte à l'**intégrité physique** (deux jambes cassées après une chute de télésiège, des brûlures causées par un micro-ondes qui prend feu). Il combine :
+  - un **aspect matériel** : perte de salaires (préjudice futur mais certain), frais médicaux, chirurgicaux et pharmaceutiques non remboursés par la Sécurité sociale ;
+  - un **aspect moral** : le *pretium doloris* (le « prix de la douleur »), le **préjudice d'agrément** (ne plus pouvoir pratiquer ses loisirs, comme le tennis), le **préjudice esthétique** (une cicatrice, un visage défiguré).
+  - S'y ajoute éventuellement un préjudice matériel distinct (les skis cassés dans la chute).
+
+**Les caractères du dommage réparable** :
+
+1. **Certain** :
+   - un préjudice **réalisé**, ou **futur** mais dont on est sûr qu'il se réalisera (la perte de salaire pendant les 6 mois d'arrêt) ;
+   - jamais un préjudice **hypothétique** (« je risque d'avoir un traumatisme crânien » : on ne réparera que s'il est avéré) ;
+   - entre les deux, la **perte de chance** de voir se réaliser un événement favorable : réparable si elle est **réelle et sérieuse**, c'est-à-dire si la probabilité était suffisamment élevée (autour de **plus de 50 %**) et la chance **définitivement perdue**. L'indemnisation est **inférieure** au préjudice total et croît avec la probabilité. Exemples : le chien abîmé par le toiletteur avant un concours de beauté doté de 5 000 € (sérieux si le chien avait fini 2e l'année précédente, pas s'il avait fini dernier) ; l'étudiant blessé qui perd la chance de devenir avocat (faible en première année de droit, plus sérieuse en master avec d'excellents résultats).
+2. **Personnel** : c'est la victime elle-même qui demande réparation. Le **préjudice par ricochet** reste personnel : le parent dont l'enfant est blessé par un moniteur de ski invoque son **propre** préjudice d'affection (il est triste), tout en agissant au nom de son enfant mineur pour le préjudice corporel de celui-ci (deux actions, deux indemnisations distinctes). Le préjudice d'affection est apprécié selon la gravité et la proximité du lien (évident pour un enfant, à prouver pour une tante).
+3. **Direct** (art. 1231-4) : les dommages et intérêts ne comprennent que ce qui est une **suite immédiate et directe** de l'inexécution (cette condition rejoint le lien de causalité).
+4. **Légitime** : la victime ne doit pas être dans une **situation illicite**. Un cambrioleur frappé par le propriétaire ne peut pas réclamer réparation de son préjudice corporel au civil (le propriétaire qui frappe trop fort engage en revanche sa responsabilité **pénale**, la légitime défense supposant une riposte proportionnée) ; un travailleur non déclaré ne peut pas demander réparation d'un dommage subi pendant ce travail.
+5. **Prévisible** — condition **propre à la responsabilité contractuelle** (art. 1231-3) : le dommage, et son étendue, devaient être prévisibles **lors de la conclusion du contrat**, sauf faute lourde ou dolosive. Le garagiste qui répare mal une voiture ne pouvait pas prévoir que son client manquerait la signature d'un contrat très lucratif. De même, le transporteur dont le retard fait manquer une **correspondance** ne pouvait en général pas la prévoir : seul le prix du billet est remboursé. Le juge apprécie selon les circonstances ; en revanche, l'exploitant d'un télésiège peut évidemment prévoir le dommage corporel causé par un manquement à la sécurité.
+
+#### 3. Le lien de causalité
+
+Le dommage doit résulter de la faute contractuelle invoquée. La difficulté naît quand **plusieurs causes** ont concouru au dommage. Exemple : une piétonne est renversée par un camion ; à l'hôpital, son lit prend feu et elle meurt. Deux causes : l'accident et l'incendie à l'hôpital.
+
+| Théorie | Principe |
+|---|---|
+| **Équivalence des conditions** | toutes les causes sans lesquelles le dommage ne serait pas survenu sont retenues (le conducteur et l'hôpital) |
+| **Causalité adéquate** | seule la cause qui a joué le rôle **prépondérant** (pas forcément la plus proche dans le temps) est retenue |
+
+En matière **contractuelle**, l'article 1231-4 (suite **immédiate et directe**) conduit plutôt à la **causalité adéquate**. Les deux théories subsistent en matière délictuelle.
+
+### 5.4 Les causes exonératoires (cause étrangère)
+
+Une fois les trois conditions prouvées par la victime, le débiteur peut encore **s'exonérer** en prouvant une **cause étrangère** : son inexécution est due à un événement extérieur.
+
+- **La faute de la victime** : exonération **totale** ou **partielle** (dommages et intérêts réduits). Exemple : la skieuse qui relève le garde-corps en plein trajet pour attraper son téléphone et tombe.
+- **Le fait d'un tiers** : le restaurateur n'a pas reçu ses tables parce que le fournisseur du fabricant n'a pas livré la matière première.
+- **La force majeure** : un événement **extérieur** aux parties, **imprévisible** lors de la conclusion du contrat et **irrésistible** (on ne peut pas l'empêcher). Exemple : l'entrepôt du vendeur détruit par un incendie avec la chose vendue.
+
 <!-- SOURCES INTÉGRÉES
 - Droit 7-transcript-DRAFT ✅.txt
 - Droit 8-transcript-DRAFT ✅.txt
 - Droit 9-transcript-DRAFT ✅.txt
 - Droit 10-transcript-DRAFT ✅.txt
 - Droit 11-transcript-DRAFT ✅.txt
+- Droit 12-transcript-DRAFT ✅.txt
 -->
