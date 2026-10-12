@@ -19,3 +19,6 @@
 
 # Boîte de dépôt des enregistrements en vrac
 /a-traiter/
+
+# Sources maths (slides, TD, annales, maquettes) — restent en local
+/maths/
