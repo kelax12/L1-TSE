@@ -433,6 +433,6 @@ Le cas de la **main invisible** sert de point de comparaison : c'est le seul jeu
 - micro-2-partie1 ✅.txt
 - Micro 4-transcript-DRAFT ✅.txt
 - Micro 5-transcript-DRAFT ✅.txt
-- TD1 - Correction.pdf
+- TD1 - Correction ✅.pdf
 - micro-diff-jeux-recap ✅.odt
 -->

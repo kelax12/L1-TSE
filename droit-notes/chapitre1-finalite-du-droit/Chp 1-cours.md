@@ -199,7 +199,7 @@ Le raisonnement s'étend aux **coûts implicites** (coûts d'opportunité) : une
 Avec **Jean-Jacques Laffont** et **Jean Tirole**, cette école analyse le droit de façon plus indirecte, à travers le **contrat**. Partant du constat que l'information est asymétrique entre les parties, elle cherche des mécanismes institutionnels — via le contrat — pour inciter les agents à révéler leurs informations. Tirole s'interroge notamment sur le rôle du juge : il critique la possibilité pour un juge de fixer *a posteriori* la valeur d'une chose (ce qu'il assimile à un « hold-up »), et lui préfère la détermination *a priori* de cette valeur par le contrat lui-même.
 
 <!-- SOURCES INTÉGRÉES
-- Droit 1-transcript.txt
-- Droit 2-transcript.txt
-- Droit-CM1.odt
+- Droit 1-transcript ✅.txt
+- Droit 2-transcript ✅.txt
+- Droit-CM1 ✅.odt
 -->
