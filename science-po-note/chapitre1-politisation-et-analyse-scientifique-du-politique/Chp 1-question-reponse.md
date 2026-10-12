@@ -988,50 +988,140 @@ Qu'environ 80 % des travaux scientifiques disponibles sur *GTA* se concentrent s
 
 La récupération des scripts d'un jeu vidéo pour créer, à partir de scènes violentes, des contenus dérivés (voire des jeux clandestins diffusés sur des réseaux comme Telegram) — un phénomène réel mais marginal, distinct du grand public du jeu.
 
+
+
+165. Pourquoi l'exposition à un contenu numérique ne prouve-t-elle pas son influence ?
+
+Exposition ne signifie ni adhésion, ni mémorisation, ni action : c'est un simple fait statistique.
+
+
+
+166. Quel est le vrai problème posé par la circulation d'idées minoritaires en ligne ?
+
+Leur passage d'une niche numérique à l'espace médiatique et politique légitime.
+
+
+
+167. Comment établir une causalité entre activité numérique et comportement ?
+
+En étudiant les interactions in vivo, qualitativement, et la socialisation réelle des individus.
+
+
+
+168. Qu'est-ce que l'alignement cognitif ?
+
+La tendance à chercher en ligne la confirmation de ce que l'on pense déjà.
+
+
+
+169. Quelles sont les deux leçons des travaux de Dominique Cardon sur les médias numériques ?
+
+Les effets propres des médias sont très limités ; les réseaux sont surtout des niches polarisantes dont les effets réels sont mal connus.
+
+
+
+170. Quelles sont les deux choses que confond le débat public sur le masculinisme ?
+
+La diffusion numérique des discours (bien mesurée) et leur effet causal sur le vote (non établi).
+
+
+
+171. Qu'est-ce que l'effet d'entonnoir algorithmique ?
+
+L'orientation progressive vers des contenus de plus en plus radicaux, dans une économie de l'attention.
+
+
+
+172. Quel lien existe-t-il entre masculinisme et extrême droite selon les données disponibles ?
+
+Une porosité (des passerelles, notamment dans les espaces incels), mais pas une identité.
+
+
+
+173. Le vote des jeunes Européens bascule-t-il vers l'extrême droite à cause du masculinisme ?
+
+Non : on observe un léger glissement conservateur, lié surtout à l'inquiétude face au marché du travail, sans causalité masculiniste établie.
+
+
+
+174. Que désignait à l'origine le terme fake news ?
+
+Une information fabriquée pour manipuler l'opinion (ex. le Pizzagate).
+
 ### D. Populismes, mépris social et question de l'oligarchie
 
-165. Qu'est-ce que le mépris social dans l'analyse des populismes européens ?
+175. Qu'est-ce que le mépris social dans l'analyse des populismes européens ?
 
 Un sentiment subjectif, indépendant du niveau de vie réel, d'être pris entre des élites qui n'écoutent pas et des populations d'en bas soupçonnées de profiter du système.
 
 
 
-166. En quoi le mépris social traduit-il une crise de l'État-providence à double niveau ?
+176. En quoi le mépris social traduit-il une crise de l'État-providence à double niveau ?
 
 Par le haut, une crise de légitimité des élites ; par le bas, une compétition perçue pour le logement, l'école et les revenus sociaux, vive chez les classes moyennes pauvres.
 
 
 
-167. Pourquoi l'oligarchie doit-elle être analysée scientifiquement ?
+177. Pourquoi l'oligarchie doit-elle être analysée scientifiquement ?
 
 Parce que sans mesure empirique de la concentration réelle du pouvoir, l'analyse bascule dans le complotisme — une frontière ténue lors du Covid et des débats sur le vaccin.
 
 
 
-168. Quels sont les deux grands paradoxes structurels des démocraties contemporaines identifiés par le cours ?
+178. Quels sont les deux grands paradoxes structurels des démocraties contemporaines identifiés par le cours ?
 
 1) Pourquoi ce sont statistiquement toujours les mêmes profils sociaux qui monopolisent le pouvoir dans des démocraties fondées sur la compétition électorale (oligarchie) ; 2) pourquoi un niveau de violence politique structurel a persisté dans des démocraties européennes pourtant censées être pacifiées par le processus de civilisation (Elias) depuis les années 1960.
 
 ### E. Le classement PISA : performance affichée, inégalités mesurées
 
-169. Que mesure réellement le classement PISA, au-delà de la performance scolaire affichée par les médias ?
+179. Que mesure réellement le classement PISA, au-delà de la performance scolaire affichée par les médias ?
 
 Les inégalités scolaires : les élèves les plus en difficulté sont systématiquement ceux issus des quartiers les plus pauvres, ce que confirment les statistiques du ministère de l'Éducation nationale — ce n'est pas un niveau global d'intelligence qui est mesuré.
 
 
 
-170. Quels effets politiques concrets une lecture politisée du classement PISA a-t-elle produits ?
+180. Quels effets politiques concrets une lecture politisée du classement PISA a-t-elle produits ?
 
 Un discours de l'« excellence » et de séparation des « bons » et des « mauvais » élèves, et une justification du séparatisme scolaire par l'évitement de la mixité sociale chez les familles les mieux informées.
 
 ### F. L'élection de l'AfD dans un Land allemand : sur-interprétation et exigence de preuve
 
-171. Que révèle l'exemple de l'élection de l'AfD sur le rapport entre légitimité médiatique et preuve empirique ?
+181. Que révèle l'exemple de l'élection de l'AfD sur le rapport entre légitimité médiatique et preuve empirique ?
 
 Un éditorialiste réputé attribue le vote AfD aux réseaux numériques et aux personnes âgées ; une historienne montre, données à l'appui, que ce sont en réalité les 35-60 ans qui votent le plus AfD — la légitimité rhétorique et institutionnelle d'un discours ne garantit en rien sa validité empirique.
 
 
 
-172. Qu'est-ce que le « populisme boomer » cité en exemple, et pourquoi cette catégorie illustre-t-elle le problème de l'agentivité ?
+182. Qu'est-ce que le « populisme boomer » cité en exemple, et pourquoi cette catégorie illustre-t-elle le problème de l'agentivité ?
 
 Une catégorie inventée sur le moment par un éditorialiste pour expliquer le vote AfD par les personnes âgées, contredite par les données réelles — elle illustre la tendance (agentivité) à vouloir une explication immédiate plutôt qu'une catégorie construite et vérifiée.
+
+### G. Violence et conflit : la violence est-elle efficace ?
+
+183. Quelles sont les deux idées reçues sur la violence politique ?
+
+Qu'elle est toujours à condamner, ou qu'elle est le seul moteur du changement.
+
+
+
+184. Pourquoi le conflit est-il normal en démocratie ?
+
+Une démocratie est un espace de valeurs en conflit ; une société sans conflit est autoritaire.
+
+
+
+185. Quelle définition du politique donne le cours ?
+
+L'espace qui rationalise des valeurs en conflit pour maintenir leur équilibre, sans qu'une valeur l'emporte.
+
+
+
+186. Qu'est-ce que la violence mesure, selon la science politique ?
+
+L'échec de l'institutionnalisation du conflit, quand les médiations (syndicats, grève, négociation, vote) ne jouent plus.
+
+
+
+187. Que montrent les travaux de Chenoweth et Stephan ?
+
+Que la résistance civile non violente est empiriquement plus efficace que la violence.

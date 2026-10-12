@@ -235,6 +235,13 @@
 
   Conséquence méthodologique majeure, encore valable pour analyser les réseaux numériques aujourd'hui : le monde « virtuel » n'existe pas comme sphère autonome coupée du réel — il en est un prolongement, et l'on ne comprend l'usage qu'un individu fait des réseaux numériques qu'en reconstituant sa socialisation réelle (famille, entourage), qui reste ce qui « commande » en dernier ressort.
 
+- **Biais d'agentivité appliqué aux réseaux** : tendance à attribuer à une cause unique et intentionnelle (les réseaux, le masculinisme) un phénomène politique complexe (une élection, le vote des jeunes).
+- **Alignement cognitif** : tendance à chercher en ligne la confirmation de ce que l'on pense déjà, construit par sa socialisation réelle.
+- **Effet d'entonnoir algorithmique** : orientation progressive, par l'algorithme, vers des contenus de plus en plus radicaux, dans une économie de l'attention.
+- **Économie de l'attention** : modèle économique qui crée de la valeur à partir du temps d'attention capté ; les créateurs sont rémunérés au nombre de vues.
+- **Le politique** : espace qui rationalise des valeurs en conflit pour maintenir leur équilibre, sans qu'une valeur l'emporte sur les autres.
+- **Violence (en science politique)** : mesure de l'échec de l'institutionnalisation du conflit, quand les médiations (syndicats, grève, négociation, vote) ne jouent plus.
+
 ## I. Qu'est-ce que la politique ? Le concept de politisation
 
 ### A. D'une définition normative à une approche dynamique
@@ -734,6 +741,54 @@ L'exemple de *GTA*, objet culturel le plus vendu au monde (une centaine de milli
 
 Or, empiriquement, l'influence des jeux vidéo sur les comportements violents est très discutée et l'unicité d'une telle variable explicative est contestée. Le jeu est par ailleurs un objet politique bien plus complexe que sa catégorie immédiate ne le laisse croire : histoire propre, controverses, procès, imaginaire culturel, et un public réel qui contredit les stéréotypes (environ la moitié des joueurs sont des joueuses).
 
+#### Les problèmes de la causalité « réseaux numériques → comportements politiques »
+
+Le **biais d'agentivité** (ou d'intentionnalité) consiste à appliquer des causes uniques et intentionnelles à des phénomènes politiques : hier « les réseaux ont fait élire Trump », aujourd'hui « le masculinisme explique le vote des jeunes ». Ces explications, très reprises dans les débats parlementaires (par exemple sur la « toxicité » des réseaux), partent d'une intuition trompeuse. Depuis Lazarsfeld (*The People's Choice*), on sait qu'on ne peut pas établir de causalité directe entre des messages médiatiques et des attitudes ou des comportements : il faut une **médiation**, une interaction, qui « active » le message.
+
+```
+Exposition ≠ adhésion
+Exposition ≠ mémorisation
+Exposition ≠ action
+```
+
+**Problème 1 — la réalité statistique.** Beaucoup de données ne signifie pas un phénomène important. Les contenus qui circulent (fausses informations, contenus masculinistes) sont souvent **minoritaires** dans le flux général d'information. Le vrai problème n'est pas que des idées circulent, mais leur **passage d'une niche numérique à l'espace médiatique et politique légitime** (comme la thèse du « grand remplacement ») : c'est ce passage qu'il faut mesurer.
+
+**Problème 2 — l'exposition n'est pas l'influence.** L'exposition est un simple fait statistique, qui n'implique aucune relation causale avec la mémorisation, l'adhésion ou le passage à l'acte. Le temps passé (par exemple sur TikTok) est un mauvais indicateur : on ne sait pas ce qui se passe pendant ce temps. Pour établir une causalité, il faut étudier les **interactions *in vivo*** (participer aux chats, aux jeux, aux échanges) : passer du quantitatif au **qualitatif**.
+
+**Exemple : un mineur suivi par la protection judiciaire de la jeunesse**, placé en détention provisoire après avoir massivement consommé des contenus prosélytes. L'analyse de la dynamique montre qu'il ne s'était pas « lâché » seul sur un chat : un tiers — un **entrepreneur de morale** prosélyte — l'appelait, l'encadrait et le « chauffait ». Il faut aussi reconstituer sa structure familiale, ses fréquentations, sa socialisation : ce qu'on va chercher en ligne est un **alignement cognitif** avec ce qui est déjà construit dans la vie réelle.
+
+**Problème 3 — la croyance réelle.** Parmi ceux qui sont exposés à de fausses informations, peu y croient vraiment. Et les croyances ont des raisons multiples qu'il faut comprendre sans les disqualifier : on pouvait être antivax pendant le Covid par contestation de mesures jugées excessives, sans pathologie ni marginalité.
+
+**Problème 4 — l'alignement cognitif.** Les internautes les plus exposés sont en général **déjà convaincus** : ils cherchent la confirmation de ce qu'ils pensent déjà. Ce n'est pas ce qu'on lit qui influence ; on lit ce qui nous conforte.
+
+**Deux leçons** (travaux de Dominique Cardon, Sciences Po) :
+
+1. Les **effets propres des médias restent très limités**. Les réseaux numériques ne sont pas plus « manipulateurs » ou « faux » que la vie réelle, et la circulation de fausses informations n'est pas nouvelle (l'extrême droite existe au moins depuis la fin du XIXe siècle) : le numérique la rend seulement plus **visible**. Hypothèse : par leur organisation historique (autorité, hiérarchie), les forces d'extrême droite seraient plus efficaces dans l'activisme en ligne que les partis de gauche, plus délibératifs.
+2. Les réseaux sont surtout des **niches de bavardage polarisantes à faible visibilité**. On mesure bien la viralité et les discours qui circulent, mais on sait très peu de choses sur leurs **effets réels** et leurs usages sociaux (comment on en discute en famille, entre amis, ce qui relève du complotisme ou d'une remise en cause légitime de l'autorité). La polarisation n'est d'ailleurs pas propre au numérique : les médias traditionnels et le champ politique sont eux aussi très polarisants.
+
+#### Le cas du masculinisme
+
+Une corrélation implicite s'installe dans le sens commun, le champ journalistique, politique et même scientifique :
+
+```
+Réseaux numériques → masculinisme → retour de valeurs masculines (backlash) → conservatisme → vote d'extrême droite des jeunes hommes
+```
+
+Le débat public **confond deux choses** :
+
+1. **La diffusion numérique** d'un discours — un véritable **écosystème** masculiniste, avec des données robustes. Un adolescent complexé qui cherche des conseils de musculation, de confiance en soi ou de séduction tombe assez systématiquement, par l'algorithme, sur ces contenus. On sait décrire ces discours et leurs registres de langage (y compris leurs codes cachés, qui changent dès qu'ils sont découverts). C'est aussi une **économie de la réputation** : les créateurs sont rémunérés au nombre de vues, certains produisent ces contenus sans y croire, pour la visibilité ; on y mêle influence, parasocial, divertissement, gaming, affectivité — on est plus dans la convivialité que dans la politique traditionnelle.
+2. **L'effet causal sur le vote et les comportements** — sur lequel on ne sait **presque rien**.
+
+**Ce qu'on sait** (enquêtes en France, en Australie…) :
+
+- l'**exposition est massive et non sollicitée** : des comptes qui ne recherchent rien de particulier sont rapidement exposés à des contenus misogynes ;
+- il existe un **effet d'entonnoir algorithmique** : dans une **économie de l'attention** (créer de la valeur à partir du temps passé), plus on est exposé, plus on reçoit des contenus radicaux, par étapes. Il existe une **offre**, liée à l'âge (un discours du « mal-être masculin », comme il y a eu un discours du mal-être féminin dans la radicalisation religieuse) ;
+- il y a une **porosité, mais pas une identité**, entre masculinisme et extrême droite : une étude de 2022 sur des forums Telegram montre que les espaces *incels* (« célibataires involontaires ») gagnent en visibilité et comportent des passerelles vers l'extrême droite. Hypothèse : le masculinisme serait un **langage politique du ressentiment**, porté moins par une idéologie que par une condition sociale (des hommes dominés au travail, aux emplois peu valorisés), dans le contexte de la médiatisation des violences sexistes et sexuelles.
+
+**Ce qu'on ne sait pas** : il n'y a **pas de corrélation causale** établie avec le vote. Le vote des femmes pour l'extrême droite est à peu près comparable à celui des hommes ; en Espagne, les dernières données sur Vox montrent même une sensibilité plus forte de jeunes femmes, pour des causes très locales (crise, immigration dans le sud du pays). La jeunesse européenne connaît un **léger glissement vers des valeurs plus conservatrices** (moins progressistes), lié surtout à l'**inquiétude face à l'entrée sur le marché du travail**, mais ce n'est pas une bascule vers l'extrême droite. Il faut intégrer les facteurs économiques, culturels, de genre et relativiser.
+
+**Fake news** : au départ, le terme désigne une information **fabriquée pour manipuler** (le « Pizzagate » : un prétendu réseau pédocriminel dans le sous-sol d'une pizzeria). Aujourd'hui, il recouvre surtout de l'information de **mauvaise qualité**, non vérifiée, des rumeurs — malveillantes ou mal cadrées, mais pas forcément manipulatrices.
+
 ### D. Populismes, mépris social et question de l'oligarchie
 
 Les enquêtes quantitatives sur les populismes européens (RN en France, AFD en Allemagne, Vox en Espagne, populismes italiens) font apparaître une trame commune : un fort sentiment subjectif de **mépris social**, relativement indépendant du niveau de vie réel.
@@ -785,6 +840,30 @@ Donnée empirique vérifiée (sondages sortis des urnes par âge) → 35-60 ans,
 
 La leçon méthodologique est double : la légitimité médiatique et rhétorique d'un discours (aisance oratoire, position institutionnelle prestigieuse) n'est en rien une garantie de validité empirique ; et l'**agentivité** — la tendance à vouloir absolument une explication immédiate et cohérente — conduit à des catégories inventées sur le moment plutôt qu'à des catégories construites et vérifiées. C'est très exactement contre ce risque que la science politique empirique doit lutter en permanence.
 
+### G. Violence et conflit : la violence est-elle efficace ?
+
+Le sens commun et les activistes oscillent entre deux positions :
+
+- la violence est à **condamner** : elle met en péril l'ordre social et politique ;
+- la violence est **légitime**, car elle serait le seul facteur de changement.
+
+Les deux sont **fausses**, pour deux raisons.
+
+**1. Une raison théorique : une société démocratique est un espace de valeurs en conflit.** Le conflit est **normal** : une démocratie est un espace conflictuel où des valeurs s'affrontent (religieux/non religieux, libéral/non libéral…). Que des valeurs circulent n'est pas dangereux ; une société sans conflit est une société **autoritaire**. La science politique doit décrire ces valeurs en conflit et les idéologies, sans jugement de valeur.
+
+**Définition du politique** : le politique est l'espace qui **rationalise des valeurs en conflit** pour maintenir un équilibre, sans qu'une valeur l'emporte sur les autres. Si une valeur domine, on bascule vers des tentations autoritaires.
+
+**La violence est la mesure de l'échec de l'institutionnalisation du conflit.** Elle naît quand le conflit n'arrive plus à s'organiser, quand les formes de médiation échouent : syndicats, négociations, droit de grève, mobilisations, vote. Elle n'est pas une pathologie du pouvoir.
+
+```
+Conflit institutionnalisé (syndicats, grève, négociation, vote) → régulation
+Conflit non reconnu / médiations qui échouent → désinvestissement, sabotage, violence
+```
+
+Exemples : dans une organisation, le salarié qui n'est pas reconnu se désinvestit puis sabote ; les **Gilets jaunes** — dès que le mouvement n'a plus été reconnu comme un mouvement social légitime, il a dégénéré. Les réseaux numériques et les nouvelles formes de travail sans médiation (sans syndicats) posent la même question.
+
+**2. Une raison empirique : la non-violence est plus efficace.** Deux chercheuses américaines (Erica Chenoweth et Maria Stephan) ont étudié les mobilisations du XXe siècle : la **résistance civile non violente** est empiriquement **beaucoup plus efficace** que la violence. Ce qui fonctionne : la **force du nombre**, la **non-coopération collective** avec le pouvoir, la désobéissance civile. Ces travaux ont influencé les mobilisations pacifiques transversales récentes (les Indignés en Espagne) et ouvert une réflexion sur les stratégies d'action, notamment l'attaque de la **réputation** des institutions pour les délégitimer plutôt que l'affrontement frontal.
+
 <!-- SOURCES INTÉGRÉES
 - Science po 1-transcript ✅.txt
 - Science po 2-transcript ✅.txt
@@ -811,4 +890,5 @@ La leçon méthodologique est double : la légitimité médiatique et rhétoriqu
 - science po 8-transcript ✅.txt
 - Asiles_Goffman_resume ✅.pptx
 - science po 9-transcript ✅.txt
+- Science po 10-transcript-DRAFT ✅.txt
 -->

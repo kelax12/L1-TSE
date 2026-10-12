@@ -186,6 +186,10 @@ Causalité implicite très répandue (fake news, GTA, ingérence russe...) mais 
 
 **Cas GTA** : la catégorie immédiate « jeu vidéo = violence » s'impose sans fondement empirique solide (80 % des travaux scientifiques centrés sur ce seul angle), alors que le jeu est un objet politique bien plus complexe (dimensions affective, communautaire, ludique, esthétique ; public réel ; *modding* marginal et distinct du grand public).
 
+**Causalité réseaux → comportements** : exposition ≠ adhésion ≠ mémorisation ≠ action. Problèmes : réalité statistique (le vrai enjeu est le passage d'une niche à l'espace légitime), exposition sans influence (étudier les interactions *in vivo* : cas du mineur suivi par la PJJ « chauffé » par un entrepreneur de morale), peu de croyance réelle, alignement cognitif. Leçons (Cardon) : effets propres des médias très limités ; niches de bavardage polarisantes aux effets réels peu connus.
+
+**Masculinisme** : on confond diffusion (écosystème réel, économie de l'attention, exposition massive non sollicitée, entonnoir algorithmique, porosité mais pas identité avec l'extrême droite — « langage du ressentiment ») et effet causal sur le vote (non établi : vote des femmes comparable, léger glissement conservateur des jeunes lié au marché du travail, pas de bascule vers l'extrême droite).
+
 ### D. Populismes, mépris social et oligarchie
 Trame commune des populismes européens : le **mépris social**, sentiment d'être pris entre des élites qui n'écoutent pas et des populations d'en bas soupçonnées de profiter du système — crise de l'État-providence par le haut et par le bas. La question de l'**oligarchie**, à l'origine de ces populismes, est l'un des deux grands chantiers de la discipline : sans mesure empirique de la concentration du pouvoir, l'analyse bascule dans le complotisme (cas du Covid et des vaccins).
 Deux grands paradoxes structurels des démocraties, selon le cours : 1) pourquoi ce sont toujours les mêmes profils sociaux qui monopolisent le pouvoir malgré la compétition électorale (oligarchie) ; 2) pourquoi un niveau de violence politique structurel a persisté depuis les années 1960 dans des démocraties censées être pacifiées (Elias) — voir le cas ETA en partie II.C.
@@ -195,3 +199,7 @@ PISA mesure d'abord les inégalités scolaires, pas un niveau global d'intellige
 
 ### F. L'élection de l'AfD : sur-interprétation et preuve
 Un éditorialiste attribue le vote AfD aux réseaux numériques et aux personnes âgées (« populisme boomer »), contredit par les données réelles : ce sont les 35-60 ans qui votent le plus AfD. Leçon : la légitimité médiatique d'un discours ne garantit pas sa validité empirique — lutter contre l'agentivité (vouloir une explication immédiate).
+
+### G. Violence et conflit
+
+Deux idées fausses : la violence serait toujours à condamner, ou le seul moteur du changement. Une démocratie est un espace de valeurs en conflit ; le politique rationalise ces valeurs ; la violence mesure l'échec de l'institutionnalisation du conflit (Gilets jaunes, sabotage). Empiriquement (Chenoweth et Stephan), la résistance civile non violente est plus efficace : force du nombre, non-coopération, atteinte à la réputation des institutions.
