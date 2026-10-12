@@ -46,6 +46,8 @@ Exemple : achat 10 000 € de marchandises (charge), revente d'une partie (coût
 
 Écriture de régularisation : débit du compte de stock (37) pour la valeur du stock final, crédit d'un compte 6 (ou 7) pour ajuster le résultat en conséquence.
 
+Écriture de variation de stock : annulation du stock initial (débit 603/713, crédit 31/35/37), puis constatation du stock final (écriture inverse).
+
 ## V. Synthèse des quatre catégories d'opérations courantes
 
 1. **Achat** (bien/service) : débit 6/2/5, crédit 512-530 (comptant) ou 401/404 (crédit).

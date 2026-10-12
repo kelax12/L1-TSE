@@ -257,6 +257,13 @@ Pour corriger cet écart en fin de période, il faut :
 
 Une fois l'écriture de régularisation passée, le bilan reflète un stock de 7 000 € supplémentaire à l'actif, et le compte de résultat passe d'une perte de 4 000 € à un bénéfice de 3 000 € — conforme au bénéfice réellement généré par les opérations de la période.
 
+**Structure de l'écriture de variation de stock** (à connaître par cœur en L1), en deux temps :
+
+1. **Annulation du stock initial** : débit du compte de **variation de stock** (compte 6 — 603 — pour les matières premières, marchandises et autres approvisionnements ; compte 7 — 713 — pour les produits finis), crédit du compte de stock (31, 35 ou 37) : on remet à zéro la valeur, devenue fausse, du stock figurant au bilan.
+2. **Constatation du stock final** : l'écriture inverse — débit du compte de stock (31, 35 ou 37) pour la valeur du stock final, crédit du compte de variation de stock (6 ou 7).
+
+Ces deux écritures régularisent à la fois la valeur des stocks au bilan et le coût d'achat (ou la production stockée) au compte de résultat. Tant qu'elles ne sont pas passées, le bilan et le compte de résultat établis en cours d'année sont faux.
+
 Cette écriture est reprise et approfondie l'année suivante dans le chapitre consacré à la variation de stock (voir le chapitre « Le bilan » pour les formules de calcul du stock final et de la variation de stock).
 
 ## V. Synthèse des quatre catégories d'opérations courantes
@@ -277,4 +284,5 @@ Les catégories 3 et 4 sont symétriques l'une de l'autre (encaisser une créanc
 <!-- SOURCES INTÉGRÉES
 - eco gestion maison 3-transcript ✅.txt
 - eco-gestion 3-transcript ✅.txt
+- Eco gestion maison 4-transcript-DRAFT ✅.txt
 -->

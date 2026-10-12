@@ -329,38 +329,49 @@ Aux 7 000 € de marchandises achetées mais non revendues, qui restent en stock
 Débit du compte 37 (stock de marchandises) pour 7 000 € (le stock augmente à l'actif), crédit d'un compte 6 pour 7 000 € (le résultat augmente d'autant, passant de − 4 000 à + 3 000).
 
 
+
+55. Quelles sont les deux étapes de l'écriture de variation de stock ?
+
+1) Annulation du stock initial : débit du compte de variation de stock (6 ou 7), crédit du compte de stock (31, 35, 37) ; 2) constatation du stock final : débit du compte de stock, crédit du compte de variation de stock.
+
+
+
+56. Pourquoi le bilan et le compte de résultat sont-ils faux en cours d'année ?
+
+Parce que les stocks ne sont pas mouvementés : tant que l'écriture de variation de stock n'est pas passée, achats et ventes sont entièrement en charges et produits.
+
 ## V. Synthèse des quatre catégories d'opérations courantes
 
-55. Lors de l'achat d'un bien ou service, quels comptes apparaissent au débit ?
+57. Lors de l'achat d'un bien ou service, quels comptes apparaissent au débit ?
 
 Un compte 6 (bien/service consommé), un compte 2 (immobilisation) ou un compte 5 (titre financier), selon la nature du bien ou service acheté.
 
 
 
-56. Lors de l'achat d'un bien ou service, quels comptes apparaissent au crédit ?
+58. Lors de l'achat d'un bien ou service, quels comptes apparaissent au crédit ?
 
 512/530 (banque/caisse) si payé au comptant, ou 401/404 (fournisseur de biens et services / fournisseur d'immobilisation) si à crédit.
 
 
 
-57. Lors de la vente d'un bien ou service, quels comptes apparaissent au débit et au crédit ?
+59. Lors de la vente d'un bien ou service, quels comptes apparaissent au débit et au crédit ?
 
 Au débit : 512/530 (comptant) ou 411 Clients (à crédit). Au crédit : 701 (produits finis), 706 (prestations de services) ou 707 (marchandises).
 
 
 
-58. Quelle est l'écriture type pour l'encaissement d'une créance client ?
+60. Quelle est l'écriture type pour l'encaissement d'une créance client ?
 
 Débit de 512/530 (banque/caisse), crédit de 411 Clients.
 
 
 
-59. Quelle est l'écriture type pour le paiement d'une dette ?
+61. Quelle est l'écriture type pour le paiement d'une dette ?
 
 Débit du compte de dette concerné (401, 404, 43, 44 ou 16), crédit de 512/530 (banque/caisse).
 
 
 
-60. Quel critère permet de choisir entre un compte 6 (charge) et un compte 2 (immobilisation) lors d'un achat ?
+62. Quel critère permet de choisir entre un compte 6 (charge) et un compte 2 (immobilisation) lors d'un achat ?
 
 Le bien ou service est-il destiné à être consommé durant l'exercice (charge, compte 6) ou utilisé au-delà de l'exercice (immobilisation, compte 2) ?
