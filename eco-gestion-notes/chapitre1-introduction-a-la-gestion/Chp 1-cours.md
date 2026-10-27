@@ -1,9 +1,11 @@
 # Eco-gestion — Introduction à la gestion et à la comptabilité
 
+> 🎯 <mark>Surligné</mark> = passage à maîtriser pour le CC1 (annales 2024 et 2025). Voir [annales-CC1-competences.md](../annales-CC1-competences.md).
+
 ## Définitions
 
 - **Gestion (management)** : action, art ou manière de conduire une organisation, de la diriger, de planifier son développement et de la contrôler, dans tous les domaines d'activité.
-- **Organisation** : ensemble de plusieurs individus partageant un objectif commun, qui s'organisent et se répartissent les tâches pour l'atteindre. Cet ensemble d'individus doit avoir un statut juridique pour permettre à l'action collective de perdurer dans le temps.
+- <mark>**Organisation** : ensemble de plusieurs individus partageant un objectif commun, qui s'organisent et se répartissent les tâches pour l'atteindre. Cet ensemble d'individus doit avoir un statut juridique pour permettre à l'action collective de perdurer dans le temps.</mark> 🎯
 - **Entreprise** : organisation qui produit des biens et des services vendus sur un marché, avec une finalité principalement lucrative (elle crée de la valeur pour ses propriétaires).
 - **Entreprise individuelle** : forme d'entreprise exploitée par une seule personne (l'exploitant), y compris sous le régime de la micro-entreprise.
 - **Entreprise sociétaire (société)** : forme d'entreprise détenue par plusieurs propriétaires (associés ou actionnaires).
