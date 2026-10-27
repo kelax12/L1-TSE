@@ -50,6 +50,8 @@
 - <mark>**Valeur comptable des immobilisations cédées / produit de cession d'immobilisations** : lors de la vente d'un actif immobilisé, sa valeur nette comptable sort en charge, et le prix de vente encaissé entre en produit — la différence entre les deux constitue le résultat de l'opération.</mark> 🎯
 - <mark>**Bénéfice / Perte** : solde du compte de résultat ; bénéfice si le total des produits excède le total des charges, perte dans le cas contraire. C'est ce même montant qui alimente le poste résultat du bilan.</mark> 🎯
 - <mark>**Variation de stock** : ajustement, dans le compte de résultat, entre les achats (ou la production) de la période et ce qui a réellement été vendu ou consommé, calculé à partir du stock initial (SI) et du stock final (SF) de la période.</mark> 🎯
+- <mark>**Valeur patrimoniale** : méthode d'évaluation d'une entreprise qui consiste à retrancher la valeur des dettes de la valeur des actifs ; elle est égale aux capitaux propres.</mark> 🎯
+- <mark>**Méthode des comparables** : méthode d'évaluation d'une entreprise qui détermine la valeur d'entreprises comparables à partir d'un critère choisi (résultat d'exploitation, chiffre d'affaires, bénéfice…), puis applique ce rapport à l'entreprise cible.</mark> 🎯
 
 ## Le bilan : structure générale
 
@@ -142,6 +144,15 @@ Les capitaux propres se décomposent en trois postes :
 $$\text{Capitaux propres} = \text{Total actif} - \text{Total des dettes}$$
 
 Puisque l'un des éléments du passif (les capitaux propres) est obtenu par différence entre l'actif total et les dettes, le total du passif (dettes + capitaux propres) est nécessairement toujours égal au total de l'actif.
+
+### Évaluer la valeur d'une entreprise
+
+Deux méthodes permettent d'estimer ce que vaut une entreprise :
+
+- <mark>**La valeur patrimoniale** : on évalue l'entreprise en déduisant la valeur des dettes de la valeur des actifs. On obtient exactement les **capitaux propres** (Capitaux propres = Total actif − Total des dettes) : c'est ce que récupéreraient les propriétaires s'ils vendaient tous les actifs et réglaient toutes les dettes.</mark> 🎯
+- <mark>**La méthode des comparables** : on détermine la valeur d'entreprises comparables sur la base d'un critère choisi (résultat d'exploitation, chiffre d'affaires ou bénéfice), puis on applique ce rapport à l'entreprise cible.</mark> 🎯
+
+Exemple pour les comparables : si des entreprises comparables valent en moyenne 2 fois leur chiffre d'affaires, une entreprise cible qui réalise 500 000 € de chiffre d'affaires sera évaluée à environ 1 000 000 €.
 
 ## Application 1 : le patrimoine de l'entreprise Z
 

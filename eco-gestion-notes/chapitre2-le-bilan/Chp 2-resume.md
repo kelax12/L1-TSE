@@ -25,6 +25,8 @@ Actif = droits de propriété ; Passif = dettes + capitaux propres. **Total acti
 
 Les capitaux propres apparaissent au passif car ils représentent la richesse de l'entreprise, qui revient à ses propriétaires : c'est donc, comptablement, une dette envers eux.
 
+**Évaluer une entreprise** : valeur patrimoniale (actifs − dettes = capitaux propres) ou méthode des comparables (valeur d'entreprises comparables selon un critère — CA, résultat d'exploitation, bénéfice — appliquée à l'entreprise cible).
+
 ## Application 1 : entreprise Z
 
 Total actif = total passif = **227 000 €**. Capitaux propres = 227 000 − (50 000 + 25 000 + 8 000) = **144 000 €**.

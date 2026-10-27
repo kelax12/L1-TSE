@@ -11,7 +11,7 @@ Les passages correspondants sont <mark>surlignés</mark> 🎯 dans [Chp 1-cours.
 | Caractéristiques d'une organisation (2025) | Ensemble d'individus, objectifs communs, qui s'organisent et se répartissent les tâches, avec un statut juridique (personnalité juridique) | Chp 1 — Définitions |
 | Les 3 types de stocks (2025) | Marchandises (revendues sans transformation), matières premières (transformées en produits finis), produits finis (fabriqués par l'entreprise et destinés à être vendus) | Chp 2 — Définitions / Les actifs circulants |
 | Définir le bilan (2024) | Tableau qui présente le patrimoine : actif (valeur positive, droits) et passif (valeur négative, dettes + capitaux propres) | Chp 2 — Définitions / Structure générale |
-| Deux méthodes d'évaluation d'une entreprise (2024) | Valeur patrimoniale (actifs − dettes = capitaux propres) ; méthode des comparables (multiple d'un critère — CA, résultat d'exploitation, bénéfice — appliqué à l'entreprise cible) | ⚠️ **La méthode des comparables n'est pas dans tes fiches**. La valeur patrimoniale correspond au passage « Pourquoi actif = passif » du Chp 2 |
+| Deux méthodes d'évaluation d'une entreprise (2024) | Valeur patrimoniale (actifs − dettes = capitaux propres) ; méthode des comparables (multiple d'un critère — CA, résultat d'exploitation, bénéfice — appliqué à l'entreprise cible) | Chp 2 — Définitions / « Évaluer la valeur d'une entreprise » (flashcards 35 à 38) |
 
 ## Partie 2 — Exercice 1 : bilan après une opération (9 à 12,5 pts)
 
