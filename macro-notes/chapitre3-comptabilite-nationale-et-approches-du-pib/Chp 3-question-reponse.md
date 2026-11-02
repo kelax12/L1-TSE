@@ -1,4 +1,4 @@
-# Macro — Chapitre 2 : la comptabilité nationale et les trois approches du PIB (flashcards)
+# Macro — Chapitre 2 : la comptabilité nationale (PIB, agents, opérations, cascade des comptes) (flashcards)
 
 ## Définitions
 
@@ -365,3 +365,585 @@ Les loyers fictifs (services de logement), les services du personnel domestique 
 60. Pourquoi les services d'une femme de ménage sont-ils une production autoconsommée ?
 
 Ils sont consommés par le ménage qui l'emploie, sans être vendus sur un marché.
+
+
+
+61. Comment est estimée la production agricole autoconsommée ?
+
+De façon forfaitaire, pour tout ménage disposant d'une surface de terrain, quelle que soit la récolte réelle (carottes ou gazon).
+
+
+
+62. Quel autre nom porte la production non marchande des ménages au sens strict ?
+
+La production pour emploi final propre des ménages.
+
+### 4.5 Ce qui échappe au PIB officiel
+
+63. Pourquoi les repas préparés soi-même ne sont-ils pas dans le PIB, alors que les services d'un cuisinier employé le sont ?
+
+Leur intégration serait trop complexe à estimer.
+
+
+
+64. Quelles sont les deux catégories d'opérations cachées qui forment l'économie souterraine ?
+
+Les opérations dissimulées pour échapper à la fiscalité (travail au noir) et les activités illicites (drogue).
+
+
+
+65. Quel poids représente l'économie souterraine en France et en Europe ?
+
+Entre 13 et 23 % du PIB en Europe, plutôt 20 % pour la France.
+
+
+
+66. Dans quels pays l'économie souterraine atteint-elle 70 % du PIB ?
+
+Au Nigeria et en Égypte.
+
+
+
+67. Pourquoi le PIB des PVD est-il minoré ?
+
+De nombreuses transactions y échappent à tout enregistrement (comptabilité nationale peu fiable).
+
+## 5. Les agents : les six secteurs institutionnels
+
+68. Quels sont les six secteurs institutionnels ?
+
+Ménages, sociétés non financières, sociétés financières, administrations publiques, ISBLSM, reste du monde.
+
+### 5.1 Les ménages
+
+69. Quelle est la fonction principale des ménages ?
+
+Consommer.
+
+
+
+70. Que comprennent les ménages au sens large ?
+
+Les ménages au sens strict et les entrepreneurs individuels.
+
+
+
+71. Pourquoi les entrepreneurs individuels sont-ils classés parmi les ménages ?
+
+Leur entreprise n'a pas de personnalité morale (elle se confond avec la personne) et ils sont trop nombreux et trop petits pour être comptés avec les sociétés.
+
+
+
+72. Les ménages ont-ils des consommations intermédiaires ?
+
+Au sens strict non ; au sens large oui (celles des entrepreneurs individuels).
+
+
+
+73. Quelle est la seule FBCF des ménages au sens strict ?
+
+L'achat de logements neufs.
+
+
+
+74. Donnez un exemple de FBCF des ménages au sens large.
+
+Le camion du plombier, le bureau du notaire, l'ordinateur du médecin.
+
+
+
+75. Quelle est la production marchande des ménages au sens strict ?
+
+Les loyers des logements qu'ils louent.
+
+
+
+76. La production des entrepreneurs individuels est-elle marchande ou non marchande ?
+
+Toujours marchande.
+
+
+
+77. Les loyers de la terre sont-ils une production des ménages ?
+
+Non : ce sont des revenus de la propriété (contrairement aux loyers de logements loués).
+
+### 5.2 Les sociétés non financières (SNF)
+
+78. Qu'est-ce qu'une société non financière ?
+
+Un agent qui produit et vend des biens et services non financiers, à un prix supérieur à 50 % de son coût.
+
+
+
+79. La SNCF est-elle une administration ? Pourquoi ?
+
+Non, c'est une SNF : elle vend ses services ; la propriété publique du capital ne change rien.
+
+### 5.3 Les sociétés financières (SF)
+
+80. Donnez trois exemples de sociétés financières.
+
+Une banque (Société Générale), une compagnie d'assurance (AXA), un bureau de change.
+
+
+
+81. Quel critère distingue SF et SNF ?
+
+L'objet d'activité : financier ou non.
+
+### 5.4 Les administrations publiques (APU)
+
+82. Quelles sont les trois fonctions des administrations publiques ?
+
+Apporter des équipements collectifs, fournir des services non marchands, redistribuer les revenus.
+
+
+
+83. Donnez des exemples d'équipements collectifs.
+
+Routes, universités, hôpitaux, gendarmeries, tribunaux.
+
+### 5.5 Les institutions sans but lucratif au service des ménages (ISBLSM)
+
+84. Comment sont financées les ISBLSM ?
+
+Par des contributions volontaires (cotisations) et des subventions.
+
+
+
+85. Donnez des exemples d'ISBLSM.
+
+Églises et évêchés (associations cultuelles), partis politiques, syndicats (CGT, FO, MEDEF), associations sportives.
+
+### 5.6 Le reste du monde (RDM) et la notion de résidence
+
+86. Qu'est-ce qu'une unité résidente ?
+
+Une unité qui a effectué des opérations sur le territoire national pendant au moins un an, quelle que soit sa nationalité.
+
+
+
+87. Que comprend le territoire national français ?
+
+Métropole + DROM, + ambassades françaises à l'étranger − ambassades étrangères en France, espace aérien, eaux territoriales et gisements en eaux internationales exploités par des résidents.
+
+### 5.7 Exercice type : classer les agents
+
+88. Un Marocain qui travaille à Toulouse depuis 5 ans : quel secteur ?
+
+Ménage français (résident depuis plus d'un an).
+
+
+
+89. Un Français en mission de 6 mois au Brésil : quel secteur ?
+
+Ménage français (absent moins d'un an).
+
+
+
+90. Un Français « en poste » en Grande-Bretagne : quel secteur ?
+
+Reste du monde (installé durablement à l'étranger).
+
+
+
+91. La secrétaire de l'ambassade de France à Tokyo : quel secteur ?
+
+Ménage français (l'ambassade fait partie du territoire).
+
+
+
+92. Une plateforme de Total au milieu de l'océan : quel secteur ?
+
+Société non financière (gisement exploité par une firme résidente).
+
+## 6. Les opérations décrites par la comptabilité nationale
+
+93. Quelles sont les trois catégories d'opérations de la comptabilité nationale ?
+
+Opérations sur biens et services, opérations de répartition, opérations financières.
+
+### 6.1 Les opérations sur biens et services (OBS)
+
+94. Quelles opérations sont des OBS ?
+
+Production, achat, vente, stockage, déstockage, importation, exportation.
+
+
+
+95. Une voiture achetée par un salarié, puis par Airbus : comment les classer ?
+
+Consommation finale pour le salarié ; FBC pour Airbus.
+
+
+
+96. Un crayon acheté par une société : C, CI ou FBC ?
+
+CI.
+
+
+
+97. Quels secteurs peuvent avoir de la FBCF ?
+
+Tous : ménages, SNF, SF, APU.
+
+
+
+98. Écrivez l'équilibre des opérations sur biens et services.
+
+$P$ + impôts sur les produits + $M$ = $CI + C + FBCF + \Delta S + X$, soit $PIB + M = C + FBCF + \Delta S + X$.
+
+### 6.2 Les opérations de répartition
+
+99. Qu'est-ce qu'un revenu primaire ?
+
+Un revenu perçu en contrepartie d'une participation à la production.
+
+
+
+100. Entre qui se répartissent les revenus primaires ?
+
+Salariés (RS), entreprises et propriétaires du capital (EBE), État (impôts sur la production).
+
+
+
+101. Donnez la formule du RNB.
+
+RNB = PIB + revenus primaires reçus du RDM − revenus primaires versés au RDM.
+
+
+
+102. Quelle autre façon de calculer le RNB ?
+
+La somme des revenus primaires de tous les secteurs résidents.
+
+
+
+103. Pourquoi le RNB du Koweït dépasse-t-il son PIB ?
+
+Il reçoit d'importants dividendes et intérêts de ses placements à l'étranger.
+
+
+
+104. Pourquoi le RNB d'un PVD accueillant des multinationales est-il inférieur à son PIB ?
+
+Les bénéfices des multinationales sont rapatriés à l'étranger.
+
+
+
+105. Pourquoi l'écart Luxembourg/USA est-il plus faible en RNB qu'en PIB par habitant ?
+
+Environ 90 000 frontaliers produisent au Luxembourg mais leurs revenus sortent du pays.
+
+
+
+106. Quelle est la différence entre revenu primaire et revenu disponible ?
+
+Le revenu primaire rémunère la production ; le revenu disponible est le revenu après redistribution (impôts, cotisations, prestations), utilisé pour consommer et épargner.
+
+
+
+107. Que comprend la distribution secondaire du revenu ?
+
+Impôts sur le revenu et le patrimoine, cotisations sociales, prestations sociales, autres transferts (assurances, amendes, loteries).
+
+### 6.3 Les opérations financières
+
+108. Donnez des exemples d'opérations financières.
+
+Prêts et emprunts, achats/ventes de titres et de devises, dépôts, numéraire, or.
+
+## 7. La cascade des comptes
+
+109. Qu'enregistre-t-on en emploi et en ressource ?
+
+En emploi les paiements effectués par le secteur, en ressource les paiements reçus.
+
+
+
+110. Que devient le solde d'un compte ?
+
+Il est reporté en ressource du compte suivant.
+
+
+
+111. Dans quelle partie du compte inscrit-on le solde ?
+
+Dans la partie emplois.
+
+
+
+112. Combien de comptes compte la cascade, et lesquels sont hors cascade ?
+
+Six comptes ; le compte financier et le compte du reste du monde sont à part.
+
+
+
+113. Quels comptes de la cascade sont simples, lesquels sont complexes ?
+
+Simples : 1, 2, 5, 6 (production, exploitation, utilisation, capital). Complexes : 3 et 4 (affectation des revenus primaires, distribution secondaire).
+
+
+
+114. Combien de cascades établit-on pour les six secteurs, et lesquelles ?
+
+Trois : ménages (au sens large), sociétés (SNF + SF), APU (avec les ISBLSM).
+
+### 7.1 Le compte de production
+
+115. Quel est le solde du compte de production ?
+
+La valeur ajoutée (production − CI).
+
+
+
+116. Comment est évaluée la production des APU ?
+
+Surtout non marchande (6/7), au coût de production : CI + rémunérations des salariés.
+
+
+
+117. Quelle est la production des sociétés dans le compte de production ?
+
+Leur chiffre d'affaires.
+
+### 7.2 Le compte d'exploitation
+
+118. Quel est le solde du compte d'exploitation ?
+
+L'EBE (VA − RS − autres impôts sur la production + subventions).
+
+
+
+119. Comment s'appelle l'EBE des entrepreneurs individuels ?
+
+Le revenu mixte (il rémunère leur travail et leur capital).
+
+
+
+120. Quels impôts figurent dans le compte d'exploitation ?
+
+Les autres impôts sur la production (AIP : taxe foncière, CET…), nets de subventions.
+
+
+
+121. Que vaut l'EBE des APU si leur production est exclusivement non marchande ? Pourquoi ?
+
+Zéro : VA = P − CI = (CI + RS) − CI = RS, donc EBE = VA − RS = 0.
+
+
+
+122. Que signifie un EBE des APU non nul ?
+
+Que les APU ont une part de production marchande.
+
+### 7.3 Le compte d'affectation des revenus primaires
+
+123. Quel est le solde du compte d'affectation des revenus primaires ?
+
+Le revenu primaire.
+
+
+
+124. Que reçoivent les ménages en ressource de ce compte ?
+
+EBE, rémunérations des salariés reçues, revenus de la propriété (intérêts, dividendes, loyers de la terre).
+
+
+
+125. Que reçoivent les APU en ressource de ce compte ?
+
+Les impôts sur la production et les importations (nets de subventions).
+
+
+
+126. Quels sont les trois revenus de la propriété ?
+
+Dividendes, intérêts, loyers de la terre.
+
+
+
+127. Les intérêts versés par un ménage sur son crédit immobilier vont dans quelle partie de son compte ?
+
+En emploi (et en ressource du compte des banques).
+
+
+
+128. Quels impôts sont la ressource principale des APU dans le compte d'affectation des revenus primaires ?
+
+La totalité des impôts sur la production (impôts sur les produits + AIP).
+
+### 7.4 Le compte de distribution secondaire du revenu
+
+129. Quel est le solde du compte de distribution secondaire ?
+
+Le revenu disponible.
+
+
+
+130. À quoi correspond le revenu disponible des sociétés ?
+
+Au profit non distribué, qui autofinance une partie de l'investissement.
+
+
+
+131. Où l'impôt sur les bénéfices est-il enregistré ?
+
+En emploi du compte de distribution secondaire des sociétés (et en ressource de celui des APU).
+
+
+
+132. Les sociétés reçoivent-elles des prestations sociales ?
+
+Non, seuls les ménages en reçoivent.
+
+
+
+133. Quels impôts sur le revenu paient les ménages ?
+
+IRPP, CSG, CRDS.
+
+
+
+134. Quelle différence entre prime et indemnité d'assurance ?
+
+La prime est payée par l'assuré à l'assureur pour être couvert ; l'indemnité est versée par l'assureur à l'assuré en cas de sinistre.
+
+
+
+135. Où va une amende infligée à Google pour abus de position dominante ?
+
+En emploi de la société, en ressource des APU.
+
+### 7.5 Le compte d'utilisation du revenu
+
+136. Quels secteurs ont un compte d'utilisation du revenu ?
+
+Ceux qui ont une consommation finale : ménages et APU.
+
+
+
+137. Quel est le solde du compte d'utilisation du revenu ?
+
+L'épargne (RD − consommation finale).
+
+
+
+138. Quelle est la consommation finale des sociétés ?
+
+Nulle : elles n'ont que des consommations intermédiaires.
+
+### 7.6 Le compte de capital
+
+139. Quel est le solde du compte de capital ?
+
+La capacité (CF > 0) ou le besoin (BF < 0) de financement.
+
+
+
+140. Où inscrit-on les droits de succession ?
+
+En emploi du compte de capital (transfert en capital versé).
+
+
+
+141. Que vaut la somme des CF et BF de tous les secteurs et du RDM ?
+
+Zéro.
+
+
+
+142. Quel élément de la FBC ne faut-il pas oublier dans le compte de capital ?
+
+La variation des stocks, à côté de la FBCF.
+
+
+
+143. Quels transferts en capital versent les ménages ?
+
+Les droits de succession, de mutation (« frais de notaire ») et de donation, encaissés par les APU.
+
+
+
+144. Quel est le seul transfert en capital reçu par les sociétés ?
+
+L'aide à l'investissement, versée par les APU.
+
+### 7.7 Le compte du reste du monde
+
+145. De quel point de vue établit-on le compte du reste du monde ?
+
+Du point de vue du reste du monde, et non du pays.
+
+
+
+146. Où figurent les importations du pays dans le compte du RDM ?
+
+En ressources (le RDM les encaisse) ; les exportations vont en emplois.
+
+
+
+147. Quand faut-il établir le compte du RDM ?
+
+Toujours, dès que l'économie est ouverte.
+
+### 7.8 Vérifier sa cascade
+
+148. Quelles sont les deux clés de vérification d'une cascade ?
+
+Σ CF = Σ BF (rapide mais pas infaillible) et l'équilibre des opérations sur biens et services (clé principale).
+
+
+
+149. Que vaut un montant inscrit sans libellé dans une cascade ?
+
+Zéro : chaque montant doit être justifié (et un libellé sans chiffre ne rapporte rien non plus).
+
+### 7.9 Le compte financier
+
+150. Que montre le compte financier ?
+
+Comment une capacité de financement est utilisée ou un besoin de financement est financé ; il est toujours équilibré.
+
+
+
+151. Qu'est-ce que le TEE ?
+
+Le tableau économique d'ensemble, qui regroupe tous les comptes des secteurs et du RDM.
+
+
+
+152. Que peut faire un secteur de sa capacité de financement ?
+
+Acheter de l'or, garder du numéraire, faire des dépôts, acheter des titres (actions, obligations), prêter.
+
+
+
+153. Comment un secteur comble-t-il un besoin de financement ?
+
+En utilisant du numéraire, en retirant des dépôts, en vendant des titres ou en empruntant.
+
+### 7.10 Exemple corrigé : une économie à trois secteurs
+
+154. Dans l'exercice à trois secteurs, pourquoi les ménages versent-ils 100 de cotisations alors que les sociétés en déclarent 80 ?
+
+Les ménages encaissent toutes les rémunérations brutes (800 + 80 + 100) et versent donc toutes les cotisations (80 + 10 + 10).
+
+
+
+155. Pourquoi les impôts sur la production des APU égalent-ils la TVA dans l'exercice à trois secteurs ?
+
+Parce qu'il n'y a pas d'AIP : les impôts sur la production se réduisent aux impôts sur les produits.
+
+### 7.11 Exemple corrigé : la cascade des comptes des ménages (DS2 2025)
+
+156. Que comprend la production des ménages dans un exercice type ?
+
+Production pour emploi final propre + loyers de logements loués + chiffre d'affaires des entrepreneurs individuels.
+
+
+
+157. Dans le compte de capital, comment enregistre-t-on un déstockage ?
+
+En emploi, en variation de stocks négative.

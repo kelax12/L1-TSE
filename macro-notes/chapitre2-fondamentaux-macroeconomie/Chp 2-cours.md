@@ -679,4 +679,6 @@ Depuis les années 1980, les modèles macroéconomiques intègrent de plus en pl
 - Macro 8 1-transcript-DRAFT ✅.txt
 - Macro 8 2-transcript-DRAFT ✅.txt
 - Macro 9-transcript-DRAFT ✅.txt
+- Dossier 2 2026-2027 structure modifiée ✅.pdf (TD : questions et exercices déjà couverts par la note, recensés dans annales-competences.md)
+- CC1 MACRO 25-26 FINAL ✅.pdf et CC1 MACRO 25-26 corrigé ETUDIANTS ✅.pdf (annales, recensées dans annales-competences.md)
 -->
