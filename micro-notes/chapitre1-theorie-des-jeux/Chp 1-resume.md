@@ -145,6 +145,8 @@ Jeu séquentiel : l'offreur propose un partage, le répondant accepte (partage a
 
 Ne pas contribuer est la stratégie dominante individuelle (passager clandestin), donc en théorie le bien public n'est pas financé. Dans l'expérience à 4 joueurs (20 € chacun, 1 € versé rapporte 0,4 € à chacun), verser coûte 1 et rapporte 0,4 : verser 0 est dominant. En expérience, les joueurs contribuent quand même, de façon variable selon les villes, mais de moins en moins au fil des répétitions.
 
+**Gand et Bruges (1381)** : chaque franc réduit de 0,8 franc les dommages de chaque ville. Contribuer 1 000 rapporte −200 ou 600 ; ne pas contribuer rapporte 0 ou 800. Ne pas contribuer est dominant, d'où (0 ; 0) alors que (600 ; 600) serait désirable. Seul un État qui lève l'impôt sort de ce dilemme du prisonnier.
+
 ### 5.4 Rôle des normes sociales
 
 Les contributions dépendent des normes sociales du groupe et sont surtout influencées par le comportement observé des autres (imitation), plus que par le pur altruisme (qui ne dépendrait pas du comportement des autres). Les citoyens acceptent l'impôt s'ils sont sûrs que tout le monde paie, d'où le caractère obligatoire du prélèvement.

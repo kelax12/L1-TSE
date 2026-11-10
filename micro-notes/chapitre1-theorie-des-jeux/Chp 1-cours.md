@@ -400,6 +400,21 @@ Un euro versé ne rapporte que 0,40 € à celui qui le verse alors qu'il lui en
 
 En pratique, les participants contribuent bien au bien public dès le premier tour (ils ne se comportent pas tous en passagers clandestins), mais les contributions moyennes diffèrent selon les villes où l'expérience est menée, et elles diminuent d'une répétition à l'autre. À la fin de chaque tour, la contribution moyenne est rendue publique.
 
+**Application : Gand, Bruges et la défense des Flandres (1381).** Deux villes doivent financer une armée commune contre le roi de France. Chacune peut verser 1 000 francs ou ne rien verser. Chaque franc dépensé par une ville réduit de 0,8 franc les dommages de guerre de **chacune** des deux villes. Le gain net d'une ville est le dommage évité moins sa contribution.
+
+| Gand \ Bruges (gains Gand ; Bruges) | Ne pas contribuer | Contribuer 1 000 |
+|---|---|---|
+| **Ne pas contribuer** | 0 ; 0 | 800 ; −200 |
+| **Contribuer 1 000** | −200 ; 800 | 600 ; 600 |
+
+- Si Bruges ne contribue pas, Gand gagne $0{,}8 \times 1\,000 - 1\,000 = -200$ en contribuant, et 0 sinon.
+- Si Bruges contribue, Gand gagne $0{,}8 \times 2\,000 - 1\,000 = 600$ en contribuant, et $0{,}8 \times 1\,000 = 800$ sinon.
+- Ne pas contribuer est donc une **stratégie dominante** pour chaque ville. L'équilibre en stratégie dominante (ne pas contribuer ; ne pas contribuer) donne un gain nul à chacune, et c'est aussi un **équilibre de Nash**, car tout équilibre en stratégie dominante en est un.
+- La situation socialement désirable serait que les deux contribuent (600 chacune). Chaque ville ignore le bénéfice que sa contribution apporte à l'autre : c'est un **dilemme du prisonnier** appliqué à un bien public, qui explique le chaos sécuritaire du Moyen Âge.
+- Un **État capable de lever l'impôt** résout le problème en forçant chacun à financer les biens publics socialement désirables.
+
+**Réponse à une stratégie mixte** : si Bruges contribue avec une probabilité de $\tfrac14$, l'espérance de gain de Gand est de $\tfrac34 \times 0 + \tfrac14 \times 800 = 200$ si elle ne contribue pas, et de $\tfrac34 \times (-200) + \tfrac14 \times 600 = 0$ si elle contribue. Sa meilleure réponse reste de ne pas contribuer.
+
 ### 5.4 Rôle des normes sociales
 
 La réalité est donc plus complexe que ne le prédit la seule stratégie dominante théorique :
@@ -435,4 +450,5 @@ Le cas de la **main invisible** sert de point de comparaison : c'est le seul jeu
 - Micro 5-transcript-DRAFT ✅.txt
 - TD1 - Correction ✅.pdf
 - micro-diff-jeux-recap ✅.odt
+- CC1 - Correction ✅.pdf
 -->

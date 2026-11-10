@@ -210,7 +210,9 @@ D'autres structures logiques courantes à illustrer de la même façon quand ell
   ```
 - **Acteurs / relations** : plusieurs acteurs et la nature de ce qui les relie (qui influence qui, qui dépend de qui) — utile pour un jeu d'acteurs ou un rapport de force, en restant sobre (flèches simples, pas un vrai diagramme).
 
-Reste en Markdown texte simple (flèches `→`, tirets, indentation) — pas de syntaxe d'image ou de diagramme externe (Mermaid, SVG, etc.), le fichier doit rester lisible tel quel et compatible avec un futur import RemNote.
+Reste en Markdown texte simple (flèches `→`, tirets, indentation) pour ces schémas logiques — pas de diagramme externe (Mermaid, SVG, etc.).
+
+**Exception : les graphiques économiques à zones.** Une courbe d'offre et de demande dont le cours commente des aires (surplus, transfert, perte sèche, prix plafond ou plancher) ou un déplacement (choc d'offre, choc de demande) s'illustre par une image PNG, rangée dans `images/` à l'intérieur du dossier de chapitre et insérée dans la note complète uniquement avec `![description](images/nom.png)`, juste après le passage concerné. Les zones portent les mêmes lettres que les slides, et une aire n'est chiffrée que si les équations figurent dans le cours.
 
 **Chapitres qui grossissent (beaucoup de CM accumulés) :** ne laisse jamais une section `##` s'étaler sur tout un CM sans sous-titres. Découpe en `###`/`####` dès qu'une section couvre plusieurs notions distinctes, même si ça part d'un seul CM — l'objectif est qu'on puisse sauter directement à la bonne sous-section sans scroller tout le chapitre. S'il devient difficile de savoir où insérer un nouveau CM dans le plan existant, c'est le signal qu'une section doit être scindée en sous-sections avant d'y ajouter le nouveau contenu, pas après.
 

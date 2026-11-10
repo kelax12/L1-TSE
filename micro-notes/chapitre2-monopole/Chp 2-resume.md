@@ -161,5 +161,22 @@ Variation en % de la quantité demandée pour +1 % de prix. Exemples : Coca-Cola
 
 ### 6.2 Élasticité, pente de la demande et pouvoir de marché
 
-- Demande très sensible : $Rm approx$ demande, prix proche de $Cm$, peu de pouvoir de marché.
+- Demande très sensible : $Rm \approx$ demande, prix proche de $Cm$, peu de pouvoir de marché.
 - Demande peu sensible : $Rm$ bien sous la demande, prix nettement au-dessus de $Cm$, fort pouvoir de marché (le monopole peut monter son prix).
+
+### 6.3 Élasticité et recette marginale
+
+- $Rm = P(1 + 1/\varepsilon)$ : $Rm = 0$ si $|\varepsilon| = 1$ → le monopole produit sur la partie élastique de la demande.
+- Élasticité ≠ pente : sur une droite, l'élasticité varie d'un point à l'autre.
+- Gaufres : $\varepsilon = -1{,}5$, $P = 1$ → $Rm \approx 0{,}33 = Cm$, optimal ; si $\varepsilon = -1$, $Rm = 0 < Cm$ → baisser la quantité, monter le prix.
+
+### 6.4 Discrimination parfaite et partage du surplus
+
+- Chaque client paie sa PAP → quantité de l'optimum social, pas de perte sèche, mais surplus des consommateurs nul.
+- Rare (il faut connaître les PAP, empêcher la revente) ; discrimination par groupes (billets de dernière minute) : transfert de surplus vers le producteur.
+
+## 7. Exercices types (TD 2)
+
+- Tableau de demande : profit $= (P - c)Q$ ligne par ligne ; pertes dès que $P < c$.
+- $CT = 2Q$ : $CM = Cm = 2$. $CT = CF + 2Q$ : $Cm = 2$, $CM = CF/Q + 2$ décroissant vers 2.
+- Produits substituables → demande élastique (concurrence) ; disparition des concurrents → quasi-monopole ; produits différenciés → demande peu élastique (pouvoir de marché de chacun).

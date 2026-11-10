@@ -623,23 +623,57 @@ Que les participants contribuent malgré tout, mais de moins en moins au fil des
 
 
 
+82. Dans le jeu Gand/Bruges, quel est le gain net de Gand si elle contribue 1 000 francs et que Bruges ne contribue pas ?
+
+$0{,}8 \times 1\,000 - 1\,000 = -200$ francs.
+
+
+
+83. Dans le jeu Gand/Bruges, quels sont les gains nets de Gand quand Bruges contribue 1 000 francs ?
+
+600 francs si Gand contribue, 800 francs si elle ne contribue pas.
+
+
+
+84. Quelle est la stratégie dominante de chaque ville dans le jeu Gand/Bruges ?
+
+Ne pas contribuer, car c'est la meilleure réponse quelle que soit la décision de l'autre ville.
+
+
+
+85. Pourquoi l'équilibre en stratégie dominante du jeu Gand/Bruges est-il aussi un équilibre de Nash ?
+
+Parce que tout équilibre en stratégie dominante est un équilibre de Nash.
+
+
+
+86. Qu'est-ce qui permet de sortir du chaos sécuritaire illustré par le jeu Gand/Bruges ?
+
+Un État capable de lever l'impôt et de forcer chacun à financer les biens publics socialement désirables.
+
+
+
+87. Si Bruges contribue avec une probabilité de 1/4, quelle est la meilleure réponse de Gand ?
+
+Ne pas contribuer : son espérance de gain est de 200 francs, contre 0 si elle contribue.
+
 ### 5.4 Rôle des normes sociales
 
-82. Qu'est-ce qui influence le plus les contributions à un bien public selon les expériences : l'altruisme pur ou le comportement observé des autres ?
+88. Qu'est-ce qui influence le plus les contributions à un bien public selon les expériences : l'altruisme pur ou le comportement observé des autres ?
 
 
 Le comportement observé des autres joueurs (effet d'imitation), davantage que le seul altruisme individuel.
 
 
 
-83. Pourquoi les contributions à un bien public diminuent-elles au fil des tours ?
+89. Pourquoi les contributions à un bien public diminuent-elles au fil des tours ?
 
 
 Chacun réduit sa contribution quand la moyenne rendue publique est inférieure à la sienne (imitation) ; un altruisme pur ne dépendrait pas du comportement des autres.
 
 
 
-84. Pourquoi le prélèvement de l'impôt est-il obligatoire plutôt que volontaire ?
+90. Pourquoi le prélèvement de l'impôt est-il obligatoire plutôt que volontaire ?
 
 
 Parce que les gens acceptent de payer s'ils sont sûrs que tout le monde paie, et qu'une contribution volontaire déclinerait au fil du temps.
@@ -648,19 +682,19 @@ Parce que les gens acceptent de payer s'ils sont sûrs que tout le monde paie, e
 
 ### 6. Tableau de synthèse des jeux étudiés
 
-85. Parmi les jeux du chapitre, lequel est le seul dont l'équilibre en stratégie dominante est à la fois efficace et réalisé en pratique ?
+91. Parmi les jeux du chapitre, lequel est le seul dont l'équilibre en stratégie dominante est à la fois efficace et réalisé en pratique ?
 
 
 La main invisible (marché concurrentiel).
 
 
-86. Le dilemme du prisonnier et la main invisible ont tous deux un équilibre en stratégie dominante : qu'est-ce qui les distingue ?
+92. Le dilemme du prisonnier et la main invisible ont tous deux un équilibre en stratégie dominante : qu'est-ce qui les distingue ?
 
 
 L'efficacité de cet équilibre — efficace pour la main invisible, inefficace pour le dilemme du prisonnier.
 
 
-87. Pourquoi la guerre des sexes n'a-t-elle pas d'équilibre en stratégie dominante alors que les autres jeux du chapitre en ont un ?
+93. Pourquoi la guerre des sexes n'a-t-elle pas d'équilibre en stratégie dominante alors que les autres jeux du chapitre en ont un ?
 
 
 Parce que la meilleure réponse de chaque joueur dépend du choix de l'autre : il n'existe donc pas de stratégie optimale quelle que soit la stratégie adverse, d'où plusieurs équilibres de Nash au lieu d'un équilibre en stratégie dominante.

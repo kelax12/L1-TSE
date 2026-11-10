@@ -55,6 +55,7 @@
 - **Efficacité** : absence de gâchis (situation Pareto-optimale) ; notion indépendante de l'équité et de l'égalité.
 - **Élasticité-prix de la demande** : variation en pourcentage de la quantité demandée quand le prix augmente de 1 %.
 - **Pouvoir de marché** : capacité d'une entreprise à augmenter son prix sans perdre beaucoup de clients.
+- **Discrimination parfaite (au premier degré)** : vente de chaque unité au prix maximum que chaque client est prêt à payer (sa PAP).
 
 ## 1. Le monopole et son objectif
 
@@ -429,14 +430,14 @@ C'est l'aire sous la courbe de coût marginal entre 0 et $Q$ (on y ajoute le co�
 
 ### 5.1 La condition d'optimum
 
-L'entreprise cherche la quantité qui maximise son profit $Pi = RT - CT$. Le raisonnement est marginal :
+L'entreprise cherche la quantité qui maximise son profit $\Pi = RT - CT$. Le raisonnement est marginal :
 
 - tant que $Rm > Cm$, produire une unité de plus rapporte plus qu'elle ne coûte → il faut **augmenter** la production ;
 - si $Rm < Cm$, l'unité supplémentaire coûte plus qu'elle ne rapporte → il faut **baisser** la production.
 
 Le profit est maximal quand le bénéfice marginal s'annule :
 
-$Rm(Q^*) = Cm(Q^*)$
+$$Rm(Q^*) = Cm(Q^*)$$
 
 Formellement, le **profit marginal** est la dérivée du profit : $\Pi'(Q) = RT'(Q) - CT'(Q) = Rm(Q) - Cm(Q)$. Graphiquement, c'est la pente de la tangente à la courbe de profit : positive tant que le profit monte, nulle au sommet, négative quand il redescend.
 
@@ -461,7 +462,7 @@ La démarche se fait en deux temps sur le graphique :
 1. on repère l'intersection de la courbe de recette marginale et de la courbe de coût marginal : elle donne la **quantité optimale** $Q^*$ ;
 2. on remonte verticalement jusqu'à la **courbe de demande** pour lire le **prix optimal** $P^* = P(Q^*)$. Le prix se lit sur la demande (ce que les consommateurs acceptent de payer pour $Q^*$), pas sur la courbe de recette marginale.
 
-Dans l'exemple de la demande $P(Q) = 8,000 - 80,Q$ (20 voitures à 6 400 €, 21 voitures à 6 320 €), le prix optimal est $P^* = 5,440$ €, ce qui correspond à $Q^* = 32$ voitures.
+Dans l'exemple de la demande $P(Q) = 8\,000 - 80\,Q$ (20 voitures à 6 400 €, 21 voitures à 6 320 €), le prix optimal est $P^* = 5\,440$ €, ce qui correspond à $Q^* = 32$ voitures.
 
 Comme $Rm < P$ pour $Q > 0$ (voir 3.4) et que $Rm = Cm$ à l'optimum, le **prix du monopole est supérieur au coût marginal** : le monopole réalise un profit par unité positif. Il ne peut capter davantage du surplus des consommateurs que s'il peut discriminer par les prix (voir 2.6).
 
@@ -512,6 +513,8 @@ Optimum social : demande inverse = Cm  → Q** > Q*,  P** < P*
 
 Le surplus total à l'optimum social est plus grand que celui obtenu avec le monopole. La différence est un **petit triangle** entre la demande et le coût marginal, sur les quantités comprises entre $Q^*$ et $Q^{**}$ : des échanges mutuellement avantageux (propension à payer > coût marginal) que le monopole ne réalise pas, parce que les écouler l'obligerait à baisser son prix et réduirait son profit. C'est du surplus « laissé par terre ».
 
+![Surplus et perte sèche du monopole](images/monopole-surplus.png)
+
 ### 5.4 Optimum de Pareto, efficacité et équité
 
 **Optimum de Pareto** : situation où l'on ne peut pas améliorer le bien-être d'un individu sans diminuer celui d'au moins un autre. Autrement dit : il n'y a **pas de gâchis**. Ici, optimum social et optimum de Pareto désignent la même chose.
@@ -554,6 +557,61 @@ L'élasticité décide de l'écart entre la courbe de demande et la courbe de re
 
 À retenir : le monopole peut monter son prix quand la demande est peu sensible au prix ; quand la demande est très sensible, il ne le peut pas.
 
+### 6.3 Élasticité et recette marginale
+
+En notant $\varepsilon$ l'élasticité-prix (négative), la recette marginale s'écrit :
+
+$$Rm = P + P'(Q)\,Q = P\left(1 + \frac{Q}{P}\,\frac{dP}{dQ}\right) = P\left(1 + \frac{1}{\varepsilon}\right)$$
+
+- plus la demande est élastique ($|\varepsilon|$ grand), plus $Rm$ est proche de $P$ ;
+- si $|\varepsilon| = 1$, $Rm = 0$ : augmenter la quantité ne rapporte plus rien ;
+- si $|\varepsilon| < 1$, $Rm < 0$ : le monopole a intérêt à réduire sa production. Un monopole produit donc toujours sur la partie **élastique** de la demande ($|\varepsilon| > 1$).
+
+L'élasticité n'est **pas la pente** : sur une demande linéaire, la pente est constante mais l'élasticité varie le long de la droite (forte en haut, où le prix est élevé et la quantité faible ; faible en bas). L'élasticité d'une même droite n'est donc pas la même en deux points différents.
+
+**Application : les gaufres du gala.** Coût marginal 0,33 € ; à 1 €, la demande est de 200 gaufres ; élasticité −1,5.
+
+1. Baisse du prix de 1 % (de 1 € à 0,99 €) → la demande augmente de 1,5 %, soit 3 gaufres (203).
+2. Recette marginale autour de $Q = 200$ : la recette passe de $200 \times 1 = 200$ € à $203 \times 0{,}99 \approx 200{,}97$ €, soit environ 0,33 € par gaufre supplémentaire. Décomposition par gaufre : effet quantité ≈ +0,99 € (prix de la gaufre en plus), effet prix ≈ $-0{,}01 \times 200 / 3 \approx -0{,}67$ €. On retrouve $Rm = 1 \times (1 - 1/1{,}5) \approx 0{,}33$ €.
+3. $Rm \approx Cm = 0{,}33$ € : vendre 200 gaufres à 1 € est déjà la stratégie optimale.
+4. Si l'élasticité passe à −1, $Rm = 0 < Cm$ : il faut **réduire la quantité et augmenter le prix**. Une demande moins élastique donne plus de pouvoir de marché.
+
+### 6.4 Discrimination parfaite et partage du surplus
+
+Si le monopole pouvait vendre chaque unité **au prix que chaque client est prêt à payer** (discrimination parfaite) :
+
+- il n'a plus d'effet prix (baisser le prix pour un client ne le baisse pas pour les autres) : sa recette marginale devient la demande inverse ;
+- il vend donc toutes les unités dont la PAP dépasse le coût marginal, jusqu'à l'intersection **demande = coût marginal** : la quantité est celle de l'**optimum social**, il n'y a **plus de perte sèche** ;
+- mais il capte **tout le surplus** : le surplus des consommateurs est nul, celui du producteur est égal au surplus total.
+
+C'est efficace mais pas équitable (voir 5.4). En pratique, c'est rare : il faudrait connaître la PAP de chaque client et empêcher la revente. Exemples approchants : marchandage (le tapis), ventes aux enchères, voitures d'occasion.
+
+**Discrimination par groupes** : les compagnies aériennes font payer plus cher les voyageurs de dernière minute (souvent des professionnels, à la demande peu élastique). Elles transfèrent ainsi du surplus des consommateurs vers le producteur.
+
+**Donner plus de pouvoir aux clients** : si les acheteurs pouvaient faire jouer la concurrence (enchères inversées, plusieurs vendeurs, prix proposé par l'acheteur), le prix se rapprocherait du coût marginal et la quantité vendue de l'optimum social.
+
+## 7. Exercices types (TD 2)
+
+### 7.1 Lire un tableau de demande
+
+Avec un coût unitaire constant $c$, le profit à une quantité $Q$ est $(P(Q) - c) \times Q$ :
+
+- calculer le profit pour chaque ligne du tableau ;
+- la quantité qui maximise le profit est celle où ce produit est le plus grand (de façon marginale, là où $Rm = c$) ;
+- deux quantités peuvent donner le même profit, de part et d'autre de l'optimum ;
+- l'entreprise fait des pertes dès que le prix tombe sous le coût unitaire.
+
+### 7.2 Dessiner les fonctions de coût
+
+- **Coût unitaire constant, sans coût fixe** ($CT = 2Q$) : le coût total est une droite passant par l'origine ; $CM = Cm = 2$, deux droites horizontales confondues.
+- **Coût marginal constant avec coût fixe** ($CT = CF + 2Q$) : le coût total est une droite d'ordonnée à l'origine $CF$ ; $Cm = 2$ (horizontale) ; $CM = CF/Q + 2$, décroissant et tendant vers 2, toujours au-dessus du coût marginal.
+
+### 7.3 Hypermarché et petits commerçants : bien raisonner sur l'élasticité
+
+- Des produits **très substituables** rendent la demande adressée à chaque vendeur **élastique**, pas inélastique : l'argument selon lequel la substituabilité donnerait du pouvoir de marché à l'hypermarché est faux ; celui de la saine concurrence est juste.
+- En revanche, si les petits commerçants ferment, l'hypermarché se retrouve en **quasi-monopole** : la demande qui lui est adressée devient peu élastique et il peut augmenter ses prix.
+- Si les produits sont au contraire **très différenciés**, la demande adressée à chacun est **peu élastique** : chacun garde un pouvoir de marché sur sa clientèle, ce qui peut protéger les petits commerçants (mais pas parce que la demande serait « suffisamment élastique »).
+
 <!-- SOURCES INTÉGRÉES
 - Micro 6-transcript-DRAFT ✅.txt
 - Micro 7-transcript-DRAFT ✅.txt
@@ -561,4 +619,6 @@ L'élasticité décide de l'écart entre la courbe de demande et la courbe de re
 - Micro 9-transcript-DRAFT ✅.txt
 - Micro 10-transcript-DRAFT ✅.txt
 - Chapitre 2 - Lentreprise et ses clients ✅.pdf
+- TD2 ✅.pdf
+- CC1 - Correction ✅.pdf
 -->

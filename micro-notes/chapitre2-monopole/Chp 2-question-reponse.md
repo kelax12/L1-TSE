@@ -885,3 +885,152 @@ La recette marginale est bien sous la demande, le prix est nettement au-dessus d
 141. Quand un monopole peut-il augmenter son prix sans perdre beaucoup de clients ?
 
 Quand la demande est peu sensible au prix (faible élasticité).
+
+### 6.3 Élasticité et recette marginale
+
+142. Comment s'écrit la recette marginale en fonction du prix et de l'élasticité-prix $\varepsilon$ ?
+
+$Rm = P\left(1 + \dfrac{1}{\varepsilon}\right)$.
+
+
+
+
+143. Que vaut la recette marginale quand $|\varepsilon| = 1$ ?
+
+Elle est nulle : augmenter la quantité ne rapporte plus rien.
+
+
+
+
+144. Sur quelle partie de la demande un monopole produit-il toujours ?
+
+Sur la partie élastique ($|\varepsilon| > 1$), car sinon sa recette marginale est négative.
+
+
+
+
+145. L'élasticité d'une demande linéaire est-elle constante le long de la droite ?
+
+Non : la pente est constante, mais l'élasticité varie, forte en haut de la droite et faible en bas.
+
+
+
+
+146. Gaufres à 1 €, élasticité −1,5, coût marginal 0,33 € : le vendeur doit-il changer de stratégie ?
+
+Non : $Rm = 1 \times (1 - 1/1{,}5) \approx 0{,}33$ €, égal au coût marginal, donc 1 € est déjà optimal.
+
+
+
+
+147. Si l'élasticité des gaufres passe à −1, que faut-il faire ?
+
+Réduire la quantité et augmenter le prix, car $Rm = 0 < Cm$.
+
+
+
+
+### 6.4 Discrimination parfaite et partage du surplus
+
+148. Qu'est-ce que la discrimination parfaite (au premier degré) ?
+
+La vente de chaque unité au prix maximum que chaque client est prêt à payer (sa PAP).
+
+
+
+
+149. Quelle quantité vend un monopole qui discrimine parfaitement ?
+
+Celle de l'optimum social, à l'intersection de la demande et du coût marginal.
+
+
+
+
+150. Y a-t-il une perte sèche avec la discrimination parfaite ?
+
+Non, la perte sèche disparaît.
+
+
+
+
+151. Que devient le surplus des consommateurs avec la discrimination parfaite ?
+
+Il est nul : le producteur capte tout le surplus.
+
+
+
+
+152. Pourquoi la discrimination parfaite est-elle rare ?
+
+Il faudrait connaître la PAP de chaque client et empêcher la revente.
+
+
+
+
+153. Quel est l'effet de la discrimination par groupes des compagnies aériennes ?
+
+Elle transfère du surplus des consommateurs vers le producteur, en faisant payer plus cher les voyageurs de dernière minute.
+
+
+
+
+154. Que se passe-t-il si les acheteurs peuvent faire jouer la concurrence ?
+
+Le prix se rapproche du coût marginal et la quantité vendue de l'optimum social.
+
+
+
+
+## 7. Exercices types (TD 2)
+
+### 7.1 Lire un tableau de demande
+
+155. Avec un coût unitaire constant $c$, comment calcule-t-on le profit pour une ligne d'un tableau de demande ?
+
+$(P(Q) - c) \times Q$.
+
+
+
+
+156. À partir de quel prix l'entreprise fait-elle des pertes avec un coût unitaire constant ?
+
+Dès que le prix tombe sous le coût unitaire.
+
+
+
+
+### 7.2 Dessiner les fonctions de coût
+
+157. Que valent $CM$ et $Cm$ si $CT = 2Q$ ?
+
+$CM = Cm = 2$ : deux droites horizontales confondues.
+
+
+
+
+158. Que valent $Cm$ et $CM$ si $CT = CF + 2Q$ ?
+
+$Cm = 2$ et $CM = CF/Q + 2$, décroissant vers 2 et toujours au-dessus du coût marginal.
+
+
+
+
+### 7.3 Hypermarché et petits commerçants : bien raisonner sur l'élasticité
+
+159. Des produits très substituables rendent-ils la demande adressée à chaque vendeur élastique ou inélastique ?
+
+Élastique.
+
+
+
+
+160. Que se passe-t-il pour l'hypermarché si les petits commerçants ferment ?
+
+Il devient un quasi-monopole : la demande qui lui est adressée est peu élastique et il peut augmenter ses prix.
+
+
+
+
+161. Quel est l'effet de produits très différenciés sur le pouvoir de marché de chaque vendeur ?
+
+La demande adressée à chacun est peu élastique : chacun garde un pouvoir de marché sur sa clientèle.
