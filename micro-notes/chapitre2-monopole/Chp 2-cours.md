@@ -153,6 +153,12 @@ $$\text{surplus} = \text{PAP} - \text{prix payé}$$
 
 Exemple : avec un prix de 3 000 €, Madame X (PAP 8 000 €) a un surplus de 5 000 € ; Monsieur X (PAP 6 000 €) a un surplus de 3 000 € ; le surplus des consommateurs est la somme : 8 000 €.
 
+![Demande d'un seul client et son surplus à 3 000 €](images/demande-un-client.png)
+
+![Demande en escalier de deux clients et leur surplus à 3 000 €](images/demande-deux-clients.png)
+
+![Demande linéaire et surplus des consommateurs à 3 200 €](images/demande-lineaire-surplus.png)
+
 Quelqu'un qui n'achète pas a un surplus nul (sinon son surplus serait négatif). Sur le graphique, le surplus de l'ensemble des consommateurs est l'aire comprise entre la courbe de demande et le prix ; avec une demande courbe plutôt que droite, on le calcule avec une intégrale.
 
 ### 2.5 Un exemple d'estimation de la demande : l'électrification d'un pays
@@ -256,6 +262,8 @@ Intuition : la vente d'une unité supplémentaire rapporte son prix (effet quant
 
 Décomposition : effet quantité = $6\,320$ € (prix de la 21e voiture) ; effet prix = $-80 \times 20 = -1\,600$ € (baisse de 80 € sur les 20 voitures déjà vendues). Donc $Rm = 6\,320 - 1\,600 = 4\,720$ €.
 
+![Effet quantité et effet prix d'une unité supplémentaire (schéma agrandi)](images/recette-marginale-effets.png)
+
 On peut calculer la recette marginale comme $\dfrac{\Delta RT}{\Delta Q}$ (variation de 1 unité) ; avec une variation infinitésimale, c'est la dérivée. Pour l'intuition, on travaille souvent avec « +1 unité » ; la justesse mathématique demande des quantités continues que l'on peut dériver.
 
 ### 3.4 Propriétés de la recette marginale
@@ -302,6 +310,8 @@ Vérifications avec le raisonnement graphique :
 - $Rm$ est décroissante ;
 - $Rm(0) = \dfrac{\alpha}{\beta} = P(0)$ : les deux courbes partent du même point ;
 - la pente de la demande inverse est $-\dfrac{1}{\beta}$ et celle de la recette marginale est $-\dfrac{2}{\beta}$ : la **recette marginale est deux fois plus pentue** que la demande inverse, d'où un écart qui grandit avec $Q$.
+
+![Demande et recette marginale deux fois plus pentue](images/demande-recette-marginale.png)
 
 Les paramètres peuvent être renommés ($a = \alpha/\beta$, $b = 1/\beta$) sans changer le raisonnement.
 
@@ -389,6 +399,8 @@ CM  → pente de la droite qui va de l'origine au point considéré
 
 Analogie : votre moyenne de notes. Si vos premières notes sont inférieures à votre moyenne, chaque nouvelle note la fait baisser ; elle cesse de baisser quand la note nouvelle est égale à la moyenne, puis elle remonte si les notes suivantes sont meilleures. La note nouvelle joue le rôle du coût marginal, la moyenne celui du coût moyen. Même chose pour la vitesse moyenne d'un trajet après un redémarrage : tant que votre vitesse instantanée est inférieure à la moyenne, la moyenne baisse ; elle remonte quand vous la dépassez.
 
+![Coût moyen en U et coût marginal pour CT = 120 + 2Q²](images/cout-moyen-cout-marginal.png)
+
 **La courbe de coût moyen en U**
 
 En général, la courbe de coût moyen a une forme de **U** :
@@ -423,6 +435,8 @@ C'est ce qu'une unité rapporte en moyenne ; on l'appelle la **marge** de l'entr
 $$CT(Q) - CF = \int_0^Q Cm(x)\,dx$$
 
 C'est l'aire sous la courbe de coût marginal entre 0 et $Q$ (on y ajoute le coût fixe pour obtenir le coût total). De même, la recette totale est l'aire sous la courbe de recette marginale. Le profit s'obtient donc, en première lecture, comme l'aire comprise entre la courbe de recette marginale et celle de coût marginal.
+
+![Coût total et profit lus sous la courbe de coût marginal](images/cout-marginal-cout-total-profit.png)
 
 **Bénéfice marginal** : pour une unité supplémentaire, ce qu'elle rapporte est la recette marginale et ce qu'elle coûte est le coût marginal ; la différence $Rm - Cm$ est le bénéfice marginal. C'est la distance verticale entre les deux courbes. Elle est la plus grande sur les premières unités (coût marginal très bas), puis diminue.
 
@@ -463,6 +477,8 @@ La démarche se fait en deux temps sur le graphique :
 2. on remonte verticalement jusqu'à la **courbe de demande** pour lire le **prix optimal** $P^* = P(Q^*)$. Le prix se lit sur la demande (ce que les consommateurs acceptent de payer pour $Q^*$), pas sur la courbe de recette marginale.
 
 Dans l'exemple de la demande $P(Q) = 8\,000 - 80\,Q$ (20 voitures à 6 400 €, 21 voitures à 6 320 €), le prix optimal est $P^* = 5\,440$ €, ce qui correspond à $Q^* = 32$ voitures.
+
+![Optimum du monopole : Rm = Cm, prix lu sur la demande](images/monopole-optimum.png)
 
 Comme $Rm < P$ pour $Q > 0$ (voir 3.4) et que $Rm = Cm$ à l'optimum, le **prix du monopole est supérieur au coût marginal** : le monopole réalise un profit par unité positif. Il ne peut capter davantage du surplus des consommateurs que s'il peut discriminer par les prix (voir 2.6).
 
@@ -508,6 +524,8 @@ L'optimum social $(Q^{**}, P^{**})$ est donc à l'**intersection de la demande i
 Monopole       : Rm = Cm               → Q*,  P*
 Optimum social : demande inverse = Cm  → Q** > Q*,  P** < P*
 ```
+
+![Optimum social à l'intersection de la demande et du coût marginal](images/optimum-social.png)
 
 #### La perte sèche
 
@@ -557,6 +575,10 @@ L'élasticité décide de l'écart entre la courbe de demande et la courbe de re
 
 À retenir : le monopole peut monter son prix quand la demande est peu sensible au prix ; quand la demande est très sensible, il ne le peut pas.
 
+![Demande très élastique : pas de pouvoir de marché](images/elasticite-forte.png)
+
+![Demande peu élastique : fort pouvoir de marché](images/elasticite-faible.png)
+
 ### 6.3 Élasticité et recette marginale
 
 En notant $\varepsilon$ l'élasticité-prix (négative), la recette marginale s'écrit :
@@ -586,6 +608,8 @@ Si le monopole pouvait vendre chaque unité **au prix que chaque client est prê
 
 C'est efficace mais pas équitable (voir 5.4). En pratique, c'est rare : il faudrait connaître la PAP de chaque client et empêcher la revente. Exemples approchants : marchandage (le tapis), ventes aux enchères, voitures d'occasion.
 
+![Discrimination parfaite : tout le surplus va au producteur](images/discrimination-parfaite.png)
+
 **Discrimination par groupes** : les compagnies aériennes font payer plus cher les voyageurs de dernière minute (souvent des professionnels, à la demande peu élastique). Elles transfèrent ainsi du surplus des consommateurs vers le producteur.
 
 **Donner plus de pouvoir aux clients** : si les acheteurs pouvaient faire jouer la concurrence (enchères inversées, plusieurs vendeurs, prix proposé par l'acheteur), le prix se rapprocherait du coût marginal et la quantité vendue de l'optimum social.
@@ -605,6 +629,8 @@ Avec un coût unitaire constant $c$, le profit à une quantité $Q$ est $(P(Q) -
 
 - **Coût unitaire constant, sans coût fixe** ($CT = 2Q$) : le coût total est une droite passant par l'origine ; $CM = Cm = 2$, deux droites horizontales confondues.
 - **Coût marginal constant avec coût fixe** ($CT = CF + 2Q$) : le coût total est une droite d'ordonnée à l'origine $CF$ ; $Cm = 2$ (horizontale) ; $CM = CF/Q + 2$, décroissant et tendant vers 2, toujours au-dessus du coût marginal.
+
+![Coût marginal constant et coût moyen avec coût fixe](images/td2-cout-fixe.png)
 
 ### 7.3 Hypermarché et petits commerçants : bien raisonner sur l'élasticité
 
