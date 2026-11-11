@@ -129,7 +129,7 @@ Dans le jeu, un producteur de coût $c_i$ offre son unité si et seulement si le
 
 En général, l'entreprise $i$ a une fonction de coût total $C_i(q_i)$ et fait face à un prix $P^*$ qu'elle ne choisit pas. Elle choisit la quantité qui maximise son profit :
 
-$$\max_{q_i}\; P^* q_i - C_i(q_i)$$
+$$\max_{q_i}\  P^* q_i - C_i(q_i)$$
 
 Condition de premier ordre : $P^* - C_i'(q_i) = 0$, soit
 

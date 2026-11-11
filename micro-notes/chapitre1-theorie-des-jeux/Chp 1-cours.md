@@ -291,15 +291,15 @@ On note $p_B$ la probabilité que Brutus aille à la boxe, et $p_T$ la probabili
 
 L'espérance de gain de Brutus s'écrit :
 
-$$U_B = p_B\big[(1-p_T)\cdot 4 + p_T\cdot 0\big] + (1-p_B)\big[(1-p_T)\cdot 0 + p_T\cdot 1\big] = (4-5p_T)\,p_B + p_T$$
+$$U_B = p_B\big[(1-p_T)\cdot 4 + p_T\cdot 0\big] + (1-p_B)\big[(1-p_T)\cdot 0 + p_T\cdot 1\big] = (4-5p_T)\ p_B + p_T$$
 
-Si Thérèse joue $p_T=\tfrac12$ (pile ou face), $U_B = 1{,}5 + 0{,}5\,p_B$ est croissante en $p_B$ : la meilleure réponse de Brutus est alors $p_B=1$ (aller systématiquement à la boxe). Mais ce n'est pas un équilibre de Nash, car la meilleure réponse de Thérèse à $p_B=1$ est $p_T=0$ (aller systématiquement à la boxe elle aussi). Le même raisonnement s'applique tant que $p_T$ reste compris entre 0 et $\tfrac45$ : la meilleure réponse de Brutus reste $p_B=1$.
+Si Thérèse joue $p_T=\tfrac12$ (pile ou face), $U_B = 1{,}5 + 0{,}5\ p_B$ est croissante en $p_B$ : la meilleure réponse de Brutus est alors $p_B=1$ (aller systématiquement à la boxe). Mais ce n'est pas un équilibre de Nash, car la meilleure réponse de Thérèse à $p_B=1$ est $p_T=0$ (aller systématiquement à la boxe elle aussi). Le même raisonnement s'applique tant que $p_T$ reste compris entre 0 et $\tfrac45$ : la meilleure réponse de Brutus reste $p_B=1$.
 
 Symétriquement, quand $p_T$ dépasse $\tfrac45$, la meilleure réponse de Brutus devient $p_B=0$ (aller systématiquement au théâtre), ce qui n'est pas non plus un équilibre de Nash, puisque la meilleure réponse de Thérèse à $p_B=0$ est $p_T=1$.
 
 Il ne peut donc exister d'équilibre de Nash en stratégies mixtes qu'au point où Brutus est **indifférent** entre boxe et théâtre, c'est-à-dire quand le coefficient de $p_B$ s'annule dans $U_B$ :
 
-$$4-5p_T=0 \;\Longrightarrow\; p_T=\frac45$$
+$$4-5p_T=0 \ \Longrightarrow\  p_T=\frac45$$
 
 Par symétrie, Thérèse doit elle aussi être indifférente entre ses deux stratégies, ce qui exige $p_B=\frac45$.
 
@@ -322,11 +322,11 @@ On note $p_B$ la probabilité que le buteur tire à gauche, et $p_G$ la probabil
 
 Le gardien est indifférent entre plonger à droite ou à gauche lorsque :
 
-$$0{,}8(1-p_B) + 0{,}2\,p_B = 0{,}1(1-p_B) + 0{,}5\,p_B \;\Longrightarrow\; p_B = 0{,}7$$
+$$0{,}8(1-p_B) + 0{,}2\ p_B = 0{,}1(1-p_B) + 0{,}5\ p_B \ \Longrightarrow\  p_B = 0{,}7$$
 
 Le buteur est indifférent entre tirer à droite ou à gauche lorsque :
 
-$$0{,}2(1-p_G) + 0{,}9\,p_G = 0{,}8(1-p_G) + 0{,}5\,p_G \;\Longrightarrow\; p_G = 0{,}6$$
+$$0{,}2(1-p_G) + 0{,}9\ p_G = 0{,}8(1-p_G) + 0{,}5\ p_G \ \Longrightarrow\  p_G = 0{,}6$$
 
 À l'équilibre, le buteur tire à gauche avec une probabilité de 0,7 et le gardien plonge à gauche avec une probabilité de 0,6. La probabilité de marquer un but à cet équilibre est de 62 %.
 
@@ -345,11 +345,11 @@ Chaque joueur dispose d'une pièce et choisit simultanément pile (P) ou face (F
 
 **Équilibre en stratégies mixtes.** Soit $p_1$ la probabilité que le joueur 1 joue Pile et $p_2$ celle que le joueur 2 joue Pile. Le joueur 1 est indifférent entre P et F lorsque :
 
-$$-p_2 + (1-p_2) = p_2 - (1-p_2) \;\Longrightarrow\; 1-2p_2 = -1+2p_2 \;\Longrightarrow\; p_2=\tfrac12$$
+$$-p_2 + (1-p_2) = p_2 - (1-p_2) \ \Longrightarrow\  1-2p_2 = -1+2p_2 \ \Longrightarrow\  p_2=\tfrac12$$
 
 Le joueur 2 est indifférent entre P et F lorsque :
 
-$$p_1 - (1-p_1) = -p_1 + (1-p_1) \;\Longrightarrow\; p_1=\tfrac12$$
+$$p_1 - (1-p_1) = -p_1 + (1-p_1) \ \Longrightarrow\  p_1=\tfrac12$$
 
 L'équilibre est donc que chaque joueur joue pile ou face avec une probabilité de 1/2, et le gain espéré de chaque joueur est nul.
 
@@ -407,8 +407,8 @@ En pratique, les participants contribuent bien au bien public dès le premier to
 | **Ne pas contribuer** | 0 ; 0 | 800 ; −200 |
 | **Contribuer 1 000** | −200 ; 800 | 600 ; 600 |
 
-- Si Bruges ne contribue pas, Gand gagne $0{,}8 \times 1\,000 - 1\,000 = -200$ en contribuant, et 0 sinon.
-- Si Bruges contribue, Gand gagne $0{,}8 \times 2\,000 - 1\,000 = 600$ en contribuant, et $0{,}8 \times 1\,000 = 800$ sinon.
+- Si Bruges ne contribue pas, Gand gagne $0{,}8 \times 1\ 000 - 1\ 000 = -200$ en contribuant, et 0 sinon.
+- Si Bruges contribue, Gand gagne $0{,}8 \times 2\ 000 - 1\ 000 = 600$ en contribuant, et $0{,}8 \times 1\ 000 = 800$ sinon.
 - Ne pas contribuer est donc une **stratégie dominante** pour chaque ville. L'équilibre en stratégie dominante (ne pas contribuer ; ne pas contribuer) donne un gain nul à chacune, et c'est aussi un **équilibre de Nash**, car tout équilibre en stratégie dominante en est un.
 - La situation socialement désirable serait que les deux contribuent (600 chacune). Chaque ville ignore le bénéfice que sa contribution apporte à l'autre : c'est un **dilemme du prisonnier** appliqué à un bien public, qui explique le chaos sécuritaire du Moyen Âge.
 - Un **État capable de lever l'impôt** résout le problème en forçant chacun à financer les biens publics socialement désirables.

@@ -625,7 +625,7 @@ Que les participants contribuent malgré tout, mais de moins en moins au fil des
 
 82. Dans le jeu Gand/Bruges, quel est le gain net de Gand si elle contribue 1 000 francs et que Bruges ne contribue pas ?
 
-$0{,}8 \times 1\,000 - 1\,000 = -200$ francs.
+$0{,}8 \times 1\ 000 - 1\ 000 = -200$ francs.
 
 
 

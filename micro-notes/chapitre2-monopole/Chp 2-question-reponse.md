@@ -376,25 +376,25 @@ Négatif, car la demande inverse est décroissante.
 
 60. Quelle est la formule de la recette marginale ?
 
-$Rm(Q) = P(Q) + P'(Q)\,Q$.
+$Rm(Q) = P(Q) + P'(Q)\ Q$.
 
 
 
-61. Dans $Rm = P(Q) + P'(Q)\,Q$, quel terme est l'effet quantité et quel terme est l'effet prix ?
+61. Dans $Rm = P(Q) + P'(Q)\ Q$, quel terme est l'effet quantité et quel terme est l'effet prix ?
 
-$P(Q)$ est l'effet quantité (positif) ; $P'(Q)\,Q$ est l'effet prix (négatif).
+$P(Q)$ est l'effet quantité (positif) ; $P'(Q)\ Q$ est l'effet prix (négatif).
 
 
 
 62. Passer de 20 voitures à 6 400 € à 21 voitures à 6 320 € : quelle est la recette marginale ?
 
-$21 \times 6\,320 - 20 \times 6\,400 = 4\,720$ €.
+$21 \times 6\ 320 - 20 \times 6\ 400 = 4\ 720$ €.
 
 
 
 63. Dans cet exemple, quels sont l'effet quantité et l'effet prix ?
 
-Effet quantité : $+6\,320$ € ; effet prix : $-80 \times 20 = -1\,600$ €.
+Effet quantité : $+6\ 320$ € ; effet prix : $-80 \times 20 = -1\ 600$ €.
 
 
 
@@ -644,7 +644,7 @@ $P - CM$.
 
 102. Comment retrouver le coût total à partir du coût marginal ?
 
-$CT(Q) - CF = \int_0^Q Cm(x)\,dx$ : l'aire sous la courbe de coût marginal.
+$CT(Q) - CF = \int_0^Q Cm(x)\ dx$ : l'aire sous la courbe de coût marginal.
 
 
 

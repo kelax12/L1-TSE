@@ -268,7 +268,7 @@ Une entente sur les commissions interbancaires entre grandes banques (384 M€),
 
 44. Comment exprimer le profit par unité et le profit total d'une entreprise ?
 
-Profit par unité = marge $p - CM$ ; profit total $= p\,q - C(q)$.
+Profit par unité = marge $p - CM$ ; profit total $= p\ q - C(q)$.
 
 
 

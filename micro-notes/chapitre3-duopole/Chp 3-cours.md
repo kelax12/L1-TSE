@@ -59,13 +59,13 @@ $$C(y) = 2 \times \left(\frac{y}{2}\right)^2 = \frac{y^2}{2} \qquad \Rightarrow 
 
 Le cartel maximise son profit comme un monopole, là où $Rm = Cm$ :
 
-$$R(y) = (240 - 2y)\,y = 240y - 2y^2 \qquad Rm(y) = 240 - 4y$$
+$$R(y) = (240 - 2y)\ y = 240y - 2y^2 \qquad Rm(y) = 240 - 4y$$
 
 $$240 - 4y = y \quad \Rightarrow \quad y = 48$$
 
 - chaque foodtruck produit $48 / 2 = 24$ burgers ;
 - prix : $p = 240 - 2 \times 48 = 144$ ;
-- profit du cartel : $\Pi = 48 \times 144 - 48^2 = 5\,760$, soit **2 880 par entreprise**.
+- profit du cartel : $\Pi = 48 \times 144 - 48^2 = 5\ 760$, soit **2 880 par entreprise**.
 
 Le tableau des profits globaux (somme des deux profits selon les quantités de chacun) confirme que la répartition 24 / 24 donne le profit global le plus élevé possible (5 760).
 
@@ -77,9 +77,9 @@ Coopérer en produisant 24 chacun est la meilleure solution **collective**. Mais
 
 Chacune choisit la quantité (sans invendus) qui maximise son propre profit :
 
-$$\Pi_{B\&C} = p\,q_{B\&C} - C(q_{B\&C}) = \big(240 - 2(q_{B\&C} + q_{TB})\big)\,q_{B\&C} - q_{B\&C}^2$$
+$$\Pi_{BC} = p\ q_{BC} - C(q_{BC}) = \big(240 - 2(q_{BC} + q_{TB})\big)\ q_{BC} - q_{BC}^2$$
 
-$$\Pi_{TB} = \big(240 - 2(q_{B\&C} + q_{TB})\big)\,q_{TB} - q_{TB}^2$$
+$$\Pi_{TB} = \big(240 - 2(q_{BC} + q_{TB})\big)\ q_{TB} - q_{TB}^2$$
 
 Si l'une des entreprises produit beaucoup, le prix baisse **pour tout le monde** (et inversement) : le profit de l'une dépend des décisions de l'autre. C'est exactement le type de problème que résout la **théorie des jeux** (chapitre 1).
 
@@ -111,13 +111,13 @@ Dans la matrice, on souligne pour chaque quantité de l'autre la meilleure répo
 
 Vérification par le calcul : si l'autre entreprise produit 30, une entreprise maximise
 
-$$\Pi(q) = \big(240 - 2(30 + q)\big)\,q - q^2 = 180q - 3q^2$$
+$$\Pi(q) = \big(240 - 2(30 + q)\big)\ q - q^2 = 180q - 3q^2$$
 
 $$\Pi'(q) = 180 - 6q = 0 \quad \Rightarrow \quad q = 30$$
 
 30 est bien la meilleure réponse à 30 : **(30 ; 30) est l'équilibre de Nash**.
 
-**Fonction de meilleure réponse (cas général)** : en dérivant $\Pi_1 = (240 - 2q_1 - 2q_2)\,q_1 - q_1^2$ par rapport à $q_1$ :
+**Fonction de meilleure réponse (cas général)** : en dérivant $\Pi_1 = (240 - 2q_1 - 2q_2)\ q_1 - q_1^2$ par rapport à $q_1$ :
 
 $$240 - 6q_1 - 2q_2 = 0 \quad \Rightarrow \quad q_1 = 40 - \frac{q_2}{3}$$
 
@@ -127,12 +127,12 @@ Les entreprises étant identiques, l'équilibre est symétrique ($q_1 = q_2 = q$
 
 - production totale : 60 ;
 - prix : $p = 240 - 2 \times 60 = 120$ (contre 144 avec le cartel) ;
-- profit de chaque entreprise : $120 \times 30 - 30^2 = 2\,700$ (contre 2 880).
+- profit de chaque entreprise : $120 \times 30 - 30^2 = 2\ 700$ (contre 2 880).
 
 ### 4.5 Méthode générale pour résoudre un duopole
 
 1. Écrire la demande inverse $p(y)$ avec $y = q_1 + q_2$.
-2. Écrire le profit de chaque entreprise : $\Pi_i = p(q_1 + q_2)\,q_i - C_i(q_i)$.
+2. Écrire le profit de chaque entreprise : $\Pi_i = p(q_1 + q_2)\ q_i - C_i(q_i)$.
 3. Dériver $\Pi_i$ par rapport à $q_i$ (l'autre quantité est considérée comme donnée) et annuler : on obtient la **fonction de meilleure réponse** de chaque entreprise.
 4. Résoudre le système des deux meilleures réponses (si les entreprises sont identiques, poser $q_1 = q_2$) : c'est l'**équilibre de Nash**.
 5. En déduire le prix (demande inverse) puis les profits.
@@ -170,7 +170,7 @@ Si chaque entreprise prend le prix comme donné (concurrence, chapitre 4), elle 
 
 ![Surplus des foodtrucks avec un cartel, comparé à la concurrence](images/foodtrucks-surplus.png)
 
-Les surplus des consommateurs se calculent comme l'aire du triangle sous la demande et au-dessus du prix, $\frac{1}{2}(240 - p)\,y$. Par exemple, un consommateur qui valorise le bien à 240 et le paie 144 obtient un surplus de 96 ; celui qui le valorise à 150 obtient 6.
+Les surplus des consommateurs se calculent comme l'aire du triangle sous la demande et au-dessus du prix, $\frac{1}{2}(240 - p)\ y$. Par exemple, un consommateur qui valorise le bien à 240 et le paie 144 obtient un surplus de 96 ; celui qui le valorise à 150 obtient 6.
 
 ```
 Plus de concurrence → quantité ↑, prix ↓, profit individuel ↓
@@ -217,7 +217,7 @@ Certains cartels sont démantelés sans dénonciation, à la suite d'une **enqu�
 
 Deux entreprises produisent un bien homogène avec des coûts **différents** : $C_1(q_1) = \frac{1}{2}q_1^2$ et $C_2(q_2) = 5q_2$. Demande : $Q(p) = 200 - 2p$, avec $Q = q_1 + q_2$.
 
-**Profit par unité et profit total** : le profit par unité est la marge $p - CM$ ; le profit total est $\Pi = p\,q - C(q)$, soit la marge multipliée par la quantité.
+**Profit par unité et profit total** : le profit par unité est la marge $p - CM$ ; le profit total est $\Pi = p\ q - C(q)$, soit la marge multipliée par la quantité.
 
 **Demande inverse** : $p = 100 - \dfrac{q_1 + q_2}{2}$.
 
@@ -229,9 +229,9 @@ $$\Pi_1 = \left(100 - \frac{q_1 + q_2}{2}\right) q_1 - \frac{1}{2}q_1^2 \qquad \
 
 $$q_1 = 50 - \frac{q_2}{4} \qquad q_2 = 95 - \frac{q_1}{2}$$
 
-**Équilibre de Nash** : $q_1 = 30$, $q_2 = 80$, prix $p = 45$ ; profits $\Pi_1 = 900$ et $\Pi_2 = 3\,200$ (total 4 100). On retrouve ces valeurs comme case où les meilleures réponses se croisent dans les tableaux de profits.
+**Équilibre de Nash** : $q_1 = 30$, $q_2 = 80$, prix $p = 45$ ; profits $\Pi_1 = 900$ et $\Pi_2 = 3\ 200$ (total 4 100). On retrouve ces valeurs comme case où les meilleures réponses se croisent dans les tableaux de profits.
 
-**L'équilibre de Nash n'est pas le meilleur résultat possible** : le profit global est maximal en faisant produire davantage l'entreprise la moins coûteuse à la marge. En maximisant la somme des profits ($100 - Q - q_1 = 0$ et $100 - Q - 5 = 0$), on obtient $Q = 95$, $q_1 = 5$, $q_2 = 90$, $p = 52{,}5$, et un profit global d'environ 4 525 ($\Pi_1 = 250$, $\Pi_2 = 4\,275$).
+**L'équilibre de Nash n'est pas le meilleur résultat possible** : le profit global est maximal en faisant produire davantage l'entreprise la moins coûteuse à la marge. En maximisant la somme des profits ($100 - Q - q_1 = 0$ et $100 - Q - 5 = 0$), on obtient $Q = 95$, $q_1 = 5$, $q_2 = 90$, $p = 52{,}5$, et un profit global d'environ 4 525 ($\Pi_1 = 250$, $\Pi_2 = 4\ 275$).
 
 **La firme 1 accepterait-elle ce cartel ?** Non, pas sans compensation : elle y gagnerait 250 au lieu de 900. La firme 2, elle, passe de 3 200 à 4 275 : elle peut **verser un paiement compensatoire** (transfert) à la firme 1, compris entre 650 et 1 075, pour que les deux y gagnent.
 

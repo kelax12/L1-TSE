@@ -115,7 +115,7 @@ Randomiser entre stratégies pures. À l'équilibre en stratégies mixtes, chaqu
 
 Avec $p_B$ = probabilité que Brutus aille à la boxe et $p_T$ = probabilité que Thérèse aille au théâtre :
 
-$$U_B = (4-5p_T)\,p_B + p_T$$
+$$U_B = (4-5p_T)\ p_B + p_T$$
 
 L'équilibre en stratégies mixtes est **$p_B = p_T = \dfrac45$** (chaque joueur rend l'autre indifférent).
 

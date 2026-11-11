@@ -248,7 +248,7 @@ Graphiquement, l'effet quantité est un petit rectangle de largeur 1 (ou une lar
 
 Cette dérivée de la recette totale s'appelle la **recette marginale** :
 
-$$Rm(Q) = RT'(Q) = P(Q) + P'(Q)\,Q$$
+$$Rm(Q) = RT'(Q) = P(Q) + P'(Q)\ Q$$
 
 Le mot « marginal » est central en économie : il désigne l'effet d'une toute petite variation. On parlera de coût marginal, d'utilité marginale, etc.
 
@@ -256,11 +256,11 @@ Intuition : la vente d'une unité supplémentaire rapporte son prix (effet quant
 
 **Application numérique** (demande inverse du monopole automobile) :
 
-- à $Q = 20$ voitures, le prix est de 6 400 € : $RT = 20 \times 6\,400 = 128\,000$ € ;
-- pour écouler une 21e voiture, la demande impose de baisser le prix à 6 320 € (c'est la demande qui l'impose, pas l'entreprise) : $RT = 21 \times 6\,320 = 132\,720$ € ;
-- recette marginale : $132\,720 - 128\,000 = 4\,720$ €.
+- à $Q = 20$ voitures, le prix est de 6 400 € : $RT = 20 \times 6\ 400 = 128\ 000$ € ;
+- pour écouler une 21e voiture, la demande impose de baisser le prix à 6 320 € (c'est la demande qui l'impose, pas l'entreprise) : $RT = 21 \times 6\ 320 = 132\ 720$ € ;
+- recette marginale : $132\ 720 - 128\ 000 = 4\ 720$ €.
 
-Décomposition : effet quantité = $6\,320$ € (prix de la 21e voiture) ; effet prix = $-80 \times 20 = -1\,600$ € (baisse de 80 € sur les 20 voitures déjà vendues). Donc $Rm = 6\,320 - 1\,600 = 4\,720$ €.
+Décomposition : effet quantité = $6\ 320$ € (prix de la 21e voiture) ; effet prix = $-80 \times 20 = -1\ 600$ € (baisse de 80 € sur les 20 voitures déjà vendues). Donc $Rm = 6\ 320 - 1\ 600 = 4\ 720$ €.
 
 ![Effet quantité et effet prix d'une unité supplémentaire (schéma agrandi)](images/recette-marginale-effets.png)
 
@@ -268,7 +268,7 @@ On peut calculer la recette marginale comme $\dfrac{\Delta RT}{\Delta Q}$ (varia
 
 ### 3.4 Propriétés de la recette marginale
 
-**La recette marginale est toujours inférieure au prix.** Elle vaut le prix plus un terme négatif ($P'(Q)\,Q < 0$). Graphiquement, la courbe de recette marginale est toujours en dessous de la demande inverse.
+**La recette marginale est toujours inférieure au prix.** Elle vaut le prix plus un terme négatif ($P'(Q)\ Q < 0$). Graphiquement, la courbe de recette marginale est toujours en dessous de la demande inverse.
 
 **En $Q = 0$, la recette marginale est égale au prix** : la première unité vendue rapporte son prix, et il n'y a pas d'effet prix puisqu'aucune unité n'était vendue avant (pas de baisse de prix à répercuter). Les deux courbes partent donc du même point.
 
@@ -299,7 +299,7 @@ $$P(Q) = \frac{\alpha}{\beta} - \frac{Q}{\beta}$$
 
 La recette totale est :
 
-$$RT(Q) = \left(\frac{\alpha}{\beta} - \frac{Q}{\beta}\right) Q = \frac{\alpha}{\beta}\,Q - \frac{Q^2}{\beta}$$
+$$RT(Q) = \left(\frac{\alpha}{\beta} - \frac{Q}{\beta}\right) Q = \frac{\alpha}{\beta}\ Q - \frac{Q^2}{\beta}$$
 
 Et la recette marginale :
 
@@ -432,7 +432,7 @@ C'est ce qu'une unité rapporte en moyenne ; on l'appelle la **marge** de l'entr
 
 **Coût total et aire sous le coût marginal** : comme le coût marginal est la dérivée du coût total, le coût total est son intégrale :
 
-$$CT(Q) - CF = \int_0^Q Cm(x)\,dx$$
+$$CT(Q) - CF = \int_0^Q Cm(x)\ dx$$
 
 C'est l'aire sous la courbe de coût marginal entre 0 et $Q$ (on y ajoute le coût fixe pour obtenir le coût total). De même, la recette totale est l'aire sous la courbe de recette marginale. Le profit s'obtient donc, en première lecture, comme l'aire comprise entre la courbe de recette marginale et celle de coût marginal.
 
@@ -476,7 +476,7 @@ La démarche se fait en deux temps sur le graphique :
 1. on repère l'intersection de la courbe de recette marginale et de la courbe de coût marginal : elle donne la **quantité optimale** $Q^*$ ;
 2. on remonte verticalement jusqu'à la **courbe de demande** pour lire le **prix optimal** $P^* = P(Q^*)$. Le prix se lit sur la demande (ce que les consommateurs acceptent de payer pour $Q^*$), pas sur la courbe de recette marginale.
 
-Dans l'exemple de la demande $P(Q) = 8\,000 - 80\,Q$ (20 voitures à 6 400 €, 21 voitures à 6 320 €), le prix optimal est $P^* = 5\,440$ €, ce qui correspond à $Q^* = 32$ voitures.
+Dans l'exemple de la demande $P(Q) = 8\ 000 - 80\ Q$ (20 voitures à 6 400 €, 21 voitures à 6 320 €), le prix optimal est $P^* = 5\ 440$ €, ce qui correspond à $Q^* = 32$ voitures.
 
 ![Optimum du monopole : Rm = Cm, prix lu sur la demande](images/monopole-optimum.png)
 
@@ -502,7 +502,7 @@ Au prix $P^*$, le surplus se partage entre :
 
 L'aire sous le coût marginal est l'intégrale du coût marginal ; or intégrer $Cm$ redonne le coût total **à une constante près**, et cette constante est le coût fixe :
 
-$$\int_0^{Q} Cm(q)\,dq = CT(Q) - CF$$
+$$\int_0^{Q} Cm(q)\ dq = CT(Q) - CF$$
 
 D'où :
 
@@ -583,7 +583,7 @@ L'élasticité décide de l'écart entre la courbe de demande et la courbe de re
 
 En notant $\varepsilon$ l'élasticité-prix (négative), la recette marginale s'écrit :
 
-$$Rm = P + P'(Q)\,Q = P\left(1 + \frac{Q}{P}\,\frac{dP}{dQ}\right) = P\left(1 + \frac{1}{\varepsilon}\right)$$
+$$Rm = P + P'(Q)\ Q = P\left(1 + \frac{Q}{P}\ \frac{dP}{dQ}\right) = P\left(1 + \frac{1}{\varepsilon}\right)$$
 
 - plus la demande est élastique ($|\varepsilon|$ grand), plus $Rm$ est proche de $P$ ;
 - si $|\varepsilon| = 1$, $Rm = 0$ : augmenter la quantité ne rapporte plus rien ;

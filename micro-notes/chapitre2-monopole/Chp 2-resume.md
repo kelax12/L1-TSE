@@ -18,7 +18,7 @@
 ### Recette
 
 - **Recette totale** : $RT = P \times Q$.
-- **Recette marginale** : $Rm = RT'(Q) = P(Q) + P'(Q)\,Q$.
+- **Recette marginale** : $Rm = RT'(Q) = P(Q) + P'(Q)\ Q$.
 - **Effet quantité** (positif) : l'unité en plus rapporte son prix. **Effet prix** (négatif) : baisse de prix sur toutes les unités.
 
 ### Production et coûts
@@ -76,11 +76,11 @@ Effet positif (chaque unité vendue plus cher) contre effet négatif (moins d'un
 
 ### 3.2 Si la quantité augmente
 
-$RT'(Q) = P(Q) + P'(Q)\,Q$ : effet quantité positif, effet prix négatif.
+$RT'(Q) = P(Q) + P'(Q)\ Q$ : effet quantité positif, effet prix négatif.
 
 ### 3.3 La recette marginale
 
-$Rm(Q) = P(Q) + P'(Q)\,Q$. Exemple : 20 voitures à 6 400 € puis 21 à 6 320 € : $Rm = 6\,320 - 1\,600 = 4\,720$ €.
+$Rm(Q) = P(Q) + P'(Q)\ Q$. Exemple : 20 voitures à 6 400 € puis 21 à 6 320 € : $Rm = 6\ 320 - 1\ 600 = 4\ 720$ €.
 
 ### 3.4 Propriétés
 
