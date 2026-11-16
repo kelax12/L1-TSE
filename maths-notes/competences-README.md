@@ -41,3 +41,5 @@ Objectif : **si tu sais faire toutes les compétences, tu sais faire toutes les 
 3. **Injective / surjective** justifiées (C6.4, C6.5) — 4/5
 4. Un **domaine de définition** avec ln, √, |·| (C6.1) — 4/5
 5. Une **limite $\frac00$** de fraction rationnelle sans L'Hôpital (C7.4, C8.3) — 3/5
+
+> 🏋️ **Entraînement** : [entrainement-DS2.md](entrainement-DS2.md) — 5 exercices corrigés sur chacun de ces thèmes.
