@@ -44,3 +44,5 @@ Objectif : **si tu sais faire toutes les compétences, tu sais faire toutes les 
 
 > 🏋️ **Entraînement** : [entrainement-DS2.md](entrainement-DS2.md) — 5 exercices corrigés sur chacun de ces thèmes.
 > 🏋️ **Entraînement (suite)** : [entrainement-DS2-suite.md](entrainement-DS2-suite.md) — raisonnements, sup/inf, monotonie, réciproques, croissances comparées.
+
+> 📋 **Fiches méthodes** : un fichier `Chp X-methodes.md` par chapitre regroupe toutes les méthodes sans les exercices.
