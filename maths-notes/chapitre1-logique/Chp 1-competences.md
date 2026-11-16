@@ -1,8 +1,8 @@
 # Chapitre 1 · Logique — compétences
 
-> Référentiel : [README](../competences-README.md) · Cours : [Chp 1-cours.md](Chp%201-cours.md)
+> Référentiel : [README](../competences-README.md) · Cours : [Chp 1-cours.md](Chp%201-cours.md) · Méthodes seules : [Chp 1-methodes.md](Chp%201-methodes.md)
 >
-> Coche `[x]` dans la liste quand tu sais faire la compétence **sans regarder la méthode**.
+> Chaque compétence = méthode + **correction étape par étape** d'un exercice d'annale. Coche `[x]` dans la liste quand tu sais faire la compétence **sans regarder la méthode**.
 
 ## ✅ Suivi
 
@@ -25,16 +25,26 @@
 **Tombe** : DS20 ex1 · DS21 ex1 · DS22 ex1.1 · DS23 ex1.1, ex1.3 (3 variables) · DS24 ex1.2 · DS25 ex1 → **6/6 DS1**
 
 <details>
-<summary>✏️ Entraînement — DS25 ex1 : table de $(P\Rightarrow Q)\land(P\lor\neg Q)$</summary>
+<summary>✏️ Correction étape par étape — DS25 ex1 : table de $(P\Rightarrow Q)\land(P\lor\neg Q)$</summary>
 
-| $P$ | $Q$ | $P\Rightarrow Q$ | $P\lor\neg Q$ | résultat |
-|:-:|:-:|:-:|:-:|:-:|
-| V | V | V | V | **V** |
-| V | F | F | V | **F** |
-| F | V | V | F | **F** |
-| F | F | V | V | **V** |
+**Étape 1 — Variables et lignes.** Deux variables $P$ et $Q$ → 4 lignes : VV, VF, FV, FF.
 
-Remarque : le résultat a la même table que $P\iff Q$.
+**Étape 2 — Découpage.** La formule est un « et » entre deux morceaux : $A=P\Rightarrow Q$ et $B=P\lor\neg Q$. Pour $B$ il faut d'abord $\neg Q$. Colonnes : $P$, $Q$, $\neg Q$, $A$, $B$, $A\land B$.
+
+**Étape 3 — Remplir colonne par colonne.**
+- $\neg Q$ : on inverse la colonne $Q$ → F, V, F, V.
+- $A=P\Rightarrow Q$ : faux **uniquement** à la ligne V⇒F (ligne 2) → V, F, V, V.
+- $B=P\lor\neg Q$ : vrai dès qu'un des deux est vrai ; seule la ligne 3 ($P$ faux, $\neg Q$ faux) est fausse → V, V, F, V.
+- $A\land B$ : vrai seulement si les deux sont vrais → V, F, F, V.
+
+| $P$ | $Q$ | $\neg Q$ | $P\Rightarrow Q$ | $P\lor\neg Q$ | résultat |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| V | V | F | V | V | **V** |
+| V | F | V | F | V | **F** |
+| F | V | F | V | F | **F** |
+| F | F | V | V | V | **V** |
+
+**Étape 4 — Lire le résultat.** La colonne finale (V, F, F, V) est celle de $P\iff Q$ : la proposition est vraie exactement quand $P$ et $Q$ ont la même valeur.
 </details>
 
 ---
@@ -49,7 +59,17 @@ Remarque : le résultat a la même table que $P\iff Q$.
 **Tombe** : DS22 ex1.2 · DS23 ex1.2 · DS24 ex1.1, ex1.2
 
 <details>
-<summary>✏️ Entraînement — DS24 ex1.1 : $\neg(P\iff Q)$ a la même table que $P\iff\neg Q$</summary>
+<summary>✏️ Correction étape par étape — DS24 ex1.1 : $\neg(P\iff Q)$ a la même table que $P\iff\neg Q$</summary>
+
+**Étape 1 — Colonnes nécessaires.** Pour $\neg(P\iff Q)$ : $P\iff Q$ puis sa négation. Pour $P\iff\neg Q$ : $\neg Q$ puis l'équivalence.
+
+**Étape 2 — Première expression.**
+- $P\iff Q$ vrai quand $P$ et $Q$ sont égaux → V, F, F, V.
+- On nie → **F, V, V, F**.
+
+**Étape 3 — Deuxième expression.**
+- $\neg Q$ → F, V, F, V.
+- $P\iff\neg Q$ vrai quand $P$ et $\neg Q$ sont égaux : ligne 1 (V/F) non, ligne 2 (V/V) oui, ligne 3 (F/F) oui, ligne 4 (F/V) non → **F, V, V, F**.
 
 | $P$ | $Q$ | $P\iff Q$ | $\neg(P\iff Q)$ | $\neg Q$ | $P\iff\neg Q$ |
 |:-:|:-:|:-:|:-:|:-:|:-:|
@@ -58,7 +78,9 @@ Remarque : le résultat a la même table que $P\iff Q$.
 | F | V | F | **V** | F | **V** |
 | F | F | V | **F** | V | **F** |
 
-Les deux colonnes en gras sont identiques. (DS24 ex1.2 : $((P\Rightarrow Q)\land(Q\Rightarrow P))\iff(P\iff Q)$ est une tautologie, c'est la définition de $\iff$.)
+**Étape 4 — Conclure.** Les deux colonnes en gras sont identiques, donc les deux propositions sont équivalentes.
+
+**Variante DS24 ex1.2** : $((P\Rightarrow Q)\land(Q\Rightarrow P))\iff(P\iff Q)$. La colonne de gauche vaut V, F, F, V (une des deux implications est fausse dès que $P\neq Q$), comme $P\iff Q$ ; l'équivalence de deux colonnes égales donne V partout : c'est une **tautologie**.
 </details>
 
 ---
@@ -73,9 +95,17 @@ Les deux colonnes en gras sont identiques. (DS24 ex1.2 : $((P\Rightarrow Q)\land
 **Tombe** : utile partout (vérifier une table, nier, contraposer) · DS22 ex1.2
 
 <details>
-<summary>✏️ Entraînement — simplifier $\neg\big(P\Rightarrow(Q\lor R)\big)$</summary>
+<summary>✏️ Correction étape par étape — simplifier $\neg\big(P\Rightarrow(Q\lor R)\big)$</summary>
 
-$\neg(P\Rightarrow(Q\lor R))\equiv P\land\neg(Q\lor R)\equiv P\land\neg Q\land\neg R$.
+**Étape 1 — Repérer l'opérateur principal.** C'est la négation d'une **implication** $P\Rightarrow S$ avec $S=Q\lor R$.
+
+**Étape 2 — Nier l'implication.** $\neg(P\Rightarrow S)\equiv P\land\neg S$, donc on obtient $P\land\neg(Q\lor R)$.
+
+**Étape 3 — De Morgan sur le « ou ».** $\neg(Q\lor R)\equiv\neg Q\land\neg R$.
+
+**Étape 4 — Résultat.** $\boxed{P\land\neg Q\land\neg R}$ : « $P$ est vrai, et ni $Q$ ni $R$ ».
+
+**Contrôle** : l'implication de départ n'est fausse que si $P$ est vrai et la conclusion $Q\lor R$ fausse, c'est bien ce qu'on trouve.
 </details>
 
 ---
@@ -91,11 +121,25 @@ $\neg(P\Rightarrow(Q\lor R))\equiv P\land\neg(Q\lor R)\equiv P\land\neg Q\land\n
 **Tombe** : DS25 ex3.1 · DS22 ex7.1 · DS24 ex6.2 · TD2 ex2, ex6
 
 <details>
-<summary>✏️ Entraînement — DS25 ex3.1 et DS22 ex7.1</summary>
+<summary>✏️ Correction étape par étape — DS25 ex3.1 et DS22 ex7.1</summary>
 
-- « Chaque réel admet un entier qui lui est supérieur » : $\forall x\in\mathbb R,\ \exists n\in\mathbb Z,\ n\geq x$.
-- « Tout réel strictement négatif est différent de son cube » : $\forall x\in\mathbb R,\ x<0\Rightarrow x\neq x^3$ (ou $\forall x\in\mathbb R_-^*,\ x\neq x^3$).
-- TD2 : « Tous les réels sont positifs ou tous sont négatifs » : $(\forall x\in\mathbb R,\ x\geq0)\lor(\forall y\in\mathbb R,\ y\leq 0)$ — différent de $\forall x,\ (x\geq 0\lor x\leq 0)$.
+**Phrase 1 : « Chaque réel admet un entier qui lui est supérieur ».**
+1. *Objets et ensembles* : un réel $x\in\mathbb R$, un entier $n\in\mathbb Z$.
+2. *Quantificateurs* : « chaque réel » → $\forall x$ ; « admet un entier » → $\exists n$.
+3. *Ordre* : l'entier dépend du réel choisi, donc $\forall x$ d'abord, puis $\exists n$.
+4. *Propriété* : « supérieur » → $n\geq x$.
+5. **Résultat** : $\forall x\in\mathbb R,\ \exists n\in\mathbb Z,\ n\geq x$.
+
+**Phrase 2 : « Tout réel strictement négatif est différent de son cube ».**
+1. *Objet* : un réel $x$, avec la condition $x<0$.
+2. *Quantificateur* : « tout » → $\forall$.
+3. *Condition* : on la met soit dans l'ensemble ($x\in\mathbb R_-^*$), soit en hypothèse d'une implication.
+4. **Résultat** : $\forall x\in\mathbb R,\ (x<0\Rightarrow x\neq x^3)$, ou $\forall x\in\mathbb R_-^*,\ x\neq x^3$.
+
+**Phrase 3 (TD2) : « Tous les réels sont positifs ou tous sont négatifs ».**
+1. Le « ou » relie **deux phrases complètes**, chacune avec son « tous ».
+2. **Résultat** : $(\forall x\in\mathbb R,\ x\geq0)\lor(\forall y\in\mathbb R,\ y\leq 0)$ (fausse).
+3. ⚠️ À ne pas confondre avec $\forall x,\ (x\geq 0\lor x\leq 0)$ (« chaque réel est positif ou négatif », vraie).
 </details>
 
 ---
@@ -111,14 +155,39 @@ $\neg(P\Rightarrow(Q\lor R))\equiv P\land\neg(Q\lor R)\equiv P\land\neg Q\land\n
 **Tombe** : DS20 ex3.1 · DS21 ex5.1 · DS22 ex6.1 · DS23 ex6.1a, 6.2a · DS24 ex6 · DS25 ex3.2 → **6/6 DS1**
 
 <details>
-<summary>✏️ Entraînement — DS25 ex3.2, DS21 ex5.1, DS24 ex6</summary>
+<summary>✏️ Correction étape par étape — DS25 ex3.2</summary>
 
-- $\forall(x,y)\in\mathbb R^2,\ \exists M>0,\ x^2+y^2\leq M\Rightarrow(x^2\leq M\land y^2\leq M)$
-  → $\exists(x,y)\in\mathbb R^2,\ \forall M>0,\ x^2+y^2\leq M\land(x^2>M\lor y^2>M)$.
-- $\forall x,y\in\mathbb R,\ (xy+2x+y\leq 14\Rightarrow x\leq 3\lor y\leq 2)$
-  → $\exists x,y\in\mathbb R,\ xy+2x+y\leq 14\land x>3\land y>2$.
-- $\forall\varepsilon\in\mathbb R_+^*,\ \exists N\in\mathbb N,\ \frac1N<\varepsilon$ → $\exists\varepsilon\in\mathbb R_+^*,\ \forall N\in\mathbb N,\ \frac1N\geq\varepsilon$.
-- « Si $m<n$ sont deux entiers positifs, il existe un rationnel strictement entre eux » → $\exists m,n\in\mathbb N,\ m<n\land\forall q\in\mathbb Q,\ (q\leq m\lor q\geq n)$.
+Proposition : $\forall(x,y)\in\mathbb R^2,\ \exists M>0,\ x^2+y^2\leq M\Rightarrow(x^2\leq M\land y^2\leq M)$.
+
+**Étape 1 — Quantificateurs.** $\forall(x,y)$ → $\exists(x,y)$ ; $\exists M>0$ → $\forall M>0$. Les ensembles $\mathbb R^2$ et $M>0$ restent.
+
+**Étape 2 — Nier l'implication.** $\neg(A\Rightarrow B)\equiv A\land\neg B$ avec $A$ : $x^2+y^2\leq M$, $B$ : $x^2\leq M\land y^2\leq M$.
+
+**Étape 3 — Nier $B$ (De Morgan).** $\neg B$ : $x^2>M\lor y^2>M$ (le « et » devient « ou », $\leq$ devient $>$).
+
+**Étape 4 — Assembler.**
+$$\exists(x,y)\in\mathbb R^2,\ \forall M>0,\ x^2+y^2\leq M\land(x^2>M\lor y^2>M).$$
+</details>
+
+<details>
+<summary>✏️ Correction étape par étape — DS21 ex5.1, DS24 ex6</summary>
+
+**DS21** : $\forall x,y\in\mathbb R,\ (xy+2x+y\leq 14\Rightarrow x\leq 3\lor y\leq 2)$.
+1. $\forall x,y$ → $\exists x,y$.
+2. L'implication devient « hypothèse **et** non-conclusion » : $xy+2x+y\leq14\land\neg(x\leq3\lor y\leq2)$.
+3. De Morgan : $\neg(x\leq3\lor y\leq2)\equiv x>3\land y>2$.
+4. **Résultat** : $\exists x,y\in\mathbb R,\ xy+2x+y\leq 14\land x>3\land y>2$.
+
+**DS24** : $\forall\varepsilon\in\mathbb R_+^*,\ \exists N\in\mathbb N,\ \frac1N<\varepsilon$.
+1. $\forall\varepsilon$ → $\exists\varepsilon$ (toujours dans $\mathbb R_+^*$) ; $\exists N$ → $\forall N$.
+2. $<$ devient $\geq$.
+3. **Résultat** : $\exists\varepsilon\in\mathbb R_+^*,\ \forall N\in\mathbb N,\ \frac1N\geq\varepsilon$.
+
+**Phrase française** : « Si $m<n$ sont deux entiers positifs, il existe un rationnel strictement entre eux ».
+1. Traduire : $\forall m,n\in\mathbb N,\ m<n\Rightarrow\exists q\in\mathbb Q,\ m<q<n$.
+2. Nier : $\exists m,n\in\mathbb N,\ m<n\land\neg(\exists q,\ m<q<n)$.
+3. $\neg(\exists q,\ m<q\land q<n)$ = $\forall q,\ (q\leq m\lor q\geq n)$.
+4. **Résultat** : $\exists m,n\in\mathbb N,\ m<n\land\forall q\in\mathbb Q,\ (q\leq m\lor q\geq n)$.
 </details>
 
 ---
@@ -134,12 +203,35 @@ $\neg(P\Rightarrow(Q\lor R))\equiv P\land\neg(Q\lor R)\equiv P\land\neg Q\land\n
 **Tombe** : DS20 ex5 · DS22 ex4 · DS23 ex4 · DS24 ex5 · DS25 ex2 · cours ex12
 
 <details>
-<summary>✏️ Entraînement — DS20 ex5 et DS25 ex2</summary>
+<summary>✏️ Correction étape par étape — DS20 ex5 (menteurs)</summary>
 
-**DS20** — A : « On est tous des menteurs ». B : « Un et un seul d'entre nous est honnête ».
-Si A était honnête, sa phrase dirait qu'il ment : contradiction. Donc **A ment** et au moins un de B, C est honnête. Si B mentait, C serait honnête, et il y aurait exactement un honnête (C) : la phrase de B serait vraie, contradiction. Donc **B honnête**, et comme il dit vrai, il est le seul : **C menteur**.
+A : « On est tous des menteurs ». B : « Un et un seul d'entre nous est honnête ». (C ne dit rien.)
 
-**DS25** — $W\lor J$ ; $J\Rightarrow\neg A$ ; $W\iff(J\land A)$. Si $W$ : alors $J$ et $A$, mais $J\Rightarrow\neg A$ : contradiction. Donc $\neg W$, puis $J$ (1ʳᵉ affirmation), puis $\neg A$. **Seul Joe est coupable.**
+**Étape 1 — Propositions.** $A$, $B$, $C$ = « A (B, C) est honnête ».
 
-**DS24 ex5** (identique au cours ex12) : A menteur, B menteur, C honnête.
+**Étape 2 — Tester A.** Supposons A honnête : sa phrase est vraie, donc tout le monde ment, y compris A. Contradiction. **A ment.**
+
+**Étape 3 — Conséquence.** La phrase de A est fausse, donc « tous menteurs » est faux : au moins un de B, C est honnête.
+
+**Étape 4 — Tester B.** Supposons B menteur. Alors (étape 3) C est honnête, et c'est le seul honnête : la phrase de B (« un seul honnête ») est vraie. Mais un menteur ne dit pas vrai : contradiction. **B est honnête.**
+
+**Étape 5 — Finir.** B dit vrai : il y a un seul honnête, c'est B. **C ment.**
+
+**Étape 6 — Vérification.** A ment (faux que tous mentent, B est honnête) ✔ ; B dit vrai (un seul honnête) ✔.
+</details>
+
+<details>
+<summary>✏️ Correction étape par étape — DS25 ex2 (coupables)</summary>
+
+Données : (1) $W\lor J$ ; (2) $J\Rightarrow\neg A$ ; (3) $W\iff(J\land A)$.
+
+**Étape 1 — Hypothèse sur W.** Supposons $W$ vrai. Par (3), $J$ et $A$ sont vrais. Par (2), $J$ donne $\neg A$ : contradiction avec $A$. Donc **$W$ est faux**.
+
+**Étape 2 — Utiliser (1).** $W\lor J$ avec $W$ faux ⇒ **$J$ vrai**.
+
+**Étape 3 — Utiliser (2).** $J$ vrai ⇒ **$A$ faux**.
+
+**Étape 4 — Vérifier (3).** $W$ faux et $J\land A$ faux : l'équivalence F⇔F est vraie ✔.
+
+**Conclusion** : seul **Joe** est coupable. (DS24 ex5, identique au cours ex12 : A menteur, B menteur, C honnête.)
 </details>

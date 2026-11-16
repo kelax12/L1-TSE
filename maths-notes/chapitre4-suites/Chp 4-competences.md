@@ -31,9 +31,19 @@
 **Tombe** : TD4 ex5b · cours ex3
 
 <details>
-<summary>✏️ Entraînement — TD4 ex5</summary>
+<summary>✏️ Correction étape par étape — TD4 ex5 : $u_0=10\,000$, $u_{n+1}=1{,}05\,u_n+300$</summary>
 
-$u_0=10\,000$, $u_{n+1}=1{,}05\,u_n+300$. Point fixe : $r=\frac{300}{1-1{,}05}=-6000$. Donc $u_n=1{,}05^n(10\,000+6000)-6000=16\,000\times 1{,}05^n-6000$ (forme du TD : $(1+t)^n(u_0+\frac bt)-\frac bt$).
+**Étape 1 — Reconnaître la forme.** $u_{n+1}=au_n+b$ avec $a=1{,}05$, $b=300$ : suite **arithmético-géométrique**.
+
+**Étape 2 — Point fixe.** On résout $r=1{,}05r+300\iff-0{,}05r=300\iff r=-6000$.
+
+**Étape 3 — Suite auxiliaire.** $v_n=u_n-r=u_n+6000$. Alors $v_{n+1}=1{,}05u_n+300+6000=1{,}05(u_n+6000)=1{,}05\,v_n$ : géométrique de raison $1{,}05$.
+
+**Étape 4 — Terme général de $v$.** $v_0=10\,000+6000=16\,000$, donc $v_n=16\,000\times1{,}05^n$.
+
+**Étape 5 — Revenir à $u$.** $u_n=v_n-6000=\boxed{16\,000\times1{,}05^n-6000}$.
+
+**Contrôle** : $u_1=16\,800-6000=10\,800=1{,}05\times10\,000+300$ ✔.
 </details>
 
 ---
@@ -45,9 +55,15 @@ $u_0=10\,000$, $u_{n+1}=1{,}05\,u_n+300$. Point fixe : $r=\frac{300}{1-1{,}05}=-
 **Tombe** : TD4 ex5a
 
 <details>
-<summary>✏️ Entraînement</summary>
+<summary>✏️ Correction étape par étape — placement à 5 % avec dépôt annuel de 300 €</summary>
 
-Intérêts de 5 % puis dépôt de 300 € : $u_{n+1}=1{,}05\,u_n+300$. (Si le dépôt avait lieu avant les intérêts : $u_{n+1}=1{,}05(u_n+300)$.)
+**Étape 1 — Nommer.** $u_n$ = capital au bout de $n$ années ; $u_0=10\,000$.
+
+**Étape 2 — Décrire une année, dans l'ordre.** Le capital $u_n$ rapporte 5 % : il devient $u_n\times1{,}05$. Puis on dépose 300 €.
+
+**Étape 3 — Écrire la relation.** $u_{n+1}=1{,}05\,u_n+300$.
+
+**Étape 4 — Attention à l'ordre.** Si le dépôt avait lieu **avant** les intérêts, les 300 € rapporteraient aussi : $u_{n+1}=1{,}05(u_n+300)$.
 </details>
 
 ---
@@ -62,10 +78,19 @@ Intérêts de 5 % puis dépôt de 300 € : $u_{n+1}=1{,}05\,u_n+300$. (Si le d�
 **Tombe** : TD4 ex1, ex4
 
 <details>
-<summary>✏️ Entraînement — TD4 ex1</summary>
+<summary>✏️ Correction étape par étape — TD4 ex1</summary>
 
-- $u_n=\frac n{n-1}$ ($n\geq 2$) : $u_{n+1}-u_n=\frac{n+1}{n}-\frac n{n-1}=\frac{-1}{n(n-1)}<0$ → strictement décroissante, limite $1$.
-- $v_n=n^3-4n^2$ : $v_{n+1}-v_n=3n^2-5n-3$, racines $\frac{5\pm\sqrt{61}}6$ ; positif pour $n\geq\frac{5+\sqrt{61}}6\approx 2{,}1$ → croissante à partir de $n=3$, limite $+\infty$.
+**$u_n=\frac n{n-1}$ ($n\geq 2$)**
+1. Différence : $u_{n+1}-u_n=\frac{n+1}{n}-\frac{n}{n-1}$.
+2. Même dénominateur $n(n-1)$ : $\frac{(n+1)(n-1)-n^2}{n(n-1)}=\frac{n^2-1-n^2}{n(n-1)}=\frac{-1}{n(n-1)}$.
+3. Signe : numérateur $<0$, dénominateur $>0$ pour $n\geq2$ → différence $<0$.
+4. **Strictement décroissante.** (Limite : $\frac n{n-1}=\frac1{1-1/n}\to1$.)
+
+**$v_n=n^3-4n^2$**
+1. $v_{n+1}-v_n=(n+1)^3-4(n+1)^2-n^3+4n^2=3n^2+3n+1-8n-4=3n^2-5n-3$.
+2. Racines : $\frac{5\pm\sqrt{61}}6$, soit environ $-0{,}47$ et $2{,}1$.
+3. Le trinôme est positif au-delà de $2{,}1$ : pour $n\geq3$.
+4. **Croissante à partir du rang 3** (pas avant : $v_0=0$, $v_1=-3$, $v_2=-8$, $v_3=-9$, $v_4=0$).
 </details>
 
 ---
@@ -77,10 +102,18 @@ Intérêts de 5 % puis dépôt de 300 € : $u_{n+1}=1{,}05\,u_n+300$. (Si le d�
 **Tombe** : TD4 ex4 · cours ex6
 
 <details>
-<summary>✏️ Entraînement — TD4 ex4 et cours</summary>
+<summary>✏️ Correction étape par étape — TD4 ex4 et cours</summary>
 
-- $t_n=\sqrt{\frac n{2n+1}}$ : $\frac{t_{n+1}}{t_n}=\sqrt{\frac{2n^2+3n+1}{2n^2+3n}}>1$ → croissante ; limite $\sqrt{\frac12}=\frac{\sqrt2}2$.
-- $v_n=\frac{n!}{n^n}$ : $\frac{v_{n+1}}{v_n}=\left(\frac n{n+1}\right)^n<1$ → décroissante.
+**$t_n=\sqrt{\frac n{2n+1}}$ ($n\geq1$)**
+1. Termes $>0$ : on peut utiliser le quotient.
+2. $\frac{t_{n+1}^2}{t_n^2}=\frac{n+1}{2n+3}\times\frac{2n+1}{n}=\frac{2n^2+3n+1}{2n^2+3n}$.
+3. Numérateur > dénominateur, donc rapport $>1$, et $\frac{t_{n+1}}{t_n}>1$ (racine d'un nombre $>1$).
+4. **Croissante.** Limite : $\frac n{2n+1}\to\frac12$, donc $t_n\to\frac{\sqrt2}2$.
+
+**$v_n=\frac{n!}{n^n}$ ($n\geq1$)**
+1. $\frac{v_{n+1}}{v_n}=\frac{(n+1)!}{(n+1)^{n+1}}\times\frac{n^n}{n!}=\frac{(n+1)\,n^n}{(n+1)^{n+1}}=\frac{n^n}{(n+1)^n}=\left(\frac n{n+1}\right)^n$.
+2. $0<\frac n{n+1}<1$, donc sa puissance aussi : rapport $<1$.
+3. **Décroissante.**
 </details>
 
 ---
@@ -92,20 +125,40 @@ Intérêts de 5 % puis dépôt de 300 € : $u_{n+1}=1{,}05\,u_n+300$. (Si le d�
 **Tombe** : TD4 ex2a, 2b
 
 <details>
-<summary>✏️ Entraînement — TD4 ex2</summary>
+<summary>✏️ Correction étape par étape — DS2-24 ex2.1 : $u_0=2$, $u_{n+1}=\frac{2u_n+3}{u_n+2}$, montrer $u_n>0$ et $u_n^2\geq3$</summary>
 
-$u_0=1$, $u_{n+1}=\sqrt{2+u_n}$. $P(n)$ : $0\leq u_n<2$. Init : $u_0=1$. Hérédité : $0\leq u_n<2\Rightarrow 2\leq 2+u_n<4\Rightarrow\sqrt2\leq u_{n+1}<2$.
+**Étape 1 — Énoncer.** $P(n)$ : « $u_n$ est bien défini, $u_n>0$ et $u_n^2\geq3$ ».
+
+**Étape 2 — Initialisation.** $u_0=2>0$ et $u_0^2=4\geq3$ ✔.
+
+**Étape 3 — Hérédité, partie « bien défini et positif ».** Si $u_n>0$, le dénominateur $u_n+2>0$ (donc non nul) et le numérateur $2u_n+3>0$ : $u_{n+1}$ existe et est $>0$.
+
+**Étape 4 — Hérédité, partie « $\geq3$ ».** On calcule la différence et on met au même dénominateur :
+$$u_{n+1}^2-3=\frac{(2u_n+3)^2-3(u_n+2)^2}{(u_n+2)^2}=\frac{4u_n^2+12u_n+9-3u_n^2-12u_n-12}{(u_n+2)^2}=\frac{u_n^2-3}{(u_n+2)^2}.$$
+
+**Étape 5 — Signe.** Par $P(n)$, $u_n^2-3\geq0$, et un carré au dénominateur est $>0$ : $u_{n+1}^2\geq3$ ✔.
+
+**Étape 6 — Conclure** par récurrence.
 </details>
 
 <details>
-<summary>✏️ Annales DS2 — bornes par récurrence</summary>
+<summary>✏️ Correction étape par étape — TD4 ex2 : $u_0=1$, $u_{n+1}=\sqrt{2+u_n}$, montrer $0\leq u_n<2$</summary>
 
-- **DS2-25** $u_0=3$, $u_{n+1}=\frac23u_n+\sqrt{u_n}$ : $P(n)$ « $u_n$ bien défini et $0\leq u_n\leq9$ ». Hérédité : $0\leq\sqrt{u_n}\leq3$ et $0\leq\frac23u_n\leq6$ ⇒ $u_{n+1}$ bien défini et $0\leq u_{n+1}\leq6+3=9$.
-- **DS2-24** $u_0=2$, $u_n=\frac{2u_{n-1}+3}{u_{n-1}+2}$, montrer $u_n^2\geq3$ (et $u_n>0$) : $u_{n+1}^2-3=\frac{(2u+3)^2-3(u+2)^2}{(u+2)^2}=\frac{u^2-3}{(u+2)^2}\geq0$.
-- **DS2-22** $u_0=2$, $u_{n+1}=\frac{u_n^2+1}{u_n+1}$, montrer $u_n>1$ : $u_{n+1}-1=\frac{u_n(u_n-1)}{u_n+1}>0$.
-- **DS2-21** $u_0=4$, $u_{n+1}=\sqrt{3+\frac{u_n^2}4}$ (énoncé reconstitué), montrer $u_n\geq2$ : $u_n^2\geq4$ ⇒ $3+\frac{u_n^2}4\geq4$ ⇒ $u_{n+1}\geq2$.
+1. *Init* : $u_0=1\in[0,2[$ ✔.
+2. *Hérédité* : de $0\leq u_n<2$, on ajoute 2 : $2\leq2+u_n<4$.
+3. La racine est croissante : $\sqrt2\leq u_{n+1}<2$, donc $0\leq u_{n+1}<2$ ✔ (et la racine existe car $2+u_n\geq0$).
+</details>
 
-💡 **Astuce** : pour montrer $u_{n+1}\geq c$, calculer $u_{n+1}-c$ (ou $u_{n+1}^2-c^2$) et **factoriser** : le facteur $(u_n-c)$ apparaît presque toujours.
+<details>
+<summary>✏️ Annales DS2 — les autres bornes, même méthode</summary>
+
+| Sujet | Suite | À montrer | Calcul clé de l'hérédité |
+|---|---|---|---|
+| DS2-25 | $u_{n+1}=\frac23u_n+\sqrt{u_n}$, $u_0=3$ | $0\leq u_n\leq9$ | $0\leq\frac23u_n\leq6$ et $0\leq\sqrt{u_n}\leq3$ ⇒ somme $\in[0,9]$ |
+| DS2-22 | $u_{n+1}=\frac{u_n^2+1}{u_n+1}$, $u_0=2$ | $u_n>1$ | $u_{n+1}-1=\frac{u_n(u_n-1)}{u_n+1}>0$ |
+| DS2-21 | $u_{n+1}=\sqrt{3+\frac{u_n^2}4}$, $u_0=4$ | $u_n\geq2$ | $u_n^2\geq4$ ⇒ $3+\frac{u_n^2}4\geq4$ ⇒ $u_{n+1}\geq2$ |
+
+💡 Pour montrer $u_{n+1}\geq c$, calculer $u_{n+1}-c$ (ou $u_{n+1}^2-c^2$) et **factoriser** : le facteur $(u_n-c)$ apparaît presque toujours.
 </details>
 
 ---
@@ -120,19 +173,35 @@ $u_0=1$, $u_{n+1}=\sqrt{2+u_n}$. $P(n)$ : $0\leq u_n<2$. Init : $u_0=1$. Héréd
 **Tombe** : TD4 ex2c, 2e
 
 <details>
-<summary>✏️ Entraînement — TD4 ex2c</summary>
+<summary>✏️ Correction étape par étape — DS2-24 ex2.2 : $(u_n)$ décroissante</summary>
 
-$u_{n+1}\geq u_n\iff\sqrt{2+u_n}\geq u_n\iff 2+u_n\geq u_n^2$ (car $u_n\geq 0$) $\iff -u_n^2+u_n+2\geq 0\iff(2-u_n)(u_n+1)\geq 0$, vrai car $0\leq u_n<2$. Donc croissante.
+**Étape 1 — Calculer la différence.** $u_{n+1}-u_n=\frac{2u_n+3}{u_n+2}-u_n$.
+
+**Étape 2 — Même dénominateur.** $=\frac{2u_n+3-u_n^2-2u_n}{u_n+2}=\frac{3-u_n^2}{u_n+2}$.
+
+**Étape 3 — Signe avec la borne de C4.5.** $u_n^2\geq3$ ⇒ numérateur $\leq0$ ; $u_n>0$ ⇒ dénominateur $>0$.
+
+**Étape 4 — Conclure.** $u_{n+1}-u_n\leq0$ pour tout $n$ : **décroissante**.
 </details>
 
 <details>
-<summary>✏️ Annales DS2 — monotonie</summary>
+<summary>✏️ Correction étape par étape — TD4 ex2c : $u_{n+1}=\sqrt{2+u_n}$ croissante</summary>
 
-- **DS2-25** $u_{n+1}-u_n=\sqrt{u_n}-\frac{u_n}3\geq0\iff\sqrt{u_n}\geq\frac{u_n}{3}\iff u_n\geq\frac{u_n^2}9$ (carrés de positifs) $\iff9u_n\geq u_n^2$, vrai car $0\leq u_n\leq9$ → **croissante**.
-- **DS2-24** $u_{n+1}-u_n=\frac{3-u_n^2}{u_n+2}\leq0$ (car $u_n^2\geq3$) → **décroissante**.
-- **DS2-22** $u_{n+1}-u_n=\frac{1-u_n}{u_n+1}<0$ (car $u_n>1$) → **décroissante**.
-- **DS2-21** (indication : étudier $u_n^2$) $u_{n+1}^2-u_n^2=3-\frac34u_n^2\leq0$ car $u_n^2\geq4$ ; $u_n>0$ ⇒ $u_n$ décroissante.
-- **DS2-20** $u_{n+1}=\frac12\left(u_n+\frac1{u_n}\right)$, $u_n>1$ : $u_{n+1}-u_n=\frac{1-u_n^2}{2u_n}<0$ → **décroissante**.
+1. On compare $\sqrt{2+u_n}$ et $u_n$, deux nombres $\geq0$ : on peut comparer leurs carrés.
+2. $u_{n+1}\geq u_n\iff2+u_n\geq u_n^2\iff-u_n^2+u_n+2\geq0$.
+3. Factoriser : racines $2$ et $-1$, donc $-u_n^2+u_n+2=(2-u_n)(u_n+1)$.
+4. Avec $0\leq u_n<2$ : $2-u_n>0$ et $u_n+1>0$ → produit $\geq0$ ✔. **Croissante.**
+</details>
+
+<details>
+<summary>✏️ Annales DS2 — autres monotonies</summary>
+
+| Sujet | $u_{n+1}-u_n$ (simplifié) | Signe grâce à | Sens |
+|---|---|---|---|
+| DS2-25 | $\sqrt{u_n}-\frac{u_n}3$ ; $\geq0\iff u_n\geq\frac{u_n^2}9\iff9u_n\geq u_n^2$ | $0\leq u_n\leq9$ | croissante |
+| DS2-22 | $\frac{1-u_n}{u_n+1}$ | $u_n>1$ | décroissante |
+| DS2-21 | on étudie $u_{n+1}^2-u_n^2=3-\frac34u_n^2$ | $u_n^2\geq4$ | décroissante |
+| DS2-20 | $\frac{1-u_n^2}{2u_n}$ pour $u_{n+1}=\frac12(u_n+\frac1{u_n})$ | $u_n>1$ | décroissante |
 </details>
 
 ---
@@ -146,13 +215,29 @@ $u_{n+1}\geq u_n\iff\sqrt{2+u_n}\geq u_n\iff 2+u_n\geq u_n^2$ (car $u_n\geq 0$) 
 **Tombe** : TD4 ex2d, 2e
 
 <details>
-<summary>✏️ Entraînement — TD4 ex2d</summary>
+<summary>✏️ Correction étape par étape — DS2-24 ex2.3-2.4 : convergence et limite</summary>
 
-$(u_n)$ croissante et majorée par 2 : elle converge. $\ell=\sqrt{2+\ell}\Rightarrow\ell^2-\ell-2=0\Rightarrow\ell\in\lbrace 2,-1\rbrace$ ; $\ell\geq 0$ donc $\ell=2$. Avec $u_0=3$ : décroissante, minorée par 2, limite 2 aussi.
+**Étape 1 — Convergence.** $(u_n)$ est décroissante (C4.6) et minorée : $u_n>0$ et $u_n^2\geq3$ donnent $u_n\geq\sqrt3$. Théorème de la limite monotone : **elle converge** vers un réel $\ell$.
+
+**Étape 2 — Encadrer $\ell$.** On passe à la limite dans $u_n\geq\sqrt3$ : $\ell\geq\sqrt3$ (en particulier $\ell+2\neq0$).
+
+**Étape 3 — Équation du point fixe.** On passe à la limite dans $u_{n+1}=\frac{2u_n+3}{u_n+2}$ : $\ell=\frac{2\ell+3}{\ell+2}$.
+
+**Étape 4 — Résoudre.** $\ell^2+2\ell=2\ell+3\iff\ell^2=3\iff\ell=\pm\sqrt3$.
+
+**Étape 5 — Choisir.** $\ell\geq\sqrt3$, donc $\boxed{\ell=\sqrt3}$.
 </details>
 
 <details>
-<summary>✏️ Annales DS2 — convergence et limite</summary>
+<summary>✏️ Correction étape par étape — TD4 ex2d : $u_{n+1}=\sqrt{2+u_n}$</summary>
+
+1. Croissante et majorée par 2 ⇒ converge vers $\ell$, avec $1\leq\ell\leq2$.
+2. Point fixe : $\ell=\sqrt{2+\ell}\Rightarrow\ell^2-\ell-2=0\Rightarrow\ell\in\lbrace2,-1\rbrace$.
+3. $\ell\geq1$ ⇒ $\ell=2$. (Avec $u_0=3$ : décroissante, minorée par 2, même limite.)
+</details>
+
+<details>
+<summary>✏️ Annales DS2 — tableau récapitulatif</summary>
 
 | Sujet | Argument | Équation du point fixe | Limite |
 |---|---|---|:-:|
@@ -162,8 +247,7 @@ $(u_n)$ croissante et majorée par 2 : elle converge. $\ell=\sqrt{2+\ell}\Righta
 | DS2-21 | décroissante, minorée par 2 | $\ell^2=3+\frac{\ell^2}4\iff\ell^2=4$, $\ell\geq2$ | $2$ |
 | DS2-20 | décroissante, minorée par 1 | $\ell=\frac12(\ell+\frac1\ell)\iff\ell^2=1$ | $1$ |
 
-
-**Suite** (DS2-24, DS2-25 bonus) : $\sup$ / $\inf$ de $\lbrace u_n\rbrace$ → voir C5.6 : monotone ⇒ une borne est $u_0$ (atteinte), l'autre est la limite.
+**Suite** (DS2-24, DS2-25 bonus) : $\sup$ / $\inf$ de $\lbrace u_n\rbrace$ → voir C5.6.
 </details>
 
 ---
@@ -179,10 +263,17 @@ $(u_n)$ croissante et majorée par 2 : elle converge. $\ell=\sqrt{2+\ell}\Righta
 **Tombe** : TD4 ex1, ex4
 
 <details>
-<summary>✏️ Entraînement — TD4</summary>
+<summary>✏️ Correction étape par étape — TD4</summary>
 
-- $w_n=\frac{n}{n^2-2n+2}=\frac{1/n}{1-2/n+2/n^2}\to 0$.
-- $z_n=\ln(2n^2-n)-\ln(3n+1)=\ln\frac{2n^2-n}{3n+1}$ ; l'intérieur $\sim\frac{2n}3\to+\infty$, donc $z_n\to+\infty$.
+**$w_n=\frac{n}{n^2-2n+2}$**
+1. FI $\frac\infty\infty$. Terme dominant en bas : $n^2$.
+2. On divise haut et bas par $n^2$ : $w_n=\frac{1/n}{1-2/n+2/n^2}$.
+3. Haut $\to0$, bas $\to1$ : $w_n\to0$.
+
+**$z_n=\ln(2n^2-n)-\ln(3n+1)$**
+1. FI $\infty-\infty$. On regroupe : $z_n=\ln\frac{2n^2-n}{3n+1}$.
+2. L'intérieur : $\frac{2n^2-n}{3n+1}=n\cdot\frac{2-1/n}{3+1/n}$, avec la fraction $\to\frac23$ et $n\to+\infty$ : l'intérieur $\to+\infty$.
+3. $\ln(X)\to+\infty$ quand $X\to+\infty$ : $z_n\to+\infty$.
 </details>
 
 ---
@@ -194,9 +285,16 @@ $(u_n)$ croissante et majorée par 2 : elle converge. $\ell=\sqrt{2+\ell}\Righta
 **Tombe** : cours ex23, ex24
 
 <details>
-<summary>✏️ Entraînement — cours ex23</summary>
+<summary>✏️ Correction étape par étape — cours ex23 : $\lim\sqrt{n^2+2n}-n$</summary>
 
-$\sqrt{n^2+2n}-n=\frac{2n}{\sqrt{n^2+2n}+n}=\frac2{\sqrt{1+2/n}+1}\to 1$, et $<1$ car $\sqrt{1+2/n}>1$ : limite $1^-$.
+**Étape 1 — Identifier la FI.** $+\infty-\infty$ avec une racine.
+
+**Étape 2 — Quantité conjuguée.** On multiplie haut et bas par $\sqrt{n^2+2n}+n$ :
+$$\sqrt{n^2+2n}-n=\frac{(n^2+2n)-n^2}{\sqrt{n^2+2n}+n}=\frac{2n}{\sqrt{n^2+2n}+n}.$$
+
+**Étape 3 — Factoriser par $n$.** $\sqrt{n^2+2n}=n\sqrt{1+\frac2n}$ (car $n>0$) : $=\frac{2n}{n\left(\sqrt{1+2/n}+1\right)}=\frac{2}{\sqrt{1+2/n}+1}$.
+
+**Étape 4 — Limite.** $\sqrt{1+2/n}\to1$, donc la suite tend vers $\frac22=1$. Comme $\sqrt{1+2/n}>1$, la suite est $<1$ : limite $1^-$.
 </details>
 
 ---
@@ -211,9 +309,15 @@ $\sqrt{n^2+2n}-n=\frac{2n}{\sqrt{n^2+2n}+n}=\frac2{\sqrt{1+2/n}+1}\to 1$, et $<1
 **Tombe** : TD4 ex3 · cours ex15
 
 <details>
-<summary>✏️ Entraînement — TD4 ex3</summary>
+<summary>✏️ Correction étape par étape — TD4 ex3 : $u_n=\frac{nt+(-1)^n}{n+1}$</summary>
 
-$u_n=\frac{nt+(-1)^n}{n+1}$ : $\frac{nt-1}{n+1}\leq u_n\leq\frac{nt+1}{n+1}$ et les deux bornes tendent vers $t$, donc $u_n\to t$.
+**Étape 1 — Isoler ce qui oscille.** $(-1)^n$ n'a pas de limite, mais $-1\leq(-1)^n\leq1$.
+
+**Étape 2 — Encadrer.** On ajoute $nt$ puis on divise par $n+1>0$ : $\frac{nt-1}{n+1}\leq u_n\leq\frac{nt+1}{n+1}$.
+
+**Étape 3 — Limites des bornes.** $\frac{nt\pm1}{n+1}=\frac{t\pm1/n}{1+1/n}\to t$.
+
+**Étape 4 — Gendarmes.** Les deux bornes ont la même limite $t$ : $u_n\to t$.
 </details>
 
 ---
@@ -228,9 +332,15 @@ $u_n=\frac{nt+(-1)^n}{n+1}$ : $\frac{nt-1}{n+1}\leq u_n\leq\frac{nt+1}{n+1}$ et 
 **Tombe** : cours ex13 (et la négation de cette définition tombe en DS1 : DS24 ex6.1)
 
 <details>
-<summary>✏️ Entraînement</summary>
+<summary>✏️ Correction étape par étape — $\frac1n\to0$ par la définition</summary>
 
-$\frac1n\to 0$ : soit $\varepsilon>0$, $N_\varepsilon=E(\frac1\varepsilon)+1$ ; pour $n\geq N_\varepsilon$, $0<\frac1n\leq\frac1{N_\varepsilon}<\varepsilon$.
+**Étape 1 — Écrire ce qu'il faut montrer.** $\forall\varepsilon>0,\ \exists N,\ \forall n\geq N,\ \left|\frac1n-0\right|<\varepsilon$.
+
+**Étape 2 — Brouillon.** $\frac1n<\varepsilon\iff n>\frac1\varepsilon$ : il faut un $N$ plus grand que $\frac1\varepsilon$.
+
+**Étape 3 — Rédiger.** Soit $\varepsilon>0$. On pose $N=E(\frac1\varepsilon)+1$, entier $>\frac1\varepsilon$. Pour $n\geq N$ : $0<\frac1n\leq\frac1N<\varepsilon$ ✔.
+
+**Étape 4 — Conclure.** $\frac1n\to0$.
 </details>
 
 ---
@@ -242,7 +352,17 @@ $\frac1n\to 0$ : soit $\varepsilon>0$, $N_\varepsilon=E(\frac1\varepsilon)+1$ ; 
 **Tombe** : TD4 ex5c
 
 <details>
-<summary>✏️ Entraînement — TD4 ex5c</summary>
+<summary>✏️ Correction étape par étape — TD4 ex5c : quand le capital a-t-il doublé ?</summary>
 
-Capital doublé : $16\,000\times 1{,}05^n-6000\geq 20\,000\iff 1{,}05^n\geq 1{,}625\iff n\geq\frac{\ln 1{,}625}{\ln 1{,}05}\approx 9{,}95$. Donc **10 ans**.
+**Étape 1 — Traduire.** Doubler $10\,000$ € : $u_n\geq20\,000$, avec $u_n=16\,000\times1{,}05^n-6000$ (C4.1).
+
+**Étape 2 — Isoler la puissance.** $16\,000\times1{,}05^n\geq26\,000\iff1{,}05^n\geq1{,}625$.
+
+**Étape 3 — Appliquer ln** (croissante, l'inégalité est conservée) : $n\ln1{,}05\geq\ln1{,}625$.
+
+**Étape 4 — Diviser par $\ln1{,}05>0$.** $n\geq\frac{\ln1{,}625}{\ln1{,}05}\approx9{,}95$.
+
+**Étape 5 — Conclure en entier.** Le plus petit entier qui convient : **$n=10$ ans**.
+
+⚠️ Si on divise par un $\ln$ **négatif** (base $<1$), le sens de l'inégalité change.
 </details>
