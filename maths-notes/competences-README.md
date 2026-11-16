@@ -43,3 +43,4 @@ Objectif : **si tu sais faire toutes les compétences, tu sais faire toutes les 
 5. Une **limite $\frac00$** de fraction rationnelle sans L'Hôpital (C7.4, C8.3) — 3/5
 
 > 🏋️ **Entraînement** : [entrainement-DS2.md](entrainement-DS2.md) — 5 exercices corrigés sur chacun de ces thèmes.
+> 🏋️ **Entraînement (suite)** : [entrainement-DS2-suite.md](entrainement-DS2-suite.md) — raisonnements, sup/inf, monotonie, réciproques, croissances comparées.
