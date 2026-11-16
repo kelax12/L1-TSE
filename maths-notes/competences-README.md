@@ -7,12 +7,14 @@ Objectif : **si tu sais faire toutes les compétences, tu sais faire toutes les 
 | 1 · Logique | [Chp 1-competences.md](chapitre1-logique/Chp%201-competences.md) | 6 | 6 annales DS1 |
 | 2 · Ensembles | [Chp 2-competences.md](chapitre2-ensembles/Chp%202-competences.md) | 9 | 6 annales DS1 + TD1 |
 | 3 · Démonstrations | [Chp 3-competences.md](chapitre3-demonstrations/Chp%203-competences.md) | 15 | 6 annales DS1 + TD2, TD3 |
-| 4 · Suites | [Chp 4-competences.md](chapitre4-suites/Chp%204-competences.md) | 12 | TD4 + cours |
-| 5 · Sous-ensembles de ℝ | [Chp 5-competences.md](chapitre5-sous-ensembles-de-R/Chp%205-competences.md) | 6 | cours seulement |
-| 6 · Fonctions | [Chp 6-competences.md](chapitre6-fonctions/Chp%206-competences.md) | 8 | cours seulement |
+| 4 · Suites | [Chp 4-competences.md](chapitre4-suites/Chp%204-competences.md) | 12 | 5 annales DS2 + TD4 |
+| 5 · Sous-ensembles de ℝ | [Chp 5-competences.md](chapitre5-sous-ensembles-de-R/Chp%205-competences.md) | 6 | 5 annales DS2 + TD5 |
+| 6 · Fonctions | [Chp 6-competences.md](chapitre6-fonctions/Chp%206-competences.md) | 12 | 5 annales DS2 + TD5, TD6 |
+| 7 · Puissances, polynômes | [Chp 7-competences.md](chapitre7-puissances-polynomes/Chp%207-competences.md) | 6 | cours + DS2 (outil pour les limites) |
+| 8 · Limites | [Chp 8-competences.md](chapitre8-limites/Chp%208-competences.md) | 11 | 5 annales DS2 + TD7, TD8 |
 
-> [!WARNING]
-> **Couverture.** Les annales disponibles sont toutes des **DS1** : elles garantissent la couverture des chapitres 1 à 3. Les chapitres 4 à 6 (DS2 et examen) sont listés à partir du TD4 et du cours ; à compléter quand on aura des annales de DS2 / d'examen.
+> [!NOTE]
+> **Couverture.** Annales **DS1** (6 sujets) → chapitres 1 à 3. Annales **DS2** (5 sujets, détail dans [annales-DS2.md](annales-DS2.md)) → chapitres 3 à 8. Pas encore d'annale d'examen final.
 
 ## Codes des sources
 
@@ -22,6 +24,7 @@ Objectif : **si tu sais faire toutes les compétences, tu sais faire toutes les 
 | **DS21** | DS1 du 13/10/2021 | **DS25** | DS1 du 08/10/2025 |
 | **DS22** | DS1 du 28/09/2022 | **TD1…TD4** | fiches de TD 2025-2026 |
 | **DS23** | DS1 du 04/10/2023 | **cours** | exemple des slides |
+| **DS2-20…DS2-25** | DS2 de 2020 à 2025 ([annales-DS2.md](annales-DS2.md)) | **TD5…TD8** | fiches de TD 2025-2026 (dossier `maths/ds2`) |
 
 ## Ce qui tombe à chaque DS1 (6/6 sujets)
 
@@ -30,3 +33,11 @@ Objectif : **si tu sais faire toutes les compétences, tu sais faire toutes les 
 3. Une **énigme logique** ou une traduction en ensembles (C1.6, C2.7)
 4. Des **opérations sur des intervalles** ou un ensemble à écrire en extension (C2.1–C2.3)
 5. Une **récurrence** ou une preuve rédigée (C3.11–C3.13, C3.10)
+
+## Ce qui tombe à chaque DS2 (5 sujets)
+
+1. Une **suite récurrente** : borne par récurrence, monotonie, convergence, limite (C4.5–C4.7) — **5/5**
+2. Des **images directes et réciproques** par une fonction, souvent avec exp (C6.7, C6.8) — **5/5**
+3. **Injective / surjective** justifiées (C6.4, C6.5) — 4/5
+4. Un **domaine de définition** avec ln, √, |·| (C6.1) — 4/5
+5. Une **limite $\frac00$** de fraction rationnelle sans L'Hôpital (C7.4, C8.3) — 3/5

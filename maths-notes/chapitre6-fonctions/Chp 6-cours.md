@@ -1,4 +1,4 @@
-# Chapitre 6 · Fonctions (partie 1)
+# Chapitre 6 · Fonctions
 
 > Mathématiques 1 · N. Blacher · TSE
 >
@@ -75,6 +75,30 @@ flowchart LR
 </details>
 
 ---
+
+## Partie 2 · Restriction, composition, réciproque
+
+| ❓ Question | 📝 Réponse |
+|---|---|
+| **Restriction ?** | Pour $A\subset E$ : $f_{\vert A}:A\to F$, $x\mapsto f(x)$. Même formule, **départ réduit**. |
+| 💡 **À quoi ça sert ?** | Rendre une fonction **injective** en réduisant le départ (ex. $x^2$ sur $\mathbb R_+$), et **surjective** en remplaçant l'arrivée par $f(E)$ (toujours possible). Les deux ⇒ bijective. |
+| **Composée ?** | $f:E\to F$, $g:F\to G$ : $g\circ f:E\to G$, $x\mapsto g(f(x))$ (**on applique $f$ d'abord**). Associative : $h\circ(g\circ f)=(h\circ g)\circ f$. ⚠️ $f\circ g\neq g\circ f$ en général (les ensembles ne collent même pas forcément). |
+| **Réciproque ?** | $f:E\to F$ **bijective** : $f^{-1}:F\to E$ avec $f^{-1}\circ f=\mathrm{Id}_E$ et $f\circ f^{-1}=\mathrm{Id}_F$. On l'obtient en **résolvant $y=f(x)$ en $x$**. |
+| **Exemples ?** | $\exp:\mathbb R\to\mathbb R_+^*$ → $\ln$. $x\mapsto\frac1x$ sur $\mathbb R^*$ → elle-même. $7x+5$ → $\frac{y-5}{7}$. $(g\circ f)^{-1}=f^{-1}\circ g^{-1}$ (on défait dans l'ordre inverse). |
+| **$j\circ h$ avec $h=x^2$, $j=\sqrt{\cdot}$ ?** | $\sqrt{x^2}=\lvert x\rvert$ (et non $x$). |
+
+<details>
+<summary>✏️ Vrai / faux sur la restriction (Ex. 11)</summary>
+
+- On peut toujours trouver $A\neq\varnothing$ avec $f_{\vert A}$ injective : ✅ (un singleton).
+- … avec $f_{\vert A}$ surjective : ❌ (la restriction ne change pas l'arrivée ; si $f$ n'est pas surjective, aucune restriction ne l'est).
+- On peut toujours trouver $B\subset F$ avec $f:E\to B$ surjective : ✅ ($B=f(E)$).
+</details>
+
+---
+
+> [!IMPORTANT]
+> **📌 Résumé (partie 2).** Restreindre le départ peut rendre **injective** ; remplacer l'arrivée par $f(E)$ rend **surjective**. $g\circ f$ = « $f$ puis $g$ ». Une bijection a une réciproque, qu'on trouve en résolvant $y=f(x)$.
 
 > [!IMPORTANT]
 > **📌 Résumé.** Une fonction donne une **unique image** à chaque élément de départ. **Injective** = au plus un antécédent, **surjective** = au moins un, **bijective** = exactement un. Ces propriétés dépendent des ensembles de départ et d'arrivée. $f(A)$ = ensemble des images de $A$ ; $f^{-1}(B)$ = ensemble des points envoyés dans $B$.

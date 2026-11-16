@@ -2,7 +2,7 @@
 
 > Référentiel : [README](../competences-README.md) · Cours : [Chp 5-cours.md](Chp%205-cours.md)
 >
-> ⚠️ Ni TD ni annale sur ce chapitre pour l'instant : compétences tirées du **cours**. Coche `[x]` quand tu sais faire la compétence sans regarder.
+> Sources : cours, **TD5**, annales DS2 2020-2025 ([annales-DS2.md](../annales-DS2.md)). Coche `[x]` quand tu sais faire la compétence sans regarder.
 
 ## ✅ Suivi
 
@@ -28,6 +28,21 @@
 $E=\lbrace\frac5{n+1} : n\in\mathbb N\rbrace$ : la suite décroît, donc $\max E=5$ ($n=0$), minorée par 0, pas de minimum ($\frac5{n+1}>0$ ne vaut jamais 0). $\mathbb N$ n'est pas majoré : pour tout $M$, $n=E(|M|)+1>M$.
 </details>
 
+<details>
+<summary>✏️ TD5 ex1, ex5 (tableau min/max/sup/inf)</summary>
+
+| Ensemble | max | min | sup | inf |
+|---|:-:|:-:|:-:|:-:|
+| $[e,\pi[$ | — | $e$ | $\pi$ | $e$ |
+| $\mathbb N$ | — | $0$ | — | $0$ |
+| $]-3,+\infty[$ | — | — | — | $-3$ |
+| $\lbrace\frac n{n+1}\rbrace$ | — | $0$ | $1$ | $0$ |
+| $[2,4[\setminus\lbrace3\rbrace\cup\lbrace\frac32,\frac92\rbrace$ | $\frac92$ | $\frac32$ | $\frac92$ | $\frac32$ |
+| $\lbrace(-1)^n\rbrace$ | $1$ | $-1$ | $1$ | $-1$ |
+| $\lbrace q\in\mathbb Q_+: q^2\leq3\rbrace$ | — | $0$ | $\sqrt3$ | $0$ |
+| $\mathbb Z$ | — | — | — | — |
+</details>
+
 ---
 
 ## C5.2 — Trouver le sup / inf
@@ -41,6 +56,14 @@ $E=\lbrace\frac5{n+1} : n\in\mathbb N\rbrace$ : la suite décroît, donc $\max E
 <summary>✏️ Entraînement — cours ex4</summary>
 
 $\inf\lbrace\frac5{n+1}\rbrace=0$ (limite, non atteinte). $\sup\lbrace -e^{-x} : x\in\mathbb R\rbrace=0$ : $-e^{-x}<0$ et $-e^{-x}\to 0$ quand $x\to+\infty$.
+</details>
+
+<details>
+<summary>✏️ Annales DS2</summary>
+
+- **DS2-20** $E=\lbrace x\in\mathbb Q_+: x^2\leq3x+1\rbrace$ : $x^2-3x-1\leq0\iff x\in[\frac{3-\sqrt{13}}2,\frac{3+\sqrt{13}}2]$, donc $E=\mathbb Q\cap[0,\frac{3+\sqrt{13}}2]$. $\inf E=0\in E$ ; $\sup E=\frac{3+\sqrt{13}}2\notin E$ (irrationnel).
+- **DS2-22** QCM : $A=\lbrace1-\frac1n\rbrace\cup\lbrace1+\frac1n\rbrace$ ($n\geq1$) : $1\notin A$, $\max A=2$. $B=\lbrace n\in\mathbb Z: -n^2-n+3>0\rbrace=\lbrace-2,-1,0,1\rbrace$ : $\mathrm{Card}=4$, $\sup B=1$, $\inf B=-2$. $C=[-3,-2[\cup]2,3]$ : $\min C=-3$, bornée. $B\cap C=\varnothing$. ✅ cochées : *A admet un max*, *−2 = inf B*, *C admet un min*, *B∩C=∅*.
+- **DS2-24 / DS2-25** $\sup$ / $\inf$ de $\lbrace u_n\rbrace$ : voir C5.6.
 </details>
 
 ---
@@ -93,3 +116,11 @@ Voir le tableau vrai/faux de la [fiche de cours](Chp%205-cours.md#-vrai--faux).
 
 $u_n=1-\frac1{n+1}$ est croissante, majorée par 1, donc $\sup\lbrace u_n\rbrace=\lim u_n=1$.
 </details>
+
+<details>
+<summary>✏️ Annales DS2 — sup / inf d'une suite monotone</summary>
+
+- **DS2-24** $u_n$ décroissante, $u_0=2$, $\lim=\sqrt3$ : $\sup=\max=2$, $\inf=\sqrt3$ (non atteint).
+- **DS2-25** (bonus 3 pts) $u_n$ croissante, $u_0=3$, $\lim=9$ : $A\subset[3,9]$ donc bornée ; $\inf A=\min A=3$ ; $9$ majorant et $u_n\to9$ ⇒ $\sup A=9$ (caractérisation séquentielle).
+</details>
+
