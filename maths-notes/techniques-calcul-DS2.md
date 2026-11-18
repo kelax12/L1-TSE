@@ -84,6 +84,8 @@ $$x^2\le a \iff \lvert x\rvert\le\sqrt a \qquad\qquad x^2\ge a \iff \lvert x\rve
 
 ## 4. Point fixe d'une suite récurrente (5/5)
 
+> Cours complet : [cours-point-fixe.md](cours-point-fixe.md).
+
 **Gabarit en 3 temps :**
 1. Justifier la **convergence** d'abord (monotone + bornée), sinon le passage à la limite n'est pas permis.
 2. Passer à la limite dans $u_{n+1}=f(u_n)$ : $\ell=f(\ell)$.
