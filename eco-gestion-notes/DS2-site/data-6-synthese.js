@@ -144,6 +144,34 @@ ${TB(["Partie", "Contenu", "Points"], [["Cours", "Neutralité de la TVA ; collec
           N("<b>Ex. 2 (0,5 pt)</b> — TVA nette au 28 février (positif = à décaisser, négatif = crédit de TVA) ?", -40, "Collectée 400 − déductible 440 = − 40 → <b>crédit de TVA</b> de 40 € (44567), rien à payer."),
           N("<b>Ex. 2 (0,5 pt)</b> — Montant encore dû par PETIT au 28 février ?", 2400, "4 400 − 2 000 = 2 400.")
         ]
+      },
+      /* ---------------- F7 : 20 écritures ---------------- */
+      {
+        id: "F7", title: "20 écritures d'opérations (du plus simple au plus dur)", tombe: "le cœur du DS (≈ 12 pts)",
+        cours: `<p>20 écritures à enchaîner, de plus en plus difficiles. TVA au taux normal (20 %) sauf mention contraire.</p>
+<div class="box"><b>Méthode pour chaque écriture</b>① Qui suis-je (acheteur / vendeur) ? ② Quels comptes ? ③ HT, TVA, TTC. ④ Pars du compte facile (512, 411, 401, 2x, 37) : il monte ou il descend ? ⑤ L'autre en face. ⑥ Débit = crédit.</div>`,
+        ex: [
+          E("<b>1.</b> Achat de marchandises à crédit pour 5 000 € HT.", [["607", 5000, 0], ["44566", 1000, 0], ["401", 0, 6000]], "Achat → 607 au HT ; TVA déductible ; dette fournisseur au TTC."),
+          E("<b>2.</b> Vente de marchandises au comptant (virement) pour 3 000 € HT.", [["512", 3600, 0], ["707", 0, 3000], ["4457", 0, 600]], "La banque monte (débit) du TTC ; vente au HT ; TVA collectée."),
+          E("<b>3.</b> Facture d'électricité de 1 440 € TTC, payée par virement.", [["606", 1200, 0], ["44566", 240, 0], ["512", 0, 1440]], "1 440 ÷ 1,2 = 1 200. Énergie → 606."),
+          E("<b>4.</b> Paiement par virement du loyer du local commercial : 2 000 € HT (soumis à TVA).", [["613", 2000, 0], ["44566", 400, 0], ["512", 0, 2400]], "Locations → 613."),
+          E("<b>5.</b> Vente de produits finis à crédit pour 9 000 € HT.", [["411", 10800, 0], ["701", 0, 9000], ["4457", 0, 1800]], "Produits finis → 701 (pas 707)."),
+          E("<b>6.</b> Facture de prestation de services de 2 500 € HT, à crédit.", [["411", 3000, 0], ["706", 0, 2500], ["4457", 0, 500]], "Services → 706."),
+          E("<b>7.</b> Règlement par virement d'une dette fournisseur de 6 000 €.", [["401", 6000, 0], ["512", 0, 6000]], "Pas de TVA (déjà enregistrée sur la facture). La dette baisse (débit 401), la banque baisse (crédit 512)."),
+          E("<b>8.</b> Un client règle par virement sa facture de 10 800 €.", [["512", 10800, 0], ["411", 0, 10800]], "La créance disparaît (crédit 411), la banque monte."),
+          E("<b>9.</b> Obtention d'un emprunt bancaire de 50 000 €, versé sur le compte.", [["512", 50000, 0], ["164", 0, 50000]], "Pas de TVA. Dette financière → 164 au crédit."),
+          E("<b>10.</b> Paiement de l'annuité d'emprunt : capital 4 000 €, intérêts 900 €.", [["164", 4000, 0], ["661", 900, 0], ["512", 0, 4900]], "Capital → la dette baisse (164 D) ; intérêts → charge (661 D). Pas de TVA."),
+          E("<b>11.</b> Paiement des salaires nets par virement : 3 000 €.", [["641", 3000, 0], ["512", 0, 3000]], "Pas de TVA sur les salaires."),
+          E("<b>12.</b> Apport en capital de l'associé : 20 000 € déposés en banque.", [["512", 20000, 0], ["101", 0, 20000]], "Ressource propre → 101 au crédit."),
+          E("<b>13.</b> Achat à crédit d'un camion pour 30 000 € HT.", [["2182", 30000, 0], ["44562", 6000, 0], ["404", 0, 36000]], "Immobilisation → 2182 ; TVA sur immobilisations 44562 ; fournisseur d'immobilisations 404.", { hideCount: true }),
+          E("<b>14.</b> Achat de matières premières pour 7 200 € TTC : moitié payée par virement, moitié à crédit.", [["601", 6000, 0], ["44566", 1200, 0], ["512", 0, 3600], ["401", 0, 3600]], "HT 6 000 ; le TTC est partagé : 3 600 banque + 3 600 fournisseur.", { hideCount: true }),
+          E("<b>15.</b> Vente de marchandises pour 6 000 € HT : 25 % au comptant par virement, le solde à crédit.", [["512", 1800, 0], ["411", 5400, 0], ["707", 0, 6000], ["4457", 0, 1200]], "TTC 7 200 ; 25 % = 1 800 ; solde 5 400.", { hideCount: true }),
+          E("<b>16.</b> Facture de publicité de 800 € HT, payable dans 30 jours.", [["623", 800, 0], ["44566", 160, 0], ["401", 0, 960]], "", { hideCount: true }),
+          E("<b>17.</b> Une machine achetée 24 000 € HT le 1er juillet N est amortie en linéaire sur 5 ans. Dotation au 31/12/N.", [["681", 2400, 0], ["2815", 0, 2400]], "24 000 ÷ 5 = 4 800 ; × 6/12 = 2 400.", { hideCount: true }),
+          E("<b>18.</b> Régularisation du stock de marchandises : SI 4 000 €, SF 6 500 €.", [["6037", 4000, 0], ["37", 0, 4000], ["37", 6500, 0], ["6037", 0, 6500]], "Annuler le SI (D 6037 / C 37), constater le SF (D 37 / C 6037).", { hideCount: true }),
+          E("<b>19.</b> Cession au comptant (virement) d'un ancien ordinateur pour 1 500 € HT. Passe l'écriture de cession.", [["512", 1800, 0], ["757", 0, 1500], ["4457", 0, 300]], "Prix de cession → 757 (ou 775 selon le plan fourni).", { hideCount: true }),
+          E("<b>20.</b> Fin du mois : TVA collectée 8 000 €, TVA déductible sur ABS 5 000 €. Liquide la TVA.", [["4457", 8000, 0], ["44566", 0, 5000], ["4455", 0, 3000]], "On solde les deux comptes ; la différence 3 000 est à décaisser (4455 au crédit).", { hideCount: true })
+        ]
       }
     ]
   });
