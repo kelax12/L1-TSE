@@ -1,0 +1,885 @@
+<title>Carte mentale de science politique</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout : par onglet, 1) une carte compacte (nœud central + branches = titres et mots-clés, reliés par des courbes), 2) les fiches détaillées en une colonne de lecture (~760px) avec sommaire collant à gauche. */
+:root{
+  --bg:#F2F4F8; --board:#E7EBF2; --surface:#FFFFFF; --ink:#141B2D; --soft:#2E3850; --muted:#5D6880; --line:#D8DEE8; --dot:#C9D0DC;
+  --hub:#16203A; --hub-fg:#F3F6FC;
+  --warn:#A3221A; --warn-bg:#FCEDEB; --warn-line:#E9B3AD;
+  --key:#6E4500; --key-bg:#FFF5DB; --key-line:#EED28C;
+  --h1:#2459D6; --h2:#7A3FE0; --h3:#C2246B; --h4:#C93A1E; --h5:#AD6A00; --h6:#0E8A5F; --h7:#0B7F9C; --h8:#4A46D8; --h9:#5E8A0C;
+  --f-display:"Archivo", "Segoe UI", system-ui, sans-serif;
+  --f-body:"IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0E1320; --board:#121A2B; --surface:#172034; --ink:#E9EDF5; --soft:#C9D1E0; --muted:#9AA5BC; --line:#29344A; --dot:#2A3550;
+  --hub:#E6EAF3; --hub-fg:#10172A;
+  --warn:#FF9C92; --warn-bg:#2E1A1D; --warn-line:#6B3233;
+  --key:#FFD27A; --key-bg:#2C2614; --key-line:#6A5521;
+  --h1:#7AA2FF; --h2:#B596FF; --h3:#FF7FB3; --h4:#FF9475; --h5:#F4B740; --h6:#46D6A1; --h7:#45CBEA; --h8:#9693FF; --h9:#AAD653;
+  color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0E1320; --board:#121A2B; --surface:#172034; --ink:#E9EDF5; --soft:#C9D1E0; --muted:#9AA5BC; --line:#29344A; --dot:#2A3550;
+  --hub:#E6EAF3; --hub-fg:#10172A;
+  --warn:#FF9C92; --warn-bg:#2E1A1D; --warn-line:#6B3233;
+  --key:#FFD27A; --key-bg:#2C2614; --key-line:#6A5521;
+  --h1:#7AA2FF; --h2:#B596FF; --h3:#FF7FB3; --h4:#FF9475; --h5:#F4B740; --h6:#46D6A1; --h7:#45CBEA; --h8:#9693FF; --h9:#AAD653;
+  color-scheme:dark }
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--soft);font-family:var(--f-body);font-size:15.5px;line-height:1.62}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1320px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+strong{color:var(--ink);font-weight:600}
+:focus-visible{outline:2px solid var(--h1);outline-offset:2px}
+
+/* en-tête */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 94%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.top .wrap{padding-block:12px 10px;display:flex;flex-direction:column;gap:10px}
+h1{font-family:var(--f-display);font-weight:800;font-size:1.3rem;letter-spacing:-.01em;margin:0;color:var(--ink);text-wrap:balance;line-height:1.2}
+h1 small{display:block;font-family:var(--f-mono);font-size:.66rem;font-weight:500;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+nav.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;margin:0 -4px;padding:0 4px 2px}
+nav.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;font:600 13.5px var(--f-display);color:var(--muted);background:transparent;border:1px solid transparent;border-radius:999px;padding:6px 14px;cursor:pointer;white-space:nowrap}
+.tab:hover{color:var(--ink);background:var(--surface)}
+.tab[aria-selected="true"]{background:var(--hub);color:var(--hub-fg)}
+.tab .num{font-family:var(--f-mono);font-size:11px;opacity:.7;margin-right:6px}
+
+/* ---------- carte compacte ---------- */
+.board{margin-top:22px;background-color:var(--board);background-image:radial-gradient(var(--dot) 1px,transparent 1.2px);background-size:18px 18px;border-radius:18px;padding:28px 26px}
+.board-h{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+.board-h span{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.map{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 250px minmax(0,1fr);gap:0 72px;align-items:center}
+.map svg.links{position:absolute;inset:0;pointer-events:none;overflow:visible}
+.map svg.links path{fill:none;stroke-width:2.4;stroke-linecap:round}
+.mcol{display:flex;flex-direction:column;gap:12px;position:relative;z-index:1;min-width:0}
+.hub{position:relative;z-index:1;background:var(--hub);color:var(--hub-fg);border-radius:16px;padding:20px 20px 18px;box-shadow:0 14px 34px -18px rgba(10,20,40,.55)}
+.hub .eyebrow{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;opacity:.7}
+.hub h2{font-family:var(--f-display);font-weight:800;font-size:1.25rem;line-height:1.16;margin:6px 0 10px;text-wrap:balance}
+.hub p{margin:0;font-size:13.5px;line-height:1.5;opacity:.88}
+.hub .q{margin-top:12px;padding-top:10px;border-top:1px solid color-mix(in srgb,var(--hub-fg) 22%,transparent);font-style:italic;font-size:13.5px;line-height:1.45}
+.node{--b:var(--h1);display:block;width:100%;text-align:left;font:inherit;color:inherit;cursor:pointer;background:var(--surface);border:1.5px solid color-mix(in srgb,var(--b) 50%,var(--line));border-radius:12px;padding:10px 13px 11px;transition:transform .15s,box-shadow .15s}
+.node:hover{transform:translateY(-1px);box-shadow:0 8px 20px -14px color-mix(in srgb,var(--b) 80%,transparent)}
+.node .nt{display:flex;gap:8px;align-items:baseline}
+.node .tag{flex:0 0 auto;font-family:var(--f-mono);font-size:10.5px;font-weight:500;color:var(--surface);background:var(--b);border-radius:5px;padding:1px 6px}
+.node b{font-family:var(--f-display);font-weight:700;font-size:14.5px;line-height:1.25;color:var(--ink)}
+.node .kw{display:flex;flex-wrap:wrap;gap:4px;margin-top:7px}
+.node .kw span{font-size:12px;line-height:1.35;color:var(--b);background:color-mix(in srgb,var(--b) 10%,var(--surface));border-radius:999px;padding:2px 8px}
+
+/* ---------- fiches ---------- */
+.reader{display:grid;grid-template-columns:230px minmax(0,1fr);gap:40px;margin-top:36px;align-items:start}
+.toc{position:sticky;top:132px;display:flex;flex-direction:column;gap:2px;font-size:13.5px}
+.toc .tt{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.toc a{--b:var(--h1);display:flex;gap:9px;align-items:baseline;color:var(--muted);text-decoration:none;padding:6px 10px;border-radius:8px;line-height:1.3}
+.toc a::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:var(--b);transform:translateY(-1px)}
+.toc a:hover{color:var(--ink);background:var(--surface)}
+.toc a.on{color:var(--ink);background:var(--surface);font-weight:600}
+.sheets{display:flex;flex-direction:column;gap:28px;max-width:780px;min-width:0}
+.sheet{--b:var(--h1);background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 26px 24px;scroll-margin-top:140px;min-width:0}
+.sh{display:flex;gap:12px;align-items:flex-start;padding-bottom:14px;margin-bottom:6px;border-bottom:2px solid color-mix(in srgb,var(--b) 30%,var(--line))}
+.sh .tag{flex:0 0 auto;font-family:var(--f-mono);font-size:12px;font-weight:500;color:var(--surface);background:var(--b);border-radius:6px;padding:3px 8px;margin-top:3px}
+.sh h3{margin:0;font-family:var(--f-display);font-weight:800;font-size:1.32rem;line-height:1.22;color:var(--ink);text-wrap:balance}
+.sheet .open{display:inline-flex;margin-top:16px;font:600 13.5px var(--f-display);color:var(--b);background:color-mix(in srgb,var(--b) 10%,var(--surface));border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+
+/* arbre de lecture */
+.tree,.tree ul,.tree ol{list-style:none;margin:0;padding:0}
+.tree>li{padding:12px 0;border-top:1px solid var(--line)}
+.tree>li:first-child{border-top:0}
+.tree ul,.tree ol{margin:6px 0 0 3px;padding-left:16px;border-left:2px solid color-mix(in srgb,var(--b) 28%,transparent)}
+.tree ul>li,.tree ol>li{margin:7px 0}
+.tree ol{counter-reset:st}
+.tree ol>li{counter-increment:st;position:relative;padding-left:32px}
+.tree ol>li::before{content:counter(st);position:absolute;left:0;top:1px;width:22px;height:22px;border-radius:50%;background:var(--b);color:var(--surface);font:600 12px/22px var(--f-mono);text-align:center}
+.n{margin:0}
+.n em{font-style:italic}
+.au{display:inline-block;font-size:12.5px;line-height:1.4;font-weight:500;color:var(--muted);background:color-mix(in srgb,var(--line) 55%,var(--surface));border-radius:999px;padding:1px 9px;margin:0 2px;vertical-align:1px}
+
+/* encadrés */
+.co{border-radius:10px;padding:10px 14px 11px;margin:4px 0;border:1px solid}
+.co>.lbl{display:block;font-family:var(--f-mono);font-size:10.5px;font-weight:500;letter-spacing:.09em;text-transform:uppercase;margin-bottom:3px}
+.co.key{background:var(--key-bg);border-color:var(--key-line)}
+.co.key>.lbl{color:var(--key)}
+.co.warn{background:var(--warn-bg);border-color:var(--warn-line)}
+.co.warn>.lbl{color:var(--warn)}
+.co.ex{background:color-mix(in srgb,var(--b) 6%,var(--surface));border-color:color-mix(in srgb,var(--b) 22%,var(--line))}
+.co.ex>.lbl{color:var(--b)}
+.co ul,.co ol{border-left-color:color-mix(in srgb,currentColor 18%,transparent)}
+.co .co{margin:6px 0}
+
+/* schémas */
+.flow{display:flex;flex-direction:column;gap:8px;margin:4px 0;padding:12px;border-radius:10px;background:color-mix(in srgb,var(--b) 5%,var(--surface));border:1px dashed color-mix(in srgb,var(--b) 40%,var(--line));overflow-x:auto}
+.frow{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.frow .fl{flex:0 0 100%;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.fbox{background:var(--surface);border:1.5px solid color-mix(in srgb,var(--b) 45%,var(--line));border-radius:8px;padding:4px 10px;font-size:14px;line-height:1.4;color:var(--ink)}
+.farr{color:var(--b);font-weight:700}
+.fneq{color:var(--warn);font-weight:700;font-size:17px}
+.fv{display:flex;flex-direction:column;align-items:flex-start;gap:0}
+.fv .fbox{max-width:100%}
+.fstep{display:flex;align-items:center;gap:10px;padding:5px 0 5px 14px;margin-left:14px;border-left:2px solid var(--b);font-size:13.5px;color:var(--muted);line-height:1.35}
+.fstep b{color:var(--b);font-size:16px}
+
+/* légende */
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin-top:18px;color:var(--muted);font-size:13px}
+.legend .co{display:inline-block;padding:1px 8px;margin:0}
+.legend .co .lbl{margin:0}
+
+/* auteurs */
+.afilter{margin-top:22px;display:flex;gap:10px;align-items:center;flex-wrap:wrap;color:var(--muted);font-size:14px}
+.afilter input{font:15px var(--f-body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:8px 12px;width:min(360px,100%)}
+.authors{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;margin-top:18px}
+.acard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;min-width:0}
+.acard h3{font-family:var(--f-display);font-weight:700;font-size:1.1rem;margin:0;color:var(--ink)}
+.acard .w{font-size:13px;font-style:italic;color:var(--muted);margin:3px 0 10px}
+.acard ul{margin:0;padding:0;list-style:none}
+.acard li{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-top:1px solid var(--line);font-size:14.5px;line-height:1.45}
+.acard li:first-child{border-top:0}
+.acard .pt{flex:0 0 auto;font-family:var(--f-mono);font-size:11px;color:var(--muted);background:var(--bg);border-radius:5px;padding:1px 6px;height:fit-content}
+
+@media (max-width:1100px){
+  .map{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
+  .map svg.links{display:none}
+  .hub{grid-column:1/-1;order:-1;margin-bottom:6px}
+  .reader{grid-template-columns:minmax(0,1fr)}
+  .toc{display:none}
+  .sheets{max-width:none}
+}
+@media (max-width:680px){
+  body{font-size:15px}
+  .map{grid-template-columns:minmax(0,1fr)}
+  .board{padding:16px 12px;border-radius:14px}
+  .sheet{padding:18px 16px 20px}
+  .sh h3{font-size:1.15rem}
+  .acard li{flex-direction:column;gap:2px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.node{transition:none}}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <h1><small>L1 TSE · Science politique empirique · Chapitre 1</small>La politisation et l’analyse scientifique du politique</h1>
+    <nav class="tabs" id="tabs" role="tablist" aria-label="Cartes du chapitre"></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="legend" aria-label="Légende">
+    <span><strong>Gras</strong> : notion à connaître</span>
+    <span><span class="au" style="margin:0">Auteur · date</span> : référence à citer</span>
+    <span class="co key"><span class="lbl">À retenir</span></span>
+    <span class="co warn"><span class="lbl">Piège</span></span>
+    <span class="co ex" style="--b:var(--h1)"><span class="lbl">Exemple</span></span>
+    <span>Clique sur une branche de la carte pour lire sa fiche.</span>
+  </div>
+  <div id="view"></div>
+</main>
+
+<script>
+/* ---------- helpers de contenu ---------- */
+const P  = (t, ...c) => ({k:'',    t, c});
+const EX = (t, ...c) => ({k:'ex',  t, c});
+const W  = (t, ...c) => ({k:'warn',t, c});
+const R  = (t, ...c) => ({k:'key', t, c});
+const OL = (t, ...c) => ({k:'',    t, c, ol:true});
+const F  = (t)       => ({k:'flow',t, c:[]});
+
+/* ============ VUE D'ENSEMBLE ============ */
+const VUE = {
+  id:'vue', tab:'Vue d’ensemble', num:'★',
+  hub:{eyebrow:'Chapitre 1', title:'La politisation et l’analyse scientifique du politique', p:'Étudier comment un sujet devient (ou ne devient pas) politique, et comment l’analyser avec des preuves.', q:'« Qui a le pouvoir de nommer, de définir la réalité sociale ? »'},
+  left:[
+    {tag:'I', title:'Qu’est-ce que la politique ? Le concept de politisation', go:'partie-1', items:[
+      R(`La politique n’est pas un attribut fixe : c’est un **processus**, la **politisation**.`),
+      P(`**Polity / politics / policies** : on privilégie les *policies* (le plus mesurable).`),
+      P(`Définition de **Weber** (monopole de la violence légitime) : trop institutionnelle, trop statique.`),
+      P(`**3 acceptions** au-delà de l’État : pluralisme · pouvoirs silencieux · microphysique du pouvoir.`),
+      OL(`Un **problème public** se construit :`, P(`définition`), P(`catégorisation`), P(`mise en visibilité`), P(`adhésion / légitimité`), P(`responsabilités et solutions (rare)`)),
+      P(`**Acteurs** : entrepreneurs de morale, cadrage / contre-cadrage, 5 ressources.`),
+      P(`**Langage** : luttes de définition, performatif, pouvoir symbolique, catégories et statistiques.`),
+    ]},
+    {tag:'II', title:'Les conditions scientifiques de l’analyse empirique', go:'partie-2', items:[
+      P(`**A. Construire l’objet** : objet social ≠ objet sociologique ; rompre avec le sens commun. Cas : Goffman, *Asiles*.`),
+      P(`**B. Les valeurs** : neutralité axiologique (Weber), engagement, réflexivité (Bourdieu).`),
+      P(`**C. Prouver** : expliquer (Durkheim, statistique) et comprendre (Weber, socio-historique).`),
+      P(`**D. L’agentivité** : distinguer causes intentionnelles et non intentionnelles.`),
+    ]},
+    {tag:'III', title:'De la politisation à l’action publique', go:'partie-3', items:[
+      F(`Situation → Problématisation → Publicisation → Mise sur agenda → Définition institutionnelle → Instruments → Mise en œuvre → Effets`),
+      P(`**Traduction** en langage institutionnel ; politique publique = **nouvel objet politique**.`),
+      P(`Mise en œuvre souvent absente : « **cimetière de décisions** » ; **effets pervers**.`),
+      R(`Finalité : comprendre **pourquoi certaines situations deviennent prioritaires et d’autres restent invisibles**.`),
+    ]},
+  ],
+  right:[
+    {tag:'IV', title:'Cas empiriques actualisés', go:'partie-4', items:[
+      P(`Religiosité (INED) · vote RN · réseaux, fake news et masculinisme · GTA`),
+      P(`Populismes, mépris social et oligarchie · PISA · vote AfD`),
+      P(`Violence : échec de l’institutionnalisation du conflit ; la non-violence est plus efficace.`),
+    ]},
+    {tag:'★', title:'Les 5 points à retenir sur la politisation', go:'partie-3', items:[
+      OL(``, P(`La **construction du problème public** et ses phases.`), P(`Les **acteurs** qui portent les définitions et leur **langage**.`), P(`Les **rapports de pouvoir** entre eux (ressources inégales).`), P(`La **mise sur agenda**.`), P(`Les **instruments, catégories et effets** des politiques publiques.`)),
+      P(`1 à 3 = cœur de la **politisation** ; 4 et 5 = **politiques publiques**.`),
+    ]},
+    {tag:'✓', title:'Réflexes de méthode (synthèse du cours)', items:[
+      P(`Rompre avec le **sens commun** : ne pas prendre l’objet tel que le débat public le donne.`),
+      P(`Avant d’utiliser une **catégorie**, demander comment elle a été construite.`),
+      P(`Un chiffre mesure souvent **l’activité des institutions**, pas la réalité.`),
+      P(`**Corrélation ≠ causalité** ; **exposition ≠ influence**.`),
+      P(`Chercher les causes **non intentionnelles** (pas de « magie sociale »).`),
+      P(`Reconstituer le **système relationnel** de l’acteur (famille, entourage).`),
+      P(`**Recontextualiser** historiquement ; viser le **vraisemblable** ; « faire petit ».`),
+      P(`Décrire sans **juger** : neutralité axiologique.`),
+    ]},
+  ]
+};
+
+/* ============ PARTIE I ============ */
+const P1 = {
+  id:'partie-1', tab:'Qu’est-ce que la politique ?', num:'I',
+  hub:{eyebrow:'Partie I', title:'Qu’est-ce que la politique ? Le concept de politisation', p:'Trois questions : qu’est-ce que la politisation ? quels acteurs y participent ? comment se construisent les problèmes publics ?', q:'Pourquoi tel sujet est-il politisé, et tel autre non ?'},
+  left:[
+    {tag:'I.A–C', title:'De « la politique » à la politisation', items:[
+      R(`Décider qu’un sujet est politique (ou non) est **déjà un enjeu politique** et scientifique.`),
+      P(`**Politisation** : processus par lequel un sujet devient un enjeu de débat public disputé par une multitude d’acteurs. Approche **dynamique et sociologique**, pas normative.`,
+        P(`Questions empiriques : pourquoi un problème n’est-il pas politisé ? pourquoi un autre l’est-il trop ? qui a intérêt à sur-politiser, qui à dépolitiser ?`),
+        EX(`**Sur-politisé** : l’insécurité, empiriquement moins grave qu’on ne le pense.`),
+        EX(`**Dépolitisé** : les violences intrafamiliales, forme de violence sociale la plus répandue, restées hors du politique environ 150 ans (documentées par les sociologues depuis les années 1960).`)),
+      P(`**Sociologie des problèmes publics** : sous-discipline qui étudie comment un sujet devient (ou non) un problème public. S’oppose aux questions philosophiques non mesurables (« qu’est-ce que le bien, l’État ? »).`),
+      P(`Les **3 notions** (science politique américaine) :`,
+        P(`**Polity** : champ institutionnel (gouvernement, régimes, constitutions, élections, droit constitutionnel). La plus enseignée, très normative.`),
+        P(`**Politics** : politique politicienne (compétition, manipulations, coups bas, polarisation). Devenue un **mode de gouvernement** avec les réseaux et la culture du clash.`),
+        R(`**Policies** : politiques publiques, ce que font ou ne font pas les institutions. **Niveau privilégié**, car le plus mesurable.`)),
+      P(`**Définition de Weber** <span class="au">Le savant et le politique · 1919</span> : gouvernement d’une population par une administration, sur un territoire, avec si possible leur consentement, disposant du **monopole de la coercition** (« violence légitime »).`,
+        W(`Limite 1 : **trop institutionnelle**, réduit la politique à l’État.`),
+        W(`Limite 2 : **trop statique et normative**.`),
+        EX(`Le monopole a rarement existé : mafia en Italie, zones de non-droit, guerre d’Algérie.`),
+        P(`À questionner empiriquement, pas à jeter.`)),
+      P(`**Rationalisation du social** <span class="au">Lallement · Tensions majeures</span> : le politique est un projet qui cherche à « avoir raison » des projets concurrents (religieux, économique) et à pacifier.`,
+        P(`Projet toujours **ouvert et conflictuel** : le pouvoir qui pacifie disqualifie ou rend illégaux ceux qui s’opposent encore (« ce n’est pas de la politique »).`)),
+    ]},
+    {tag:'I.D', title:'Les 3 acceptions de la politique au-delà de l’État', items:[
+      OL(``,
+        P(`**La politique dépasse l’État** : pouvoir partagé entre une multitude d’individus et de configurations, y compris intimes et familiales.`,
+          P(`**Thèse pluraliste** <span class="au">Dahl · Qui gouverne ?</span> : retenue par le cours.`),
+          P(`**Thèse moniste** : proximité structurelle des enjeux militaires et économiques, pouvoir unifié. Proche du fantasme complotiste.`),
+          EX(`Choisir la carte scolaire ou l’établissement de ses enfants est un choix politique.`),
+          P(`Il faut ensuite qualifier le pouvoir : qui se dit ou ne se dit pas, coercition ou influence.`)),
+        P(`**Pas réductible au pouvoir officiel** : des pouvoirs **silencieux**.`,
+          P(`**Emprise** : explique que les victimes de violences intrafamiliales n’osent pas signaler, ce qui retarde le problème public.`),
+          P(`**Charisme**.`),
+          P(`**Violence symbolique** <span class="au">Bourdieu</span> : domination qui ne se dit pas, qui dégrade ou humilie implicitement. Une des plus puissantes.`, EX(`Corriger l’accent de quelqu’un, questionner son origine, se tromper sur son nom.`))),
+        P(`**Émerge des relations sociales** : analyse relationnelle.`,
+          P(`**Microphysique du pouvoir** <span class="au">Foucault</span> : le pouvoir efficace est celui qui **n’est pas identifié** ; micro-espaces et micro-actions cumulés.`),
+          EX(`Algorithmes, choix administratifs présentés comme techniques, surveillance et traçabilité numériques.`))),
+    ]},
+    {tag:'I.E', title:'Construire un problème public', items:[
+      R(`Un problème public n’est **jamais une situation objective** qui appellerait naturellement l’État : c’est une **construction sociale**.`),
+      P(`<span class="au">Dewey · 1927</span> : une situation affecte indirectement un ensemble de personnes et devient l’objet d’une **enquête collective**. Formulation fondatrice.`),
+      P(`<span class="au">Gusfield · 1981</span> : construction symbolique et politique, **lutte** pour définir le problème, le responsable, qui doit agir, quelles solutions.`,
+        EX(`L’alcool au volant : santé, sécurité routière ou responsabilité individuelle. Chaque définition mène à des instruments et des acteurs différents. Définir, c’est déjà orienter le gouvernement du problème.`)),
+      OL(`**Les 5 étapes** :`,
+        P(`**Définition**.`),
+        P(`**Catégorisation** : peut rester sans politisation.`, EX(`Le suicide, compté précisément par la RATP et la SNCF, n’est pas politisé.`)),
+        P(`**Mise en visibilité** (médiatisation) : **indispensable**. Dépend de la capacité des victimes à parler en public, une compétence **inégalement répartie**. Les réseaux ont donné de la visibilité à certains groupes (questions raciales).`),
+        P(`**Adhésion / légitimité** auprès des publics : réception imprévisible, contre-mobilisations possibles.`, EX(`L’ampleur des Gilets jaunes n’avait été anticipée par personne.`)),
+        P(`**Attribution de responsabilités et de solutions** : l’étape **la plus rare**.`)),
+      P(`**Mise sur agenda** : le problème entre dans le programme officiel des institutions. Agenda **sélectif** <span class="au">Cobb & Elder 1972</span> <span class="au">Kingdon 1984</span> <span class="au">Hilgartner & Bosk 1988</span>`),
+      EX(`**Violences intrafamiliales** : reconnaissance tardive, faute de plaintes (emprise) et parce qu’elles étaient traitées discrètement par travailleurs sociaux et police.`),
+      EX(`**Programme CNRS après les attentats de 2015** : étudier ce que l’État a fait ou pas face au djihadisme.`,
+        P(`Causes : **failles des politiques publiques** (bureaucraties mal équipées, faible maîtrise de l’arabe).`),
+        P(`La variable religieuse n’est pas univoquement explicative.`),
+        R(`Variable la plus explicative : **l’exposition à la violence** (intrafamiliale, harcèlement scolaire), commune à plusieurs radicalisations, y compris identitaire.`),
+        P(`**Suicide altruiste** <span class="au">Durkheim</span> : se donner la mort pour une cause. Mobilisé pour le djihadisme, peu repris dans le débat public.`)),
+    ]},
+    {tag:'I.F + H', title:'Acteurs, cadrage et ressources', items:[
+      P(`**Gouvernants** : on leur prête une compétence naturelle, la **légitimité charismatique** <span class="au">Weber</span>.`,
+        P(`<span class="au">Bourdieu · La Distinction · 1979</span> : on prête aux politiques des qualités quasi « animales », hors du commun.`),
+        R(`Effet : **euphémiser** le conflit. Les gouvernants ont intérêt à **dépolitiser** (« ce n’est pas de la politique »).`)),
+      P(`**Gouvernés** : capacité inégale à politiser. D’où les **entrepreneurs de morale** (de cause, de problème) <span class="au">Becker · Outsiders</span>.`,
+        P(`Individus ou groupes (associations, médias, experts, administrations, organisations internationales) avec influence et compétences médiatiques. Ils imposent une lecture morale et font pression sur l’État : statistiques, témoignages de victimes, campagnes, scandales.`),
+        EX(`Les **ligues de tempérance** américaines font interdire la marijuana : l’illégalité d’une drogue est une victoire politique, pas une propriété de la substance. L’alcool, aussi destructeur, n’est pas condamné de la même façon.`),
+        W(`Un entrepreneur classé « complotiste » peut être un **lanceur d’alerte** : on juge la politisation à ses **effets** sur les publics, pas à la cause.`)),
+      P(`**Cadrage** (*framing*) <span class="au">Goffman</span> : expliquer une situation par une **causalité simple et unique** (origine, cause, responsable, solution).`,
+        R(`Sans cadrage porté par un acteur, **pas de mobilisation**, quel que soit le volume de contenus en ligne.`),
+        P(`Un cadrage efficace **oblige à se positionner** pour ou contre.`),
+        P(`**Économie de l’émotion** : émotions négatives (humiliation, manque de respect, souffrance non écoutée), favorisées par les algorithmes.`),
+        P(`**Contre-cadrage** : lecture concurrente de la même situation.`,
+          EX(`Le masculinisme face à un féminisme perçu comme exacerbé.`),
+          EX(`« Les sociologues excusent la violence » face à l’explication sociologique.`)),
+        P(`La politique = un jeu permanent de **cadrage et contre-cadrage**.`)),
+      OL(`**5 ressources** pour imposer une définition :`,
+        P(`**Accès aux médias** et **pluralisme médiatique** : quelles opinions sont représentées ? Le spectre légitime s’est élargi vers l’extrême droite.`),
+        P(`**Ressources économiques** : médias concentrés entre quelques grandes fortunes.`),
+        P(`**Expertise** : déplacée vers l’influence, le charisme et la relation affective (souffrance psychique, ego, apparence), le registre **parasocial**.`),
+        P(`**Position institutionnelle**.`),
+        P(`**Capacité de mobilisation** : transformer une définition en action collective.`)),
+    ]},
+  ],
+  right:[
+    {tag:'I.G + I', title:'Langage, luttes de définition et pouvoir symbolique', items:[
+      R(`La politisation est un **rapport de pouvoir qui passe par le langage** : une **lutte de définition**, pour imposer les catégories dans lesquelles la réalité sera pensée (plus que pour proposer des solutions).`),
+      P(`**Performatif** : dire, c’est faire. Affirmé sans preuve, et pourtant efficace.`,
+        EX(`*Wokisme*, *islamo-gauchisme* : empiriquement infondés, effets très concrets. L’AfD, dans certains Länder, demande aux universitaires une charte de patriotisme et d’écarter colonialisme, genre et sexualités.`),
+        EX(`Mécanisme inverse : l’**islamophobie**, mesurée statistiquement, est contestée (« une construction de sociologues »).`)),
+      F(`Avant : pluralisme → échange d’arguments rationnels sur des politiques publiques
+Aujourd’hui : polarisation → luttes de représentation par le langage`),
+      P(`Le langage politique est devenu **autonome** de la réalité empirique.`),
+      P(`**Pouvoir symbolique** <span class="au">Bourdieu · cours de 1982</span> : imposer des **catégories de pensée** sans coercition.`,
+        F(`Pouvoir coercitif (force) → marginal
+Pouvoir symbolique (catégories) → central`),
+        P(`S’impose **naturellement**.`, EX(`Personne ne conteste qu’un film d’art et d’essai est légitime ou qu’un tableau de maître a de la valeur.`)),
+        P(`Pas de pouvoir ni de société politique sans **ordre symbolique** (régularité anthropologique).`),
+        P(`Catégories de pensée au sens de **Kant** : ce qui vient immédiatement à l’esprit. À repérer dans la vie ordinaire : librairies de gare, unes des magazines, façon de parler des jeunes ou des immigrés.`)),
+      R(`Question préalable à toute science politique : **qui a le pouvoir de nommer, de définir la réalité sociale ?**`),
+      P(`**Compétence politique** <span class="au">Bourdieu · La Distinction, « Culture et politique »</span> : comme le goût, un **capital culturel** inégalement distribué (sigles, axe gauche-droite, avis structuré). Les classes populaires ont moins de prise sur les questions abstraites.`,
+        F(`Goût légitime → hiérarchise, paraît naturel et universel
+Compétence politique légitime → fait passer la vision dominante pour le bon sens`),
+        R(`La classe dominante impose, par la légitimité de son goût, la **légitimité de sa domination**.`)),
+      P(`**« L’opinion publique n’existe pas »** <span class="au">Bourdieu · 1972-73, Questions de sociologie 1984</span> : 3 postulats faux des sondages :`,
+        OL(``, P(`tout le monde a une opinion ;`), P(`toutes les opinions se valent ;`), P(`il y a un consensus sur les questions (posées par les professionnels et les médias).`)),
+        P(`Ne pas savoir répondre est vécu comme une **violence symbolique**, donc on répond sans opinion, ce qui fabrique un faux consensus (« les Français pensent que… »).`)),
+    ]},
+    {tag:'I.J', title:'Catégories administratives et effets de classement', items:[
+      P(`**Catégorie administrative** : produite par l’État (chômeur, immigré, délinquant, mineur délinquant, victime, jeune à risque).`),
+      P(`**Statistique publique** = la « **catégorie des catégories** » (INSEE, INED, ministère de l’Intérieur…). Pouvoir considérable de l’État sur la définition du réel. Aux États-Unis, contrôler les appareils de mesure est devenu un enjeu politique.`),
+      OL(`**3 fonctions** :`, P(`rendre les phénomènes **visibles** ;`), P(`**compter et comparer** ;`), P(`**construire des populations** (symboliques, performatives).`)),
+      R(`La statistique ne fabrique pas la réalité, elle la **construit** : chaque objet dépend de sa mesure.`, EX(`« La société est plus violente » : vrai pour vols et agressions, faux pour les homicides, en effondrement.`)),
+      P(`**2 dérives symétriques** :`,
+        P(`massif mais **invisible** : violences intrafamiliales (documentées depuis les années 1990) ;`),
+        P(`faible mais **ultra-politisé** : violences urbaines.`)),
+      P(`**Effet de classement** : la catégorie devient une identité vécue et un critère de légitimité.`,
+        F(`Catégorie neutre (chômeur = sans emploi) → population → association implicite (ne participe pas, ne vote pas) → stigmate`),
+        EX(`Chômeur, immigré, **abstention** (qui peut être une critique délibérée de l’offre politique).`),
+        P(`**Distinction** <span class="au">Bourdieu</span> : classer, déclasser, reclasser, matrice de la vie sociale.`)),
+      P(`**Catégories vides / fictions statistiques** : les jeunes, jeunes à risque, femmes célibataires, sans-emploi. Elles **n’expliquent rien**.`,
+        P(`**« La jeunesse n’est qu’un mot »** <span class="au">Bourdieu · entretien 1978</span> : il y a **des** jeunesses. La **classe sociale prime sur l’âge**.`,
+          EX(`Une jeunesse d’école de commerce peut être plus conservatrice qu’une jeunesse précaire.`)),
+        P(`Les frontières d’âge sont des **enjeux de lutte** (pouvoir, héritage, reconnaissance), comme le seuil pauvreté/richesse (**paradoxe de Pareto**).`),
+        P(`La jeunesse est définie **en creux** : plus l’enfance, pas encore l’âge adulte, un « entre-deux ».`),
+        P(`L’illusion perdure car des jeunes dominés ont intérêt à être rattachés à « la jeunesse » (visibilité).`)),
+      R(`Avant d’utiliser une catégorie, savoir **comment elle a été construite**. La statistique est indispensable mais n’est **pas une variable explicative** : descendre au niveau **micro**.`,
+        EX(`En droit pénal, le *mineur délinquant* détermine qui est pris en charge, par qui, comment.`)),
+    ]},
+    {tag:'I.K', title:'Étude de cas : les statistiques de la délinquance', items:[
+      F(`100 % fait vécu
+ ↓ ① la victime se déplace ou non
+≈ 20 % au commissariat (Insee, CVS 2015-2019)
+ ↓ ② plainte ou simple main courante
+4 % (injures) à > 90 % (vol de véhicule) (SSMSI, VRS 2023)
+ ↓ ③ qualification pénale par l’agent
+ ↓ ④ transmission ou non par le service
+Chiffre publié (SSMSI, héritier de l’« état 4001 »)`),
+      OL(`**4 acteurs** construisent le chiffre :`,
+        P(`la **victime** (se déplacer, porter plainte) ;`),
+        P(`l’**agent** (humeur, consignes, directives internes) ;`),
+        P(`le **service** qui transmet ou non (trous, notamment sur la violence politique) ;`),
+        P(`le **ministère**, qui communique chaque mois.`)),
+      P(`**Chronologie** :`,
+        P(`**1972** : « état 4001 » (DCPJ), 107 catégories « index ».`),
+        P(`**2002-2012** : « politique du chiffre » (objectifs de baisse et d’élucidation).`),
+        P(`**2014** : création du **SSMSI**, coordonné par l’Insee.`),
+        P(`**2022** : enquête de victimation **VRS**.`)),
+      P(`**Ce qui déforme la mesure** :`,
+        P(`objectifs chiffrés → report d’enregistrement ou requalification vers moins grave ;`),
+        P(`infractions **révélées par l’action des services** (stupéfiants, séjour irrégulier) qui gonflent l’élucidation ;`),
+        P(`changements d’outils et de nomenclature qui cassent les séries.`)),
+      P(`**2 lectures du même chiffre** :`,
+        P(`**Par la mesure** (SSMSI, Insee) : croiser statistiques administratives et enquêtes de victimation corrige une partie des biais.`),
+        P(`**Constructiviste** <span class="au">Robert</span> <span class="au">Aubusson de Cavarlay</span> <span class="au">Mucchielli</span> : le chiffre dit ce que fait **l’institution**, pas la société.`)),
+      R(`On mesure **l’activité des institutions** (elle-même politisée), pas la violence réelle. Stupéfiants sur-mesurés, violences intrafamiliales à peine **4 %** des cas mesurés.`),
+    ]},
+  ]
+};
+
+/* ============ PARTIE II ============ */
+const P2 = {
+  id:'partie-2', tab:'Analyser scientifiquement', num:'II',
+  hub:{eyebrow:'Partie II', title:'Les conditions scientifiques de l’analyse empirique du politique', p:'Quatre conditions ou difficultés : construire l’objet, gérer les valeurs, prouver la causalité, se méfier de l’agentivité.', q:'Comment analyser un objet politique de façon robuste ?'},
+  left:[
+    {tag:'II.A', title:'Construire l’objet politique', items:[
+      P(`La science politique repose sur l’**épistémologie de la sociologie** (faits empiriques, discours positif). Elle n’a rien inventé en méthode : il faudrait dire **sociologie politique**. Les départements ne recrutent pas les mêmes publics.`),
+      P(`**Traiter les faits sociaux comme des choses** <span class="au">Durkheim</span> : rigueur et extériorité, rupture avec le **sens commun** (préjugés et stéréotypes jamais interrogés).`),
+      OL(`**2 principes** (comme des axiomes) :`,
+        P(`**Objet social ≠ objet sociologique** : un sujet qui fait débat n’est pas un objet scientifique, il faut le **construire** par une méthode.`),
+        P(`**Un acteur n’est jamais totalement conscient ni totalement inconscient** : ni acteur parfaitement rationnel, ni acteur manipulé.`,
+          R(`Il est toujours inséré dans un **système relationnel** (famille, couple, collectif, nation) qu’il faut reconstituer.`),
+          W(`Cela invalide « les jeux vidéo causent la violence » ou « les fake news manipulent » : on ignore la vie réelle des acteurs.`))),
+      EX(`**Construire l’objet GTA** (~100 millions de joueurs) : éviter les généralités du sens commun (« GTA = violence »).`,
+        P(`Poser une **micro-question observable** : que disent les joueurs dans les tchats ? Le discours anticapitaliste d’un personnage est-il une façade ou une revendication des joueurs ?`),
+        P(`Les travaux existants (psychologie sociale) se limitent à la dangerosité et ignorent les usages réels, la dimension de réseau social et la dimension politique.`)),
+      P(`<span class="au">Beck · La Société du risque</span> : on emploie « le risque » sans le définir. Faire **l’histoire du concept** avant de l’utiliser.`),
+    ]},
+    {tag:'II.A · cas', title:'Goffman, Asiles (1961) : l’institution totale', items:[
+      P(`**Terrain** : environ un an (1954-1955) à l’hôpital psychiatrique Saint Elizabeths (Washington), embauché comme aide-soignant **sans dire qu’il est sociologue**.`,
+        P(`Ethnographie, **observation participante** immersive. Une poignée d’entretiens ne suffit jamais.`),
+        P(`École de Chicago, interactionnisme symbolique. Critique de la psychiatrie asilaire. Motivation : son épouse souffrait de troubles psychiatriques.`)),
+      P(`**Institution totale** : lieu **fermé**, coupé du monde, vie quotidienne organisée par des règles strictes et une hiérarchie forte. Construite par **montée en généralité** et analogie (prisons, couvents, casernes).`),
+      R(`Thèse politique : le pouvoir réel n’est pas dans les urnes mais dans ces institutions qui **contrôlent les individus dans des espaces fermés**. Paradoxe : la démocratie produit des institutions qui enferment et uniformisent.`),
+      OL(`**3 mécanismes** :`,
+        P(`**Carrière morale** : rupture avec l’identité antérieure, redéfinition, apprentissage du rôle, adaptation.`, EX(`Patient, jeune alternant, élève en difficulté.`)),
+        P(`**Rites d’admission** : fouille, confiscation des biens, uniformisation, perte d’autonomie.`),
+        P(`**Mortification du moi** : appels à l’autonomie mais surveillance constante, évaluation permanente, sanctions et récompenses, **docilité**.`, EX(`Management, économie de l’attention, classements type PISA (« on est 15e, il faut faire mieux »).`))),
+      P(`**Ajustements secondaires** : détournements discrets, solidarités, « **moi clandestin** ». Adaptation plutôt que rupture.`, EX(`Fumer avec les surveillants grâce à un arrangement informel.`)),
+      P(`Concept réutilisé : prison, caserne, école, travail, communautés fermées sur Internet, couple toxique, sociologie de la déviance.`),
+    ]},
+    {tag:'II.B', title:'Le problème des valeurs', items:[
+      P(`**Valeur** <span class="au">Weber</span> = **représentation collective agissante** :`,
+        P(`**représentation** (image, discours, film, œuvre) ;`),
+        P(`**collective** (partagée par une communauté) ;`),
+        R(`**agissante** : critère décisif, introduit la **compétence à agir**.`),
+        EX(`Les platistes : représentation collective, mais objet de science politique seulement si elle devient projet politique ou passage à l’acte. Même logique : discours de haine en ligne vs violence effective.`)),
+      P(`**Neutralité axiologique** <span class="au">Weber · Essais sur la théorie de la science · 1917</span> : suspendre son jugement de valeur ; viser le vraisemblable. **Neutre ≠ sans valeurs** :`,
+        P(`**Rapport aux valeurs** (*Wertbeziehung*) : choisir son objet selon sa signification culturelle. Inévitable et légitime.`),
+        P(`**Distance aux valeurs** (*Werturteilsfreiheit*) : ensuite, aucun jugement ; séparer « ce qui est » de « ce qui doit être ».`),
+        P(`Restituer les valeurs qui **font agir** les acteurs, avec le sens qu’ils leur donnent.`),
+        P(`**Contexte** (discours de 1919) : nationalisme jusque dans l’université allemande (Carl Schmitt) ; en France, fils de Durkheim mort au front, affaire Dreyfus. Protéger la science de la récupération idéologique.`)),
+      OL(`Les valeurs interviennent à **4 étapes** :`,
+        P(`le **choix de l’objet** (étudier populisme ou abstention) ;`),
+        P(`les **concepts** (démocratie, développement, radicalisation) ;`),
+        P(`les **indicateurs** (« qualité démocratique ») ;`),
+        P(`l’**interprétation** (abstention : crise ou régulation ?).`)),
+      OL(`**3 postures** :`,
+        P(`**Neutralité axiologique** (Weber) : idéal régulateur.`),
+        P(`**Engagement assumé** : École de Francfort, épistémologies féministes et postcoloniales ; la neutralité serait un leurre.`),
+        P(`**Réflexivité** <span class="au">Bourdieu</span> : objectiver la position sociale du chercheur pour maîtriser l’effet des valeurs.`)),
+      W(`**Critique** <span class="au">Léo Strauss</span> : suspendre tout jugement devient insupportable dans les cas limites (camps de concentration). Risque de **relativisme** ; certains jugements sont légitimes.`),
+      P(`**Valeurs déguisées en science** :`,
+        EX(`<span class="au">Said · Orientalism · 1978</span> savoir sur « l’Orient » calqué sur les besoins impériaux.`),
+        EX(`<span class="au">Rostow · Les étapes de la croissance · 1960</span> trajectoire occidentale érigée en norme du « développement ».`),
+        EX(`<span class="au">Tuhiwai Smith · Decolonizing Methodologies · 1999</span> les protocoles d’enquête portent des présupposés occidentaux.`),
+        EX(`<span class="au">Pateman · The Sexual Contract · 1988</span> le partage public/privé a naturalisé l’exclusion des femmes.`),
+        EX(`Enquêtes **Columbia et Michigan** (1950-70) : le vote des femmes supposé suivre celui du mari.`),
+        EX(`**Quotas de genre** <span class="au">Dahlerup</span> <span class="au">Krook</span> : dépend de l’égalité visée (opportunité ou résultat).`),
+        EX(`<span class="au">Angela Davis</span> race, genre et prison ; <span class="au">Judith Butler</span> construction du genre.`),
+        EX(`<span class="au">Fukuyama · La Fin de l’histoire · 1992</span> vs <span class="au">Huntington · Le Choc des civilisations · 1996</span> : deux récits présentés comme neutres qui engagent une vision du monde.`)),
+      P(`**Impensés normatifs** : l’abstention vue comme inactivité (alors qu’elle peut être une politisation) ; les émeutes des quartiers lues seulement sous l’angle sécuritaire.`),
+      EX(`Un professeur afro-américain nommé à Oxford harcelé en ligne : débat sur la **légitimité épistémique** à étudier un groupe de l’extérieur.`),
+      P(`La **théorie politique** donne les cadres normatifs (légitime / illégitime).`, EX(`Aucune idéologie (libéralisme, socialisme, catholicisme) ne rend légitime le sans-emploi : il peine à se penser en acteur politique.`)),
+    ]},
+  ],
+  right:[
+    {tag:'II.C · 1', title:'Expliquer : la méthode expérimentale (Durkheim)', items:[
+      R(`Mot d’ordre de la partie : savoir **prouver**. La plupart des « c’est parce que… » ne sont pas étayés, même dits avec aisance ou depuis une position prestigieuse.`),
+      P(`**Causalité statistique** <span class="au">Durkheim · Le Suicide</span> : comparer de grands ensembles de données, établir des concomitances, viser des **lois et régularités**. Renforcée par l’IA.`),
+      P(`**Méthode inversée** : partir du **phénomène collectif observable** (le taux de suicide), pas des motivations individuelles (pas interroger les survivants).`,
+        P(`Variables de Durkheim : **intégration religieuse** et **intégration familiale** (le mariage).`)),
+      OL(`**3 exigences** :`,
+        P(`un fait social **défini et mesurable** ;`),
+        P(`des **données** sur sa variation ;`),
+        P(`un fait observable **dans la durée** (structurel, pas conjoncturel).`, EX(`La violence politique espagnole sur 60 ans est explicable ; un même niveau en France sur 10 ans ne l’est pas autant.`))),
+      P(`**Aux États-Unis** (années 1940-50) : enquêtes de l’armée sur le moral des troupes (Seconde Guerre mondiale, Vietnam), lien avec Milgram.`,
+        P(`Critique <span class="au">Bourdieu & Passeron · Les Héritiers</span> : méthode née du contrôle social, **caricaturale** sans recherche du sens.`)),
+      W(`**Corrélation ≠ causalité** ; et une causalité ne dit rien du **sens** de la relation.`,
+        EX(`Bars-tabac et vote RN.`),
+        EX(`Followers ≠ influence : 10 abonnés engagés peuvent peser plus que 30 millions de passifs.`),
+        P(`**Force des liens faibles** : la structure du réseau est mesurable, mais ne dit pas ce qui s’y joue.`)),
+    ]},
+    {tag:'II.C · 2', title:'Comprendre : la méthode socio-historique (Weber)', items:[
+      P(`Inscrire un fait dans une **histoire précise** et une **configuration socio-historique**, au niveau micro. Exige terrain, archives, maîtrise de la langue.`),
+      P(`**Idéal type** : construction qui **accentue des traits saillants** (État, bureaucratie, capitalisme) pour comparer. « Idéal » = construit, pas parfait.`,
+        P(`**Bureaucratie** : règles formelles, hiérarchie, division des tâches, compétences.`,
+          EX(`Totalitarismes : des bureaucraties appliquant des règles ont adhéré silencieusement au nazisme <span class="au">Chapoutot</span>.`),
+          R(`Pas de changement de régime sans **appareil administratif et répressif** : ce n’est pas la pauvreté ou la colère qui expliquent un basculement.`)),
+        W(`Toujours **recontextualiser** : l’État en Chine au XVe ≠ en France au XIXe ; Pays basque 1980 ≠ Black Blocs 2010. Ne pas plaquer un modèle occidental.`)),
+      P(`**Compréhension** : chercher le **sens** que les individus donnent à leur action (pas de lois nomologiques).`),
+      P(`**Affinité élective** <span class="au">Weber · L’Éthique protestante et l’esprit du capitalisme · 1905</span> : rencontre **non déterministe** entre une doctrine et une pratique.`,
+        P(`Une traduction calviniste valorise le travail méthodique et la vocation (*Beruf*) « ici et maintenant » → épargne, profit, discipline : l’esprit du capitalisme.`)),
+      EX(`**Cas ETA** (≈ 900 morts, fin des années 1950 à 2018) : comment un projet identitaire (identité basque humiliée sous Franco) apprend la violence ?`,
+        P(`Comparaison **intra-espagnole** (la France est trop différente).`),
+        R(`Cause historique datée (**1959-1962**) : des nationalistes basques formés au contact du **FLN** (guerre d’Algérie), l’État franquiste formant ses cadres via l’**OAS**. Apprentissage mutuel.`),
+        P(`Reproduction ensuite dans les familles, soutenue par la **langue basque**.`),
+        P(`Une comparaison doit être « faisable » : comparer des choses comparables.`)),
+    ]},
+    {tag:'II.C · 3', title:'Synthèse : expliquer et comprendre', items:[
+      F(`Explication (Durkheim) → causalité entre phénomènes, lois
+Compréhension (Weber) → sens donné par les acteurs, contexte`),
+      R(`Distinction **largement artificielle** : en pratique, les deux se mêlent. L’idéal type comble ce que la statistique ne dit pas (le sens d’une corrélation).`),
+      EX(`Mouvements sociaux et violence militante : **théorie des mobilisations** <span class="au">Neveu · Sociologie des mouvements sociaux</span> plutôt que l’intuition.`),
+      P(`**Modestie scientifique** (collaboration avec <span class="au">Jean-Paul Azam · TSE</span>) :`,
+        P(`viser le **vraisemblable**, pas le vrai ;`),
+        P(`« **faire petit** » : objets circonscrits et mesurables ;`),
+        W(`un beau modèle (« beau papier ») ≠ validité empirique.`)),
+      P(`**Evidence-based** : examiner beaucoup de données pour voir ce qui marche.`, EX(`La prison est-elle une « école du crime » ? Comparer la récidive d’incarcérés et de non-incarcérés au même profil.`)),
+    ]},
+    {tag:'II.D', title:'Le problème de l’agentivité', items:[
+      P(`**Biais d’intentionnalité** : tendance naturelle (non pathologique) à attribuer une **cause intentionnelle** aux phénomènes sociaux.`,
+        R(`Distinguer **causes intentionnelles** et **non intentionnelles** (effets de structure, défaillances, absence de coordination), sinon lecture volontariste ou complotiste.`)),
+      EX(`**Origine** : expérience de 1944 <span class="au">Heider & Simmel</span>. Des formes géométriques bougent au hasard ; les spectateurs y voient des intentions (« le carré veut manger les triangles »). Idem : le frigo « hostile » le matin.`),
+      P(`**Causes intentionnelles → magie sociale** : prêter aux politiques des qualités quasi surnaturelles, un charisme qui changerait seul la réalité.`,
+        EX(`Le public qui se lève à l’entrée d’une personnalité.`),
+        EX(`*Le Guépard* (Visconti) : « il faut que tout change pour que rien ne change ».`),
+        EX(`Le débat sur ce que « le macronisme » aurait transformé.`)),
+      P(`Weber l’avait anticipé : **affinité élective** (pas « le protestantisme a causé le capitalisme »).`),
+      P(`**Causes non intentionnelles → théorie des champs** <span class="au">Bourdieu</span> : un changement radical exige un **alignement rare** de variables (individus, bascule de l’armée et de la police, conditions économiques et sociales), **1 à 3 fois par siècle**. Les structures d’un champ ont intérêt à ne pas changer.`,
+        EX(`**Mai 68** : tout bascule en 2-3 jours ; départ de De Gaulle au jour le jour.`),
+        EX(`**Coup d’État espagnol de 1981** : échoue car le roi refuse de soutenir les putschistes.`),
+        EX(`**Révolution iranienne de 1979**.`),
+        EX(`**Émeutes urbaines** : déclenchées par un micro-événement (une interpellation qui tourne mal).`)),
+    ]},
+  ]
+};
+
+/* ============ PARTIE III ============ */
+const P3 = {
+  id:'partie-3', tab:'De la politisation à l’action publique', num:'III',
+  hub:{eyebrow:'Partie III', title:'De la politisation à l’action publique', p:'Politiser ne suffit pas : qu’est-ce qui est réellement mis en œuvre, et avec quels effets ?', q:'Que font vraiment les institutions d’un problème reconnu ?'},
+  left:[
+    {tag:'III.A', title:'Le cycle complet', items:[
+      F(`Situation sociale → Problématisation → Publicisation → Mise sur agenda
+→ Définition institutionnelle → Choix des instruments → Mise en œuvre → Effets
+→ (nouveau cycle)`),
+      R(`**Chaque étape est un point d’arrêt possible.** Très peu de problèmes atteignent la mise sur agenda (selon les ressources mobilisables).`),
+      P(`**Problématisation** : une situation ordinaire devient objet de controverse et cesse d’aller de soi.`),
+      P(`**Publicisation** : mise en discussion publique. Peut rester sans suite.`, EX(`Racisme, pesticides, logement : discutés pendant des années sans être traités.`)),
+    ]},
+    {tag:'III.B', title:'La traduction en langage institutionnel', items:[
+      P(`**Traduction** : reformuler un problème reconnu dans le langage des institutions et des politiques publiques. Passage obligé, objet d’analyse à part entière.`),
+      P(`Trajet souvent **chaotique**.`, EX(`Masculinisme, haine en ligne, polarisation : registres en cours d’institutionnalisation, encore controversés.`)),
+      R(`Renoncer aux questions morales (« que faudrait-il faire ? ») pour **mesurer ce qui se fait ou ne se fait pas**.`),
+    ]},
+    {tag:'III.C', title:'Instruments, mise en œuvre et effets', items:[
+      P(`Descendre au plus concret : sociologie des **administrations**, des **élites**, des liens entre pouvoir économique et mise en œuvre.`),
+      OL(``,
+        P(`**Définition institutionnelle** : comment l’institution requalifie le problème.`),
+        P(`**Instruments** : budgets, incitations fiscales ou budgétaires, discrimination positive, personnels, évaluation. Suivre débats parlementaires et budgets.`),
+        P(`**Mise en œuvre** : une loi peut n’être jamais appliquée (pas de moyens, de fonctionnaires, de budget). Les politiques publiques sont un « **cimetière de décisions** ».`,
+          EX(`Une université décrète la lutte contre les violences sexistes, sans chargée de mission, ni traitement des contentieux, ni accompagnement : politique **purement symbolique**.`)),
+        P(`**Effets**, dont les **effets pervers** (conséquences non anticipées).`, EX(`Les 80 km/h sur les départementales, pénalisants pour certaines populations.`))),
+      R(`Un même problème peut produire des politiques très différentes : la politique publique est un **nouvel objet politique**, pas la simple solution d’un problème.`),
+      W(`L’évaluation est **politiquement inégale** : aides sociales ultra-évaluées (fraude), aides aux entreprises (plusieurs milliards) beaucoup moins.`),
+      P(`Terrains classiques : pauvreté (seuils) et redistribution, patrimoine et héritage, exclusion et insertion, insécurité (fonctionnement réel de la police), climat.`),
+    ]},
+  ],
+  right:[
+    {tag:'III.D', title:'Les 5 points à retenir sur la politisation', items:[
+      OL(``,
+        P(`**La construction du problème public** et ses phases, jusqu’à la publicisation.`),
+        P(`**Les acteurs** qui portent les définitions et **leur langage** (déplacé vers les réseaux et le **parasocial**).`),
+        P(`**Les rapports de pouvoir** entre acteurs (ressources inégales).`),
+        P(`**La mise sur agenda**.`),
+        P(`**Les instruments, les catégories et les effets** des politiques publiques.`)),
+      R(`1 à 3 = cœur de la **politisation** ; 4 et 5 = **politiques publiques**.`),
+      EX(`Micro-analyses possibles : catégories du ministère de l’Intérieur sur l’insécurité ; construction du problème des violences faites aux femmes ; qui porte la catégorie de « fascisme masculin ».`),
+      P(`**Sur les acteurs** :`,
+        P(`les porteurs de définitions ne sont plus seulement les élites politiques : influenceurs, chefs d’entreprise, figures de la tech (État réduit à une agence de moyens, privatisation) ;`),
+        W(`compter les abonnés ne suffit pas : mesurer l’**influence réelle**.`)),
+      EX(`Politisation la plus aboutie : le **grand remplacement**, né dans des groupes marginaux, devenu objet de débat public légitime.`),
+    ]},
+    {tag:'III.E', title:'La finalité du travail scientifique', items:[
+      W(`Ce n’est **pas** discuter d’opinions, de l’actualité, ni dire quoi faire (« faut-il interdire les réseaux aux adolescents ? »).`),
+      R(`C’est comprendre, le plus neutrement possible, **pourquoi certaines situations deviennent des priorités politiques et d’autres restent invisibles ou dépolitisées**.`),
+      P(`Utilité : une forme de **lancement d’alerte**, rendre visible ce qui ne l’est pas.`,
+        EX(`La question raciale fin XIXe, *Le Suicide* de Durkheim, la reproduction scolaire chez Bourdieu : des questions socialement explosives quand elles ne sont pas traitées.`)),
+    ]},
+  ]
+};
+
+/* ============ PARTIE IV ============ */
+const P4 = {
+  id:'partie-4', tab:'Cas empiriques', num:'IV',
+  hub:{eyebrow:'Partie IV', title:'Cas empiriques actualisés', p:'Les outils des parties I à III (politisation, problèmes publics, méthode) testés sur des questions actuelles.', q:'Que disent vraiment les données ?'},
+  left:[
+    {tag:'IV.A', title:'Le retour du religieux et la religiosité', items:[
+      P(`Religion et immigration : une **obsession politique** contemporaine.`),
+      P(`On ne parle plus de « religion » mais de **religiosité** ou **sentiment religieux** (jeunes générations). Répondre par la **mesure**, ni déni ni affirmation non étayée.`),
+      EX(`Enquêtes de l’**INED** (notées TO1 et TO2 en cours), environ **26 000 personnes** : mesurent finement les variations réelles de la religiosité.`),
+      R(`Paradoxe : des **données publiques massives** (INSEE, INED, ministères, Europe) existent et le débat public s’en passe.`),
+      P(`Lien avec le **conservatisme social**, le **néo-catholicisme**, les populismes : retour affiché à un ordre moral.`),
+    ]},
+    {tag:'IV.B', title:'Le vote Rassemblement National', items:[
+      P(`Droite radicale cumulée autour de **40-45 %** d’intentions de vote.`),
+      P(`La science politique française a longtemps **peiné** à l’analyser (raisons éthiques, tabou) alors que ce vote progressait.`),
+      R(`Question : vote **économique**, **anti-immigration**, ou combinaison ? Sans jugement de valeur implicite (lien avec la partie II).`),
+    ]},
+    {tag:'IV.C · 1', title:'Réseaux numériques : ce que dit la sociologie des médias', items:[
+      P(`**Société digitale** : espace social né avec Facebook (milieu des années 2000). Demande des compétences **technologiques** (algorithmes), **linguistiques** (discours d’extrême droite en ligne), **analytiques et historiques**.`),
+      R(`Question : l’**influence réelle** des discours en ligne sur les comportements, sans normativité (« il faut interdire… »).`),
+      P(`**Modèle des effets limités / two-step flow** <span class="au">Lazarsfeld, Berelson & Gaudet · The People’s Choice · 1944</span> :`,
+        OL(``, P(`diffusion du message ;`), P(`**traduction** : discussion et réappropriation dans les interactions réelles (famille, amis).`)),
+        P(`Pas d’effet direct : il faut un **passeur**, un entrepreneur charismatique. Les individus ne sont pas des « idiots culturels ».`),
+        R(`Le **virtuel n’est pas une sphère autonome** : c’est la **socialisation réelle** qui commande (même la cybercriminalité a des criminels réels).`),
+        P(`Des idées extrêmes échangées dans un environnement non extrême sont modérées ; un environnement uniquement extrême renforce le biais de confirmation.`)),
+      P(`Mesurer plutôt la **légitimation de thèses minoritaires** : leur migration de niches en ligne vers le débat public (rôle de chaînes d’information continue).`),
+      P(`Nouvelle génération : de l’écrit (Facebook, Twitter) à l’**image et aux formats courts** ; gaming, mèmes, influenceurs, **parasocial** (attachement affectif à distance).`),
+      P(`**Masse ≠ influence** :`,
+        EX(`Les médias traditionnels gardent une audience supérieure à la plupart des comptes.`),
+        EX(`**CNT** en Catalogne (années 1930) : un million d’adhérents, un seul permanent.`),
+        EX(`**Égypte 2011** : causes structurelles (diplômés face à un pouvoir vieillissant, bascule de l’armée). Facebook a aidé la logistique, pas causé la révolution.`)),
+    ]},
+    {tag:'IV.C · 2', title:'Les 4 problèmes de la causalité « réseaux → comportements »', items:[
+      W(`**Biais d’agentivité** : cause unique et intentionnelle. Hier « les réseaux ont fait élire Trump », aujourd’hui « le masculinisme explique le vote des jeunes ».`),
+      F(`Exposition ≠ adhésion
+Exposition ≠ mémorisation
+Exposition ≠ action`),
+      OL(``,
+        P(`**La réalité statistique** : beaucoup de données ≠ phénomène important. Contenus problématiques **minoritaires** ; mesurer leur **passage de la niche à l’espace légitime**.`),
+        P(`**L’exposition n’est pas l’influence** : le temps passé (TikTok) est un mauvais indicateur. Étudier les interactions **in vivo** : passer au **qualitatif**.`,
+          EX(`Un mineur suivi par la PJJ, en détention provisoire : il était « chauffé » par un **entrepreneur de morale** prosélyte. Reconstituer famille, fréquentations, socialisation.`)),
+        P(`**La croyance réelle** : peu de personnes exposées y croient vraiment ; les croyances ont des raisons multiples.`, EX(`Être antivax pendant le Covid par contestation de mesures jugées excessives, sans pathologie.`)),
+        P(`**L’alignement cognitif** : les plus exposés sont **déjà convaincus**. On lit ce qui nous conforte.`)),
+      P(`**2 leçons** <span class="au">Dominique Cardon · Sciences Po</span> :`,
+        P(`les **effets propres des médias sont limités** ; le numérique rend surtout **visible** (l’extrême droite existe depuis la fin du XIXe). Hypothèse : l’extrême droite, hiérarchique, est plus efficace en ligne que la gauche délibérative.`),
+        P(`les réseaux sont des **niches de bavardage polarisantes à faible visibilité** : on mesure la viralité, pas les effets réels. Les médias traditionnels polarisent aussi.`)),
+    ]},
+  ],
+  right:[
+    {tag:'IV.C · 3', title:'GTA, masculinisme et fake news', items:[
+      P(`**GTA** (objet culturel le plus vendu, ~100 millions de joueurs) : la **catégorie immédiate** « jeu vidéo = violence » sert de matrice (jeunes influençables, tueries sur les campus). **Aucun lien causal robuste**.`,
+        EX(`Recherche de 8 ans sur la haine en ligne : 80 % des résultats « GTA + débat scientifique » portent sur la violence, effet du **cadrage**. Les dimensions affective, communautaire, ludique, esthétique sont occultées.`),
+        P(`**Modding** (jeux clandestins sur Telegram) : ultra-violence réelle mais **marginale**.`),
+        EX(`Environ **la moitié des joueurs sont des joueuses**.`)),
+      F(`Réseaux → masculinisme → backlash → conservatisme → vote d’extrême droite des jeunes hommes`),
+      W(`Le débat confond **la diffusion** d’un discours (bien documentée) et **son effet causal** sur le vote (presque inconnu).`),
+      P(`**Diffusion** : un vrai **écosystème**. Un ado complexé qui cherche musculation ou séduction tombe, par l’algorithme, sur ces contenus. Codes cachés qui changent ; **économie de la réputation** (rémunération aux vues, contenus produits sans y croire) ; plus de convivialité que de politique.`),
+      P(`**Ce qu’on sait** :`,
+        P(`exposition **massive et non sollicitée** ;`),
+        P(`**effet d’entonnoir algorithmique** dans une **économie de l’attention** (valeur créée par le temps capté) ; une **offre** liée à l’âge (discours du « mal-être masculin ») ;`),
+        P(`**porosité, pas identité** avec l’extrême droite (étude 2022 sur des forums Telegram *incels*). Hypothèse : un **langage politique du ressentiment** porté par une condition sociale (hommes dominés au travail), dans le contexte de médiatisation des violences sexistes et sexuelles.`)),
+      P(`**Ce qu’on ne sait pas** : **pas de causalité établie** avec le vote.`,
+        EX(`Les femmes votent à peu près autant que les hommes pour l’extrême droite ; pour Vox, sensibilité plus forte de jeunes femmes (causes locales : crise, immigration dans le sud).`),
+        R(`Jeunesse européenne : **léger glissement conservateur**, lié à l’**inquiétude face au marché du travail**, pas une bascule vers l’extrême droite.`)),
+      P(`**Fake news** : au départ, information **fabriquée pour manipuler** (le « Pizzagate ») ; aujourd’hui surtout information de **mauvaise qualité**, rumeurs, erreurs de bonne foi.`),
+    ]},
+    {tag:'IV.D', title:'Populismes, mépris social et oligarchie', items:[
+      P(`**Mépris social** : trame commune des populismes européens (RN, AfD, Vox, Italie). Sentiment **subjectif**, relativement **indépendant du niveau de vie**.`,
+        F(`Ceux d’en haut : élites incompétentes qui n’écoutent pas et se servent
+      ↕  sentiment de ne pas compter
+Ceux d’en bas : « immigrés » soupçonnés de profiter des aides`)),
+      R(`**Crise de l’État-providence à double niveau** : par le haut (légitimité des élites), par le bas (compétition perçue pour logement, école, revenus sociaux), surtout chez les classes moyennes pauvres.`),
+      P(`**Oligarchie** : monopolisation réelle du pouvoir par un petit nombre. À l’origine des populismes ; avec la politisation, l’un des **2 grands chantiers** de la science politique (surtout américaine).`,
+        W(`Sans mesure scientifique de la concentration du pouvoir, on bascule dans le **complotisme** (frontière ténue pendant le Covid).`)),
+      OL(`**2 paradoxes des démocraties** :`,
+        P(`malgré la compétition électorale, **toujours les mêmes profils** (mêmes grandes écoles, élus locaux depuis des décennies) au pouvoir ;`),
+        P(`une **violence politique structurelle** depuis les années 1960 (Espagne, Irlande du Nord, Allemagne, Italie) dans des démocraties censées être « civilisées ». Illustration : ETA.`)),
+      P(`**Civilisation des mœurs** <span class="au">Norbert Elias · La dynamique de l’Occident</span> : 2 « mythes fondateurs » repris par les politiques :`,
+        P(`les individus maîtrisent de plus en plus leurs **pulsions violentes** (politesse, courtoisie) ;`),
+        P(`un **État** de plus en plus institutionnalisé (police, justice) sanctionne ceux qui ne les maîtrisent pas.`),
+        W(`**Décivilisation** (« ensauvagement ») : chez Elias, elle renvoie à la **montée du nazisme**, pas aux violences urbaines. Contresens fréquent.`)),
+    ]},
+    {tag:'IV.E', title:'Le classement PISA', items:[
+      P(`Enquête internationale financée par les États : élèves de 3e, maths et lecture ; la France vers la **27e place** de l’OCDE.`),
+      P(`Les médias (« les élèves français sont nuls ») le présentent comme un niveau objectif comparable entre pays.`),
+      R(`PISA mesure d’abord les **inégalités scolaires** : les élèves en difficulté viennent des quartiers les plus pauvres.`),
+      F(`Enquête PISA → titres (« on est nuls ») → discours de l’excellence → séparatisme scolaire, évitement de la mixité`),
+      P(`Effets : séparer « bons » et « mauvais » élèves (programme de l’AfD), évitement de la mixité par les familles informées. Cas de **performativité politique**.`),
+      P(`<span class="au">Bourdieu · Les Héritiers · 1964</span> : un instrument présenté comme neutre peut produire, une fois politisé, l’**inverse** de ce qu’il mesure.`),
+    ]},
+    {tag:'IV.F', title:'Le vote AfD dans un Land : l’exigence de preuve', items:[
+      P(`Petit Land (~2 millions d’habitants sur 80 millions).`),
+      EX(`Un éditorialiste réputé explique le vote par les **réseaux** et les **personnes âgées** et invente le « **populisme boomer** ».`),
+      EX(`Une historienne oppose les **sondages sortie des urnes** par âge : ce sont les **35-60 ans** qui votent le plus AfD.`),
+      F(`Explication brillante et médiatiquement légitime ≠ donnée empirique vérifiée`),
+      R(`La légitimité rhétorique ou institutionnelle **ne garantit pas** la validité ; l’**agentivité** pousse à inventer des catégories sur le moment.`),
+    ]},
+    {tag:'IV.G', title:'Violence et conflit : la violence est-elle efficace ?', items:[
+      W(`Deux positions **fausses** : la violence est à condamner (elle menace l’ordre) ; la violence est légitime (seul moteur du changement).`),
+      P(`**1. Raison théorique** : une démocratie est un **espace de valeurs en conflit** (religieux / non religieux, libéral / non libéral). Le conflit est **normal** ; une société sans conflit est **autoritaire**.`,
+        R(`**Le politique** : l’espace qui **rationalise des valeurs en conflit** pour maintenir l’équilibre, sans qu’une l’emporte (sinon, tentation autoritaire).`),
+        R(`**La violence** = mesure de l’**échec de l’institutionnalisation du conflit**, quand les médiations échouent (syndicats, négociation, grève, mobilisations, vote). Pas une pathologie du pouvoir.`),
+        F(`Conflit institutionnalisé → régulation
+Conflit non reconnu → désinvestissement, sabotage, violence`),
+        EX(`Le salarié non reconnu qui se désinvestit puis sabote ; les **Gilets jaunes**, qui dégénèrent quand ils ne sont plus reconnus comme mouvement légitime ; le travail sans syndicats.`)),
+      P(`**2. Raison empirique** <span class="au">Chenoweth & Stephan</span> : au XXe siècle, la **résistance civile non violente** est **beaucoup plus efficace**.`,
+        P(`Ce qui marche : **force du nombre**, **non-coopération**, désobéissance civile, attaque de la **réputation** des institutions.`),
+        EX(`Les Indignés en Espagne.`)),
+    ]},
+  ]
+};
+
+/* ============ AUTEURS ============ */
+const AUTHORS = [
+  ['Max Weber','Le savant et le politique (1919) · Essais sur la théorie de la science (1917) · L’Éthique protestante (1905)',[
+    ['Définition de l’État : monopole de la coercition / violence légitime','I'],['Légitimité charismatique','I'],['Valeur = représentation collective agissante','II'],['Neutralité axiologique : rapport aux valeurs / distance aux valeurs','II'],['Idéal type (bureaucratie), compréhension, méthode socio-historique','II'],['Affinité élective (protestantisme et capitalisme)','II']]],
+  ['Émile Durkheim','Le Suicide',[
+    ['Traiter les faits sociaux comme des choses','II'],['Méthode expérimentale, causalité statistique, explication','II'],['Méthode inversée ; intégration religieuse et familiale','II'],['Suicide altruiste','I']]],
+  ['Pierre Bourdieu','La Distinction (1979) · Les Héritiers (1964, avec Passeron) · Questions de sociologie (1984)',[
+    ['Violence symbolique','I'],['Pouvoir symbolique (cours de 1982) : imposer des catégories de pensée','I'],['Compétence politique = capital culturel ; « Culture et politique »','I'],['« L’opinion publique n’existe pas » (1972-73) : 3 postulats des sondages','I'],['« La jeunesse n’est qu’un mot » (1978) ; distinction','I'],['Théorie des champs ; réflexivité','II'],['Critique du quantitativisme ; reproduction scolaire (PISA)','II · IV']]],
+  ['Michel Foucault','',[['Microphysique du pouvoir : le pouvoir efficace n’est pas identifié','I']]],
+  ['Erving Goffman','Asiles (1961)',[['Cadrage (framing)','I'],['Institution totale : carrière morale, rites d’admission, mortification du moi, ajustements secondaires','II']]],
+  ['Howard Becker','Outsiders',[['Entrepreneurs de morale ; ligues de tempérance et marijuana','I']]],
+  ['John Dewey','1927',[['Problème public : situation qui affecte indirectement des personnes et devient objet d’une enquête collective','I']]],
+  ['Joseph Gusfield','1981',[['Problèmes publics = constructions symboliques ; l’alcool au volant','I']]],
+  ['Cobb & Elder · Kingdon · Hilgartner & Bosk','1972 · 1984 · 1988',[['Mise sur agenda, agenda sélectif','I']]],
+  ['Robert Dahl','Qui gouverne ?',[['Thèse pluraliste vs thèse moniste','I']]],
+  ['Michel Lallement','Tensions majeures',[['Le politique comme projet de rationalisation du social','I']]],
+  ['Philippe Robert · Bruno Aubusson de Cavarlay · Laurent Mucchielli','',[['Lecture constructiviste des statistiques de la délinquance','I']]],
+  ['Vilfredo Pareto','',[['Paradoxe de Pareto : pas de seuil objectif pauvreté/richesse (frontières d’âge)','I']]],
+  ['Emmanuel Kant','',[['Catégories de pensée : ce qui vient immédiatement à l’esprit','I']]],
+  ['Léo Strauss','',[['Critique de la neutralité axiologique absolue ; relativisme','II']]],
+  ['Edward Said','Orientalism (1978)',[['Savoir sur « l’Orient » calqué sur les besoins impériaux','II']]],
+  ['W. W. Rostow','Les étapes de la croissance (1960)',[['Trajectoire occidentale érigée en norme du développement','II']]],
+  ['Linda Tuhiwai Smith','Decolonizing Methodologies (1999)',[['Présupposés occidentaux des protocoles d’enquête','II']]],
+  ['Carole Pateman','The Sexual Contract (1988)',[['Partage public/privé et exclusion des femmes','II']]],
+  ['Drude Dahlerup · Mona Lena Krook','',[['Quotas de genre : égalité d’opportunité ou de résultat','II']]],
+  ['Angela Davis · Judith Butler','',[['Race, genre et prison ; construction sociale du genre','II']]],
+  ['Francis Fukuyama · Samuel Huntington','La Fin de l’histoire (1992) · Le Choc des civilisations (1996)',[['Deux grands récits présentés comme neutres, qui engagent une vision du monde','II']]],
+  ['Ulrich Beck','La Société du risque',[['Faire l’histoire d’un concept avant de l’utiliser','II']]],
+  ['Johann Chapoutot','',[['Bureaucraties et adhésion silencieuse au nazisme','II']]],
+  ['Heider & Simmel','Expérience de 1944',[['Biais d’agentivité : on prête des intentions à des formes qui bougent au hasard','II']]],
+  ['Éric Neveu','Sociologie des mouvements sociaux',[['Théorie des mobilisations','II']]],
+  ['Jean-Paul Azam','TSE',[['Viser le vraisemblable, « faire petit »','II']]],
+  ['Norbert Elias','La dynamique de l’Occident / Le processus de civilisation',[['Civilisation des mœurs (2 mythes) ; décivilisation = nazisme','IV']]],
+  ['Paul Lazarsfeld (Berelson, Gaudet)','The People’s Choice (1944)',[['Modèle des effets limités, two-step flow, traduction','IV']]],
+  ['Dominique Cardon','Sciences Po',[['Effets propres des médias limités ; niches de bavardage polarisantes','IV']]],
+  ['Erica Chenoweth & Maria Stephan','',[['La résistance civile non violente est plus efficace','IV']]],
+];
+
+/* ---------- mots-clés affichés sur la carte (ordre : branches de gauche puis de droite) ---------- */
+const KW = {
+  'vue': [['politisation','problème public','cadrage','pouvoir symbolique'], ['construire l’objet','valeurs','prouver','agentivité'], ['cycle','traduction','instruments','effets'], ['religiosité','réseaux','populismes','PISA','violence'], ['problème public','acteurs','pouvoir','agenda','instruments'], ['sens commun','catégories','corrélation ≠ causalité']],
+  'partie-1': [['politisation','polity · politics · policies','Weber','Lallement'], ['pluralisme (Dahl)','emprise','violence symbolique','microphysique (Foucault)'], ['Dewey','Gusfield','5 étapes','mise sur agenda'], ['légitimité charismatique','entrepreneurs de morale','cadrage','5 ressources'], ['lutte de définition','performatif','pouvoir symbolique','opinion publique'], ['statistique publique','effet de classement','catégories vides','« la jeunesse n’est qu’un mot »'], ['chaîne des filtres','état 4001 · SSMSI','2 lectures du chiffre']],
+  'partie-2': [['sociologie politique','faits sociaux = choses','2 principes','GTA'], ['institution totale','carrière morale','mortification du moi','ajustements secondaires'], ['valeur agissante','neutralité axiologique','3 postures','Strauss'], ['Le Suicide','méthode inversée','corrélation ≠ causalité'], ['idéal type','affinité élective','cas ETA'], ['distinction artificielle','vraisemblable','evidence-based'], ['biais d’intentionnalité','magie sociale','théorie des champs']],
+  'partie-3': [['8 étapes','problématisation','publicisation'], ['langage institutionnel','mesurer ce qui se fait'], ['instruments','cimetière de décisions','effets pervers'], ['5 points','influence réelle','grand remplacement'], ['pas d’opinion','lancement d’alerte']],
+  'partie-4': [['religiosité','INED','données sous-utilisées'], ['40-45 %','vote économique ou identitaire ?'], ['two-step flow','socialisation réelle','masse ≠ influence'], ['exposition ≠ influence','alignement cognitif','Cardon'], ['catégorie immédiate','entonnoir algorithmique','pas de causalité prouvée'], ['mépris social','oligarchie','2 paradoxes','Elias'], ['inégalités scolaires','performativité'], ['« populisme boomer »','35-60 ans'], ['valeurs en conflit','échec de l’institutionnalisation','non-violence']],
+};
+
+const MAPS = [VUE, P1, P2, P3, P4];
+const TABS = [...MAPS.map(m => ({id:m.id, num:m.num, label:m.tab})), {id:'auteurs', num:'@', label:'Auteurs & œuvres'}];
+const COLORS = ['--h1','--h2','--h3','--h4','--h5','--h6','--h7','--h8','--h9'];
+const LBL = {ex:'Exemple', warn:'Piège', key:'À retenir'};
+
+/* ---------- rendu du texte ---------- */
+const esc = s => s.replace(/&(?!\w+;)/g,'&amp;');
+function fmt(t){
+  return esc(t).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/(^|[\s(«])\*(?!\s)(.+?)\*(?=[\s).,;:»]|$)/g,'$1<em>$2</em>');
+}
+function renderFlow(text){
+  let lines = text.split('\n').map(l => l.trim()).filter(Boolean);
+  if (lines.some(l => /^[↓↕]/.test(l))){
+    return '<div class="flow fv">' + lines.map(l => /^[↓↕]/.test(l)
+      ? `<div class="fstep"><b>${l[0]}</b><span>${fmt(l.slice(1).trim())}</span></div>`
+      : `<div class="fbox">${fmt(l)}</div>`).join('') + '</div>';
+  }
+  const merged = [];
+  lines.forEach(l => { if (l.startsWith('→') && merged.length) merged[merged.length-1] += ' ' + l; else merged.push(l); });
+  return '<div class="flow">' + merged.map(l => {
+    let label = '';
+    const m = l.match(/^([^:→≠]{2,28}) : (.*)$/);
+    if (m && /[→≠]/.test(m[2])){ label = `<span class="fl">${m[1]}</span>`; l = m[2]; }
+    const parts = l.split(/\s*([→≠])\s*/).filter(p => p !== '');
+    return `<div class="frow">${label}` + parts.map(p => p === '→' ? '<span class="farr">→</span>' : p === '≠' ? '<span class="fneq">≠</span>' : `<span class="fbox">${fmt(p)}</span>`).join('') + '</div>';
+  }).join('') + '</div>';
+}
+function renderList(items, ordered, cls){
+  const tag = ordered ? 'ol' : 'ul';
+  return `<${tag}${cls ? ` class="${cls}"` : ''}>` + items.map(renderItem).join('') + `</${tag}>`;
+}
+function renderItem(it){
+  if (typeof it === 'string') it = P(it);
+  if (it.k === 'flow') return `<li>${renderFlow(it.t)}</li>`;
+  const kids = it.c && it.c.length ? renderList(it.c, it.ol) : '';
+  if (LBL[it.k]) return `<li><div class="co ${it.k}"><span class="lbl">${LBL[it.k]}</span>${it.t ? `<div class="n">${fmt(it.t)}</div>` : ''}${kids}</div></li>`;
+  return `<li>${it.t ? `<div class="n">${fmt(it.t)}</div>` : ''}${kids}</li>`;
+}
+
+/* ---------- carte + fiches ---------- */
+function branchesOf(m){ return [...m.left.map(b => ({...b, side:'l'})), ...m.right.map(b => ({...b, side:'r'}))].map((b, i) => ({...b, i, color:COLORS[i % COLORS.length], kw:(KW[m.id] || [])[i] || [], sid:`${m.id}-b${i}`})); }
+function renderNode(b){
+  return `<button class="node" type="button" data-target="${b.sid}" data-color="${b.color}" style="--b:var(${b.color})">
+    <span class="nt"><span class="tag">${b.tag}</span><b>${b.title}</b></span>
+    <span class="kw">${b.kw.map(k => `<span>${k}</span>`).join('')}</span></button>`;
+}
+function renderSheet(b){
+  const go = b.go ? `<button class="open" type="button" data-go="${b.go}">Ouvrir la carte de cette partie →</button>` : '';
+  return `<section class="sheet" id="${b.sid}" style="--b:var(${b.color})">
+    <div class="sh"><span class="tag">${b.tag}</span><h3>${b.title}</h3></div>
+    ${renderList(b.items, false, 'tree')}${go}</section>`;
+}
+function renderMap(m){
+  const bs = branchesOf(m);
+  const L = bs.filter(b => b.side === 'l'), R2 = bs.filter(b => b.side === 'r');
+  return `<section class="board" aria-label="Carte mentale">
+      <div class="board-h"><span>Carte · ${bs.length} branches</span><span>Clique pour lire la fiche</span></div>
+      <div class="map" id="map">
+        <svg class="links" aria-hidden="true"></svg>
+        <div class="mcol col-left">${L.map(renderNode).join('')}</div>
+        <div class="hub"><div class="eyebrow">${m.hub.eyebrow}</div><h2>${m.hub.title}</h2><p>${m.hub.p}</p><div class="q">${m.hub.q}</div></div>
+        <div class="mcol col-right">${R2.map(renderNode).join('')}</div>
+      </div>
+    </section>
+    <div class="reader">
+      <nav class="toc" aria-label="Sommaire"><div class="tt">Fiches</div>${bs.map(b => `<a href="#${b.sid}" data-target="${b.sid}" style="--b:var(${b.color})">${b.title}</a>`).join('')}</nav>
+      <div class="sheets">${bs.map(renderSheet).join('')}</div>
+    </div>`;
+}
+function renderAuthors(){
+  const cards = AUTHORS.map(([name, works, list]) => `<article class="acard" data-s="${(name+' '+works+' '+list.map(l=>l[0]).join(' ')).toLowerCase()}">
+    <h3>${name}</h3><div class="w">${works || '&nbsp;'}</div>
+    <ul>${list.map(([c,p]) => `<li><span>${c}</span><span class="pt">Partie ${p}</span></li>`).join('')}</ul></article>`).join('');
+  return `<div class="afilter"><label for="afind">Chercher un auteur ou une notion</label><input id="afind" type="search" placeholder="ex. agenda, Weber, catégorie"></div><div class="authors" id="authors">${cards}</div>`;
+}
+
+/* ---------- liens SVG de la carte ---------- */
+let raf = 0;
+function drawLinks(){
+  const map = document.getElementById('map'); if (!map) return;
+  const svg = map.querySelector('svg.links');
+  if (getComputedStyle(svg).display === 'none') return;
+  const box = map.getBoundingClientRect();
+  const hub = map.querySelector('.hub').getBoundingClientRect();
+  svg.setAttribute('viewBox', `0 0 ${box.width} ${box.height}`);
+  svg.setAttribute('width', box.width); svg.setAttribute('height', box.height);
+  const hy = hub.top + hub.height/2 - box.top;
+  let d = '';
+  map.querySelectorAll('.node').forEach(n => {
+    const r = n.getBoundingClientRect();
+    const isLeft = !!n.closest('.col-left');
+    const x1 = (isLeft ? hub.left : hub.right) - box.left;
+    const x2 = (isLeft ? r.right : r.left) - box.left;
+    const y2 = r.top + r.height/2 - box.top;
+    const dx = (x2 - x1) * 0.6;
+    d += `<path d="M${x1},${hy} C${x1+dx},${hy} ${x2-dx},${y2} ${x2},${y2}" style="stroke:var(${n.dataset.color})"/><circle cx="${x2}" cy="${y2}" r="4" style="fill:var(${n.dataset.color})"/>`;
+  });
+  svg.innerHTML = d;
+}
+const schedule = () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(drawLinks); };
+
+/* ---------- sommaire actif ---------- */
+let traf = 0;
+function watchSheets(){
+  const links = [...document.querySelectorAll('.toc a')];
+  if (!links.length) return;
+  let id = null;
+  document.querySelectorAll('.sheet').forEach(s => { if (s.getBoundingClientRect().top < 200) id = s.id; });
+  links.forEach(a => a.classList.toggle('on', a.dataset.target === id));
+}
+window.addEventListener('scroll', () => { cancelAnimationFrame(traf); traf = requestAnimationFrame(watchSheets); }, {passive:true});
+
+/* ---------- navigation ---------- */
+const view = document.getElementById('view');
+const tabsEl = document.getElementById('tabs');
+tabsEl.innerHTML = TABS.map(t => `<button class="tab" role="tab" id="tab-${t.id}" data-id="${t.id}" aria-selected="false"><span class="num">${t.num}</span>${t.label}</button>`).join('');
+
+let current = null;
+function go(id){ show(id); window.scrollTo({top:0}); try { if (location.hash.slice(1) !== id) location.hash = id; } catch(e){} }
+function show(id){
+  if (!TABS.find(t => t.id === id)) id = 'vue';
+  if (id === current) return;
+  current = id;
+  tabsEl.querySelectorAll('.tab').forEach(b => b.setAttribute('aria-selected', String(b.dataset.id === id)));
+  const m = MAPS.find(x => x.id === id);
+  view.innerHTML = m ? renderMap(m) : renderAuthors();
+  if (!m){
+    const inp = document.getElementById('afind');
+    inp.addEventListener('input', () => { const q = inp.value.trim().toLowerCase(); document.querySelectorAll('.acard').forEach(c => c.hidden = !!q && !c.dataset.s.includes(q)); });
+  }
+  schedule(); watchSheets();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(schedule);
+}
+function scrollToSheet(sid){ const el = document.getElementById(sid); if (el) el.scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block:'start'}); }
+tabsEl.addEventListener('click', e => { const b = e.target.closest('.tab'); if (b) go(b.dataset.id); });
+view.addEventListener('click', e => {
+  const g = e.target.closest('[data-go]');
+  if (g){ go(g.dataset.go); return; }
+  const t = e.target.closest('[data-target]');
+  if (t){ e.preventDefault(); scrollToSheet(t.dataset.target); }
+});
+window.addEventListener('hashchange', () => show(location.hash.slice(1)));
+window.addEventListener('resize', schedule);
+show(location.hash.slice(1) || 'vue');
+</script>
+
